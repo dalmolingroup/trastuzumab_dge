@@ -1,0 +1,174 @@
+---
+title: "GSE107385"
+author: "João Vitor F. Cavalcante"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_collapsed: false
+    theme:
+      bslib: true
+      bootswatch: minty
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(GEOquery)
+library(affy)
+library(oligo)
+library(limma)
+library(readr)
+library(dplyr)
+```
+
+
+```{r}
+# Carregar tabela com metadados do estudo de interesse
+get_phenodata <- function(gse_id) {
+  read_csv("data/Plataformas.csv") %>%
+    janitor::clean_names() %>%
+    filter(gse == gse_id) %>%
+    dplyr::select(gsm, grupo, grupo_no_trabalho_original)
+}
+
+# Rodar a expressão diferencial com limma
+get_limma_dexp <-
+  function(eset,
+           phenodata,
+           contraste,
+           symbol = NULL,
+           add_id = NULL,
+           platform_df = NULL) {
+    eset_df <- exprs(eset)
+
+    design <- model.matrix(~ 0 + factor(phenodata$grupo))
+    colnames(design) <- unique(phenodata$grupo)
+
+    fit <- limma::lmFit(eset, design)
+
+    if (is.null(platform_df)) {
+      db_symbol <- as.data.frame(symbol[rownames(eset_df)])
+
+      db_add_id <- as.data.frame(add_id[rownames(eset_df)])
+
+      platform_df <-
+        db_add_id %>% left_join(db_symbol, by = "probe_id")
+    }
+
+    contrasts <-
+      limma::makeContrasts(contrasts = contraste, levels = design)
+
+    fit2 <- contrasts.fit(fit, contrasts)
+
+    ct.fit <- limma::eBayes(fit2)
+
+    res.fit <-
+      limma::decideTests(
+        ct.fit,
+        method = "global",
+        adjust.method = "BH",
+        p.value = 0.01,
+      )
+
+    is_de = as.data.frame(res.fit@.Data) %>%
+      tibble::rownames_to_column("probe") %>%
+      setNames(., c("probe", "is_de"))
+
+    topTable(
+      ct.fit,
+      coef = 1,
+      adjust.method = "BH",
+      number = "inf",
+      confint = TRUE
+    ) %>%
+      tibble::rownames_to_column("probe") %>%
+      left_join(is_de, by = "probe") %>%
+      left_join(platform_df, by = c("probe" = "probe_id"))
+
+  }
+
+# Retirar duplicatas
+clean_toptable <- function(toptable, unique_col) {
+  ref_col = dplyr::sym(unique_col)
+  toptable %>%
+    group_by(!!ref_col) %>%
+    slice(which.max(abs(logFC))) %>%
+    ungroup()
+}
+
+# Função principal que agrega as acima
+# Carrega o dado com a tecnologia apropriada (affymetrix, affy-oligo ou agilent)
+# Roda a expressão diferencial e retorna a tabela
+get_dge_table <-
+  function(gse_id,
+           celfile_path,
+           contraste,
+           symbol = NULL,
+           add_id = NULL,
+           refcol =  "symbol",
+           platform_df = NULL,
+           oligo_exp = FALSE,
+           agilent = FALSE) {
+    phenodata_file <- get_phenodata(gse_id)
+
+    if (oligo_exp == TRUE) {
+      celfiles <-
+        list.files(celfile_path, pattern = "CEL.gz", full.names = TRUE)
+      data <-
+        oligo::read.celfiles(celfile.path = celfiles)
+      eset <- oligo::rma(data)
+    } else if (agilent == TRUE) {
+      celfiles <- list.files(celfile_path, pattern = "txt.gz")
+      raw <-
+        read.maimages(celfiles,
+                      path = celfile_path,
+                      source = "agilent",
+                      green.only = TRUE)
+      norm <- backgroundCorrect(raw, method = "normexp")
+      norm <- normalizeBetweenArrays(norm, method = "quantile")
+      norm.ave <- avereps(norm, ID = norm$genes$ProbeName)
+
+      eset <- Biobase::ExpressionSet(assayData = norm.ave$E)
+    } else {
+      data <-
+        affy::ReadAffy(celfile.path = celfile_path)
+
+      eset <- affy::rma(data)
+    }
+
+
+    get_limma_dexp(
+      eset,
+      phenodata_file,
+      contraste,
+      symbol = symbol,
+      add_id = add_id,
+      platform_df = platform_df
+    )
+
+  }
+```
+
+
+```{r}
+
+GPL16686 <- read_csv("data/GPL16686.csv") %>%
+  dplyr::select(probe_id, GB_ACC) %>%
+  janitor::clean_names()
+
+GSE64476 <-
+  get_dge_table(
+    "GSE107385",
+    "data/GSE107385",
+    "Tratado-Controle",
+    platform_df = GPL16686,
+    refcol = "GB_ACC",
+    oligo_exp = TRUE,
+  )
+```
+
+
