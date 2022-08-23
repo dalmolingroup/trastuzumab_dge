@@ -16,8 +16,17 @@ output:
 knitr::opts_chunk$set(echo = TRUE,
                       message = FALSE,
                       warning = FALSE,
-                      eval)
+                      eval = FALSE)
 ```
+
+
+# Breve descrição da metodologia
+
+* Expressão diferencial de MicroArrays
+  - Foi utilizado para obter as matrizes de contagem normalizadas o pacote **oligo** do Bioconductor.
+  - Para realizar a expressão diferencial em si, utilizamos:
+    - **limma** (Genes D.E. definidos para p-valor < 0.01 e método BH para ajuste de p-valor)
+
 
 ```{r}
 library(oligo)
@@ -26,7 +35,6 @@ library(readr)
 library(dplyr)
 library(affy)
 ```
-
 
 ```{r}
 # Carregar tabela com metadados do estudo de interesse
@@ -91,6 +99,7 @@ get_limma_dexp <-
       left_join(is_de, by = "probe") %>%
       left_join(platform_df, by = c("probe" = "probe_id"))
     
+    
   }
 
 # Retirar duplicatas
@@ -109,6 +118,7 @@ get_dge_table <-
   function(gse_id,
            celfile_path,
            contraste,
+           refcol,
            symbol = NULL,
            add_id = NULL,
            platform_df = NULL,
@@ -142,7 +152,7 @@ get_dge_table <-
     }
 
 
-    get_limma_dexp(
+    toptable <- get_limma_dexp(
       eset,
       phenodata_file,
       contraste,
@@ -150,25 +160,32 @@ get_dge_table <-
       add_id = add_id,
       platform_df = platform_df
     )
+    
+    clean_toptable(toptable, refcol)
 
   }
 ```
 
-```{r}
+Agora, vamos rodar a análise em si.
+
+```{r run-analysis}
 
 GPL16686 <- read_csv("data/GPL16686.csv", col_types = c(rep("c", 3))) %>%
   janitor::clean_names()
 
-GSE64476 <-
+GSE107385 <-
   get_dge_table(
     "GSE107385",
     "data/GSE107385",
     "Tratado-Controle",
+    refcol = "hgnc_symbol",
     platform_df = GPL16686,
     oligo_exp = TRUE,
   )
 
-clean_exp <- clean_toptable(GSE64476, "hgnc_symbol")
+GSE107385 %>% 
+  write_csv("results/GSE107385.csv")
+
 ```
 
 
