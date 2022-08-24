@@ -1,0 +1,176 @@
+---
+title: "Expressão Diferencial"
+author: "João Vitor F. Cavalcante"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_collapsed: false
+    theme:
+      bslib: true
+      bootswatch: minty
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  message = FALSE,
+  warning = FALSE,
+  eval = FALSE
+)
+```
+# Breve descrição da metodologia
+
+* Expressão diferencial de RNA-Seq
+  - Primeiro, obtemos as reads pelo SRA
+  - Para criação do índice, utilizamos o transcriptoma de Rattus norvegicus mRatBN7.2, da versão 106 do banco de dados Ensembl
+  - Em seguida, alinhamos com o **Kallisto** versão 0.48.0
+  - Lemos as contagens obtidas do Kallisto com o pacote **tximport**, que agregou as contagens em nível de transcrito para nível de gene
+  - Por fim, realizamos a expressão diferencial com o pacote **DESeq2**, com os parâmetros predefinidos
+
+# Expressão diferencial de RNA-Seq (GSE154603)
+
+Após alinharmos os dados com o Kallisto, colocamos os dados na pasta 'resultados/kallisto_results'.
+
+## Carregando bibliotecas
+
+```{r rnaseq-libs}
+library(BiocParallel)
+library(tximport)
+library(biomaRt)
+library(DESeq2)
+library(readr)
+library(dplyr)
+
+get_phenodata <- function(gse_id) {
+  read_csv("data/Plataformas.csv") %>%
+    janitor::clean_names() %>%
+    filter(gse == gse_id) %>%
+    dplyr::select(gsm, grupo, grupo_no_trabalho_original)
+}
+```
+
+## Lendo os metadados do estudo
+
+Primeiro, vamos ler a tabela de metadados do estudo, que pode ser obtida [aqui (botão Metadata)](https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRP272292&o=acc_s%3Aa)
+
+```{r rnaseq-metadata}
+files <-
+  list.files(
+    "data/GSE116127",
+    pattern =  ".h5",
+    full.names = TRUE,
+    recursive = TRUE
+  )
+
+run_names <- stringr::str_extract_all(files, "SRR\\d+", simplify = TRUE)
+
+metadata <- read_csv("data/GSE116127_metadata.txt") %>%
+  janitor::clean_names() %>%
+  left_join(get_phenodata("GSE116127"), by = c("sample_name" = "gsm")) %>% 
+  arrange(match(run, run_names))
+
+samples <- metadata %>%
+  dplyr::select(run, grupo) %>%
+  setNames(c("run", "contrast"))
+
+samples$contrast <- as.factor(samples$contrast)
+```
+
+## Lendo contagens
+
+Para ler as tabelas de counts, utilizaremos o tximport, que irá converter o dado de nível de transcrito para nível de gene e converter os identificadores (ENST -> ENSG).
+
+```{r tximport}
+gtf <- "data/Homo_sapiens.GRCh38.107.gtf.gz"
+txdb.filename <- "data/Homo_sapiens.GRCh38.107.gtf.sqlite"
+
+if (!("Homo_sapiens.GRCh38.107.gtf.sqlite" %in% list.files("data"))) {
+  txdb <- GenomicFeatures::makeTxDbFromGFF(gtf, format = "gtf")
+  AnnotationDbi::saveDb(txdb, txdb.filename)
+}
+
+# Carregar txdb
+txdb <- AnnotationDbi::loadDb(txdb.filename)
+txdf <-
+  AnnotationDbi::select(txdb, keys(txdb, "GENEID"), "TXNAME", "GENEID")
+tab <- table(txdf$GENEID)
+txdf$ntx <- tab[match(txdf$GENEID, names(tab))]
+tx2gene <- data.frame(
+  tx = txdf$TXNAME,
+  gene = txdf$GENEID,
+  stringsAsFactors = F
+)
+
+count_matrix <-
+  tximport(
+    files = files,
+    type = "kallisto",
+    tx2gene = tx2gene,
+    ignoreTxVersion = T
+  )
+```
+
+## Expressão diferencial
+
+Agora que temos os contrastes, podemos rodar o DESeq2 para realizar a expressão diferencial.
+
+```{r deseq}
+deseqobj <-
+  DESeqDataSetFromTximport(count_matrix,
+                           colData = samples,
+                           design = ~ contrast)
+
+dds <-
+  DESeq(deseqobj,
+        parallel = TRUE,
+        BPPARAM = MulticoreParam(2))
+
+res <- results(
+  dds,
+  contrast = c("contrast", "Tratado", "Controle"),
+  tidy = TRUE
+)
+
+```
+
+Agora vamos adquirir os symbols relativos aos ENSG:
+
+```{r translate-ids}
+ensembl <-
+  useEnsembl(biomart = "genes", dataset = "hsapiens_gene_ensembl")
+
+translated <- getBM(
+  attributes = c('ensembl_gene_id',
+                 'hgnc_symbol'),
+  filters = 'ensembl_gene_id',
+  values = res$row,
+  mart = ensembl
+)
+
+res_transl <- res %>%
+  left_join(translated, by = c("row" = "ensembl_gene_id")) %>% 
+  group_by(hgnc_symbol) %>%
+  slice(which.max(abs(log2FoldChange))) %>%
+  ungroup()
+```
+
+Adicionar os intervalos de confiança (95%) para o resultado do DESeq2:
+
+```{r confint}
+res_transl_confint <- res_transl %>%
+  mutate(CI.L = log2FoldChange - (qnorm(0.95) * lfcSE),
+         CI.R = log2FoldChange + (qnorm(0.95) * lfcSE))
+
+```
+
+E, por fim, escrever o resultado final para uma tabela .csv.
+
+```{r write-rnaseq}
+res_transl_confint %>%
+  write_csv('results/GSE116127.csv')
+```
+
+
+
