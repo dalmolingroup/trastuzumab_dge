@@ -28,6 +28,10 @@ knitr::opts_chunk$set(echo = TRUE,
     - **limma** (Genes D.E. definidos para p-valor < 0.01 e método BH para ajuste de p-valor)
 
 
+# Expressão diferencial de MicroArray
+
+## Carregando bibliotecas e funções
+
 ```{r}
 library(oligo)
 library(limma)
@@ -102,7 +106,6 @@ get_limma_dexp <-
     
   }
 
-# Retirar duplicatas
 clean_toptable <- function(toptable, unique_col) {
   ref_col = dplyr::sym(unique_col)
   toptable %>%
@@ -165,6 +168,8 @@ get_dge_table <-
 
   }
 ```
+
+## Rodando a análise
 
 Agora, vamos rodar a análise em si.
 

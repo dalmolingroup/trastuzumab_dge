@@ -170,7 +170,7 @@ GSE91383_matrix <- get_count_matrix(GSE91383_files)
 GSE91383 <- run_dge(GSE91383_matrix, GSE91383_metadata)
 GSE91383_translated <- translate_dges(GSE91383)
 GSE91383_translated %>% 
-  write_csv('results/GSE9138.csv')
+  write_csv('results/GSE91383.csv')
 
 GSE116127_files <- get_files("GSE116127")
 GSE116127_run_names <- stringr::str_extract_all(GSE116127_files, "SRR\\d+", simplify = TRUE)

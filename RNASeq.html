@@ -1937,7 +1937,7 @@ GSE91383_matrix &lt;- get_count_matrix(GSE91383_files)
 GSE91383 &lt;- run_dge(GSE91383_matrix, GSE91383_metadata)
 GSE91383_translated &lt;- translate_dges(GSE91383)
 GSE91383_translated %&gt;% 
-  write_csv(&#39;results/GSE9138.csv&#39;)
+  write_csv(&#39;results/GSE91383.csv&#39;)
 
 GSE116127_files &lt;- get_files(&quot;GSE116127&quot;)
 GSE116127_run_names &lt;- stringr::str_extract_all(GSE116127_files, &quot;SRR\\d+&quot;, simplify = TRUE)

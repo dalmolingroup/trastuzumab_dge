@@ -1773,7 +1773,7 @@ div.tocify {
 
 <h1 class="title toc-ignore">GSE107385</h1>
 <h4 class="author">João Vitor F. Cavalcante</h4>
-<h4 class="date">23 agosto, 2022</h4>
+<h4 class="date">25 agosto, 2022</h4>
 
 </div>
 
@@ -1792,6 +1792,11 @@ e método BH para ajuste de p-valor)</li>
 </ul></li>
 </ul></li>
 </ul>
+</div>
+<div id="expressão-diferencial-de-microarray" class="section level1">
+<h1>Expressão diferencial de MicroArray</h1>
+<div id="carregando-bibliotecas-e-funções" class="section level2">
+<h2>Carregando bibliotecas e funções</h2>
 <pre class="r"><code>library(oligo)
 library(limma)
 library(readr)
@@ -1862,7 +1867,6 @@ get_limma_dexp &lt;-
     
   }
 
-# Retirar duplicatas
 clean_toptable &lt;- function(toptable, unique_col) {
   ref_col = dplyr::sym(unique_col)
   toptable %&gt;%
@@ -1923,6 +1927,9 @@ get_dge_table &lt;-
     clean_toptable(toptable, refcol)
 
   }</code></pre>
+</div>
+<div id="rodando-a-análise" class="section level2">
+<h2>Rodando a análise</h2>
 <p>Agora, vamos rodar a análise em si.</p>
 <pre class="r"><code>GPL16686 &lt;- read_csv(&quot;data/GPL16686.csv&quot;, col_types = c(rep(&quot;c&quot;, 3))) %&gt;%
   janitor::clean_names()
@@ -1939,6 +1946,7 @@ GSE107385 &lt;-
 
 GSE107385 %&gt;% 
   write_csv(&quot;results/GSE107385.csv&quot;)</code></pre>
+</div>
 </div>
 
 
