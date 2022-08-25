@@ -1,5 +1,5 @@
 ---
-title: "Expressão Diferencial"
+title: "Expressão Diferencial de RNA-Seq"
 author: "João Vitor F. Cavalcante"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
@@ -29,11 +29,11 @@ knitr::opts_chunk$set(
   - Lemos as contagens obtidas do Kallisto com o pacote **tximport**, que agregou as contagens em nível de transcrito para nível de gene
   - Por fim, realizamos a expressão diferencial com o pacote **DESeq2**, com os parâmetros predefinidos
 
-# Expressão diferencial de RNA-Seq (GSE154603)
+# Expressão diferencial de RNA-Seq
 
-Após alinharmos os dados com o Kallisto, colocamos os dados na pasta 'resultados/kallisto_results'.
+Após alinharmos os dados com o Kallisto, colocamos os dados na pasta 'resultados/', com os datasets em subdiretórios próprios.
 
-## Carregando bibliotecas
+## Carregando bibliotecas e funções
 
 ```{r rnaseq-libs}
 library(BiocParallel)
@@ -43,134 +43,142 @@ library(DESeq2)
 library(readr)
 library(dplyr)
 
+# Pegar contrastes da tabela original dos GSE
 get_phenodata <- function(gse_id) {
   read_csv("data/Plataformas.csv") %>%
     janitor::clean_names() %>%
     filter(gse == gse_id) %>%
     dplyr::select(gsm, grupo, grupo_no_trabalho_original)
 }
-```
 
-## Lendo os metadados do estudo
-
-Primeiro, vamos ler a tabela de metadados do estudo, que pode ser obtida [aqui (botão Metadata)](https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRP272292&o=acc_s%3Aa)
-
-```{r rnaseq-metadata}
-files <-
+# Listar arquivos resultantes do Kallisto 
+get_files <- function(gse_id) {
   list.files(
-    "data/GSE116127",
+    paste0("data/", gse_id),
     pattern =  ".h5",
     full.names = TRUE,
     recursive = TRUE
   )
-
-run_names <- stringr::str_extract_all(files, "SRR\\d+", simplify = TRUE)
-
-metadata <- read_csv("data/GSE116127_metadata.txt") %>%
-  janitor::clean_names() %>%
-  left_join(get_phenodata("GSE116127"), by = c("sample_name" = "gsm")) %>% 
-  arrange(match(run, run_names))
-
-samples <- metadata %>%
-  dplyr::select(run, grupo) %>%
-  setNames(c("run", "contrast"))
-
-samples$contrast <- as.factor(samples$contrast)
-```
-
-## Lendo contagens
-
-Para ler as tabelas de counts, utilizaremos o tximport, que irá converter o dado de nível de transcrito para nível de gene e converter os identificadores (ENST -> ENSG).
-
-```{r tximport}
-gtf <- "data/Homo_sapiens.GRCh38.107.gtf.gz"
-txdb.filename <- "data/Homo_sapiens.GRCh38.107.gtf.sqlite"
-
-if (!("Homo_sapiens.GRCh38.107.gtf.sqlite" %in% list.files("data"))) {
-  txdb <- GenomicFeatures::makeTxDbFromGFF(gtf, format = "gtf")
-  AnnotationDbi::saveDb(txdb, txdb.filename)
 }
 
-# Carregar txdb
-txdb <- AnnotationDbi::loadDb(txdb.filename)
-txdf <-
-  AnnotationDbi::select(txdb, keys(txdb, "GENEID"), "TXNAME", "GENEID")
-tab <- table(txdf$GENEID)
-txdf$ntx <- tab[match(txdf$GENEID, names(tab))]
-tx2gene <- data.frame(
-  tx = txdf$TXNAME,
-  gene = txdf$GENEID,
-  stringsAsFactors = F
-)
+# Adquirir metadados do dataset, contrastes, nomes das amostras, etc.
+get_metadata <- function(gse_id, run_names) {
+  metadata <- read_csv(paste0("data/", gse_id, "_metadata.txt")) %>%
+    janitor::clean_names() %>%
+    inner_join(get_phenodata(gse_id), by = c("sample_name" = "gsm")) %>%
+    arrange(match(run, run_names))
+  
+  samples <- metadata %>%
+    dplyr::select(run, grupo) %>%
+    setNames(c("run", "contrast"))
+  
+  samples$contrast <- as.factor(samples$contrast)
+  
+  return(samples)
+}
 
-count_matrix <-
+# Ler abundâncias (contagens) do resultado do Kallisto
+get_count_matrix <- function(filenames) {
+  gtf <- "data/Homo_sapiens.GRCh38.107.gtf.gz"
+  txdb.filename <- "data/Homo_sapiens.GRCh38.107.gtf.sqlite"
+  
+  if (!("Homo_sapiens.GRCh38.107.gtf.sqlite" %in% list.files("data"))) {
+    txdb <- GenomicFeatures::makeTxDbFromGFF(gtf, format = "gtf")
+    AnnotationDbi::saveDb(txdb, txdb.filename)
+  }
+  
+  # Carregar txdb
+  txdb <- AnnotationDbi::loadDb(txdb.filename)
+  txdf <-
+    AnnotationDbi::select(txdb, keys(txdb, "GENEID"), "TXNAME", "GENEID")
+  tab <- table(txdf$GENEID)
+  txdf$ntx <- tab[match(txdf$GENEID, names(tab))]
+  tx2gene <- data.frame(
+    tx = txdf$TXNAME,
+    gene = txdf$GENEID,
+    stringsAsFactors = F
+  )
+  
   tximport(
-    files = files,
+    files = filenames,
     type = "kallisto",
     tx2gene = tx2gene,
     ignoreTxVersion = T
   )
-```
+}
 
-## Expressão diferencial
+# Rodar expressão diferencial com DESeq2
+run_dge <- function(count_matrix, contrast_table) {
+  deseqobj <-
+    DESeqDataSetFromTximport(count_matrix,
+                             colData = contrast_table,
+                             design = ~ contrast)
+  
+  dds <-
+    DESeq(deseqobj,
+          parallel = TRUE,
+          BPPARAM = MulticoreParam(2))
+  
+  results(dds,
+          contrast = c("contrast", "Tratado", "Controle"),
+          tidy = TRUE)
+  
+}
 
-Agora que temos os contrastes, podemos rodar o DESeq2 para realizar a expressão diferencial.
-
-```{r deseq}
-deseqobj <-
-  DESeqDataSetFromTximport(count_matrix,
-                           colData = samples,
-                           design = ~ contrast)
-
-dds <-
-  DESeq(deseqobj,
-        parallel = TRUE,
-        BPPARAM = MulticoreParam(2))
-
-res <- results(
-  dds,
-  contrast = c("contrast", "Tratado", "Controle"),
-  tidy = TRUE
-)
-
-```
-
-Agora vamos adquirir os symbols relativos aos ENSG:
-
-```{r translate-ids}
-ensembl <-
-  useEnsembl(biomart = "genes", dataset = "hsapiens_gene_ensembl")
-
-translated <- getBM(
-  attributes = c('ensembl_gene_id',
-                 'hgnc_symbol'),
-  filters = 'ensembl_gene_id',
-  values = res$row,
-  mart = ensembl
-)
-
-res_transl <- res %>%
-  left_join(translated, by = c("row" = "ensembl_gene_id")) %>% 
-  group_by(hgnc_symbol) %>%
-  slice(which.max(abs(log2FoldChange))) %>%
-  ungroup()
-```
-
-Adicionar os intervalos de confiança (95%) para o resultado do DESeq2:
-
-```{r confint}
-res_transl_confint <- res_transl %>%
-  mutate(CI.L = log2FoldChange - (qnorm(0.95) * lfcSE),
+# Traduzir Ensembl Gene IDs (ENSG) para HGNC symbols e
+# adicionar intervalos de confiança
+translate_dges <- function(results) {
+  ensembl <-
+    useEnsembl(biomart = "genes", dataset = "hsapiens_gene_ensembl")
+  
+  names <- results %>% dplyr::select(row)
+  
+  translated <- getBM(
+    attributes = c('ensembl_gene_id',
+                   'hgnc_symbol'),
+    filters = 'ensembl_gene_id',
+    values = names,
+    mart = ensembl
+  )
+  
+  results %>%
+    left_join(translated, by = c("row" = "ensembl_gene_id")) %>%
+    group_by(hgnc_symbol) %>%
+    slice(which.max(abs(log2FoldChange))) %>%
+    ungroup() %>% 
+    filter(hgnc_symbol != "") %>% 
+    # Add confidence intervals
+    mutate(CI.L = log2FoldChange - (qnorm(0.95) * lfcSE),
          CI.R = log2FoldChange + (qnorm(0.95) * lfcSE))
+} 
 
 ```
 
-E, por fim, escrever o resultado final para uma tabela .csv.
+## Rodando a análise
 
-```{r write-rnaseq}
-res_transl_confint %>%
+- Primeiro, vamos ler as tabelas de metadados dos estudos;
+- Em seguida, as tabelas de counts, onde utilizaremos o tximport, que irá converter o dado de nível de transcrito para nível de gene e converter os identificadores (ENST -> ENSG).
+- Agora que temos os contrastes e as matrizes de contagem, podemos rodar o DESeq2 para realizar a expressão diferencial;
+- E enfim, adicionamos os symbols relativos aos ENSG e os intervalos de confiança do log2FoldChange e escrevemos o resultado final.
+
+```{r rnaseq-metadata}
+
+GSE91383_files <- get_files("GSE91383")
+GSE91383_run_names <- stringr::str_extract_all(GSE91383_files, "SRR\\d+", simplify = TRUE)
+GSE91383_metadata <- get_metadata("GSE91383", GSE91383_run_names)
+GSE91383_matrix <- get_count_matrix(GSE91383_files)
+GSE91383 <- run_dge(GSE91383_matrix, GSE91383_metadata)
+GSE91383_translated <- translate_dges(GSE91383)
+GSE91383_translated %>% 
+  write_csv('results/GSE9138.csv')
+
+GSE116127_files <- get_files("GSE116127")
+GSE116127_run_names <- stringr::str_extract_all(GSE116127_files, "SRR\\d+", simplify = TRUE)
+GSE116127_metadata <- get_metadata("GSE116127", GSE116127_run_names)
+GSE116127_matrix <- get_count_matrix(GSE116127_files)
+GSE116127 <- run_dge(GSE116127_matrix, GSE116127_metadata)
+GSE116127_translated <- translate_dges(GSE116127)
+GSE116127_translated %>% 
   write_csv('results/GSE116127.csv')
+
 ```
-
-
-
