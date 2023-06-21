@@ -1,5 +1,5 @@
 ---
-title: "GSE107385"
+title: "GSE107385 Differential Expression"
 author: "João Vitor F. Cavalcante"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
@@ -20,17 +20,17 @@ knitr::opts_chunk$set(echo = TRUE,
 ```
 
 
-# Breve descrição da metodologia
+# Methodology
 
-* Expressão diferencial de MicroArrays
-  - Foi utilizado para obter as matrizes de contagem normalizadas o pacote **oligo** do Bioconductor.
-  - Para realizar a expressão diferencial em si, utilizamos:
-    - **limma** (Genes D.E. definidos para p-valor < 0.01 e método BH para ajuste de p-valor)
+* Microarray Differential expression
+ - To obtain the normalized count matrices for this study, we used the **oligo**
+ R package.
+ - To perform the differential expression analysis itself, we used the **limma** R package.
+  - Differentially expressed genes determined for p-value < 0.01 and BH method for p-value adjustment.
 
+# Differential Expression
 
-# Expressão diferencial de MicroArray
-
-## Carregando bibliotecas e funções
+## Loading libraries and functions
 
 ```{r}
 library(oligo)
@@ -41,7 +41,7 @@ library(affy)
 ```
 
 ```{r}
-# Carregar tabela com metadados do estudo de interesse
+# Acquire metadata for the study
 get_phenodata <- function(gse_id) {
   read_csv("data/Plataformas.csv") %>%
     janitor::clean_names() %>%
@@ -49,7 +49,7 @@ get_phenodata <- function(gse_id) {
     dplyr::select(gsm, grupo, grupo_no_trabalho_original)
 }
 
-# Rodar a expressão diferencial com limma
+# Run differential expression with limma
 get_limma_dexp <-
   function(eset,
            phenodata,
@@ -114,9 +114,9 @@ clean_toptable <- function(toptable, unique_col) {
     ungroup()
 }
 
-# Função principal que agrega as acima
-# Carrega o dado com a tecnologia apropriada (affymetrix, affy-oligo ou agilent)
-# Roda a expressão diferencial e retorna a tabela
+# Main function
+# Loads dataset with appropriate platform technology (affymetrix, affy-oligo or agilent)
+# Run differential expression with limma and return output table
 get_dge_table <-
   function(gse_id,
            celfile_path,
@@ -169,9 +169,9 @@ get_dge_table <-
   }
 ```
 
-## Rodando a análise
+## Analysis
 
-Agora, vamos rodar a análise em si.
+Now, we perform the differential expression analysis itself.
 
 ```{r run-analysis}
 

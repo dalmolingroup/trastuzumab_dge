@@ -1,5 +1,5 @@
 ---
-title: "Expressão Diferencial de RNA-Seq"
+title: "RNA-Seq Differential Expression"
 author: "João Vitor F. Cavalcante"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
@@ -20,20 +20,23 @@ knitr::opts_chunk$set(
   eval = FALSE
 )
 ```
-# Breve descrição da metodologia
 
-* Expressão diferencial de RNA-Seq
-  - Primeiro, obtemos as reads pelo SRA
-  - Para criação do índice, utilizamos o transcriptoma de *Homo sapiens GRCh38*, da versão 106 do banco de dados Ensembl
-  - Em seguida, alinhamos com o **Kallisto** versão 0.48.0
-  - Lemos as contagens obtidas do Kallisto com o pacote **tximport**, que agregou as contagens em nível de transcrito para nível de gene
-  - Por fim, realizamos a expressão diferencial com o pacote **DESeq2**, com os parâmetros predefinidos
+# Methodology
 
-# Expressão diferencial de RNA-Seq
+* RNA-Seq differential expression
+  - We obtained raw reads through the SRA database
+  - To create the alignment index, we used the *Homo sapiens GRCh38* transcriptome,
+  from Ensembl version 106
+  - We aligned using **Kallisto** version 0.48.0
+  - We read the count matrix obtained with Kallisto with the **tximport** R package,
+  which also aggregates transcript-level counts at the gene-level.
+  - Finally, we used **DESeq2** to perform differential expression.
 
-Após alinharmos os dados com o Kallisto, colocamos os dados na pasta 'resultados/', com os datasets em subdiretórios próprios.
+# Differential Expression
 
-## Carregando bibliotecas e funções
+After alignment with Kallisto, we added all count matrices to the 'resultados/' directory, with separate datasets in their own subdirectories.
+
+## Loading libraries and functions
 
 ```{r rnaseq-libs}
 library(BiocParallel)
@@ -43,7 +46,7 @@ library(DESeq2)
 library(readr)
 library(dplyr)
 
-# Pegar contrastes da tabela original dos GSE
+# Use contrasts from the original GSE table
 get_phenodata <- function(gse_id) {
   read_csv("data/Plataformas.csv") %>%
     janitor::clean_names() %>%
@@ -51,7 +54,7 @@ get_phenodata <- function(gse_id) {
     dplyr::select(gsm, grupo, grupo_no_trabalho_original)
 }
 
-# Listar arquivos resultantes do Kallisto 
+# List Kallisto output files
 get_files <- function(gse_id) {
   list.files(
     paste0("data/", gse_id),
@@ -61,7 +64,7 @@ get_files <- function(gse_id) {
   )
 }
 
-# Adquirir metadados do dataset, contrastes, nomes das amostras, etc.
+# Acquire metadata for the study
 get_metadata <- function(gse_id, run_names) {
   metadata <- read_csv(paste0("data/", gse_id, "_metadata.txt")) %>%
     janitor::clean_names() %>%
@@ -77,7 +80,7 @@ get_metadata <- function(gse_id, run_names) {
   return(samples)
 }
 
-# Ler abundâncias (contagens) do resultado do Kallisto
+# Read abundances (counts) from Kallisto outputs
 get_count_matrix <- function(filenames) {
   gtf <- "data/Homo_sapiens.GRCh38.107.gtf.gz"
   txdb.filename <- "data/Homo_sapiens.GRCh38.107.gtf.sqlite"
@@ -87,7 +90,7 @@ get_count_matrix <- function(filenames) {
     AnnotationDbi::saveDb(txdb, txdb.filename)
   }
   
-  # Carregar txdb
+  # Load txdb
   txdb <- AnnotationDbi::loadDb(txdb.filename)
   txdf <-
     AnnotationDbi::select(txdb, keys(txdb, "GENEID"), "TXNAME", "GENEID")
@@ -107,7 +110,7 @@ get_count_matrix <- function(filenames) {
   )
 }
 
-# Rodar expressão diferencial com DESeq2
+# Run differential expression with DESeq2
 run_dge <- function(count_matrix, contrast_table) {
   deseqobj <-
     DESeqDataSetFromTximport(count_matrix,
@@ -125,8 +128,8 @@ run_dge <- function(count_matrix, contrast_table) {
   
 }
 
-# Traduzir Ensembl Gene IDs (ENSG) para HGNC symbols e
-# adicionar intervalos de confiança
+# Translate Ensembl Gene IDs (ENSG) to HGNC symbols and
+# add confidence intervals
 translate_dges <- function(results) {
   ensembl <-
     useEnsembl(biomart = "genes", dataset = "hsapiens_gene_ensembl")
@@ -154,12 +157,14 @@ translate_dges <- function(results) {
 
 ```
 
-## Rodando a análise
+## Analysis
 
-- Primeiro, vamos ler as tabelas de metadados dos estudos;
-- Em seguida, as tabelas de counts, onde utilizaremos o tximport, que irá converter o dado de nível de transcrito para nível de gene e converter os identificadores (ENST -> ENSG).
-- Agora que temos os contrastes e as matrizes de contagem, podemos rodar o DESeq2 para realizar a expressão diferencial;
-- E enfim, adicionamos os symbols relativos aos ENSG e os intervalos de confiança do log2FoldChange e escrevemos o resultado final.
+- First, we read the metadata tables for each study;
+- Then we read the count matrices, with the tximport package, which will
+also convert transcript level quantifications to gene level quantifications (ENST -> ENSG).
+- Now that we have the contrasts and the count matrices, we can run DESeq2 to perform
+the differential expression analysis.
+- Finally, we added the correspondent gene symbols for each ENSG and the confidence intervals for the log2FoldChanges.
 
 ```{r rnaseq-metadata}
 

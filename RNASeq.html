@@ -12,7 +12,7 @@
 <meta name="author" content="João Vitor F. Cavalcante" />
 
 
-<title>Expressão Diferencial de RNA-Seq</title>
+<title>RNA-Seq Differential Expression</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -1740,37 +1740,37 @@ border-radius: 0px;
 
 
 
-<h1 class="title toc-ignore">Expressão Diferencial de RNA-Seq</h1>
+<h1 class="title toc-ignore">RNA-Seq Differential Expression</h1>
 <h4 class="author">João Vitor F. Cavalcante</h4>
 <h4 class="date">21 junho, 2023</h4>
 
 </div>
 
 
-<div id="breve-descrição-da-metodologia" class="section level1">
-<h1>Breve descrição da metodologia</h1>
+<div id="methodology" class="section level1">
+<h1>Methodology</h1>
 <ul>
-<li>Expressão diferencial de RNA-Seq
+<li>RNA-Seq differential expression
 <ul>
-<li>Primeiro, obtemos as reads pelo SRA</li>
-<li>Para criação do índice, utilizamos o transcriptoma de <em>Homo
-sapiens GRCh38</em>, da versão 106 do banco de dados Ensembl</li>
-<li>Em seguida, alinhamos com o <strong>Kallisto</strong> versão
-0.48.0</li>
-<li>Lemos as contagens obtidas do Kallisto com o pacote
-<strong>tximport</strong>, que agregou as contagens em nível de
-transcrito para nível de gene</li>
-<li>Por fim, realizamos a expressão diferencial com o pacote
-<strong>DESeq2</strong>, com os parâmetros predefinidos</li>
+<li>We obtained raw reads through the SRA database</li>
+<li>To create the alignment index, we used the <em>Homo sapiens
+GRCh38</em> transcriptome, from Ensembl version 106</li>
+<li>We aligned using <strong>Kallisto</strong> version 0.48.0</li>
+<li>We read the count matrix obtained with Kallisto with the
+<strong>tximport</strong> R package, which also aggregates
+transcript-level counts at the gene-level.</li>
+<li>Finally, we used <strong>DESeq2</strong> to perform differential
+expression.</li>
 </ul></li>
 </ul>
 </div>
-<div id="expressão-diferencial-de-rna-seq" class="section level1">
-<h1>Expressão diferencial de RNA-Seq</h1>
-<p>Após alinharmos os dados com o Kallisto, colocamos os dados na pasta
-‘resultados/’, com os datasets em subdiretórios próprios.</p>
-<div id="carregando-bibliotecas-e-funções" class="section level2">
-<h2>Carregando bibliotecas e funções</h2>
+<div id="differential-expression" class="section level1">
+<h1>Differential Expression</h1>
+<p>After alignment with Kallisto, we added all count matrices to the
+‘resultados/’ directory, with separate datasets in their own
+subdirectories.</p>
+<div id="loading-libraries-and-functions" class="section level2">
+<h2>Loading libraries and functions</h2>
 <pre class="r"><code>library(BiocParallel)
 library(tximport)
 library(biomaRt)
@@ -1778,7 +1778,7 @@ library(DESeq2)
 library(readr)
 library(dplyr)
 
-# Pegar contrastes da tabela original dos GSE
+# Use contrasts from the original GSE table
 get_phenodata &lt;- function(gse_id) {
   read_csv(&quot;data/Plataformas.csv&quot;) %&gt;%
     janitor::clean_names() %&gt;%
@@ -1786,7 +1786,7 @@ get_phenodata &lt;- function(gse_id) {
     dplyr::select(gsm, grupo, grupo_no_trabalho_original)
 }
 
-# Listar arquivos resultantes do Kallisto 
+# List Kallisto output files
 get_files &lt;- function(gse_id) {
   list.files(
     paste0(&quot;data/&quot;, gse_id),
@@ -1796,7 +1796,7 @@ get_files &lt;- function(gse_id) {
   )
 }
 
-# Adquirir metadados do dataset, contrastes, nomes das amostras, etc.
+# Acquire metadata for the study
 get_metadata &lt;- function(gse_id, run_names) {
   metadata &lt;- read_csv(paste0(&quot;data/&quot;, gse_id, &quot;_metadata.txt&quot;)) %&gt;%
     janitor::clean_names() %&gt;%
@@ -1812,7 +1812,7 @@ get_metadata &lt;- function(gse_id, run_names) {
   return(samples)
 }
 
-# Ler abundâncias (contagens) do resultado do Kallisto
+# Read abundances (counts) from Kallisto outputs
 get_count_matrix &lt;- function(filenames) {
   gtf &lt;- &quot;data/Homo_sapiens.GRCh38.107.gtf.gz&quot;
   txdb.filename &lt;- &quot;data/Homo_sapiens.GRCh38.107.gtf.sqlite&quot;
@@ -1822,7 +1822,7 @@ get_count_matrix &lt;- function(filenames) {
     AnnotationDbi::saveDb(txdb, txdb.filename)
   }
   
-  # Carregar txdb
+  # Load txdb
   txdb &lt;- AnnotationDbi::loadDb(txdb.filename)
   txdf &lt;-
     AnnotationDbi::select(txdb, keys(txdb, &quot;GENEID&quot;), &quot;TXNAME&quot;, &quot;GENEID&quot;)
@@ -1842,7 +1842,7 @@ get_count_matrix &lt;- function(filenames) {
   )
 }
 
-# Rodar expressão diferencial com DESeq2
+# Run differential expression with DESeq2
 run_dge &lt;- function(count_matrix, contrast_table) {
   deseqobj &lt;-
     DESeqDataSetFromTximport(count_matrix,
@@ -1860,8 +1860,8 @@ run_dge &lt;- function(count_matrix, contrast_table) {
   
 }
 
-# Traduzir Ensembl Gene IDs (ENSG) para HGNC symbols e
-# adicionar intervalos de confiança
+# Translate Ensembl Gene IDs (ENSG) to HGNC symbols and
+# add confidence intervals
 translate_dges &lt;- function(results) {
   ensembl &lt;-
     useEnsembl(biomart = &quot;genes&quot;, dataset = &quot;hsapiens_gene_ensembl&quot;)
@@ -1887,17 +1887,17 @@ translate_dges &lt;- function(results) {
          CI.R = log2FoldChange + (qnorm(0.95) * lfcSE))
 } </code></pre>
 </div>
-<div id="rodando-a-análise" class="section level2">
-<h2>Rodando a análise</h2>
+<div id="analysis" class="section level2">
+<h2>Analysis</h2>
 <ul>
-<li>Primeiro, vamos ler as tabelas de metadados dos estudos;</li>
-<li>Em seguida, as tabelas de counts, onde utilizaremos o tximport, que
-irá converter o dado de nível de transcrito para nível de gene e
-converter os identificadores (ENST -&gt; ENSG).</li>
-<li>Agora que temos os contrastes e as matrizes de contagem, podemos
-rodar o DESeq2 para realizar a expressão diferencial;</li>
-<li>E enfim, adicionamos os symbols relativos aos ENSG e os intervalos
-de confiança do log2FoldChange e escrevemos o resultado final.</li>
+<li>First, we read the metadata tables for each study;</li>
+<li>Then we read the count matrices, with the tximport package, which
+will also convert transcript level quantifications to gene level
+quantifications (ENST -&gt; ENSG).</li>
+<li>Now that we have the contrasts and the count matrices, we can run
+DESeq2 to perform the differential expression analysis.</li>
+<li>Finally, we added the correspondent gene symbols for each ENSG and
+the confidence intervals for the log2FoldChanges.</li>
 </ul>
 <pre class="r"><code>GSE91383_files &lt;- get_files(&quot;GSE91383&quot;)
 GSE91383_run_names &lt;- stringr::str_extract_all(GSE91383_files, &quot;SRR\\d+&quot;, simplify = TRUE)
