@@ -24,7 +24,7 @@ knitr::opts_chunk$set(
 
 * Expressão diferencial de RNA-Seq
   - Primeiro, obtemos as reads pelo SRA
-  - Para criação do índice, utilizamos o transcriptoma de Rattus norvegicus mRatBN7.2, da versão 106 do banco de dados Ensembl
+  - Para criação do índice, utilizamos o transcriptoma de *Homo sapiens GRCh38*, da versão 106 do banco de dados Ensembl
   - Em seguida, alinhamos com o **Kallisto** versão 0.48.0
   - Lemos as contagens obtidas do Kallisto com o pacote **tximport**, que agregou as contagens em nível de transcrito para nível de gene
   - Por fim, realizamos a expressão diferencial com o pacote **DESeq2**, com os parâmetros predefinidos
