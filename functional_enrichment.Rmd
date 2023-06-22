@@ -35,7 +35,6 @@ a functional enrichment with the **clusterProfiler** R package.
 library(clusterProfiler)
 library(org.Hs.eg.db)
 library(enrichplot)
-library(pathview)
 library(biomaRt)
 library(dplyr)
 library(readr)
