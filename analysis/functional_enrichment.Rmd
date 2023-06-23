@@ -2,6 +2,8 @@
 title: "Functional Enrichment"
 author: "João Vitor F Cavalcante"
 date: "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d %B, %Y')`"
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding, output_dir = "../reports/") })
 output:
   html_document:
     code_folding: hide
@@ -38,9 +40,9 @@ library(enrichplot)
 library(biomaRt)
 library(dplyr)
 library(readr)
+library(here)
 
-
-metanalysis <- read_csv("data/meta-analise.csv") %>%
+metanalysis <- read_csv(here("data/meta-analise.csv")) %>%
   janitor::clean_names() %>%
   filter(significativo == 1)
 
@@ -76,7 +78,7 @@ enrich_go <- enrichGO(
 
 enrich_terms <- enrich_go@result[enrich_go@result$p.adjust < 0.01, ]
 
-write_csv(enrich_terms, "results/metanalysis_go_enrichment.csv")
+write_csv(enrich_terms, here("results/metanalysis_go_enrichment.csv"))
 ```
 
 In the figure below, "Count" refers to the total number of genes from the input set
@@ -88,7 +90,7 @@ barplot(enrich_go,
         showCategory = 10,
         title = "GO Biological Processes")
 
-ggplot2::ggsave("results/go_barplot.pdf")
+ggplot2::ggsave(here("results/go_barplot.pdf"))
 ```
 
 In the figure below, GeneRatio refers to the ratio of genes that enriched
@@ -98,7 +100,7 @@ to a particular term against the total number of genes that enriched for any ter
 ```{r go-plot-2, fig.height=7}
 dotplot(enrich_go, showCategory = 10, font.size = 12)
 
-ggplot2::ggsave("results/go_dotplot.pdf", height = 10)
+ggplot2::ggsave(here("results/go_dotplot.pdf"), height = 10)
 ```
 
 
@@ -121,7 +123,7 @@ enrich_kegg <- enrichKEGG(
 
 enrich_pathways <- enrich_kegg@result[enrich_kegg@result$p.adjust < 0.01, ]
 
-write_csv(enrich_terms, "results/metanalysis_kegg_enrichment.csv")
+write_csv(enrich_terms, here("results/metanalysis_kegg_enrichment.csv"))
 ```
 
 ```{r kegg-plot-1}
@@ -130,12 +132,12 @@ barplot(enrich_kegg,
         showCategory = 10,
         title = "KEGG Pathways")
 
-ggplot2::ggsave("results/kegg_barplot.pdf")
+ggplot2::ggsave(here("results/kegg_barplot.pdf"))
 ```
 
 ```{r kegg-plot-2, fig.height=7}
 dotplot(enrich_kegg, showCategory = 10, font.size = 12)
 
-ggplot2::ggsave("results/kegg_dotplot.pdf", height = 7)
+ggplot2::ggsave(here("results/kegg_dotplot.pdf"), height = 7)
 ```
 

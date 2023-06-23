@@ -2,6 +2,8 @@
 title: "RNA-Seq Differential Expression"
 author: "João Vitor F. Cavalcante"
 date: "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d %B, %Y')`"
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding, output_dir = "../reports/") })
 output:
   html_document:
     toc: true
