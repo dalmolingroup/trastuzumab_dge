@@ -123,7 +123,7 @@ enrich_kegg <- enrichKEGG(
 
 enrich_pathways <- enrich_kegg@result[enrich_kegg@result$p.adjust < 0.01, ]
 
-write_csv(enrich_terms, here("results/metanalysis_kegg_enrichment.csv"))
+write_csv(enrich_pathways, here("results/metanalysis_kegg_enrichment.csv"))
 ```
 
 ```{r kegg-plot-1}

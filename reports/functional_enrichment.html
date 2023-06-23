@@ -1923,7 +1923,7 @@ enriched for that particular term.</p>
 
 enrich_pathways &lt;- enrich_kegg@result[enrich_kegg@result$p.adjust &lt; 0.01, ]
 
-write_csv(enrich_terms, here(&quot;results/metanalysis_kegg_enrichment.csv&quot;))</code></pre>
+write_csv(enrich_pathways, here(&quot;results/metanalysis_kegg_enrichment.csv&quot;))</code></pre>
 <pre class="r"><code>barplot(enrich_kegg,
         drop = TRUE,
         showCategory = 10,
