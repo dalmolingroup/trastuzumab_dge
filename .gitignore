@@ -39,7 +39,5 @@ vignettes/*.pdf
 .Renviron
 
 # dataset
-data/
-results/
 todo.md
 functional_enrichment_files/
