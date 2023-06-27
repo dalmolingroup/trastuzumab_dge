@@ -9,6 +9,7 @@ Finally, the significant results from this meta-analysis were then used to perfo
 
 - [RNA-Seq](./reports/RNASeq.html) - [Source](./analysis/RNASeq.Rmd)
 - [GSE107385](./reports/GSE107385.html) - [Source](./analysis/GSE107385.Rmd)
+- [Select Genes](./reports/select_genes.html) - [Source](./analysis/select_genes.Rmd)
 - [Functional Enrichment](./reports/functional_enrichment.html) - [Source](./analysis/functional_enrichment.Rmd)
 
 ## Repository Structure
@@ -27,6 +28,8 @@ Finally, the significant results from this meta-analysis were then used to perfo
     - DGE for the GSE107385 microarray dataset
   - RNASeq.Rmd
     - DGE for the other two RNA-Seq datasets
+  - select_genes.Rmd
+    - Select genes associated to mitophagy, autophagy and mitochondrial biogenesis
   - functional_enrichment.Rmd
     - Functional enrichment analysis on the meta-analysis results
 - `data`
