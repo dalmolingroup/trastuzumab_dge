@@ -1,0 +1,170 @@
+---
+title: "Get Related Genes"
+author: "João Cavalcante"
+date: "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d %B, %Y')`"
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding, output_dir = "../reports/") })
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_collapsed: false
+    theme:
+      bslib: true
+      bootswatch: minty
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  message = FALSE,
+  warning = FALSE,
+  eval = FALSE
+)
+```
+
+# Extract Autophagy and Mitophagy related genes
+
+```{r load-libraries}
+library(readr)
+library(dplyr)
+library(purrr)
+library(biomaRt)
+library(magrittr)
+library(KEGGREST)
+
+get_go_genes <- function(go_term) {
+  ensembl <- useEnsembl(biomart = "ensembl", dataset = 'hsapiens_gene_ensembl')
+
+  getBM(
+    attributes = c(
+      'external_gene_name',
+      'go_id',
+      'name_1006'
+    ),
+    filters = 'go',
+    values = go_term,
+    mart = ensembl
+  )
+}
+```
+
+
+## Get GO genes
+
+```{r get-go}
+go_terms <- c(
+  autophagy = "GO:0006914",
+  autophagy_of_mitocondrion = "GO:0000422",
+  regulation_of_autophagy = "GO:0010506",
+  negative_regulation_of_autophagy = "GO:0010507",
+  positive_regulation_of_autophagy = "GO:0000422",
+  mitochondrial_fusion = "GO:0008053",
+  mitochondrial_fission = "GO:0000266"
+)
+
+go_selected <- map_dfr(go_terms, get_go_genes)
+
+go_renamed <- go_selected %>%
+  filter(go_id %in% go_terms) %>%
+  filter(external_gene_name != "") %>%
+  mutate(database = "GO") %>%
+  rename(gene_symbol = external_gene_name,
+         annotation_id = go_id,
+         annotation_name = name_1006)
+```
+
+## Get KEGG genes
+
+We start by downloading gene to pathway mappings from the KEGG API.
+
+```{r download}
+download.file(
+  "https://ftp.ncbi.nlm.nih.gov/gene/DATA/GENE_INFO/Mammalia/Homo_sapiens.gene_info.gz",
+  here::here("data/Homo_sapiens.gene_info.gz")
+)
+
+download.file(
+  "http://rest.kegg.jp/link/pathway/hsa",
+  here::here("data/link_pathway_entrez_hsa.tsv")
+)
+
+download.file(
+  "http://rest.kegg.jp/link/brite/hsa",
+  here::here("data/link_brite_entrez_hsa.tsv")
+)
+```
+
+Then, we get the intersection between the datasets.
+
+```{r load}
+pathways <- tibble::tribble(
+  ~pathway_id,      ~pathway_name,
+  "br:hsa03029",  "Mitochondrial Biogenesis",
+  "path:hsa04140",  "Autophagy",
+  "path:hsa04137",  "Mitophagy"
+)
+
+link_pathway_entrez_hsa <- read_tsv(
+  here::here("data/link_pathway_entrez_hsa.tsv"),
+  col_names = c("entrez_id", "pathway_id"),
+  col_types = "cc"
+) %>% tidyr::separate(
+  entrez_id,
+  into = c("species", "entrez_id"),
+  sep = ":"
+)
+
+link_brite_entrez_hsa <- read_tsv(
+  here::here("data/link_brite_entrez_hsa.tsv"),
+  col_names = c("entrez_id", "pathway_id"),
+  col_types = "cc"
+) %>% tidyr::separate(
+  entrez_id,
+  into = c("species", "entrez_id"),
+  sep = ":"
+)
+
+# Filtering for pathways/brite of interest
+gene_pathways_hsa <- inner_join(link_pathway_entrez_hsa, pathways)
+gene_brite_hsa <- inner_join(link_brite_entrez_hsa, pathways)
+
+genes_kegg <- rbind(gene_pathways_hsa, gene_brite_hsa)
+```
+
+Finally, we extract the gene symbols.
+
+```{r gene-symbols}
+entrez_names_hsa <- read_tsv(
+  here::here("data/Homo_sapiens.gene_info.gz"),
+  skip = 1,
+  col_names = c("entrez_id", "gene_symbol"),
+  col_types = cols_only("-", "c", "c")
+)
+
+genes_kegg_hsa <- genes_kegg %>%
+  inner_join(pathways) %>%
+  inner_join(entrez_names_hsa) %>%
+  dplyr::select(-c(species, entrez_id)) %>%
+  rename(annotation_id = pathway_id,
+         annotation_name = pathway_name) %>%
+  mutate(database = "KEGG")
+```
+
+## Merging and writing final dataset
+
+```{r write}
+merged <- bind_rows(go_renamed, genes_kegg_hsa)
+
+merged_collapsed <- merged %>%
+  group_by(gene_symbol) %>%
+  summarise(
+    annotation_ids = paste0(unique(annotation_id), collapse="|"),
+    annotation_names = paste0(unique(annotation_name), collapse="|"),
+    databases = paste0(unique(database), collapse="|")
+  )
+
+write_csv(merged, here::here("results/selected_genes.csv"))
+write_csv(merged_collapsed, here::here("results/selected_genes_collapsed.csv"))
+```
+

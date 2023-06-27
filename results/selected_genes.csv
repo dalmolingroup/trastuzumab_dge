@@ -1,0 +1,1270 @@
+gene_symbol,annotation_id,annotation_name,database
+PLEKHM1,GO:0006914,autophagy,GO
+ATG16L1,GO:0006914,autophagy,GO
+TRAPPC4,GO:0006914,autophagy,GO
+VPS11,GO:0006914,autophagy,GO
+STK35,GO:0006914,autophagy,GO
+TP53INP2,GO:0006914,autophagy,GO
+NPC1,GO:0006914,autophagy,GO
+TOLLIP,GO:0006914,autophagy,GO
+RMC1,GO:0010506,regulation of autophagy,GO
+RMC1,GO:0006914,autophagy,GO
+SIRT2,GO:0006914,autophagy,GO
+SIRT2,GO:0010507,negative regulation of autophagy,GO
+SRPX,GO:0006914,autophagy,GO
+TECPR2,GO:0006914,autophagy,GO
+ATG2B,GO:0006914,autophagy,GO
+ATG2B,GO:0000422,autophagy of mitochondrion,GO
+SMCR8,GO:0006914,autophagy,GO
+SMCR8,GO:0010506,regulation of autophagy,GO
+ARSB,GO:0006914,autophagy,GO
+WIPI2,GO:0006914,autophagy,GO
+WIPI2,GO:0000422,autophagy of mitochondrion,GO
+TRIM17,GO:0006914,autophagy,GO
+STING1,GO:0006914,autophagy,GO
+ATG10,GO:0006914,autophagy,GO
+TM9SF1,GO:0006914,autophagy,GO
+CHMP4A,GO:0006914,autophagy,GO
+ATG4A,GO:0006914,autophagy,GO
+NRBF2,GO:0006914,autophagy,GO
+FUNDC1,GO:0006914,autophagy,GO
+FUNDC1,GO:0000422,autophagy of mitochondrion,GO
+MOAP1,GO:0006914,autophagy,GO
+ATG12,GO:0006914,autophagy,GO
+ATG12,GO:0000422,autophagy of mitochondrion,GO
+RAB39A,GO:0006914,autophagy,GO
+HMGB1,GO:0006914,autophagy,GO
+PDIK1L,GO:0006914,autophagy,GO
+EVA1A,GO:0006914,autophagy,GO
+TMEM74,GO:0006914,autophagy,GO
+DEPP1,GO:0006914,autophagy,GO
+DEPP1,GO:0010506,regulation of autophagy,GO
+VPS4B,GO:0006914,autophagy,GO
+RAB39B,GO:0006914,autophagy,GO
+RAB39B,GO:0010506,regulation of autophagy,GO
+UVRAG,GO:0006914,autophagy,GO
+UVRAG,GO:0010506,regulation of autophagy,GO
+CHMP4B,GO:0006914,autophagy,GO
+CHMP4B,GO:0010506,regulation of autophagy,GO
+RB1CC1,GO:0000422,autophagy of mitochondrion,GO
+RB1CC1,GO:0006914,autophagy,GO
+CISD2,GO:0010506,regulation of autophagy,GO
+CISD2,GO:0006914,autophagy,GO
+CISD2,GO:0000422,autophagy of mitochondrion,GO
+FOXO1,GO:0006914,autophagy,GO
+HDAC10,GO:0006914,autophagy,GO
+GABARAPL1,GO:0006914,autophagy,GO
+GABARAPL1,GO:0000422,autophagy of mitochondrion,GO
+VPS41,GO:0006914,autophagy,GO
+EI24,GO:0006914,autophagy,GO
+DRD2,GO:0006914,autophagy,GO
+TECPR1,GO:0006914,autophagy,GO
+NHLRC1,GO:0006914,autophagy,GO
+UBQLN1,GO:0006914,autophagy,GO
+TGFBRAP1,GO:0006914,autophagy,GO
+ATG4C,GO:0006914,autophagy,GO
+HERC1,GO:0006914,autophagy,GO
+HERC1,GO:0010507,negative regulation of autophagy,GO
+PIK3C3,GO:0006914,autophagy,GO
+PIK3C3,GO:0010506,regulation of autophagy,GO
+UBQLN2,GO:0006914,autophagy,GO
+ATG2A,GO:0006914,autophagy,GO
+ATG2A,GO:0000422,autophagy of mitochondrion,GO
+VPS13A,GO:0006914,autophagy,GO
+RUBCNL,GO:0006914,autophagy,GO
+VPS16,GO:0006914,autophagy,GO
+SNAP29,GO:0006914,autophagy,GO
+MAP2K5,GO:0006914,autophagy,GO
+ULK3,GO:0006914,autophagy,GO
+ELAPOR1,GO:0006914,autophagy,GO
+ARSA,GO:0006914,autophagy,GO
+SQSTM1,GO:0006914,autophagy,GO
+SQSTM1,GO:0000422,autophagy of mitochondrion,GO
+TMBIM6,GO:0006914,autophagy,GO
+SUPT20H,GO:0006914,autophagy,GO
+EPG5,GO:0006914,autophagy,GO
+TMEM39A,GO:0006914,autophagy,GO
+TP53INP1,GO:0010506,regulation of autophagy,GO
+TP53INP1,GO:0006914,autophagy,GO
+BECN1,GO:0006914,autophagy,GO
+BECN1,GO:0000422,autophagy of mitochondrion,GO
+BECN1,GO:0010506,regulation of autophagy,GO
+BECN1,GO:0010507,negative regulation of autophagy,GO
+ACBD5,GO:0006914,autophagy,GO
+RAB1B,GO:0006914,autophagy,GO
+ATG3,GO:0006914,autophagy,GO
+ATG3,GO:0000422,autophagy of mitochondrion,GO
+CHMP1B,GO:0006914,autophagy,GO
+ATG14,GO:0006914,autophagy,GO
+ATG5,GO:0006914,autophagy,GO
+ATG5,GO:0000422,autophagy of mitochondrion,GO
+TMEM150B,GO:0006914,autophagy,GO
+MAP1LC3B2,GO:0006914,autophagy,GO
+MAP1LC3B2,GO:0000422,autophagy of mitochondrion,GO
+ATG4B,GO:0006914,autophagy,GO
+VMP1,GO:0006914,autophagy,GO
+WIPI1,GO:0006914,autophagy,GO
+WIPI1,GO:0000422,autophagy of mitochondrion,GO
+TMEM59,GO:0006914,autophagy,GO
+ULK2,GO:0006914,autophagy,GO
+ULK2,GO:0000422,autophagy of mitochondrion,GO
+EPM2A,GO:0006914,autophagy,GO
+MAP1LC3A,GO:0006914,autophagy,GO
+MAP1LC3A,GO:0000422,autophagy of mitochondrion,GO
+XBP1,GO:0006914,autophagy,GO
+PIK3CB,GO:0006914,autophagy,GO
+GABARAPL2,GO:0006914,autophagy,GO
+GABARAPL2,GO:0000422,autophagy of mitochondrion,GO
+CHMP7,GO:0006914,autophagy,GO
+DRAM1,GO:0006914,autophagy,GO
+DRAM1,GO:0010506,regulation of autophagy,GO
+RNF185,GO:0006914,autophagy,GO
+RGS19,GO:0006914,autophagy,GO
+RETREG2,GO:0006914,autophagy,GO
+PINK1,GO:0000422,autophagy of mitochondrion,GO
+PINK1,GO:0006914,autophagy,GO
+LRSAM1,GO:0006914,autophagy,GO
+ATG9A,GO:0006914,autophagy,GO
+ATG9A,GO:0000422,autophagy of mitochondrion,GO
+VCP,GO:0006914,autophagy,GO
+GBA1,GO:0006914,autophagy,GO
+RAB7A,GO:0006914,autophagy,GO
+TFEB,GO:0006914,autophagy,GO
+SYT11,GO:0006914,autophagy,GO
+UBQLN4,GO:0006914,autophagy,GO
+CHMP1A,GO:0006914,autophagy,GO
+USP10,GO:0006914,autophagy,GO
+USP10,GO:0010506,regulation of autophagy,GO
+ATG4D,GO:0006914,autophagy,GO
+ANXA7,GO:0006914,autophagy,GO
+VPS33A,GO:0006914,autophagy,GO
+CHMP4C,GO:0006914,autophagy,GO
+WDFY4,GO:0006914,autophagy,GO
+TBC1D25,GO:0006914,autophagy,GO
+RETREG1,GO:0006914,autophagy,GO
+CALCOCO2,GO:0006914,autophagy,GO
+HDAC6,GO:0006914,autophagy,GO
+HDAC6,GO:0010506,regulation of autophagy,GO
+STBD1,GO:0006914,autophagy,GO
+TMEM41B,GO:0006914,autophagy,GO
+SEC16A,GO:0006914,autophagy,GO
+TMEM208,GO:0006914,autophagy,GO
+VPS4A,GO:0006914,autophagy,GO
+OPTN,GO:0006914,autophagy,GO
+RAB24,GO:0006914,autophagy,GO
+RIMOC1,GO:0006914,autophagy,GO
+GRAMD1A,GO:0006914,autophagy,GO
+TIGAR,GO:0006914,autophagy,GO
+IRGM,GO:0006914,autophagy,GO
+MFN2,GO:0008053,mitochondrial fusion,GO
+MFN2,GO:0006914,autophagy,GO
+TAX1BP1,GO:0006914,autophagy,GO
+CHMP2B,GO:0006914,autophagy,GO
+TRIM5,GO:0006914,autophagy,GO
+ARFIP2,GO:0006914,autophagy,GO
+STX17,GO:0006914,autophagy,GO
+ATP13A2,GO:0006914,autophagy,GO
+WDR45,GO:0006914,autophagy,GO
+RETREG3,GO:0006914,autophagy,GO
+WDR45,GO:0000422,autophagy of mitochondrion,GO
+PRKAA1,GO:0006914,autophagy,GO
+LAMP2,GO:0006914,autophagy,GO
+BCAS3,GO:0006914,autophagy,GO
+UMOD,GO:0006914,autophagy,GO
+PSEN1,GO:0006914,autophagy,GO
+C9orf72,GO:0006914,autophagy,GO
+C9orf72,GO:0010506,regulation of autophagy,GO
+VTI1A,GO:0006914,autophagy,GO
+LGALS8,GO:0006914,autophagy,GO
+WDR41,GO:0010506,regulation of autophagy,GO
+WDR41,GO:0006914,autophagy,GO
+PRKN,GO:0006914,autophagy,GO
+PRKN,GO:0000422,autophagy of mitochondrion,GO
+PRKN,GO:0010506,regulation of autophagy,GO
+PRKN,GO:0000266,mitochondrial fission,GO
+USP13,GO:0006914,autophagy,GO
+USP13,GO:0010506,regulation of autophagy,GO
+ATG9B,GO:0006914,autophagy,GO
+ATG9B,GO:0000422,autophagy of mitochondrion,GO
+VPS18,GO:0006914,autophagy,GO
+CHMP6,GO:0006914,autophagy,GO
+SPATA33,GO:0006914,autophagy,GO
+AMBRA1,GO:0006914,autophagy,GO
+AMBRA1,GO:0000422,autophagy of mitochondrion,GO
+WDR45B,GO:0006914,autophagy,GO
+WDR45B,GO:0000422,autophagy of mitochondrion,GO
+DRAM2,GO:0010506,regulation of autophagy,GO
+DRAM2,GO:0006914,autophagy,GO
+STK11,GO:0006914,autophagy,GO
+ABL1,GO:0006914,autophagy,GO
+ABL1,GO:0010506,regulation of autophagy,GO
+C19orf12,GO:0006914,autophagy,GO
+CHMP2A,GO:0006914,autophagy,GO
+ULK1,GO:0006914,autophagy,GO
+ULK1,GO:0000422,autophagy of mitochondrion,GO
+MAP1S,GO:0006914,autophagy,GO
+PHF23,GO:0006914,autophagy,GO
+GABARAP,GO:0006914,autophagy,GO
+GABARAP,GO:0000422,autophagy of mitochondrion,GO
+LRRK2,GO:0006914,autophagy,GO
+LRRK2,GO:0010506,regulation of autophagy,GO
+CHMP5,GO:0006914,autophagy,GO
+VPS39,GO:0006914,autophagy,GO
+DAP,GO:0006914,autophagy,GO
+DAP,GO:0010507,negative regulation of autophagy,GO
+ZKSCAN3,GO:0006914,autophagy,GO
+ZKSCAN3,GO:0010507,negative regulation of autophagy,GO
+WDFY3,GO:0006914,autophagy,GO
+RNF41,GO:0006914,autophagy,GO
+RNF166,GO:0006914,autophagy,GO
+TBC1D14,GO:0006914,autophagy,GO
+TBC1D14,GO:0010507,negative regulation of autophagy,GO
+RAB33B,GO:0006914,autophagy,GO
+SBF2,GO:0006914,autophagy,GO
+IRF8,GO:0006914,autophagy,GO
+WDR24,GO:0006914,autophagy,GO
+WDR24,GO:0010506,regulation of autophagy,GO
+FNBP1L,GO:0006914,autophagy,GO
+ATG101,GO:0006914,autophagy,GO
+TBC1D17,GO:0006914,autophagy,GO
+CLEC16A,GO:0006914,autophagy,GO
+MAP1LC3B,GO:0006914,autophagy,GO
+MAP1LC3B,GO:0000422,autophagy of mitochondrion,GO
+VPS51,GO:0006914,autophagy,GO
+TEX264,GO:0006914,autophagy,GO
+ATG7,GO:0006914,autophagy,GO
+ATG7,GO:0000422,autophagy of mitochondrion,GO
+BECN2,GO:0006914,autophagy,GO
+MAP1LC3C,GO:0006914,autophagy,GO
+MAP1LC3C,GO:0000422,autophagy of mitochondrion,GO
+GPR137,GO:0006914,autophagy,GO
+GPR137,GO:0010506,regulation of autophagy,GO
+TCIRG1,GO:0006914,autophagy,GO
+RAB8A,GO:0006914,autophagy,GO
+RAB8A,GO:0010506,regulation of autophagy,GO
+TP53,GO:0006914,autophagy,GO
+TBC1D5,GO:0006914,autophagy,GO
+DRD3,GO:0006914,autophagy,GO
+VAMP8,GO:0006914,autophagy,GO
+WDR47,GO:0006914,autophagy,GO
+PRKAA2,GO:0006914,autophagy,GO
+SEC16B,GO:0006914,autophagy,GO
+ATG13,GO:0006914,autophagy,GO
+CLTC,GO:0006914,autophagy,GO
+RUFY4,GO:0006914,autophagy,GO
+RUBCN,GO:0006914,autophagy,GO
+RUBCN,GO:0010507,negative regulation of autophagy,GO
+GPR137B,GO:0006914,autophagy,GO
+GPR137B,GO:0010506,regulation of autophagy,GO
+CHMP3,GO:0006914,autophagy,GO
+IFI16,GO:0006914,autophagy,GO
+IFI16,GO:0010506,regulation of autophagy,GO
+HAP1,GO:0006914,autophagy,GO
+CD84,GO:0006914,autophagy,GO
+ITGB4,GO:0006914,autophagy,GO
+RAB1A,GO:0006914,autophagy,GO
+PTPN22,GO:0006914,autophagy,GO
+PTPN22,GO:0010507,negative regulation of autophagy,GO
+S100A9,GO:0006914,autophagy,GO
+S100A8,GO:0006914,autophagy,GO
+PARK7,GO:0006914,autophagy,GO
+SH3GLB1,GO:0006914,autophagy,GO
+FBXO7,GO:0000422,autophagy of mitochondrion,GO
+ATG2B,GO:0006914,autophagy,GO
+ATG2B,GO:0000422,autophagy of mitochondrion,GO
+WIPI2,GO:0006914,autophagy,GO
+WIPI2,GO:0000422,autophagy of mitochondrion,GO
+FUNDC1,GO:0006914,autophagy,GO
+FUNDC1,GO:0000422,autophagy of mitochondrion,GO
+ATG12,GO:0006914,autophagy,GO
+ATG12,GO:0000422,autophagy of mitochondrion,GO
+FUNDC2,GO:0000422,autophagy of mitochondrion,GO
+SLC25A46,GO:0000266,mitochondrial fission,GO
+SLC25A46,GO:0000422,autophagy of mitochondrion,GO
+RB1CC1,GO:0000422,autophagy of mitochondrion,GO
+RB1CC1,GO:0006914,autophagy,GO
+CISD2,GO:0010506,regulation of autophagy,GO
+CISD2,GO:0006914,autophagy,GO
+CISD2,GO:0000422,autophagy of mitochondrion,GO
+GABARAPL1,GO:0006914,autophagy,GO
+GABARAPL1,GO:0000422,autophagy of mitochondrion,GO
+ATG2A,GO:0006914,autophagy,GO
+ATG2A,GO:0000422,autophagy of mitochondrion,GO
+FBXL4,GO:0000422,autophagy of mitochondrion,GO
+SQSTM1,GO:0006914,autophagy,GO
+SQSTM1,GO:0000422,autophagy of mitochondrion,GO
+FIS1,GO:0000266,mitochondrial fission,GO
+FIS1,GO:0008053,mitochondrial fusion,GO
+FIS1,GO:0000422,autophagy of mitochondrion,GO
+SNX7,GO:0000422,autophagy of mitochondrion,GO
+BECN1,GO:0006914,autophagy,GO
+BECN1,GO:0000422,autophagy of mitochondrion,GO
+BECN1,GO:0010506,regulation of autophagy,GO
+BECN1,GO:0010507,negative regulation of autophagy,GO
+ATG3,GO:0006914,autophagy,GO
+ATG3,GO:0000422,autophagy of mitochondrion,GO
+ATG5,GO:0006914,autophagy,GO
+ATG5,GO:0000422,autophagy of mitochondrion,GO
+MAP1LC3B2,GO:0006914,autophagy,GO
+MAP1LC3B2,GO:0000422,autophagy of mitochondrion,GO
+WIPI1,GO:0006914,autophagy,GO
+WIPI1,GO:0000422,autophagy of mitochondrion,GO
+ULK2,GO:0006914,autophagy,GO
+ULK2,GO:0000422,autophagy of mitochondrion,GO
+MAP1LC3A,GO:0006914,autophagy,GO
+MAP1LC3A,GO:0000422,autophagy of mitochondrion,GO
+GABARAPL2,GO:0006914,autophagy,GO
+GABARAPL2,GO:0000422,autophagy of mitochondrion,GO
+BNIP3,GO:0000422,autophagy of mitochondrion,GO
+USP30,GO:0008053,mitochondrial fusion,GO
+USP30,GO:0000422,autophagy of mitochondrion,GO
+PINK1,GO:0000422,autophagy of mitochondrion,GO
+PINK1,GO:0006914,autophagy,GO
+ATG9A,GO:0006914,autophagy,GO
+ATG9A,GO:0000422,autophagy of mitochondrion,GO
+MARK2,GO:0000422,autophagy of mitochondrion,GO
+WDR45,GO:0006914,autophagy,GO
+WDR45,GO:0000422,autophagy of mitochondrion,GO
+PRKN,GO:0006914,autophagy,GO
+PRKN,GO:0000422,autophagy of mitochondrion,GO
+PRKN,GO:0010506,regulation of autophagy,GO
+PRKN,GO:0000266,mitochondrial fission,GO
+ATG9B,GO:0006914,autophagy,GO
+ATG9B,GO:0000422,autophagy of mitochondrion,GO
+AMBRA1,GO:0006914,autophagy,GO
+AMBRA1,GO:0000422,autophagy of mitochondrion,GO
+WDR45B,GO:0006914,autophagy,GO
+WDR45B,GO:0000422,autophagy of mitochondrion,GO
+CTSK,GO:0000422,autophagy of mitochondrion,GO
+ULK1,GO:0006914,autophagy,GO
+ULK1,GO:0000422,autophagy of mitochondrion,GO
+SNX30,GO:0000422,autophagy of mitochondrion,GO
+GABARAP,GO:0006914,autophagy,GO
+GABARAP,GO:0000422,autophagy of mitochondrion,GO
+MAP1LC3B,GO:0006914,autophagy,GO
+MAP1LC3B,GO:0000422,autophagy of mitochondrion,GO
+ATG7,GO:0006914,autophagy,GO
+ATG7,GO:0000422,autophagy of mitochondrion,GO
+MAP1LC3C,GO:0006914,autophagy,GO
+MAP1LC3C,GO:0000422,autophagy of mitochondrion,GO
+MAPT,GO:0010506,regulation of autophagy,GO
+MAPK15,GO:0010506,regulation of autophagy,GO
+PIP4K2B,GO:0010506,regulation of autophagy,GO
+ROCK1,GO:0010506,regulation of autophagy,GO
+SOGA1,GO:0010506,regulation of autophagy,GO
+RMC1,GO:0010506,regulation of autophagy,GO
+RMC1,GO:0006914,autophagy,GO
+PIP4K2A,GO:0010506,regulation of autophagy,GO
+SMCR8,GO:0006914,autophagy,GO
+SMCR8,GO:0010506,regulation of autophagy,GO
+MTMR8,GO:0010506,regulation of autophagy,GO
+MTMR8,GO:0010507,negative regulation of autophagy,GO
+MTMR3,GO:0010506,regulation of autophagy,GO
+DEPP1,GO:0006914,autophagy,GO
+DEPP1,GO:0010506,regulation of autophagy,GO
+BCL2,GO:0010506,regulation of autophagy,GO
+BCL2,GO:0010507,negative regulation of autophagy,GO
+RAB39B,GO:0006914,autophagy,GO
+RAB39B,GO:0010506,regulation of autophagy,GO
+UVRAG,GO:0006914,autophagy,GO
+UVRAG,GO:0010506,regulation of autophagy,GO
+CHMP4B,GO:0006914,autophagy,GO
+CHMP4B,GO:0010506,regulation of autophagy,GO
+RRAGC,GO:0010506,regulation of autophagy,GO
+CISD2,GO:0010506,regulation of autophagy,GO
+CISD2,GO:0006914,autophagy,GO
+CISD2,GO:0000422,autophagy of mitochondrion,GO
+PIK3C3,GO:0006914,autophagy,GO
+PIK3C3,GO:0010506,regulation of autophagy,GO
+RRAGB,GO:0010506,regulation of autophagy,GO
+DAPK1,GO:0010506,regulation of autophagy,GO
+TRIB3,GO:0010506,regulation of autophagy,GO
+FBXL2,GO:0010506,regulation of autophagy,GO
+RRAGD,GO:0010506,regulation of autophagy,GO
+MTCL1,GO:0010506,regulation of autophagy,GO
+TP53INP1,GO:0010506,regulation of autophagy,GO
+TP53INP1,GO:0006914,autophagy,GO
+BECN1,GO:0006914,autophagy,GO
+BECN1,GO:0000422,autophagy of mitochondrion,GO
+BECN1,GO:0010506,regulation of autophagy,GO
+BECN1,GO:0010507,negative regulation of autophagy,GO
+BOK,GO:0010506,regulation of autophagy,GO
+KAT8,GO:0010506,regulation of autophagy,GO
+PYCARD,GO:0010506,regulation of autophagy,GO
+TPCN2,GO:0010506,regulation of autophagy,GO
+PIK3R2,GO:0010506,regulation of autophagy,GO
+HSPB1,GO:0010506,regulation of autophagy,GO
+EP300,GO:0010506,regulation of autophagy,GO
+DCAF12,GO:0010506,regulation of autophagy,GO
+RRAGA,GO:0010507,negative regulation of autophagy,GO
+RRAGA,GO:0010506,regulation of autophagy,GO
+DRAM1,GO:0006914,autophagy,GO
+DRAM1,GO:0010506,regulation of autophagy,GO
+PSAP,GO:0010506,regulation of autophagy,GO
+PIP4K2C,GO:0010506,regulation of autophagy,GO
+KEAP1,GO:0010506,regulation of autophagy,GO
+USP10,GO:0006914,autophagy,GO
+USP10,GO:0010506,regulation of autophagy,GO
+NLRP6,GO:0010506,regulation of autophagy,GO
+HDAC6,GO:0006914,autophagy,GO
+HDAC6,GO:0010506,regulation of autophagy,GO
+PIK3R4,GO:0010506,regulation of autophagy,GO
+OSBPL7,GO:0010506,regulation of autophagy,GO
+ZMPSTE24,GO:0010506,regulation of autophagy,GO
+ACER2,GO:0010506,regulation of autophagy,GO
+CLN3,GO:0010506,regulation of autophagy,GO
+CISD1,GO:0010506,regulation of autophagy,GO
+NUPR1,GO:0010507,negative regulation of autophagy,GO
+NUPR1,GO:0010506,regulation of autophagy,GO
+USP33,GO:0010506,regulation of autophagy,GO
+C9orf72,GO:0006914,autophagy,GO
+C9orf72,GO:0010506,regulation of autophagy,GO
+ERCC4,GO:0010506,regulation of autophagy,GO
+WDR41,GO:0010506,regulation of autophagy,GO
+WDR41,GO:0006914,autophagy,GO
+PRKN,GO:0006914,autophagy,GO
+PRKN,GO:0000422,autophagy of mitochondrion,GO
+PRKN,GO:0010506,regulation of autophagy,GO
+PRKN,GO:0000266,mitochondrial fission,GO
+USP13,GO:0006914,autophagy,GO
+USP13,GO:0010506,regulation of autophagy,GO
+WAC,GO:0010506,regulation of autophagy,GO
+DAPK3,GO:0010506,regulation of autophagy,GO
+DRAM2,GO:0010506,regulation of autophagy,GO
+DRAM2,GO:0006914,autophagy,GO
+MFSD8,GO:0010506,regulation of autophagy,GO
+DAPK2,GO:0010506,regulation of autophagy,GO
+ABL1,GO:0006914,autophagy,GO
+ABL1,GO:0010506,regulation of autophagy,GO
+MTMR4,GO:0010506,regulation of autophagy,GO
+LRRK2,GO:0006914,autophagy,GO
+LRRK2,GO:0010506,regulation of autophagy,GO
+ITPR1,GO:0010506,regulation of autophagy,GO
+ATM,GO:0010506,regulation of autophagy,GO
+WDR24,GO:0006914,autophagy,GO
+WDR24,GO:0010506,regulation of autophagy,GO
+SOGA3,GO:0010506,regulation of autophagy,GO
+DDIT3,GO:0010506,regulation of autophagy,GO
+CRYBA1,GO:0010506,regulation of autophagy,GO
+GPR137,GO:0006914,autophagy,GO
+GPR137,GO:0010506,regulation of autophagy,GO
+RAB8A,GO:0006914,autophagy,GO
+RAB8A,GO:0010506,regulation of autophagy,GO
+RPTOR,GO:0010506,regulation of autophagy,GO
+RPTOR,GO:0010507,negative regulation of autophagy,GO
+LAMP3,GO:0010506,regulation of autophagy,GO
+GPR137B,GO:0006914,autophagy,GO
+GPR137B,GO:0010506,regulation of autophagy,GO
+IFI16,GO:0006914,autophagy,GO
+IFI16,GO:0010506,regulation of autophagy,GO
+MTOR,GO:0010507,negative regulation of autophagy,GO
+MTOR,GO:0010506,regulation of autophagy,GO
+ABL2,GO:0010506,regulation of autophagy,GO
+SIRT2,GO:0006914,autophagy,GO
+SIRT2,GO:0010507,negative regulation of autophagy,GO
+ADRA1A,GO:0010507,negative regulation of autophagy,GO
+MTMR9,GO:0010507,negative regulation of autophagy,GO
+MTMR8,GO:0010506,regulation of autophagy,GO
+MTMR8,GO:0010507,negative regulation of autophagy,GO
+FOXK1,GO:0010507,negative regulation of autophagy,GO
+BCL2L1,GO:0010507,negative regulation of autophagy,GO
+BCL2,GO:0010507,negative regulation of autophagy,GO
+BCL2,GO:0010506,regulation of autophagy,GO
+BMF,GO:0010507,negative regulation of autophagy,GO
+HGF,GO:0010507,negative regulation of autophagy,GO
+KLHL22,GO:0010507,negative regulation of autophagy,GO
+HERC1,GO:0006914,autophagy,GO
+HERC1,GO:0010507,negative regulation of autophagy,GO
+KDM4A,GO:0010507,negative regulation of autophagy,GO
+LEP,GO:0010507,negative regulation of autophagy,GO
+TREM2,GO:0010507,negative regulation of autophagy,GO
+SLC7A5,GO:0010507,negative regulation of autophagy,GO
+BECN1,GO:0006914,autophagy,GO
+BECN1,GO:0000422,autophagy of mitochondrion,GO
+BECN1,GO:0010507,negative regulation of autophagy,GO
+BECN1,GO:0010506,regulation of autophagy,GO
+TAB3,GO:0010507,negative regulation of autophagy,GO
+AKT1,GO:0010507,negative regulation of autophagy,GO
+FOXK2,GO:0010507,negative regulation of autophagy,GO
+MAGEA3,GO:0010507,negative regulation of autophagy,GO
+MT3,GO:0010507,negative regulation of autophagy,GO
+GATA4,GO:0010507,negative regulation of autophagy,GO
+MAGEA6,GO:0010507,negative regulation of autophagy,GO
+RRAGA,GO:0010507,negative regulation of autophagy,GO
+RRAGA,GO:0010506,regulation of autophagy,GO
+MET,GO:0010507,negative regulation of autophagy,GO
+DAPL1,GO:0010507,negative regulation of autophagy,GO
+HTR2B,GO:0010507,negative regulation of autophagy,GO
+EIF4G1,GO:0010507,negative regulation of autophagy,GO
+LEPR,GO:0010507,negative regulation of autophagy,GO
+RNF5,GO:0010507,negative regulation of autophagy,GO
+RASIP1,GO:0010507,negative regulation of autophagy,GO
+NUPR1,GO:0010507,negative regulation of autophagy,GO
+NUPR1,GO:0010506,regulation of autophagy,GO
+STAT3,GO:0010507,negative regulation of autophagy,GO
+WASHC1,GO:0010507,negative regulation of autophagy,GO
+KIF25,GO:0010507,negative regulation of autophagy,GO
+GOLGA2,GO:0010507,negative regulation of autophagy,GO
+MCL1,GO:0010507,negative regulation of autophagy,GO
+TLK2,GO:0010507,negative regulation of autophagy,GO
+DAP,GO:0006914,autophagy,GO
+DAP,GO:0010507,negative regulation of autophagy,GO
+ZKSCAN3,GO:0006914,autophagy,GO
+ZKSCAN3,GO:0010507,negative regulation of autophagy,GO
+TBC1D14,GO:0006914,autophagy,GO
+TBC1D14,GO:0010507,negative regulation of autophagy,GO
+TAB2,GO:0010507,negative regulation of autophagy,GO
+WDR6,GO:0010507,negative regulation of autophagy,GO
+MLST8,GO:0010507,negative regulation of autophagy,GO
+IL10RA,GO:0010507,negative regulation of autophagy,GO
+VHL,GO:0010507,negative regulation of autophagy,GO
+RPTOR,GO:0010506,regulation of autophagy,GO
+RPTOR,GO:0010507,negative regulation of autophagy,GO
+EIF4G2,GO:0010507,negative regulation of autophagy,GO
+RUBCN,GO:0006914,autophagy,GO
+RUBCN,GO:0010507,negative regulation of autophagy,GO
+IL10,GO:0010507,negative regulation of autophagy,GO
+PTPN22,GO:0006914,autophagy,GO
+PTPN22,GO:0010507,negative regulation of autophagy,GO
+CPTP,GO:0010507,negative regulation of autophagy,GO
+MTOR,GO:0010507,negative regulation of autophagy,GO
+MTOR,GO:0010506,regulation of autophagy,GO
+FBXO7,GO:0000422,autophagy of mitochondrion,GO
+ATG2B,GO:0006914,autophagy,GO
+ATG2B,GO:0000422,autophagy of mitochondrion,GO
+WIPI2,GO:0006914,autophagy,GO
+WIPI2,GO:0000422,autophagy of mitochondrion,GO
+FUNDC1,GO:0006914,autophagy,GO
+FUNDC1,GO:0000422,autophagy of mitochondrion,GO
+ATG12,GO:0006914,autophagy,GO
+ATG12,GO:0000422,autophagy of mitochondrion,GO
+FUNDC2,GO:0000422,autophagy of mitochondrion,GO
+SLC25A46,GO:0000266,mitochondrial fission,GO
+SLC25A46,GO:0000422,autophagy of mitochondrion,GO
+RB1CC1,GO:0000422,autophagy of mitochondrion,GO
+RB1CC1,GO:0006914,autophagy,GO
+CISD2,GO:0010506,regulation of autophagy,GO
+CISD2,GO:0006914,autophagy,GO
+CISD2,GO:0000422,autophagy of mitochondrion,GO
+GABARAPL1,GO:0006914,autophagy,GO
+GABARAPL1,GO:0000422,autophagy of mitochondrion,GO
+ATG2A,GO:0006914,autophagy,GO
+ATG2A,GO:0000422,autophagy of mitochondrion,GO
+FBXL4,GO:0000422,autophagy of mitochondrion,GO
+SQSTM1,GO:0006914,autophagy,GO
+SQSTM1,GO:0000422,autophagy of mitochondrion,GO
+FIS1,GO:0000266,mitochondrial fission,GO
+FIS1,GO:0008053,mitochondrial fusion,GO
+FIS1,GO:0000422,autophagy of mitochondrion,GO
+SNX7,GO:0000422,autophagy of mitochondrion,GO
+BECN1,GO:0006914,autophagy,GO
+BECN1,GO:0000422,autophagy of mitochondrion,GO
+BECN1,GO:0010506,regulation of autophagy,GO
+BECN1,GO:0010507,negative regulation of autophagy,GO
+ATG3,GO:0006914,autophagy,GO
+ATG3,GO:0000422,autophagy of mitochondrion,GO
+ATG5,GO:0006914,autophagy,GO
+ATG5,GO:0000422,autophagy of mitochondrion,GO
+MAP1LC3B2,GO:0006914,autophagy,GO
+MAP1LC3B2,GO:0000422,autophagy of mitochondrion,GO
+WIPI1,GO:0006914,autophagy,GO
+WIPI1,GO:0000422,autophagy of mitochondrion,GO
+ULK2,GO:0006914,autophagy,GO
+ULK2,GO:0000422,autophagy of mitochondrion,GO
+MAP1LC3A,GO:0006914,autophagy,GO
+MAP1LC3A,GO:0000422,autophagy of mitochondrion,GO
+GABARAPL2,GO:0006914,autophagy,GO
+GABARAPL2,GO:0000422,autophagy of mitochondrion,GO
+BNIP3,GO:0000422,autophagy of mitochondrion,GO
+USP30,GO:0008053,mitochondrial fusion,GO
+USP30,GO:0000422,autophagy of mitochondrion,GO
+PINK1,GO:0000422,autophagy of mitochondrion,GO
+PINK1,GO:0006914,autophagy,GO
+ATG9A,GO:0006914,autophagy,GO
+ATG9A,GO:0000422,autophagy of mitochondrion,GO
+MARK2,GO:0000422,autophagy of mitochondrion,GO
+WDR45,GO:0006914,autophagy,GO
+WDR45,GO:0000422,autophagy of mitochondrion,GO
+PRKN,GO:0006914,autophagy,GO
+PRKN,GO:0000422,autophagy of mitochondrion,GO
+PRKN,GO:0010506,regulation of autophagy,GO
+PRKN,GO:0000266,mitochondrial fission,GO
+ATG9B,GO:0006914,autophagy,GO
+ATG9B,GO:0000422,autophagy of mitochondrion,GO
+AMBRA1,GO:0006914,autophagy,GO
+AMBRA1,GO:0000422,autophagy of mitochondrion,GO
+WDR45B,GO:0006914,autophagy,GO
+WDR45B,GO:0000422,autophagy of mitochondrion,GO
+CTSK,GO:0000422,autophagy of mitochondrion,GO
+ULK1,GO:0006914,autophagy,GO
+ULK1,GO:0000422,autophagy of mitochondrion,GO
+SNX30,GO:0000422,autophagy of mitochondrion,GO
+GABARAP,GO:0006914,autophagy,GO
+GABARAP,GO:0000422,autophagy of mitochondrion,GO
+MAP1LC3B,GO:0006914,autophagy,GO
+MAP1LC3B,GO:0000422,autophagy of mitochondrion,GO
+ATG7,GO:0006914,autophagy,GO
+ATG7,GO:0000422,autophagy of mitochondrion,GO
+MAP1LC3C,GO:0006914,autophagy,GO
+MAP1LC3C,GO:0000422,autophagy of mitochondrion,GO
+THG1L,GO:0008053,mitochondrial fusion,GO
+AFG3L2,GO:0008053,mitochondrial fusion,GO
+GDAP1,GO:0000266,mitochondrial fission,GO
+GDAP1,GO:0008053,mitochondrial fusion,GO
+FIS1,GO:0000266,mitochondrial fission,GO
+FIS1,GO:0008053,mitochondrial fusion,GO
+FIS1,GO:0000422,autophagy of mitochondrion,GO
+CHCHD3,GO:0008053,mitochondrial fusion,GO
+PLD6,GO:0008053,mitochondrial fusion,GO
+USP30,GO:0008053,mitochondrial fusion,GO
+USP30,GO:0000422,autophagy of mitochondrion,GO
+PARL,GO:0008053,mitochondrial fusion,GO
+MIGA2,GO:0008053,mitochondrial fusion,GO
+MFN1,GO:0008053,mitochondrial fusion,GO
+MFN2,GO:0008053,mitochondrial fusion,GO
+MFN2,GO:0006914,autophagy,GO
+RCC1L,GO:0008053,mitochondrial fusion,GO
+OPA1,GO:0000266,mitochondrial fission,GO
+OPA1,GO:0008053,mitochondrial fusion,GO
+BAK1,GO:0008053,mitochondrial fusion,GO
+BAX,GO:0008053,mitochondrial fusion,GO
+MIGA1,GO:0008053,mitochondrial fusion,GO
+MFF,GO:0000266,mitochondrial fission,GO
+MFF,GO:0008053,mitochondrial fusion,GO
+MIEF1,GO:0000266,mitochondrial fission,GO
+SLC25A46,GO:0000266,mitochondrial fission,GO
+SLC25A46,GO:0000422,autophagy of mitochondrion,GO
+MTFR1,GO:0000266,mitochondrial fission,GO
+MTFP1,GO:0000266,mitochondrial fission,GO
+GDAP1,GO:0000266,mitochondrial fission,GO
+GDAP1,GO:0008053,mitochondrial fusion,GO
+MTFR2,GO:0000266,mitochondrial fission,GO
+FIS1,GO:0000266,mitochondrial fission,GO
+FIS1,GO:0008053,mitochondrial fusion,GO
+FIS1,GO:0000422,autophagy of mitochondrion,GO
+MUL1,GO:0000266,mitochondrial fission,GO
+UCP2,GO:0000266,mitochondrial fission,GO
+COX10,GO:0000266,mitochondrial fission,GO
+DDHD2,GO:0000266,mitochondrial fission,GO
+MTFR1L,GO:0000266,mitochondrial fission,GO
+OPA1,GO:0000266,mitochondrial fission,GO
+OPA1,GO:0008053,mitochondrial fusion,GO
+PRKN,GO:0006914,autophagy,GO
+PRKN,GO:0000422,autophagy of mitochondrion,GO
+PRKN,GO:0010506,regulation of autophagy,GO
+PRKN,GO:0000266,mitochondrial fission,GO
+DNM1L,GO:0000266,mitochondrial fission,GO
+MFF,GO:0000266,mitochondrial fission,GO
+MFF,GO:0008053,mitochondrial fusion,GO
+OPTN,path:hsa04137,Mitophagy,KEGG
+CALCOCO2,path:hsa04137,Mitophagy,KEGG
+CITED2,path:hsa04137,Mitophagy,KEGG
+GABARAP,path:hsa04137,Mitophagy,KEGG
+GABARAPL2,path:hsa04137,Mitophagy,KEGG
+FUNDC1,path:hsa04137,Mitophagy,KEGG
+CSNK2A1,path:hsa04137,Mitophagy,KEGG
+CSNK2A2,path:hsa04137,Mitophagy,KEGG
+CSNK2B,path:hsa04137,Mitophagy,KEGG
+E2F1,path:hsa04137,Mitophagy,KEGG
+PGAM5,path:hsa04137,Mitophagy,KEGG
+RRAS2,path:hsa04137,Mitophagy,KEGG
+MRAS,path:hsa04137,Mitophagy,KEGG
+FOXO3,path:hsa04137,Mitophagy,KEGG
+GABARAPL1,path:hsa04137,Mitophagy,KEGG
+BCL2L13,path:hsa04137,Mitophagy,KEGG
+CSNK2A3,path:hsa04137,Mitophagy,KEGG
+ATG9B,path:hsa04137,Mitophagy,KEGG
+TBK1,path:hsa04137,Mitophagy,KEGG
+HIF1A,path:hsa04137,Mitophagy,KEGG
+HRAS,path:hsa04137,Mitophagy,KEGG
+RAB7B,path:hsa04137,Mitophagy,KEGG
+JUN,path:hsa04137,Mitophagy,KEGG
+KRAS,path:hsa04137,Mitophagy,KEGG
+NBR1,path:hsa04137,Mitophagy,KEGG
+MITF,path:hsa04137,Mitophagy,KEGG
+MAP1LC3C,path:hsa04137,Mitophagy,KEGG
+BECN2,path:hsa04137,Mitophagy,KEGG
+ATF4,path:hsa04137,Mitophagy,KEGG
+NRAS,path:hsa04137,Mitophagy,KEGG
+PRKN,path:hsa04137,Mitophagy,KEGG
+FIS1,path:hsa04137,Mitophagy,KEGG
+TOMM7,path:hsa04137,Mitophagy,KEGG
+RHOT1,path:hsa04137,Mitophagy,KEGG
+AMBRA1,path:hsa04137,Mitophagy,KEGG
+MFN1,path:hsa04137,Mitophagy,KEGG
+MAPK8,path:hsa04137,Mitophagy,KEGG
+MAPK9,path:hsa04137,Mitophagy,KEGG
+MAPK10,path:hsa04137,Mitophagy,KEGG
+RELA,path:hsa04137,Mitophagy,KEGG
+BCL2L1,path:hsa04137,Mitophagy,KEGG
+RPS27A,path:hsa04137,Mitophagy,KEGG
+RRAS,path:hsa04137,Mitophagy,KEGG
+MAP1LC3B2,path:hsa04137,Mitophagy,KEGG
+TBC1D15,path:hsa04137,Mitophagy,KEGG
+PINK1,path:hsa04137,Mitophagy,KEGG
+BNIP3,path:hsa04137,Mitophagy,KEGG
+BNIP3L,path:hsa04137,Mitophagy,KEGG
+SP1,path:hsa04137,Mitophagy,KEGG
+SRC,path:hsa04137,Mitophagy,KEGG
+TFE3,path:hsa04137,Mitophagy,KEGG
+TP53,path:hsa04137,Mitophagy,KEGG
+UBA52,path:hsa04137,Mitophagy,KEGG
+UBB,path:hsa04137,Mitophagy,KEGG
+UBC,path:hsa04137,Mitophagy,KEGG
+RAB7A,path:hsa04137,Mitophagy,KEGG
+ATG9A,path:hsa04137,Mitophagy,KEGG
+TFEB,path:hsa04137,Mitophagy,KEGG
+TBC1D17,path:hsa04137,Mitophagy,KEGG
+MAP1LC3B,path:hsa04137,Mitophagy,KEGG
+ULK1,path:hsa04137,Mitophagy,KEGG
+MAP1LC3A,path:hsa04137,Mitophagy,KEGG
+USP30,path:hsa04137,Mitophagy,KEGG
+BECN1,path:hsa04137,Mitophagy,KEGG
+SQSTM1,path:hsa04137,Mitophagy,KEGG
+TAX1BP1,path:hsa04137,Mitophagy,KEGG
+RHOT2,path:hsa04137,Mitophagy,KEGG
+USP8,path:hsa04137,Mitophagy,KEGG
+EIF2AK3,path:hsa04137,Mitophagy,KEGG
+ATG5,path:hsa04137,Mitophagy,KEGG
+MFN2,path:hsa04137,Mitophagy,KEGG
+USP15,path:hsa04137,Mitophagy,KEGG
+AKT3,path:hsa04140,Autophagy,KEGG
+TANK,path:hsa04140,Autophagy,KEGG
+RRAGB,path:hsa04140,Autophagy,KEGG
+ATG7,path:hsa04140,Autophagy,KEGG
+CAMKK2,path:hsa04140,Autophagy,KEGG
+RRAGA,path:hsa04140,Autophagy,KEGG
+GABARAP,path:hsa04140,Autophagy,KEGG
+GABARAPL2,path:hsa04140,Autophagy,KEGG
+ATG4A,path:hsa04140,Autophagy,KEGG
+RAB39B,path:hsa04140,Autophagy,KEGG
+PRAP1,path:hsa04140,Autophagy,KEGG
+SMCR8,path:hsa04140,Autophagy,KEGG
+CTSB,path:hsa04140,Autophagy,KEGG
+CTSD,path:hsa04140,Autophagy,KEGG
+CTSL,path:hsa04140,Autophagy,KEGG
+DAPK1,path:hsa04140,Autophagy,KEGG
+DAPK3,path:hsa04140,Autophagy,KEGG
+EIF2S1,path:hsa04140,Autophagy,KEGG
+C9orf72,path:hsa04140,Autophagy,KEGG
+AKT1,path:hsa04140,Autophagy,KEGG
+AKT2,path:hsa04140,Autophagy,KEGG
+ERN1,path:hsa04140,Autophagy,KEGG
+RRAS2,path:hsa04140,Autophagy,KEGG
+MRAS,path:hsa04140,Autophagy,KEGG
+ATG14,path:hsa04140,Autophagy,KEGG
+ATG2A,path:hsa04140,Autophagy,KEGG
+ATG4B,path:hsa04140,Autophagy,KEGG
+DAPK2,path:hsa04140,Autophagy,KEGG
+GABARAPL1,path:hsa04140,Autophagy,KEGG
+MTOR,path:hsa04140,Autophagy,KEGG
+WIPI2,path:hsa04140,Autophagy,KEGG
+ATG9B,path:hsa04140,Autophagy,KEGG
+TBK1,path:hsa04140,Autophagy,KEGG
+NRBF2,path:hsa04140,Autophagy,KEGG
+PIK3R4,path:hsa04140,Autophagy,KEGG
+HIF1A,path:hsa04140,Autophagy,KEGG
+HMGB1,path:hsa04140,Autophagy,KEGG
+HRAS,path:hsa04140,Autophagy,KEGG
+RAB7B,path:hsa04140,Autophagy,KEGG
+IGBP1,path:hsa04140,Autophagy,KEGG
+IGF1R,path:hsa04140,Autophagy,KEGG
+INS,path:hsa04140,Autophagy,KEGG
+IRS1,path:hsa04140,Autophagy,KEGG
+ITPR1,path:hsa04140,Autophagy,KEGG
+KRAS,path:hsa04140,Autophagy,KEGG
+LAMP1,path:hsa04140,Autophagy,KEGG
+LAMP2,path:hsa04140,Autophagy,KEGG
+RAB8A,path:hsa04140,Autophagy,KEGG
+EIF2AK4,path:hsa04140,Autophagy,KEGG
+MAP1LC3C,path:hsa04140,Autophagy,KEGG
+BECN2,path:hsa04140,Autophagy,KEGG
+NRAS,path:hsa04140,Autophagy,KEGG
+SH3GLB1,path:hsa04140,Autophagy,KEGG
+PDPK1,path:hsa04140,Autophagy,KEGG
+PIK3C3,path:hsa04140,Autophagy,KEGG
+PIK3CA,path:hsa04140,Autophagy,KEGG
+PIK3CB,path:hsa04140,Autophagy,KEGG
+PIK3CD,path:hsa04140,Autophagy,KEGG
+PIK3R1,path:hsa04140,Autophagy,KEGG
+PIK3R2,path:hsa04140,Autophagy,KEGG
+ZFYVE1,path:hsa04140,Autophagy,KEGG
+DDIT4,path:hsa04140,Autophagy,KEGG
+STX17,path:hsa04140,Autophagy,KEGG
+ATG16L1,path:hsa04140,Autophagy,KEGG
+WIPI1,path:hsa04140,Autophagy,KEGG
+ATG2B,path:hsa04140,Autophagy,KEGG
+PPP2CA,path:hsa04140,Autophagy,KEGG
+PPP2CB,path:hsa04140,Autophagy,KEGG
+WDR41,path:hsa04140,Autophagy,KEGG
+SUPT20H,path:hsa04140,Autophagy,KEGG
+PRKAA1,path:hsa04140,Autophagy,KEGG
+AMBRA1,path:hsa04140,Autophagy,KEGG
+PRKAA2,path:hsa04140,Autophagy,KEGG
+PRKACA,path:hsa04140,Autophagy,KEGG
+PRKACB,path:hsa04140,Autophagy,KEGG
+PRKACG,path:hsa04140,Autophagy,KEGG
+PRKCD,path:hsa04140,Autophagy,KEGG
+PRKCQ,path:hsa04140,Autophagy,KEGG
+MAPK1,path:hsa04140,Autophagy,KEGG
+MAPK3,path:hsa04140,Autophagy,KEGG
+MAPK8,path:hsa04140,Autophagy,KEGG
+MAPK9,path:hsa04140,Autophagy,KEGG
+MAPK10,path:hsa04140,Autophagy,KEGG
+MAP2K1,path:hsa04140,Autophagy,KEGG
+MAP2K2,path:hsa04140,Autophagy,KEGG
+BAD,path:hsa04140,Autophagy,KEGG
+PTEN,path:hsa04140,Autophagy,KEGG
+RPTOR,path:hsa04140,Autophagy,KEGG
+TP53INP2,path:hsa04140,Autophagy,KEGG
+RRAGD,path:hsa04140,Autophagy,KEGG
+RAB1A,path:hsa04140,Autophagy,KEGG
+RAF1,path:hsa04140,Autophagy,KEGG
+BCL2,path:hsa04140,Autophagy,KEGG
+BCL2L1,path:hsa04140,Autophagy,KEGG
+RHEB,path:hsa04140,Autophagy,KEGG
+ATG101,path:hsa04140,Autophagy,KEGG
+RPS6KB1,path:hsa04140,Autophagy,KEGG
+RPS6KB2,path:hsa04140,Autophagy,KEGG
+RRAS,path:hsa04140,Autophagy,KEGG
+RRAGC,path:hsa04140,Autophagy,KEGG
+MLST8,path:hsa04140,Autophagy,KEGG
+MAP1LC3B2,path:hsa04140,Autophagy,KEGG
+MTMR14,path:hsa04140,Autophagy,KEGG
+ATG3,path:hsa04140,Autophagy,KEGG
+DEPTOR,path:hsa04140,Autophagy,KEGG
+BNIP3,path:hsa04140,Autophagy,KEGG
+STK11,path:hsa04140,Autophagy,KEGG
+MAP3K7,path:hsa04140,Autophagy,KEGG
+TRAF6,path:hsa04140,Autophagy,KEGG
+TSC1,path:hsa04140,Autophagy,KEGG
+TSC2,path:hsa04140,Autophagy,KEGG
+UVRAG,path:hsa04140,Autophagy,KEGG
+RAB7A,path:hsa04140,Autophagy,KEGG
+ATG9A,path:hsa04140,Autophagy,KEGG
+MAP1LC3B,path:hsa04140,Autophagy,KEGG
+VMP1,path:hsa04140,Autophagy,KEGG
+RAB33B,path:hsa04140,Autophagy,KEGG
+ATG10,path:hsa04140,Autophagy,KEGG
+ULK1,path:hsa04140,Autophagy,KEGG
+AKT1S1,path:hsa04140,Autophagy,KEGG
+MAP1LC3A,path:hsa04140,Autophagy,KEGG
+IRS4,path:hsa04140,Autophagy,KEGG
+ATG4C,path:hsa04140,Autophagy,KEGG
+ATG4D,path:hsa04140,Autophagy,KEGG
+PIK3R3,path:hsa04140,Autophagy,KEGG
+IRS2,path:hsa04140,Autophagy,KEGG
+VAMP8,path:hsa04140,Autophagy,KEGG
+BECN1,path:hsa04140,Autophagy,KEGG
+CFLAR,path:hsa04140,Autophagy,KEGG
+SQSTM1,path:hsa04140,Autophagy,KEGG
+MTMR3,path:hsa04140,Autophagy,KEGG
+ATG16L2,path:hsa04140,Autophagy,KEGG
+MTMR4,path:hsa04140,Autophagy,KEGG
+ATG12,path:hsa04140,Autophagy,KEGG
+SNAP29,path:hsa04140,Autophagy,KEGG
+EIF2AK3,path:hsa04140,Autophagy,KEGG
+ATG5,path:hsa04140,Autophagy,KEGG
+ULK2,path:hsa04140,Autophagy,KEGG
+RUBCN,path:hsa04140,Autophagy,KEGG
+ATG13,path:hsa04140,Autophagy,KEGG
+RB1CC1,path:hsa04140,Autophagy,KEGG
+ND1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ND2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ND3,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ND4,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ND4L,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ND5,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ND6,br:hsa03029,Mitochondrial Biogenesis,KEGG
+CYTB,br:hsa03029,Mitochondrial Biogenesis,KEGG
+COX1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+COX2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+COX3,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ATP8,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ATP6,br:hsa03029,Mitochondrial Biogenesis,KEGG
+POLRMT,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TFAM,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TFB1M,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TFB2M,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MTIF2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MTIF3,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TSFM,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TUFM,br:hsa03029,Mitochondrial Biogenesis,KEGG
+GFM2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+GFM1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MTERF1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MTERF2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MTERF3,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MTERF4,br:hsa03029,Mitochondrial Biogenesis,KEGG
+GUF1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+POP1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+POP4,br:hsa03029,Mitochondrial Biogenesis,KEGG
+POP5,br:hsa03029,Mitochondrial Biogenesis,KEGG
+RPP30,br:hsa03029,Mitochondrial Biogenesis,KEGG
+POP7,br:hsa03029,Mitochondrial Biogenesis,KEGG
+RPP25L,br:hsa03029,Mitochondrial Biogenesis,KEGG
+RPP25,br:hsa03029,Mitochondrial Biogenesis,KEGG
+RPP38,br:hsa03029,Mitochondrial Biogenesis,KEGG
+RPP40,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TRMT10C,br:hsa03029,Mitochondrial Biogenesis,KEGG
+HSD17B10,br:hsa03029,Mitochondrial Biogenesis,KEGG
+PRORP,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MSS51,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TEFM,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ATP5MF-PTCD1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+PTCD1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+PTCD2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+PTCD3,br:hsa03029,Mitochondrial Biogenesis,KEGG
+DHX30,br:hsa03029,Mitochondrial Biogenesis,KEGG
+UQCC1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+AFG1L,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ATP23,br:hsa03029,Mitochondrial Biogenesis,KEGG
+SUPV3L1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+LACTB2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+SLC25A4,br:hsa03029,Mitochondrial Biogenesis,KEGG
+SLC25A5,br:hsa03029,Mitochondrial Biogenesis,KEGG
+SLC25A6,br:hsa03029,Mitochondrial Biogenesis,KEGG
+SLC25A31,br:hsa03029,Mitochondrial Biogenesis,KEGG
+SLC25A37,br:hsa03029,Mitochondrial Biogenesis,KEGG
+SLC25A28,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MRPL32,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MRPL37,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MRPS6,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MRPS16,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MRPS22,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MALSU1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ERAL1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+YARS1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+YARS2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+LARS1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+LARS2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+DARS2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+GARS1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+RARS2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+RARS1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+QRSL1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+GATB,br:hsa03029,Mitochondrial Biogenesis,KEGG
+GATC,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MTPAP,br:hsa03029,Mitochondrial Biogenesis,KEGG
+PDE12,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MTG1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+NOA1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+NSUN3,br:hsa03029,Mitochondrial Biogenesis,KEGG
+NSUN4,br:hsa03029,Mitochondrial Biogenesis,KEGG
+RPUSD3,br:hsa03029,Mitochondrial Biogenesis,KEGG
+RPUSD4,br:hsa03029,Mitochondrial Biogenesis,KEGG
+RCC1L,br:hsa03029,Mitochondrial Biogenesis,KEGG
+NGRN,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TRUB2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+FASTKD2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MTRFR,br:hsa03029,Mitochondrial Biogenesis,KEGG
+RMND1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+GRSF1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+METTL15,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MYG1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MTRES1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+POLG,br:hsa03029,Mitochondrial Biogenesis,KEGG
+POLG2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+PRIMPOL,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ENDOG,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MGME1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+EXOG,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TWNK,br:hsa03029,Mitochondrial Biogenesis,KEGG
+PIF1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+SSBP1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ATAD3B,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ATAD3A,br:hsa03029,Mitochondrial Biogenesis,KEGG
+UQCC2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+DNAJA2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TOMM34,br:hsa03029,Mitochondrial Biogenesis,KEGG
+RHOT1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+HSPA8,br:hsa03029,Mitochondrial Biogenesis,KEGG
+HSPA1A,br:hsa03029,Mitochondrial Biogenesis,KEGG
+HSPA1L,br:hsa03029,Mitochondrial Biogenesis,KEGG
+HSPA1B,br:hsa03029,Mitochondrial Biogenesis,KEGG
+HSPA6,br:hsa03029,Mitochondrial Biogenesis,KEGG
+AIPL1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+AIP,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TOMM40,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TOMM40L,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TOMM70,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TOMM22,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TOMM20L,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TOMM20,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TOMM7,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TOMM6,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TOMM5,br:hsa03029,Mitochondrial Biogenesis,KEGG
+SAMM50,br:hsa03029,Mitochondrial Biogenesis,KEGG
+VDAC1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+VDAC2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+VDAC3,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MTX3,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MTX1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MTX2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MYO19,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ARMCX1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ARMCX2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ARMCX3,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ARMCX6,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TIMM9,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TIMM10,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TIMM10B,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TIMM8A,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TIMM8B,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TIMM13,br:hsa03029,Mitochondrial Biogenesis,KEGG
+CHCHD4,br:hsa03029,Mitochondrial Biogenesis,KEGG
+GFER,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MICOS10,br:hsa03029,Mitochondrial Biogenesis,KEGG
+IMMT,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MICOS13,br:hsa03029,Mitochondrial Biogenesis,KEGG
+CHCHD3,br:hsa03029,Mitochondrial Biogenesis,KEGG
+CHCHD6,br:hsa03029,Mitochondrial Biogenesis,KEGG
+APOO,br:hsa03029,Mitochondrial Biogenesis,KEGG
+APOOL,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TIMM22,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TIMM23,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TIMM23B,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TIMM17B,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TIMM17A,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TIMM21,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TIMM50,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MCU,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MICU1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MICU2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MCUB,br:hsa03029,Mitochondrial Biogenesis,KEGG
+SMDT1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MCUR1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+LETM1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+IMMP1L,br:hsa03029,Mitochondrial Biogenesis,KEGG
+IMMP2L,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TMEM126A,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MPC1L,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MPC1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MPC2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+CHCHD10,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TIMM44,br:hsa03029,Mitochondrial Biogenesis,KEGG
+HSPA9,br:hsa03029,Mitochondrial Biogenesis,KEGG
+GRPEL2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+GRPEL1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+DNAJC19,br:hsa03029,Mitochondrial Biogenesis,KEGG
+PAM16,br:hsa03029,Mitochondrial Biogenesis,KEGG
+PMPCA,br:hsa03029,Mitochondrial Biogenesis,KEGG
+PMPCB,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MIPEP,br:hsa03029,Mitochondrial Biogenesis,KEGG
+HSPD1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+HSPE1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+DNAJA3,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TAMM41,br:hsa03029,Mitochondrial Biogenesis,KEGG
+DNLZ,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ETHE1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+POLDIP2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+CREB1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+SP1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+YY1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+YY2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+GABPB1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+GABPB2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+NRF1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+NFE2L2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MT1B,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MT1E,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MT1F,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MT1G,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MT1H,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MT1M,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MT1X,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MT2A,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MT1A,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MT1HL1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MT3,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MT4,br:hsa03029,Mitochondrial Biogenesis,KEGG
+PPARGC1A,br:hsa03029,Mitochondrial Biogenesis,KEGG
+PPARGC1B,br:hsa03029,Mitochondrial Biogenesis,KEGG
+PPRC1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+CRTC1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+CREBBP,br:hsa03029,Mitochondrial Biogenesis,KEGG
+EP300,br:hsa03029,Mitochondrial Biogenesis,KEGG
+NFS1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ISCU,br:hsa03029,Mitochondrial Biogenesis,KEGG
+LYRM4,br:hsa03029,Mitochondrial Biogenesis,KEGG
+FXN,br:hsa03029,Mitochondrial Biogenesis,KEGG
+FDX1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+FDX2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+FDXR,br:hsa03029,Mitochondrial Biogenesis,KEGG
+HSCB,br:hsa03029,Mitochondrial Biogenesis,KEGG
+SIL1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+GLRX5,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ISCA1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ISCA2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+IBA57,br:hsa03029,Mitochondrial Biogenesis,KEGG
+NFU1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+BOLA1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+BOLA3,br:hsa03029,Mitochondrial Biogenesis,KEGG
+SFXN3,br:hsa03029,Mitochondrial Biogenesis,KEGG
+SFXN1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+SFXN2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+SFXN4,br:hsa03029,Mitochondrial Biogenesis,KEGG
+SFXN5,br:hsa03029,Mitochondrial Biogenesis,KEGG
+CPT1A,br:hsa03029,Mitochondrial Biogenesis,KEGG
+CPT1B,br:hsa03029,Mitochondrial Biogenesis,KEGG
+CPT1C,br:hsa03029,Mitochondrial Biogenesis,KEGG
+DHTKD1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+FBXL4,br:hsa03029,Mitochondrial Biogenesis,KEGG
+HCFC2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+HCFC1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+HTT,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ESRRA,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ESRRB,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ESRRG,br:hsa03029,Mitochondrial Biogenesis,KEGG
+NRIP1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+PRKAA1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+PRKAA2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+LONP1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+SIRT1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+SERAC1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+UXT,br:hsa03029,Mitochondrial Biogenesis,KEGG
+NDUFAF1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+NDUFAF2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+NDUFAF3,br:hsa03029,Mitochondrial Biogenesis,KEGG
+NDUFAF4,br:hsa03029,Mitochondrial Biogenesis,KEGG
+NDUFAF5,br:hsa03029,Mitochondrial Biogenesis,KEGG
+NDUFAF6,br:hsa03029,Mitochondrial Biogenesis,KEGG
+NDUFAF7,br:hsa03029,Mitochondrial Biogenesis,KEGG
+NDUFAF8,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TMEM126B,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ECSIT,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ACAD9,br:hsa03029,Mitochondrial Biogenesis,KEGG
+NUBPL,br:hsa03029,Mitochondrial Biogenesis,KEGG
+FOXRED1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+RTN4IP1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TIMMDC1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+SDHAF1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+SDHAF2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+BCS1L,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TTC19,br:hsa03029,Mitochondrial Biogenesis,KEGG
+LYRM7,br:hsa03029,Mitochondrial Biogenesis,KEGG
+UQCC3,br:hsa03029,Mitochondrial Biogenesis,KEGG
+CMC1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+CMC2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+COA1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+COA3,br:hsa03029,Mitochondrial Biogenesis,KEGG
+COA4,br:hsa03029,Mitochondrial Biogenesis,KEGG
+COA5,br:hsa03029,Mitochondrial Biogenesis,KEGG
+COA6,br:hsa03029,Mitochondrial Biogenesis,KEGG
+COA7,br:hsa03029,Mitochondrial Biogenesis,KEGG
+COX10,br:hsa03029,Mitochondrial Biogenesis,KEGG
+COX11,br:hsa03029,Mitochondrial Biogenesis,KEGG
+COX14,br:hsa03029,Mitochondrial Biogenesis,KEGG
+COX15,br:hsa03029,Mitochondrial Biogenesis,KEGG
+COX16,br:hsa03029,Mitochondrial Biogenesis,KEGG
+COX17,br:hsa03029,Mitochondrial Biogenesis,KEGG
+COX18,br:hsa03029,Mitochondrial Biogenesis,KEGG
+COX19,br:hsa03029,Mitochondrial Biogenesis,KEGG
+COX20,br:hsa03029,Mitochondrial Biogenesis,KEGG
+PET100,br:hsa03029,Mitochondrial Biogenesis,KEGG
+PET117,br:hsa03029,Mitochondrial Biogenesis,KEGG
+OXA1L,br:hsa03029,Mitochondrial Biogenesis,KEGG
+SURF1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+SCO1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+SCO2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TACO1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+LRPPRC,br:hsa03029,Mitochondrial Biogenesis,KEGG
+COA8,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ATPAF1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ATPAF2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TMEM70,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ATP5MJ,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ATP5MK,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MFN1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MFN2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+OPA1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+OPA3,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TRIAP1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+PARL,br:hsa03029,Mitochondrial Biogenesis,KEGG
+BAK1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+BAX,br:hsa03029,Mitochondrial Biogenesis,KEGG
+DNM1L,br:hsa03029,Mitochondrial Biogenesis,KEGG
+FIS1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+SUMO3,br:hsa03029,Mitochondrial Biogenesis,KEGG
+SUMO2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+SUMO1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+SUMO4,br:hsa03029,Mitochondrial Biogenesis,KEGG
+SH3GLB1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MTCH1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MTCH2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MFF,br:hsa03029,Mitochondrial Biogenesis,KEGG
+GDAP1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+GDAP1L1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+VAT1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MIEF2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MIEF1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ACTG1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ACTB,br:hsa03029,Mitochondrial Biogenesis,KEGG
+NAA20,br:hsa03029,Mitochondrial Biogenesis,KEGG
+NAA25,br:hsa03029,Mitochondrial Biogenesis,KEGG
+PHB1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+PHB2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+KTN1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MYO5A,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MYO5B,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MYO5C,br:hsa03029,Mitochondrial Biogenesis,KEGG
+XIAP,br:hsa03029,Mitochondrial Biogenesis,KEGG
+DIABLO,br:hsa03029,Mitochondrial Biogenesis,KEGG
+SNX25,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MTFP1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+DAP3,br:hsa03029,Mitochondrial Biogenesis,KEGG
+NEDD4,br:hsa03029,Mitochondrial Biogenesis,KEGG
+OXR1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ATG2A,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ATG2B,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ATG3,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ATG4A,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ATG4B,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ATG4C,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ATG4D,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ATG5,br:hsa03029,Mitochondrial Biogenesis,KEGG
+BECN1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+BECN2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ATG7,br:hsa03029,Mitochondrial Biogenesis,KEGG
+GABARAP,br:hsa03029,Mitochondrial Biogenesis,KEGG
+GABARAPL1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+GABARAPL2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ATG9B,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ATG9A,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ATG10,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ATG12,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ATG14,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ATG16L1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ATG16L2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+WIPI2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+WIPI1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+PRKN,br:hsa03029,Mitochondrial Biogenesis,KEGG
+RNF41,br:hsa03029,Mitochondrial Biogenesis,KEGG
+CLEC16A,br:hsa03029,Mitochondrial Biogenesis,KEGG
+PINK1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+SQSTM1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TAX1BP1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+CALCOCO2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+AMBRA1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ATG13,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ULK1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ULK2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+RB1CC1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+HSP90AA1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+HSP90AB1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+CDC37,br:hsa03029,Mitochondrial Biogenesis,KEGG
+SMURF1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+SMURF2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+BNIP3L,br:hsa03029,Mitochondrial Biogenesis,KEGG
+FUNDC1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MAP1LC3C,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MAP1LC3B,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MAP1LC3A,br:hsa03029,Mitochondrial Biogenesis,KEGG
+MAP1LC3B2,br:hsa03029,Mitochondrial Biogenesis,KEGG
+NBR1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+TECPR1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+ZFYVE1,br:hsa03029,Mitochondrial Biogenesis,KEGG
+COASY,br:hsa03029,Mitochondrial Biogenesis,KEGG
+PLA2G6,br:hsa03029,Mitochondrial Biogenesis,KEGG
+C19orf12,br:hsa03029,Mitochondrial Biogenesis,KEGG
+FUNDC2,br:hsa03029,Mitochondrial Biogenesis,KEGG
