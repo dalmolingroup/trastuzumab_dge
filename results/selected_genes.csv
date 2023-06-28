@@ -109,6 +109,7 @@ TMEM59,GO:0006914,autophagy,GO
 ULK2,GO:0006914,autophagy,GO
 ULK2,GO:0000422,autophagy of mitochondrion,GO
 EPM2A,GO:0006914,autophagy,GO
+EPM2A,GO:0007005,mitochondrion organization,GO
 MAP1LC3A,GO:0006914,autophagy,GO
 MAP1LC3A,GO:0000422,autophagy of mitochondrion,GO
 XBP1,GO:0006914,autophagy,GO
@@ -123,11 +124,13 @@ RGS19,GO:0006914,autophagy,GO
 RETREG2,GO:0006914,autophagy,GO
 PINK1,GO:0000422,autophagy of mitochondrion,GO
 PINK1,GO:0006914,autophagy,GO
+PINK1,GO:0007005,mitochondrion organization,GO
 LRSAM1,GO:0006914,autophagy,GO
 ATG9A,GO:0006914,autophagy,GO
 ATG9A,GO:0000422,autophagy of mitochondrion,GO
 VCP,GO:0006914,autophagy,GO
 GBA1,GO:0006914,autophagy,GO
+GBA1,GO:0007005,mitochondrion organization,GO
 RAB7A,GO:0006914,autophagy,GO
 TFEB,GO:0006914,autophagy,GO
 SYT11,GO:0006914,autophagy,GO
@@ -158,6 +161,7 @@ TIGAR,GO:0006914,autophagy,GO
 IRGM,GO:0006914,autophagy,GO
 MFN2,GO:0008053,mitochondrial fusion,GO
 MFN2,GO:0006914,autophagy,GO
+MFN2,GO:0007005,mitochondrion organization,GO
 TAX1BP1,GO:0006914,autophagy,GO
 CHMP2B,GO:0006914,autophagy,GO
 TRIM5,GO:0006914,autophagy,GO
@@ -180,6 +184,7 @@ WDR41,GO:0010506,regulation of autophagy,GO
 WDR41,GO:0006914,autophagy,GO
 PRKN,GO:0006914,autophagy,GO
 PRKN,GO:0000422,autophagy of mitochondrion,GO
+PRKN,GO:0007005,mitochondrion organization,GO
 PRKN,GO:0010506,regulation of autophagy,GO
 PRKN,GO:0000266,mitochondrial fission,GO
 USP13,GO:0006914,autophagy,GO
@@ -207,6 +212,7 @@ PHF23,GO:0006914,autophagy,GO
 GABARAP,GO:0006914,autophagy,GO
 GABARAP,GO:0000422,autophagy of mitochondrion,GO
 LRRK2,GO:0006914,autophagy,GO
+LRRK2,GO:0007005,mitochondrion organization,GO
 LRRK2,GO:0010506,regulation of autophagy,GO
 CHMP5,GO:0006914,autophagy,GO
 VPS39,GO:0006914,autophagy,GO
@@ -268,6 +274,7 @@ PTPN22,GO:0010507,negative regulation of autophagy,GO
 S100A9,GO:0006914,autophagy,GO
 S100A8,GO:0006914,autophagy,GO
 PARK7,GO:0006914,autophagy,GO
+PARK7,GO:0007005,mitochondrion organization,GO
 SH3GLB1,GO:0006914,autophagy,GO
 FBXO7,GO:0000422,autophagy of mitochondrion,GO
 ATG2B,GO:0006914,autophagy,GO
@@ -281,6 +288,7 @@ ATG12,GO:0000422,autophagy of mitochondrion,GO
 FUNDC2,GO:0000422,autophagy of mitochondrion,GO
 SLC25A46,GO:0000266,mitochondrial fission,GO
 SLC25A46,GO:0000422,autophagy of mitochondrion,GO
+SLC25A46,GO:0007005,mitochondrion organization,GO
 RB1CC1,GO:0000422,autophagy of mitochondrion,GO
 RB1CC1,GO:0006914,autophagy,GO
 CISD2,GO:0010506,regulation of autophagy,GO
@@ -320,6 +328,7 @@ USP30,GO:0008053,mitochondrial fusion,GO
 USP30,GO:0000422,autophagy of mitochondrion,GO
 PINK1,GO:0000422,autophagy of mitochondrion,GO
 PINK1,GO:0006914,autophagy,GO
+PINK1,GO:0007005,mitochondrion organization,GO
 ATG9A,GO:0006914,autophagy,GO
 ATG9A,GO:0000422,autophagy of mitochondrion,GO
 MARK2,GO:0000422,autophagy of mitochondrion,GO
@@ -327,6 +336,7 @@ WDR45,GO:0006914,autophagy,GO
 WDR45,GO:0000422,autophagy of mitochondrion,GO
 PRKN,GO:0006914,autophagy,GO
 PRKN,GO:0000422,autophagy of mitochondrion,GO
+PRKN,GO:0007005,mitochondrion organization,GO
 PRKN,GO:0010506,regulation of autophagy,GO
 PRKN,GO:0000266,mitochondrial fission,GO
 ATG9B,GO:0006914,autophagy,GO
@@ -424,6 +434,7 @@ WDR41,GO:0010506,regulation of autophagy,GO
 WDR41,GO:0006914,autophagy,GO
 PRKN,GO:0006914,autophagy,GO
 PRKN,GO:0000422,autophagy of mitochondrion,GO
+PRKN,GO:0007005,mitochondrion organization,GO
 PRKN,GO:0010506,regulation of autophagy,GO
 PRKN,GO:0000266,mitochondrial fission,GO
 USP13,GO:0006914,autophagy,GO
@@ -438,6 +449,7 @@ ABL1,GO:0006914,autophagy,GO
 ABL1,GO:0010506,regulation of autophagy,GO
 MTMR4,GO:0010506,regulation of autophagy,GO
 LRRK2,GO:0006914,autophagy,GO
+LRRK2,GO:0007005,mitochondrion organization,GO
 LRRK2,GO:0010506,regulation of autophagy,GO
 ITPR1,GO:0010506,regulation of autophagy,GO
 ATM,GO:0010506,regulation of autophagy,GO
@@ -541,6 +553,7 @@ ATG12,GO:0000422,autophagy of mitochondrion,GO
 FUNDC2,GO:0000422,autophagy of mitochondrion,GO
 SLC25A46,GO:0000266,mitochondrial fission,GO
 SLC25A46,GO:0000422,autophagy of mitochondrion,GO
+SLC25A46,GO:0007005,mitochondrion organization,GO
 RB1CC1,GO:0000422,autophagy of mitochondrion,GO
 RB1CC1,GO:0006914,autophagy,GO
 CISD2,GO:0010506,regulation of autophagy,GO
@@ -580,6 +593,7 @@ USP30,GO:0008053,mitochondrial fusion,GO
 USP30,GO:0000422,autophagy of mitochondrion,GO
 PINK1,GO:0000422,autophagy of mitochondrion,GO
 PINK1,GO:0006914,autophagy,GO
+PINK1,GO:0007005,mitochondrion organization,GO
 ATG9A,GO:0006914,autophagy,GO
 ATG9A,GO:0000422,autophagy of mitochondrion,GO
 MARK2,GO:0000422,autophagy of mitochondrion,GO
@@ -587,6 +601,7 @@ WDR45,GO:0006914,autophagy,GO
 WDR45,GO:0000422,autophagy of mitochondrion,GO
 PRKN,GO:0006914,autophagy,GO
 PRKN,GO:0000422,autophagy of mitochondrion,GO
+PRKN,GO:0007005,mitochondrion organization,GO
 PRKN,GO:0010506,regulation of autophagy,GO
 PRKN,GO:0000266,mitochondrial fission,GO
 ATG9B,GO:0006914,autophagy,GO
@@ -607,7 +622,128 @@ ATG7,GO:0006914,autophagy,GO
 ATG7,GO:0000422,autophagy of mitochondrion,GO
 MAP1LC3C,GO:0006914,autophagy,GO
 MAP1LC3C,GO:0000422,autophagy of mitochondrion,GO
+CHCHD10,GO:0007005,mitochondrion organization,GO
+WDR81,GO:0007005,mitochondrion organization,GO
+DNAJA3,GO:0007005,mitochondrion organization,GO
+CXADR,GO:0007005,mitochondrion organization,GO
+MIEF2,GO:0007005,mitochondrion organization,GO
+PPARGC1A,GO:0007005,mitochondrion organization,GO
+ATAD3B,GO:0007005,mitochondrion organization,GO
+MIEF1,GO:0007005,mitochondrion organization,GO
+MIEF1,GO:0000266,mitochondrial fission,GO
+VPS13D,GO:0007005,mitochondrion organization,GO
+RAB38,GO:0007005,mitochondrion organization,GO
+ADCK1,GO:0007005,mitochondrion organization,GO
+SESN2,GO:0007005,mitochondrion organization,GO
+NIPSNAP2,GO:0007005,mitochondrion organization,GO
+EPAS1,GO:0007005,mitochondrion organization,GO
+CAMKMT,GO:0007005,mitochondrion organization,GO
+SLC25A33,GO:0007005,mitochondrion organization,GO
+SLC25A46,GO:0000266,mitochondrial fission,GO
+SLC25A46,GO:0000422,autophagy of mitochondrion,GO
+SLC25A46,GO:0007005,mitochondrion organization,GO
+EDN1,GO:0007005,mitochondrion organization,GO
+MTFR1,GO:0000266,mitochondrial fission,GO
+MTFR1,GO:0007005,mitochondrion organization,GO
+OMA1,GO:0007005,mitochondrion organization,GO
+PRDX3,GO:0007005,mitochondrion organization,GO
+MTFP1,GO:0007005,mitochondrion organization,GO
+MTFP1,GO:0000266,mitochondrial fission,GO
+CEP89,GO:0007005,mitochondrion organization,GO
+CAV2,GO:0007005,mitochondrion organization,GO
+AFG3L2,GO:0007005,mitochondrion organization,GO
+AFG3L2,GO:0008053,mitochondrial fusion,GO
+MTFR2,GO:0000266,mitochondrial fission,GO
+MTFR2,GO:0007005,mitochondrion organization,GO
+LIG3,GO:0007005,mitochondrion organization,GO
+CHCHD2,GO:0007005,mitochondrion organization,GO
+EDNRA,GO:0007005,mitochondrion organization,GO
+SHARPIN,GO:0007005,mitochondrion organization,GO
+MARCKS,GO:0007005,mitochondrion organization,GO
+MTX3,GO:0007005,mitochondrion organization,GO
+NOS3,GO:0007005,mitochondrion organization,GO
+MTX2,GO:0007005,mitochondrion organization,GO
+CDK5,GO:0007005,mitochondrion organization,GO
+HSD17B10,GO:0007005,mitochondrion organization,GO
+FXN,GO:0007005,mitochondrion organization,GO
+RAB3A,GO:0007005,mitochondrion organization,GO
+AFG1L,GO:0007005,mitochondrion organization,GO
+AGTPBP1,GO:0007005,mitochondrion organization,GO
+EPM2A,GO:0006914,autophagy,GO
+EPM2A,GO:0007005,mitochondrion organization,GO
+STOML2,GO:0007005,mitochondrion organization,GO
+TMEM11,GO:0007005,mitochondrion organization,GO
+ATP7A,GO:0007005,mitochondrion organization,GO
+VPS54,GO:0007005,mitochondrion organization,GO
+ARMCX3,GO:0007005,mitochondrion organization,GO
+YME1L1,GO:0007005,mitochondrion organization,GO
+RAB29,GO:0007005,mitochondrion organization,GO
+PINK1,GO:0000422,autophagy of mitochondrion,GO
+PINK1,GO:0006914,autophagy,GO
+PINK1,GO:0007005,mitochondrion organization,GO
+P2RX7,GO:0007005,mitochondrion organization,GO
+PLEC,GO:0007005,mitochondrion organization,GO
+COX10,GO:0000266,mitochondrial fission,GO
+COX10,GO:0007005,mitochondrion organization,GO
+GBA1,GO:0006914,autophagy,GO
+GBA1,GO:0007005,mitochondrion organization,GO
+SPG7,GO:0007005,mitochondrion organization,GO
+MAN2A1,GO:0007005,mitochondrion organization,GO
+TAFAZZIN,GO:0007005,mitochondrion organization,GO
+TMEM126B,GO:0007005,mitochondrion organization,GO
+SIRT5,GO:0007005,mitochondrion organization,GO
+MFN1,GO:0008053,mitochondrial fusion,GO
+MFN1,GO:0007005,mitochondrion organization,GO
+PEX5,GO:0007005,mitochondrion organization,GO
+GABPB1,GO:0007005,mitochondrion organization,GO
+MFN2,GO:0008053,mitochondrial fusion,GO
+MFN2,GO:0006914,autophagy,GO
+MFN2,GO:0007005,mitochondrion organization,GO
+PYROXD2,GO:0007005,mitochondrion organization,GO
+BCS1L,GO:0007005,mitochondrion organization,GO
+CLUH,GO:0007005,mitochondrion organization,GO
+FANCG,GO:0007005,mitochondrion organization,GO
+PTCD2,GO:0007005,mitochondrion organization,GO
+OPA1,GO:0007005,mitochondrion organization,GO
+OPA1,GO:0000266,mitochondrial fission,GO
+OPA1,GO:0008053,mitochondrial fusion,GO
+CNTNAP1,GO:0007005,mitochondrion organization,GO
+ATAD3C,GO:0007005,mitochondrion organization,GO
+PRKN,GO:0006914,autophagy,GO
+PRKN,GO:0000422,autophagy of mitochondrion,GO
+PRKN,GO:0007005,mitochondrion organization,GO
+PRKN,GO:0010506,regulation of autophagy,GO
+PRKN,GO:0000266,mitochondrial fission,GO
+LONP1,GO:0007005,mitochondrion organization,GO
+RHOT1,GO:0007005,mitochondrion organization,GO
+PHB2,GO:0007005,mitochondrion organization,GO
+PARP1,GO:0007005,mitochondrion organization,GO
+TERT,GO:0007005,mitochondrion organization,GO
+LETMD1,GO:0007005,mitochondrion organization,GO
+LRRK2,GO:0006914,autophagy,GO
+LRRK2,GO:0007005,mitochondrion organization,GO
+LRRK2,GO:0010506,regulation of autophagy,GO
+VPS13C,GO:0007005,mitochondrion organization,GO
+RHOT2,GO:0007005,mitochondrion organization,GO
+SOD2,GO:0007005,mitochondrion organization,GO
+MTX1,GO:0007005,mitochondrion organization,GO
+SELENON,GO:0007005,mitochondrion organization,GO
+PHB1,GO:0007005,mitochondrion organization,GO
+ATAD3A,GO:0007005,mitochondrion organization,GO
+RAB32,GO:0007005,mitochondrion organization,GO
+CEBPA,GO:0007005,mitochondrion organization,GO
+SLC25A36,GO:0007005,mitochondrion organization,GO
+HMGCL,GO:0007005,mitochondrion organization,GO
+HTRA2,GO:0007005,mitochondrion organization,GO
+DNM1L,GO:0000266,mitochondrial fission,GO
+DNM1L,GO:0007005,mitochondrion organization,GO
+SIRT4,GO:0007005,mitochondrion organization,GO
+MSTO1,GO:0007005,mitochondrion organization,GO
+PUM2,GO:0007005,mitochondrion organization,GO
+PARK7,GO:0006914,autophagy,GO
+PARK7,GO:0007005,mitochondrion organization,GO
 THG1L,GO:0008053,mitochondrial fusion,GO
+AFG3L2,GO:0007005,mitochondrion organization,GO
 AFG3L2,GO:0008053,mitochondrial fusion,GO
 GDAP1,GO:0000266,mitochondrial fission,GO
 GDAP1,GO:0008053,mitochondrial fusion,GO
@@ -621,9 +757,12 @@ USP30,GO:0000422,autophagy of mitochondrion,GO
 PARL,GO:0008053,mitochondrial fusion,GO
 MIGA2,GO:0008053,mitochondrial fusion,GO
 MFN1,GO:0008053,mitochondrial fusion,GO
+MFN1,GO:0007005,mitochondrion organization,GO
 MFN2,GO:0008053,mitochondrial fusion,GO
 MFN2,GO:0006914,autophagy,GO
+MFN2,GO:0007005,mitochondrion organization,GO
 RCC1L,GO:0008053,mitochondrial fusion,GO
+OPA1,GO:0007005,mitochondrion organization,GO
 OPA1,GO:0000266,mitochondrial fission,GO
 OPA1,GO:0008053,mitochondrial fusion,GO
 BAK1,GO:0008053,mitochondrial fusion,GO
@@ -631,29 +770,38 @@ BAX,GO:0008053,mitochondrial fusion,GO
 MIGA1,GO:0008053,mitochondrial fusion,GO
 MFF,GO:0000266,mitochondrial fission,GO
 MFF,GO:0008053,mitochondrial fusion,GO
+MIEF1,GO:0007005,mitochondrion organization,GO
 MIEF1,GO:0000266,mitochondrial fission,GO
 SLC25A46,GO:0000266,mitochondrial fission,GO
 SLC25A46,GO:0000422,autophagy of mitochondrion,GO
+SLC25A46,GO:0007005,mitochondrion organization,GO
 MTFR1,GO:0000266,mitochondrial fission,GO
+MTFR1,GO:0007005,mitochondrion organization,GO
+MTFP1,GO:0007005,mitochondrion organization,GO
 MTFP1,GO:0000266,mitochondrial fission,GO
 GDAP1,GO:0000266,mitochondrial fission,GO
 GDAP1,GO:0008053,mitochondrial fusion,GO
 MTFR2,GO:0000266,mitochondrial fission,GO
+MTFR2,GO:0007005,mitochondrion organization,GO
 FIS1,GO:0000266,mitochondrial fission,GO
 FIS1,GO:0008053,mitochondrial fusion,GO
 FIS1,GO:0000422,autophagy of mitochondrion,GO
 MUL1,GO:0000266,mitochondrial fission,GO
 UCP2,GO:0000266,mitochondrial fission,GO
 COX10,GO:0000266,mitochondrial fission,GO
+COX10,GO:0007005,mitochondrion organization,GO
 DDHD2,GO:0000266,mitochondrial fission,GO
 MTFR1L,GO:0000266,mitochondrial fission,GO
+OPA1,GO:0007005,mitochondrion organization,GO
 OPA1,GO:0000266,mitochondrial fission,GO
 OPA1,GO:0008053,mitochondrial fusion,GO
 PRKN,GO:0006914,autophagy,GO
 PRKN,GO:0000422,autophagy of mitochondrion,GO
+PRKN,GO:0007005,mitochondrion organization,GO
 PRKN,GO:0010506,regulation of autophagy,GO
 PRKN,GO:0000266,mitochondrial fission,GO
 DNM1L,GO:0000266,mitochondrial fission,GO
+DNM1L,GO:0007005,mitochondrion organization,GO
 MFF,GO:0000266,mitochondrial fission,GO
 MFF,GO:0008053,mitochondrial fusion,GO
 OPTN,path:hsa04137,Mitophagy,KEGG

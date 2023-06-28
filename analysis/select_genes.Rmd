@@ -52,6 +52,17 @@ get_go_genes <- function(go_term) {
 
 ## Get GO genes
 
+GO terms:
+
+  * autophagy - [GO:0006914](https://amigo.geneontology.org/amigo/term/GO:0006914)
+  * autophagy of mitocondrion - [GO:0000422](https://amigo.geneontology.org/amigo/term/GO:0000422)
+  * regulation of autophagy - [GO:0010506](https://amigo.geneontology.org/amigo/term/GO:0010506)
+  * negative regulation of autophagy - [GO:0010507](https://amigo.geneontology.org/amigo/term/GO:0010507)
+  * positive regulation of autophagy - [GO:0000422](https://amigo.geneontology.org/amigo/term/GO:0000422)
+  * mitochondrial organization - [GO:0007005](https://amigo.geneontology.org/amigo/term/GO:0007005)
+  * mitochondrial fusion - [GO:0008053](https://amigo.geneontology.org/amigo/term/GO:0008053)
+  * mitochondrial fission - [GO:0000266](https://amigo.geneontology.org/amigo/term/GO:0000266)
+
 ```{r get-go}
 go_terms <- c(
   autophagy = "GO:0006914",
@@ -59,6 +70,7 @@ go_terms <- c(
   regulation_of_autophagy = "GO:0010506",
   negative_regulation_of_autophagy = "GO:0010507",
   positive_regulation_of_autophagy = "GO:0000422",
+  mitochondrial_organization = "GO:0007005",
   mitochondrial_fusion = "GO:0008053",
   mitochondrial_fission = "GO:0000266"
 )
@@ -75,6 +87,12 @@ go_renamed <- go_selected %>%
 ```
 
 ## Get KEGG genes
+
+KEGG Pathways / BRITE:
+
+  * Mitochondrial Biogenesis - [br:hsa03029](https://www.kegg.jp/brite/hsa03029)
+  * Autophagy - [path:hsa04140](https://www.kegg.jp/pathway/hsa04140)
+  * Mitophagy - [path:hsa04137](https://www.kegg.jp/pathway/hsa04137)
 
 We start by downloading gene to pathway mappings from the KEGG API.
 
@@ -161,7 +179,8 @@ merged_collapsed <- merged %>%
   summarise(
     annotation_ids = paste0(unique(annotation_id), collapse="|"),
     annotation_names = paste0(unique(annotation_name), collapse="|"),
-    databases = paste0(unique(database), collapse="|")
+    databases = paste0(unique(database), collapse="|"),
+    n_annotation = length(unique(annotation_id))
   )
 
 write_csv(merged, here::here("results/selected_genes.csv"))

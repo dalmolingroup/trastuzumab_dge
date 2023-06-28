@@ -1,754 +1,810 @@
-gene_symbol,annotation_ids,annotation_names,databases
-ABL1,GO:0006914|GO:0010506,autophagy|regulation of autophagy,GO
-ABL2,GO:0010506,regulation of autophagy,GO
-ACAD9,br:hsa03029,Mitochondrial Biogenesis,KEGG
-ACBD5,GO:0006914,autophagy,GO
-ACER2,GO:0010506,regulation of autophagy,GO
-ACTB,br:hsa03029,Mitochondrial Biogenesis,KEGG
-ACTG1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-ADRA1A,GO:0010507,negative regulation of autophagy,GO
-AFG1L,br:hsa03029,Mitochondrial Biogenesis,KEGG
-AFG3L2,GO:0008053,mitochondrial fusion,GO
-AIP,br:hsa03029,Mitochondrial Biogenesis,KEGG
-AIPL1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-AKT1,GO:0010507|path:hsa04140,negative regulation of autophagy|Autophagy,GO|KEGG
-AKT1S1,path:hsa04140,Autophagy,KEGG
-AKT2,path:hsa04140,Autophagy,KEGG
-AKT3,path:hsa04140,Autophagy,KEGG
-AMBRA1,GO:0006914|GO:0000422|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG
-ANXA7,GO:0006914,autophagy,GO
-APOO,br:hsa03029,Mitochondrial Biogenesis,KEGG
-APOOL,br:hsa03029,Mitochondrial Biogenesis,KEGG
-ARFIP2,GO:0006914,autophagy,GO
-ARMCX1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-ARMCX2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-ARMCX3,br:hsa03029,Mitochondrial Biogenesis,KEGG
-ARMCX6,br:hsa03029,Mitochondrial Biogenesis,KEGG
-ARSA,GO:0006914,autophagy,GO
-ARSB,GO:0006914,autophagy,GO
-ATAD3A,br:hsa03029,Mitochondrial Biogenesis,KEGG
-ATAD3B,br:hsa03029,Mitochondrial Biogenesis,KEGG
-ATF4,path:hsa04137,Mitophagy,KEGG
-ATG10,GO:0006914|path:hsa04140|br:hsa03029,autophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG
-ATG101,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG
-ATG12,GO:0006914|GO:0000422|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Autophagy|Mitochondrial Biogenesis,GO|KEGG
-ATG13,GO:0006914|path:hsa04140|br:hsa03029,autophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG
-ATG14,GO:0006914|path:hsa04140|br:hsa03029,autophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG
-ATG16L1,GO:0006914|path:hsa04140|br:hsa03029,autophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG
-ATG16L2,path:hsa04140|br:hsa03029,Autophagy|Mitochondrial Biogenesis,KEGG
-ATG2A,GO:0006914|GO:0000422|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Autophagy|Mitochondrial Biogenesis,GO|KEGG
-ATG2B,GO:0006914|GO:0000422|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Autophagy|Mitochondrial Biogenesis,GO|KEGG
-ATG3,GO:0006914|GO:0000422|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Autophagy|Mitochondrial Biogenesis,GO|KEGG
-ATG4A,GO:0006914|path:hsa04140|br:hsa03029,autophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG
-ATG4B,GO:0006914|path:hsa04140|br:hsa03029,autophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG
-ATG4C,GO:0006914|path:hsa04140|br:hsa03029,autophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG
-ATG4D,GO:0006914|path:hsa04140|br:hsa03029,autophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG
-ATG5,GO:0006914|GO:0000422|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG
-ATG7,GO:0006914|GO:0000422|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Autophagy|Mitochondrial Biogenesis,GO|KEGG
-ATG9A,GO:0006914|GO:0000422|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG
-ATG9B,GO:0006914|GO:0000422|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG
-ATM,GO:0010506,regulation of autophagy,GO
-ATP13A2,GO:0006914,autophagy,GO
-ATP23,br:hsa03029,Mitochondrial Biogenesis,KEGG
-ATP5MF-PTCD1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-ATP5MJ,br:hsa03029,Mitochondrial Biogenesis,KEGG
-ATP5MK,br:hsa03029,Mitochondrial Biogenesis,KEGG
-ATP6,br:hsa03029,Mitochondrial Biogenesis,KEGG
-ATP8,br:hsa03029,Mitochondrial Biogenesis,KEGG
-ATPAF1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-ATPAF2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-BAD,path:hsa04140,Autophagy,KEGG
-BAK1,GO:0008053|br:hsa03029,mitochondrial fusion|Mitochondrial Biogenesis,GO|KEGG
-BAX,GO:0008053|br:hsa03029,mitochondrial fusion|Mitochondrial Biogenesis,GO|KEGG
-BCAS3,GO:0006914,autophagy,GO
-BCL2,GO:0010506|GO:0010507|path:hsa04140,regulation of autophagy|negative regulation of autophagy|Autophagy,GO|KEGG
-BCL2L1,GO:0010507|path:hsa04137|path:hsa04140,negative regulation of autophagy|Mitophagy|Autophagy,GO|KEGG
-BCL2L13,path:hsa04137,Mitophagy,KEGG
-BCS1L,br:hsa03029,Mitochondrial Biogenesis,KEGG
-BECN1,GO:0006914|GO:0000422|GO:0010506|GO:0010507|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|regulation of autophagy|negative regulation of autophagy|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG
-BECN2,GO:0006914|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG
-BMF,GO:0010507,negative regulation of autophagy,GO
-BNIP3,GO:0000422|path:hsa04137|path:hsa04140,autophagy of mitochondrion|Mitophagy|Autophagy,GO|KEGG
-BNIP3L,path:hsa04137|br:hsa03029,Mitophagy|Mitochondrial Biogenesis,KEGG
-BOK,GO:0010506,regulation of autophagy,GO
-BOLA1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-BOLA3,br:hsa03029,Mitochondrial Biogenesis,KEGG
-C19orf12,GO:0006914|br:hsa03029,autophagy|Mitochondrial Biogenesis,GO|KEGG
-C9orf72,GO:0006914|GO:0010506|path:hsa04140,autophagy|regulation of autophagy|Autophagy,GO|KEGG
-CALCOCO2,GO:0006914|path:hsa04137|br:hsa03029,autophagy|Mitophagy|Mitochondrial Biogenesis,GO|KEGG
-CAMKK2,path:hsa04140,Autophagy,KEGG
-CD84,GO:0006914,autophagy,GO
-CDC37,br:hsa03029,Mitochondrial Biogenesis,KEGG
-CFLAR,path:hsa04140,Autophagy,KEGG
-CHCHD10,br:hsa03029,Mitochondrial Biogenesis,KEGG
-CHCHD3,GO:0008053|br:hsa03029,mitochondrial fusion|Mitochondrial Biogenesis,GO|KEGG
-CHCHD4,br:hsa03029,Mitochondrial Biogenesis,KEGG
-CHCHD6,br:hsa03029,Mitochondrial Biogenesis,KEGG
-CHMP1A,GO:0006914,autophagy,GO
-CHMP1B,GO:0006914,autophagy,GO
-CHMP2A,GO:0006914,autophagy,GO
-CHMP2B,GO:0006914,autophagy,GO
-CHMP3,GO:0006914,autophagy,GO
-CHMP4A,GO:0006914,autophagy,GO
-CHMP4B,GO:0006914|GO:0010506,autophagy|regulation of autophagy,GO
-CHMP4C,GO:0006914,autophagy,GO
-CHMP5,GO:0006914,autophagy,GO
-CHMP6,GO:0006914,autophagy,GO
-CHMP7,GO:0006914,autophagy,GO
-CISD1,GO:0010506,regulation of autophagy,GO
-CISD2,GO:0010506|GO:0006914|GO:0000422,regulation of autophagy|autophagy|autophagy of mitochondrion,GO
-CITED2,path:hsa04137,Mitophagy,KEGG
-CLEC16A,GO:0006914|br:hsa03029,autophagy|Mitochondrial Biogenesis,GO|KEGG
-CLN3,GO:0010506,regulation of autophagy,GO
-CLTC,GO:0006914,autophagy,GO
-CMC1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-CMC2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-COA1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-COA3,br:hsa03029,Mitochondrial Biogenesis,KEGG
-COA4,br:hsa03029,Mitochondrial Biogenesis,KEGG
-COA5,br:hsa03029,Mitochondrial Biogenesis,KEGG
-COA6,br:hsa03029,Mitochondrial Biogenesis,KEGG
-COA7,br:hsa03029,Mitochondrial Biogenesis,KEGG
-COA8,br:hsa03029,Mitochondrial Biogenesis,KEGG
-COASY,br:hsa03029,Mitochondrial Biogenesis,KEGG
-COX1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-COX10,GO:0000266|br:hsa03029,mitochondrial fission|Mitochondrial Biogenesis,GO|KEGG
-COX11,br:hsa03029,Mitochondrial Biogenesis,KEGG
-COX14,br:hsa03029,Mitochondrial Biogenesis,KEGG
-COX15,br:hsa03029,Mitochondrial Biogenesis,KEGG
-COX16,br:hsa03029,Mitochondrial Biogenesis,KEGG
-COX17,br:hsa03029,Mitochondrial Biogenesis,KEGG
-COX18,br:hsa03029,Mitochondrial Biogenesis,KEGG
-COX19,br:hsa03029,Mitochondrial Biogenesis,KEGG
-COX2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-COX20,br:hsa03029,Mitochondrial Biogenesis,KEGG
-COX3,br:hsa03029,Mitochondrial Biogenesis,KEGG
-CPT1A,br:hsa03029,Mitochondrial Biogenesis,KEGG
-CPT1B,br:hsa03029,Mitochondrial Biogenesis,KEGG
-CPT1C,br:hsa03029,Mitochondrial Biogenesis,KEGG
-CPTP,GO:0010507,negative regulation of autophagy,GO
-CREB1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-CREBBP,br:hsa03029,Mitochondrial Biogenesis,KEGG
-CRTC1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-CRYBA1,GO:0010506,regulation of autophagy,GO
-CSNK2A1,path:hsa04137,Mitophagy,KEGG
-CSNK2A2,path:hsa04137,Mitophagy,KEGG
-CSNK2A3,path:hsa04137,Mitophagy,KEGG
-CSNK2B,path:hsa04137,Mitophagy,KEGG
-CTSB,path:hsa04140,Autophagy,KEGG
-CTSD,path:hsa04140,Autophagy,KEGG
-CTSK,GO:0000422,autophagy of mitochondrion,GO
-CTSL,path:hsa04140,Autophagy,KEGG
-CYTB,br:hsa03029,Mitochondrial Biogenesis,KEGG
-DAP,GO:0006914|GO:0010507,autophagy|negative regulation of autophagy,GO
-DAP3,br:hsa03029,Mitochondrial Biogenesis,KEGG
-DAPK1,GO:0010506|path:hsa04140,regulation of autophagy|Autophagy,GO|KEGG
-DAPK2,GO:0010506|path:hsa04140,regulation of autophagy|Autophagy,GO|KEGG
-DAPK3,GO:0010506|path:hsa04140,regulation of autophagy|Autophagy,GO|KEGG
-DAPL1,GO:0010507,negative regulation of autophagy,GO
-DARS2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-DCAF12,GO:0010506,regulation of autophagy,GO
-DDHD2,GO:0000266,mitochondrial fission,GO
-DDIT3,GO:0010506,regulation of autophagy,GO
-DDIT4,path:hsa04140,Autophagy,KEGG
-DEPP1,GO:0006914|GO:0010506,autophagy|regulation of autophagy,GO
-DEPTOR,path:hsa04140,Autophagy,KEGG
-DHTKD1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-DHX30,br:hsa03029,Mitochondrial Biogenesis,KEGG
-DIABLO,br:hsa03029,Mitochondrial Biogenesis,KEGG
-DNAJA2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-DNAJA3,br:hsa03029,Mitochondrial Biogenesis,KEGG
-DNAJC19,br:hsa03029,Mitochondrial Biogenesis,KEGG
-DNLZ,br:hsa03029,Mitochondrial Biogenesis,KEGG
-DNM1L,GO:0000266|br:hsa03029,mitochondrial fission|Mitochondrial Biogenesis,GO|KEGG
-DRAM1,GO:0006914|GO:0010506,autophagy|regulation of autophagy,GO
-DRAM2,GO:0010506|GO:0006914,regulation of autophagy|autophagy,GO
-DRD2,GO:0006914,autophagy,GO
-DRD3,GO:0006914,autophagy,GO
-E2F1,path:hsa04137,Mitophagy,KEGG
-ECSIT,br:hsa03029,Mitochondrial Biogenesis,KEGG
-EI24,GO:0006914,autophagy,GO
-EIF2AK3,path:hsa04137|path:hsa04140,Mitophagy|Autophagy,KEGG
-EIF2AK4,path:hsa04140,Autophagy,KEGG
-EIF2S1,path:hsa04140,Autophagy,KEGG
-EIF4G1,GO:0010507,negative regulation of autophagy,GO
-EIF4G2,GO:0010507,negative regulation of autophagy,GO
-ELAPOR1,GO:0006914,autophagy,GO
-ENDOG,br:hsa03029,Mitochondrial Biogenesis,KEGG
-EP300,GO:0010506|br:hsa03029,regulation of autophagy|Mitochondrial Biogenesis,GO|KEGG
-EPG5,GO:0006914,autophagy,GO
-EPM2A,GO:0006914,autophagy,GO
-ERAL1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-ERCC4,GO:0010506,regulation of autophagy,GO
-ERN1,path:hsa04140,Autophagy,KEGG
-ESRRA,br:hsa03029,Mitochondrial Biogenesis,KEGG
-ESRRB,br:hsa03029,Mitochondrial Biogenesis,KEGG
-ESRRG,br:hsa03029,Mitochondrial Biogenesis,KEGG
-ETHE1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-EVA1A,GO:0006914,autophagy,GO
-EXOG,br:hsa03029,Mitochondrial Biogenesis,KEGG
-FASTKD2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-FBXL2,GO:0010506,regulation of autophagy,GO
-FBXL4,GO:0000422|br:hsa03029,autophagy of mitochondrion|Mitochondrial Biogenesis,GO|KEGG
-FBXO7,GO:0000422,autophagy of mitochondrion,GO
-FDX1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-FDX2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-FDXR,br:hsa03029,Mitochondrial Biogenesis,KEGG
-FIS1,GO:0000266|GO:0008053|GO:0000422|path:hsa04137|br:hsa03029,mitochondrial fission|mitochondrial fusion|autophagy of mitochondrion|Mitophagy|Mitochondrial Biogenesis,GO|KEGG
-FNBP1L,GO:0006914,autophagy,GO
-FOXK1,GO:0010507,negative regulation of autophagy,GO
-FOXK2,GO:0010507,negative regulation of autophagy,GO
-FOXO1,GO:0006914,autophagy,GO
-FOXO3,path:hsa04137,Mitophagy,KEGG
-FOXRED1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-FUNDC1,GO:0006914|GO:0000422|path:hsa04137|br:hsa03029,autophagy|autophagy of mitochondrion|Mitophagy|Mitochondrial Biogenesis,GO|KEGG
-FUNDC2,GO:0000422|br:hsa03029,autophagy of mitochondrion|Mitochondrial Biogenesis,GO|KEGG
-FXN,br:hsa03029,Mitochondrial Biogenesis,KEGG
-GABARAP,GO:0006914|GO:0000422|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG
-GABARAPL1,GO:0006914|GO:0000422|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG
-GABARAPL2,GO:0006914|GO:0000422|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG
-GABPB1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-GABPB2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-GARS1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-GATA4,GO:0010507,negative regulation of autophagy,GO
-GATB,br:hsa03029,Mitochondrial Biogenesis,KEGG
-GATC,br:hsa03029,Mitochondrial Biogenesis,KEGG
-GBA1,GO:0006914,autophagy,GO
-GDAP1,GO:0000266|GO:0008053|br:hsa03029,mitochondrial fission|mitochondrial fusion|Mitochondrial Biogenesis,GO|KEGG
-GDAP1L1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-GFER,br:hsa03029,Mitochondrial Biogenesis,KEGG
-GFM1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-GFM2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-GLRX5,br:hsa03029,Mitochondrial Biogenesis,KEGG
-GOLGA2,GO:0010507,negative regulation of autophagy,GO
-GPR137,GO:0006914|GO:0010506,autophagy|regulation of autophagy,GO
-GPR137B,GO:0006914|GO:0010506,autophagy|regulation of autophagy,GO
-GRAMD1A,GO:0006914,autophagy,GO
-GRPEL1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-GRPEL2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-GRSF1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-GUF1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-HAP1,GO:0006914,autophagy,GO
-HCFC1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-HCFC2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-HDAC10,GO:0006914,autophagy,GO
-HDAC6,GO:0006914|GO:0010506,autophagy|regulation of autophagy,GO
-HERC1,GO:0006914|GO:0010507,autophagy|negative regulation of autophagy,GO
-HGF,GO:0010507,negative regulation of autophagy,GO
-HIF1A,path:hsa04137|path:hsa04140,Mitophagy|Autophagy,KEGG
-HMGB1,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG
-HRAS,path:hsa04137|path:hsa04140,Mitophagy|Autophagy,KEGG
-HSCB,br:hsa03029,Mitochondrial Biogenesis,KEGG
-HSD17B10,br:hsa03029,Mitochondrial Biogenesis,KEGG
-HSP90AA1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-HSP90AB1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-HSPA1A,br:hsa03029,Mitochondrial Biogenesis,KEGG
-HSPA1B,br:hsa03029,Mitochondrial Biogenesis,KEGG
-HSPA1L,br:hsa03029,Mitochondrial Biogenesis,KEGG
-HSPA6,br:hsa03029,Mitochondrial Biogenesis,KEGG
-HSPA8,br:hsa03029,Mitochondrial Biogenesis,KEGG
-HSPA9,br:hsa03029,Mitochondrial Biogenesis,KEGG
-HSPB1,GO:0010506,regulation of autophagy,GO
-HSPD1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-HSPE1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-HTR2B,GO:0010507,negative regulation of autophagy,GO
-HTT,br:hsa03029,Mitochondrial Biogenesis,KEGG
-IBA57,br:hsa03029,Mitochondrial Biogenesis,KEGG
-IFI16,GO:0006914|GO:0010506,autophagy|regulation of autophagy,GO
-IGBP1,path:hsa04140,Autophagy,KEGG
-IGF1R,path:hsa04140,Autophagy,KEGG
-IL10,GO:0010507,negative regulation of autophagy,GO
-IL10RA,GO:0010507,negative regulation of autophagy,GO
-IMMP1L,br:hsa03029,Mitochondrial Biogenesis,KEGG
-IMMP2L,br:hsa03029,Mitochondrial Biogenesis,KEGG
-IMMT,br:hsa03029,Mitochondrial Biogenesis,KEGG
-INS,path:hsa04140,Autophagy,KEGG
-IRF8,GO:0006914,autophagy,GO
-IRGM,GO:0006914,autophagy,GO
-IRS1,path:hsa04140,Autophagy,KEGG
-IRS2,path:hsa04140,Autophagy,KEGG
-IRS4,path:hsa04140,Autophagy,KEGG
-ISCA1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-ISCA2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-ISCU,br:hsa03029,Mitochondrial Biogenesis,KEGG
-ITGB4,GO:0006914,autophagy,GO
-ITPR1,GO:0010506|path:hsa04140,regulation of autophagy|Autophagy,GO|KEGG
-JUN,path:hsa04137,Mitophagy,KEGG
-KAT8,GO:0010506,regulation of autophagy,GO
-KDM4A,GO:0010507,negative regulation of autophagy,GO
-KEAP1,GO:0010506,regulation of autophagy,GO
-KIF25,GO:0010507,negative regulation of autophagy,GO
-KLHL22,GO:0010507,negative regulation of autophagy,GO
-KRAS,path:hsa04137|path:hsa04140,Mitophagy|Autophagy,KEGG
-KTN1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-LACTB2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-LAMP1,path:hsa04140,Autophagy,KEGG
-LAMP2,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG
-LAMP3,GO:0010506,regulation of autophagy,GO
-LARS1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-LARS2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-LEP,GO:0010507,negative regulation of autophagy,GO
-LEPR,GO:0010507,negative regulation of autophagy,GO
-LETM1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-LGALS8,GO:0006914,autophagy,GO
-LONP1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-LRPPRC,br:hsa03029,Mitochondrial Biogenesis,KEGG
-LRRK2,GO:0006914|GO:0010506,autophagy|regulation of autophagy,GO
-LRSAM1,GO:0006914,autophagy,GO
-LYRM4,br:hsa03029,Mitochondrial Biogenesis,KEGG
-LYRM7,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MAGEA3,GO:0010507,negative regulation of autophagy,GO
-MAGEA6,GO:0010507,negative regulation of autophagy,GO
-MALSU1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MAP1LC3A,GO:0006914|GO:0000422|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG
-MAP1LC3B,GO:0006914|GO:0000422|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG
-MAP1LC3B2,GO:0006914|GO:0000422|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG
-MAP1LC3C,GO:0006914|GO:0000422|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG
-MAP1S,GO:0006914,autophagy,GO
-MAP2K1,path:hsa04140,Autophagy,KEGG
-MAP2K2,path:hsa04140,Autophagy,KEGG
-MAP2K5,GO:0006914,autophagy,GO
-MAP3K7,path:hsa04140,Autophagy,KEGG
-MAPK1,path:hsa04140,Autophagy,KEGG
-MAPK10,path:hsa04137|path:hsa04140,Mitophagy|Autophagy,KEGG
-MAPK15,GO:0010506,regulation of autophagy,GO
-MAPK3,path:hsa04140,Autophagy,KEGG
-MAPK8,path:hsa04137|path:hsa04140,Mitophagy|Autophagy,KEGG
-MAPK9,path:hsa04137|path:hsa04140,Mitophagy|Autophagy,KEGG
-MAPT,GO:0010506,regulation of autophagy,GO
-MARK2,GO:0000422,autophagy of mitochondrion,GO
-MCL1,GO:0010507,negative regulation of autophagy,GO
-MCU,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MCUB,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MCUR1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MET,GO:0010507,negative regulation of autophagy,GO
-METTL15,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MFF,GO:0000266|GO:0008053|br:hsa03029,mitochondrial fission|mitochondrial fusion|Mitochondrial Biogenesis,GO|KEGG
-MFN1,GO:0008053|path:hsa04137|br:hsa03029,mitochondrial fusion|Mitophagy|Mitochondrial Biogenesis,GO|KEGG
-MFN2,GO:0008053|GO:0006914|path:hsa04137|br:hsa03029,mitochondrial fusion|autophagy|Mitophagy|Mitochondrial Biogenesis,GO|KEGG
-MFSD8,GO:0010506,regulation of autophagy,GO
-MGME1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MICOS10,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MICOS13,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MICU1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MICU2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MIEF1,GO:0000266|br:hsa03029,mitochondrial fission|Mitochondrial Biogenesis,GO|KEGG
-MIEF2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MIGA1,GO:0008053,mitochondrial fusion,GO
-MIGA2,GO:0008053,mitochondrial fusion,GO
-MIPEP,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MITF,path:hsa04137,Mitophagy,KEGG
-MLST8,GO:0010507|path:hsa04140,negative regulation of autophagy|Autophagy,GO|KEGG
-MOAP1,GO:0006914,autophagy,GO
-MPC1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MPC1L,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MPC2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MRAS,path:hsa04137|path:hsa04140,Mitophagy|Autophagy,KEGG
-MRPL32,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MRPL37,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MRPS16,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MRPS22,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MRPS6,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MSS51,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MT1A,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MT1B,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MT1E,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MT1F,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MT1G,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MT1H,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MT1HL1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MT1M,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MT1X,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MT2A,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MT3,GO:0010507|br:hsa03029,negative regulation of autophagy|Mitochondrial Biogenesis,GO|KEGG
-MT4,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MTCH1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MTCH2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MTCL1,GO:0010506,regulation of autophagy,GO
-MTERF1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MTERF2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MTERF3,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MTERF4,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MTFP1,GO:0000266|br:hsa03029,mitochondrial fission|Mitochondrial Biogenesis,GO|KEGG
-MTFR1,GO:0000266,mitochondrial fission,GO
-MTFR1L,GO:0000266,mitochondrial fission,GO
-MTFR2,GO:0000266,mitochondrial fission,GO
-MTG1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MTIF2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MTIF3,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MTMR14,path:hsa04140,Autophagy,KEGG
-MTMR3,GO:0010506|path:hsa04140,regulation of autophagy|Autophagy,GO|KEGG
-MTMR4,GO:0010506|path:hsa04140,regulation of autophagy|Autophagy,GO|KEGG
-MTMR8,GO:0010506|GO:0010507,regulation of autophagy|negative regulation of autophagy,GO
-MTMR9,GO:0010507,negative regulation of autophagy,GO
-MTOR,GO:0010507|GO:0010506|path:hsa04140,negative regulation of autophagy|regulation of autophagy|Autophagy,GO|KEGG
-MTPAP,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MTRES1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MTRFR,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MTX1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MTX2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MTX3,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MUL1,GO:0000266,mitochondrial fission,GO
-MYG1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MYO19,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MYO5A,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MYO5B,br:hsa03029,Mitochondrial Biogenesis,KEGG
-MYO5C,br:hsa03029,Mitochondrial Biogenesis,KEGG
-NAA20,br:hsa03029,Mitochondrial Biogenesis,KEGG
-NAA25,br:hsa03029,Mitochondrial Biogenesis,KEGG
-NBR1,path:hsa04137|br:hsa03029,Mitophagy|Mitochondrial Biogenesis,KEGG
-ND1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-ND2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-ND3,br:hsa03029,Mitochondrial Biogenesis,KEGG
-ND4,br:hsa03029,Mitochondrial Biogenesis,KEGG
-ND4L,br:hsa03029,Mitochondrial Biogenesis,KEGG
-ND5,br:hsa03029,Mitochondrial Biogenesis,KEGG
-ND6,br:hsa03029,Mitochondrial Biogenesis,KEGG
-NDUFAF1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-NDUFAF2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-NDUFAF3,br:hsa03029,Mitochondrial Biogenesis,KEGG
-NDUFAF4,br:hsa03029,Mitochondrial Biogenesis,KEGG
-NDUFAF5,br:hsa03029,Mitochondrial Biogenesis,KEGG
-NDUFAF6,br:hsa03029,Mitochondrial Biogenesis,KEGG
-NDUFAF7,br:hsa03029,Mitochondrial Biogenesis,KEGG
-NDUFAF8,br:hsa03029,Mitochondrial Biogenesis,KEGG
-NEDD4,br:hsa03029,Mitochondrial Biogenesis,KEGG
-NFE2L2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-NFS1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-NFU1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-NGRN,br:hsa03029,Mitochondrial Biogenesis,KEGG
-NHLRC1,GO:0006914,autophagy,GO
-NLRP6,GO:0010506,regulation of autophagy,GO
-NOA1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-NPC1,GO:0006914,autophagy,GO
-NRAS,path:hsa04137|path:hsa04140,Mitophagy|Autophagy,KEGG
-NRBF2,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG
-NRF1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-NRIP1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-NSUN3,br:hsa03029,Mitochondrial Biogenesis,KEGG
-NSUN4,br:hsa03029,Mitochondrial Biogenesis,KEGG
-NUBPL,br:hsa03029,Mitochondrial Biogenesis,KEGG
-NUPR1,GO:0010507|GO:0010506,negative regulation of autophagy|regulation of autophagy,GO
-OPA1,GO:0000266|GO:0008053|br:hsa03029,mitochondrial fission|mitochondrial fusion|Mitochondrial Biogenesis,GO|KEGG
-OPA3,br:hsa03029,Mitochondrial Biogenesis,KEGG
-OPTN,GO:0006914|path:hsa04137,autophagy|Mitophagy,GO|KEGG
-OSBPL7,GO:0010506,regulation of autophagy,GO
-OXA1L,br:hsa03029,Mitochondrial Biogenesis,KEGG
-OXR1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-PAM16,br:hsa03029,Mitochondrial Biogenesis,KEGG
-PARK7,GO:0006914,autophagy,GO
-PARL,GO:0008053|br:hsa03029,mitochondrial fusion|Mitochondrial Biogenesis,GO|KEGG
-PDE12,br:hsa03029,Mitochondrial Biogenesis,KEGG
-PDIK1L,GO:0006914,autophagy,GO
-PDPK1,path:hsa04140,Autophagy,KEGG
-PET100,br:hsa03029,Mitochondrial Biogenesis,KEGG
-PET117,br:hsa03029,Mitochondrial Biogenesis,KEGG
-PGAM5,path:hsa04137,Mitophagy,KEGG
-PHB1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-PHB2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-PHF23,GO:0006914,autophagy,GO
-PIF1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-PIK3C3,GO:0006914|GO:0010506|path:hsa04140,autophagy|regulation of autophagy|Autophagy,GO|KEGG
-PIK3CA,path:hsa04140,Autophagy,KEGG
-PIK3CB,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG
-PIK3CD,path:hsa04140,Autophagy,KEGG
-PIK3R1,path:hsa04140,Autophagy,KEGG
-PIK3R2,GO:0010506|path:hsa04140,regulation of autophagy|Autophagy,GO|KEGG
-PIK3R3,path:hsa04140,Autophagy,KEGG
-PIK3R4,GO:0010506|path:hsa04140,regulation of autophagy|Autophagy,GO|KEGG
-PINK1,GO:0000422|GO:0006914|path:hsa04137|br:hsa03029,autophagy of mitochondrion|autophagy|Mitophagy|Mitochondrial Biogenesis,GO|KEGG
-PIP4K2A,GO:0010506,regulation of autophagy,GO
-PIP4K2B,GO:0010506,regulation of autophagy,GO
-PIP4K2C,GO:0010506,regulation of autophagy,GO
-PLA2G6,br:hsa03029,Mitochondrial Biogenesis,KEGG
-PLD6,GO:0008053,mitochondrial fusion,GO
-PLEKHM1,GO:0006914,autophagy,GO
-PMPCA,br:hsa03029,Mitochondrial Biogenesis,KEGG
-PMPCB,br:hsa03029,Mitochondrial Biogenesis,KEGG
-POLDIP2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-POLG,br:hsa03029,Mitochondrial Biogenesis,KEGG
-POLG2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-POLRMT,br:hsa03029,Mitochondrial Biogenesis,KEGG
-POP1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-POP4,br:hsa03029,Mitochondrial Biogenesis,KEGG
-POP5,br:hsa03029,Mitochondrial Biogenesis,KEGG
-POP7,br:hsa03029,Mitochondrial Biogenesis,KEGG
-PPARGC1A,br:hsa03029,Mitochondrial Biogenesis,KEGG
-PPARGC1B,br:hsa03029,Mitochondrial Biogenesis,KEGG
-PPP2CA,path:hsa04140,Autophagy,KEGG
-PPP2CB,path:hsa04140,Autophagy,KEGG
-PPRC1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-PRAP1,path:hsa04140,Autophagy,KEGG
-PRIMPOL,br:hsa03029,Mitochondrial Biogenesis,KEGG
-PRKAA1,GO:0006914|path:hsa04140|br:hsa03029,autophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG
-PRKAA2,GO:0006914|path:hsa04140|br:hsa03029,autophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG
-PRKACA,path:hsa04140,Autophagy,KEGG
-PRKACB,path:hsa04140,Autophagy,KEGG
-PRKACG,path:hsa04140,Autophagy,KEGG
-PRKCD,path:hsa04140,Autophagy,KEGG
-PRKCQ,path:hsa04140,Autophagy,KEGG
-PRKN,GO:0006914|GO:0000422|GO:0010506|GO:0000266|path:hsa04137|br:hsa03029,autophagy|autophagy of mitochondrion|regulation of autophagy|mitochondrial fission|Mitophagy|Mitochondrial Biogenesis,GO|KEGG
-PRORP,br:hsa03029,Mitochondrial Biogenesis,KEGG
-PSAP,GO:0010506,regulation of autophagy,GO
-PSEN1,GO:0006914,autophagy,GO
-PTCD1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-PTCD2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-PTCD3,br:hsa03029,Mitochondrial Biogenesis,KEGG
-PTEN,path:hsa04140,Autophagy,KEGG
-PTPN22,GO:0006914|GO:0010507,autophagy|negative regulation of autophagy,GO
-PYCARD,GO:0010506,regulation of autophagy,GO
-QRSL1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-RAB1A,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG
-RAB1B,GO:0006914,autophagy,GO
-RAB24,GO:0006914,autophagy,GO
-RAB33B,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG
-RAB39A,GO:0006914,autophagy,GO
-RAB39B,GO:0006914|GO:0010506|path:hsa04140,autophagy|regulation of autophagy|Autophagy,GO|KEGG
-RAB7A,GO:0006914|path:hsa04137|path:hsa04140,autophagy|Mitophagy|Autophagy,GO|KEGG
-RAB7B,path:hsa04137|path:hsa04140,Mitophagy|Autophagy,KEGG
-RAB8A,GO:0006914|GO:0010506|path:hsa04140,autophagy|regulation of autophagy|Autophagy,GO|KEGG
-RAF1,path:hsa04140,Autophagy,KEGG
-RARS1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-RARS2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-RASIP1,GO:0010507,negative regulation of autophagy,GO
-RB1CC1,GO:0000422|GO:0006914|path:hsa04140|br:hsa03029,autophagy of mitochondrion|autophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG
-RCC1L,GO:0008053|br:hsa03029,mitochondrial fusion|Mitochondrial Biogenesis,GO|KEGG
-RELA,path:hsa04137,Mitophagy,KEGG
-RETREG1,GO:0006914,autophagy,GO
-RETREG2,GO:0006914,autophagy,GO
-RETREG3,GO:0006914,autophagy,GO
-RGS19,GO:0006914,autophagy,GO
-RHEB,path:hsa04140,Autophagy,KEGG
-RHOT1,path:hsa04137|br:hsa03029,Mitophagy|Mitochondrial Biogenesis,KEGG
-RHOT2,path:hsa04137,Mitophagy,KEGG
-RIMOC1,GO:0006914,autophagy,GO
-RMC1,GO:0010506|GO:0006914,regulation of autophagy|autophagy,GO
-RMND1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-RNF166,GO:0006914,autophagy,GO
-RNF185,GO:0006914,autophagy,GO
-RNF41,GO:0006914|br:hsa03029,autophagy|Mitochondrial Biogenesis,GO|KEGG
-RNF5,GO:0010507,negative regulation of autophagy,GO
-ROCK1,GO:0010506,regulation of autophagy,GO
-RPP25,br:hsa03029,Mitochondrial Biogenesis,KEGG
-RPP25L,br:hsa03029,Mitochondrial Biogenesis,KEGG
-RPP30,br:hsa03029,Mitochondrial Biogenesis,KEGG
-RPP38,br:hsa03029,Mitochondrial Biogenesis,KEGG
-RPP40,br:hsa03029,Mitochondrial Biogenesis,KEGG
-RPS27A,path:hsa04137,Mitophagy,KEGG
-RPS6KB1,path:hsa04140,Autophagy,KEGG
-RPS6KB2,path:hsa04140,Autophagy,KEGG
-RPTOR,GO:0010506|GO:0010507|path:hsa04140,regulation of autophagy|negative regulation of autophagy|Autophagy,GO|KEGG
-RPUSD3,br:hsa03029,Mitochondrial Biogenesis,KEGG
-RPUSD4,br:hsa03029,Mitochondrial Biogenesis,KEGG
-RRAGA,GO:0010507|GO:0010506|path:hsa04140,negative regulation of autophagy|regulation of autophagy|Autophagy,GO|KEGG
-RRAGB,GO:0010506|path:hsa04140,regulation of autophagy|Autophagy,GO|KEGG
-RRAGC,GO:0010506|path:hsa04140,regulation of autophagy|Autophagy,GO|KEGG
-RRAGD,GO:0010506|path:hsa04140,regulation of autophagy|Autophagy,GO|KEGG
-RRAS,path:hsa04137|path:hsa04140,Mitophagy|Autophagy,KEGG
-RRAS2,path:hsa04137|path:hsa04140,Mitophagy|Autophagy,KEGG
-RTN4IP1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-RUBCN,GO:0006914|GO:0010507|path:hsa04140,autophagy|negative regulation of autophagy|Autophagy,GO|KEGG
-RUBCNL,GO:0006914,autophagy,GO
-RUFY4,GO:0006914,autophagy,GO
-S100A8,GO:0006914,autophagy,GO
-S100A9,GO:0006914,autophagy,GO
-SAMM50,br:hsa03029,Mitochondrial Biogenesis,KEGG
-SBF2,GO:0006914,autophagy,GO
-SCO1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-SCO2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-SDHAF1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-SDHAF2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-SEC16A,GO:0006914,autophagy,GO
-SEC16B,GO:0006914,autophagy,GO
-SERAC1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-SFXN1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-SFXN2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-SFXN3,br:hsa03029,Mitochondrial Biogenesis,KEGG
-SFXN4,br:hsa03029,Mitochondrial Biogenesis,KEGG
-SFXN5,br:hsa03029,Mitochondrial Biogenesis,KEGG
-SH3GLB1,GO:0006914|path:hsa04140|br:hsa03029,autophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG
-SIL1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-SIRT1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-SIRT2,GO:0006914|GO:0010507,autophagy|negative regulation of autophagy,GO
-SLC25A28,br:hsa03029,Mitochondrial Biogenesis,KEGG
-SLC25A31,br:hsa03029,Mitochondrial Biogenesis,KEGG
-SLC25A37,br:hsa03029,Mitochondrial Biogenesis,KEGG
-SLC25A4,br:hsa03029,Mitochondrial Biogenesis,KEGG
-SLC25A46,GO:0000266|GO:0000422,mitochondrial fission|autophagy of mitochondrion,GO
-SLC25A5,br:hsa03029,Mitochondrial Biogenesis,KEGG
-SLC25A6,br:hsa03029,Mitochondrial Biogenesis,KEGG
-SLC7A5,GO:0010507,negative regulation of autophagy,GO
-SMCR8,GO:0006914|GO:0010506|path:hsa04140,autophagy|regulation of autophagy|Autophagy,GO|KEGG
-SMDT1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-SMURF1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-SMURF2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-SNAP29,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG
-SNX25,br:hsa03029,Mitochondrial Biogenesis,KEGG
-SNX30,GO:0000422,autophagy of mitochondrion,GO
-SNX7,GO:0000422,autophagy of mitochondrion,GO
-SOGA1,GO:0010506,regulation of autophagy,GO
-SOGA3,GO:0010506,regulation of autophagy,GO
-SP1,path:hsa04137|br:hsa03029,Mitophagy|Mitochondrial Biogenesis,KEGG
-SPATA33,GO:0006914,autophagy,GO
-SQSTM1,GO:0006914|GO:0000422|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG
-SRC,path:hsa04137,Mitophagy,KEGG
-SRPX,GO:0006914,autophagy,GO
-SSBP1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-STAT3,GO:0010507,negative regulation of autophagy,GO
-STBD1,GO:0006914,autophagy,GO
-STING1,GO:0006914,autophagy,GO
-STK11,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG
-STK35,GO:0006914,autophagy,GO
-STX17,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG
-SUMO1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-SUMO2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-SUMO3,br:hsa03029,Mitochondrial Biogenesis,KEGG
-SUMO4,br:hsa03029,Mitochondrial Biogenesis,KEGG
-SUPT20H,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG
-SUPV3L1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-SURF1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-SYT11,GO:0006914,autophagy,GO
-TAB2,GO:0010507,negative regulation of autophagy,GO
-TAB3,GO:0010507,negative regulation of autophagy,GO
-TACO1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TAMM41,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TANK,path:hsa04140,Autophagy,KEGG
-TAX1BP1,GO:0006914|path:hsa04137|br:hsa03029,autophagy|Mitophagy|Mitochondrial Biogenesis,GO|KEGG
-TBC1D14,GO:0006914|GO:0010507,autophagy|negative regulation of autophagy,GO
-TBC1D15,path:hsa04137,Mitophagy,KEGG
-TBC1D17,GO:0006914|path:hsa04137,autophagy|Mitophagy,GO|KEGG
-TBC1D25,GO:0006914,autophagy,GO
-TBC1D5,GO:0006914,autophagy,GO
-TBK1,path:hsa04137|path:hsa04140,Mitophagy|Autophagy,KEGG
-TCIRG1,GO:0006914,autophagy,GO
-TECPR1,GO:0006914|br:hsa03029,autophagy|Mitochondrial Biogenesis,GO|KEGG
-TECPR2,GO:0006914,autophagy,GO
-TEFM,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TEX264,GO:0006914,autophagy,GO
-TFAM,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TFB1M,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TFB2M,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TFE3,path:hsa04137,Mitophagy,KEGG
-TFEB,GO:0006914|path:hsa04137,autophagy|Mitophagy,GO|KEGG
-TGFBRAP1,GO:0006914,autophagy,GO
-THG1L,GO:0008053,mitochondrial fusion,GO
-TIGAR,GO:0006914,autophagy,GO
-TIMM10,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TIMM10B,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TIMM13,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TIMM17A,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TIMM17B,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TIMM21,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TIMM22,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TIMM23,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TIMM23B,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TIMM44,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TIMM50,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TIMM8A,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TIMM8B,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TIMM9,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TIMMDC1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TLK2,GO:0010507,negative regulation of autophagy,GO
-TM9SF1,GO:0006914,autophagy,GO
-TMBIM6,GO:0006914,autophagy,GO
-TMEM126A,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TMEM126B,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TMEM150B,GO:0006914,autophagy,GO
-TMEM208,GO:0006914,autophagy,GO
-TMEM39A,GO:0006914,autophagy,GO
-TMEM41B,GO:0006914,autophagy,GO
-TMEM59,GO:0006914,autophagy,GO
-TMEM70,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TMEM74,GO:0006914,autophagy,GO
-TOLLIP,GO:0006914,autophagy,GO
-TOMM20,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TOMM20L,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TOMM22,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TOMM34,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TOMM40,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TOMM40L,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TOMM5,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TOMM6,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TOMM7,path:hsa04137|br:hsa03029,Mitophagy|Mitochondrial Biogenesis,KEGG
-TOMM70,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TP53,GO:0006914|path:hsa04137,autophagy|Mitophagy,GO|KEGG
-TP53INP1,GO:0010506|GO:0006914,regulation of autophagy|autophagy,GO
-TP53INP2,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG
-TPCN2,GO:0010506,regulation of autophagy,GO
-TRAF6,path:hsa04140,Autophagy,KEGG
-TRAPPC4,GO:0006914,autophagy,GO
-TREM2,GO:0010507,negative regulation of autophagy,GO
-TRIAP1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TRIB3,GO:0010506,regulation of autophagy,GO
-TRIM17,GO:0006914,autophagy,GO
-TRIM5,GO:0006914,autophagy,GO
-TRMT10C,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TRUB2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TSC1,path:hsa04140,Autophagy,KEGG
-TSC2,path:hsa04140,Autophagy,KEGG
-TSFM,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TTC19,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TUFM,br:hsa03029,Mitochondrial Biogenesis,KEGG
-TWNK,br:hsa03029,Mitochondrial Biogenesis,KEGG
-UBA52,path:hsa04137,Mitophagy,KEGG
-UBB,path:hsa04137,Mitophagy,KEGG
-UBC,path:hsa04137,Mitophagy,KEGG
-UBQLN1,GO:0006914,autophagy,GO
-UBQLN2,GO:0006914,autophagy,GO
-UBQLN4,GO:0006914,autophagy,GO
-UCP2,GO:0000266,mitochondrial fission,GO
-ULK1,GO:0006914|GO:0000422|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG
-ULK2,GO:0006914|GO:0000422|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Autophagy|Mitochondrial Biogenesis,GO|KEGG
-ULK3,GO:0006914,autophagy,GO
-UMOD,GO:0006914,autophagy,GO
-UQCC1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-UQCC2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-UQCC3,br:hsa03029,Mitochondrial Biogenesis,KEGG
-USP10,GO:0006914|GO:0010506,autophagy|regulation of autophagy,GO
-USP13,GO:0006914|GO:0010506,autophagy|regulation of autophagy,GO
-USP15,path:hsa04137,Mitophagy,KEGG
-USP30,GO:0008053|GO:0000422|path:hsa04137,mitochondrial fusion|autophagy of mitochondrion|Mitophagy,GO|KEGG
-USP33,GO:0010506,regulation of autophagy,GO
-USP8,path:hsa04137,Mitophagy,KEGG
-UVRAG,GO:0006914|GO:0010506|path:hsa04140,autophagy|regulation of autophagy|Autophagy,GO|KEGG
-UXT,br:hsa03029,Mitochondrial Biogenesis,KEGG
-VAMP8,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG
-VAT1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-VCP,GO:0006914,autophagy,GO
-VDAC1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-VDAC2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-VDAC3,br:hsa03029,Mitochondrial Biogenesis,KEGG
-VHL,GO:0010507,negative regulation of autophagy,GO
-VMP1,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG
-VPS11,GO:0006914,autophagy,GO
-VPS13A,GO:0006914,autophagy,GO
-VPS16,GO:0006914,autophagy,GO
-VPS18,GO:0006914,autophagy,GO
-VPS33A,GO:0006914,autophagy,GO
-VPS39,GO:0006914,autophagy,GO
-VPS41,GO:0006914,autophagy,GO
-VPS4A,GO:0006914,autophagy,GO
-VPS4B,GO:0006914,autophagy,GO
-VPS51,GO:0006914,autophagy,GO
-VTI1A,GO:0006914,autophagy,GO
-WAC,GO:0010506,regulation of autophagy,GO
-WASHC1,GO:0010507,negative regulation of autophagy,GO
-WDFY3,GO:0006914,autophagy,GO
-WDFY4,GO:0006914,autophagy,GO
-WDR24,GO:0006914|GO:0010506,autophagy|regulation of autophagy,GO
-WDR41,GO:0010506|GO:0006914|path:hsa04140,regulation of autophagy|autophagy|Autophagy,GO|KEGG
-WDR45,GO:0006914|GO:0000422,autophagy|autophagy of mitochondrion,GO
-WDR45B,GO:0006914|GO:0000422,autophagy|autophagy of mitochondrion,GO
-WDR47,GO:0006914,autophagy,GO
-WDR6,GO:0010507,negative regulation of autophagy,GO
-WIPI1,GO:0006914|GO:0000422|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Autophagy|Mitochondrial Biogenesis,GO|KEGG
-WIPI2,GO:0006914|GO:0000422|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Autophagy|Mitochondrial Biogenesis,GO|KEGG
-XBP1,GO:0006914,autophagy,GO
-XIAP,br:hsa03029,Mitochondrial Biogenesis,KEGG
-YARS1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-YARS2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-YY1,br:hsa03029,Mitochondrial Biogenesis,KEGG
-YY2,br:hsa03029,Mitochondrial Biogenesis,KEGG
-ZFYVE1,path:hsa04140|br:hsa03029,Autophagy|Mitochondrial Biogenesis,KEGG
-ZKSCAN3,GO:0006914|GO:0010507,autophagy|negative regulation of autophagy,GO
-ZMPSTE24,GO:0010506,regulation of autophagy,GO
+gene_symbol,annotation_ids,annotation_names,databases,n_annotation
+ABL1,GO:0006914|GO:0010506,autophagy|regulation of autophagy,GO,2
+ABL2,GO:0010506,regulation of autophagy,GO,1
+ACAD9,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+ACBD5,GO:0006914,autophagy,GO,1
+ACER2,GO:0010506,regulation of autophagy,GO,1
+ACTB,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+ACTG1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+ADCK1,GO:0007005,mitochondrion organization,GO,1
+ADRA1A,GO:0010507,negative regulation of autophagy,GO,1
+AFG1L,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
+AFG3L2,GO:0007005|GO:0008053,mitochondrion organization|mitochondrial fusion,GO,2
+AGTPBP1,GO:0007005,mitochondrion organization,GO,1
+AIP,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+AIPL1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+AKT1,GO:0010507|path:hsa04140,negative regulation of autophagy|Autophagy,GO|KEGG,2
+AKT1S1,path:hsa04140,Autophagy,KEGG,1
+AKT2,path:hsa04140,Autophagy,KEGG,1
+AKT3,path:hsa04140,Autophagy,KEGG,1
+AMBRA1,GO:0006914|GO:0000422|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,5
+ANXA7,GO:0006914,autophagy,GO,1
+APOO,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+APOOL,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+ARFIP2,GO:0006914,autophagy,GO,1
+ARMCX1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+ARMCX2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+ARMCX3,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
+ARMCX6,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+ARSA,GO:0006914,autophagy,GO,1
+ARSB,GO:0006914,autophagy,GO,1
+ATAD3A,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
+ATAD3B,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
+ATAD3C,GO:0007005,mitochondrion organization,GO,1
+ATF4,path:hsa04137,Mitophagy,KEGG,1
+ATG10,GO:0006914|path:hsa04140|br:hsa03029,autophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,3
+ATG101,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG,2
+ATG12,GO:0006914|GO:0000422|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Autophagy|Mitochondrial Biogenesis,GO|KEGG,4
+ATG13,GO:0006914|path:hsa04140|br:hsa03029,autophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,3
+ATG14,GO:0006914|path:hsa04140|br:hsa03029,autophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,3
+ATG16L1,GO:0006914|path:hsa04140|br:hsa03029,autophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,3
+ATG16L2,path:hsa04140|br:hsa03029,Autophagy|Mitochondrial Biogenesis,KEGG,2
+ATG2A,GO:0006914|GO:0000422|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Autophagy|Mitochondrial Biogenesis,GO|KEGG,4
+ATG2B,GO:0006914|GO:0000422|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Autophagy|Mitochondrial Biogenesis,GO|KEGG,4
+ATG3,GO:0006914|GO:0000422|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Autophagy|Mitochondrial Biogenesis,GO|KEGG,4
+ATG4A,GO:0006914|path:hsa04140|br:hsa03029,autophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,3
+ATG4B,GO:0006914|path:hsa04140|br:hsa03029,autophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,3
+ATG4C,GO:0006914|path:hsa04140|br:hsa03029,autophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,3
+ATG4D,GO:0006914|path:hsa04140|br:hsa03029,autophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,3
+ATG5,GO:0006914|GO:0000422|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,5
+ATG7,GO:0006914|GO:0000422|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Autophagy|Mitochondrial Biogenesis,GO|KEGG,4
+ATG9A,GO:0006914|GO:0000422|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,5
+ATG9B,GO:0006914|GO:0000422|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,5
+ATM,GO:0010506,regulation of autophagy,GO,1
+ATP13A2,GO:0006914,autophagy,GO,1
+ATP23,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+ATP5MF-PTCD1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+ATP5MJ,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+ATP5MK,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+ATP6,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+ATP7A,GO:0007005,mitochondrion organization,GO,1
+ATP8,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+ATPAF1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+ATPAF2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+BAD,path:hsa04140,Autophagy,KEGG,1
+BAK1,GO:0008053|br:hsa03029,mitochondrial fusion|Mitochondrial Biogenesis,GO|KEGG,2
+BAX,GO:0008053|br:hsa03029,mitochondrial fusion|Mitochondrial Biogenesis,GO|KEGG,2
+BCAS3,GO:0006914,autophagy,GO,1
+BCL2,GO:0010506|GO:0010507|path:hsa04140,regulation of autophagy|negative regulation of autophagy|Autophagy,GO|KEGG,3
+BCL2L1,GO:0010507|path:hsa04137|path:hsa04140,negative regulation of autophagy|Mitophagy|Autophagy,GO|KEGG,3
+BCL2L13,path:hsa04137,Mitophagy,KEGG,1
+BCS1L,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
+BECN1,GO:0006914|GO:0000422|GO:0010506|GO:0010507|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|regulation of autophagy|negative regulation of autophagy|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,7
+BECN2,GO:0006914|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,4
+BMF,GO:0010507,negative regulation of autophagy,GO,1
+BNIP3,GO:0000422|path:hsa04137|path:hsa04140,autophagy of mitochondrion|Mitophagy|Autophagy,GO|KEGG,3
+BNIP3L,path:hsa04137|br:hsa03029,Mitophagy|Mitochondrial Biogenesis,KEGG,2
+BOK,GO:0010506,regulation of autophagy,GO,1
+BOLA1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+BOLA3,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+C19orf12,GO:0006914|br:hsa03029,autophagy|Mitochondrial Biogenesis,GO|KEGG,2
+C9orf72,GO:0006914|GO:0010506|path:hsa04140,autophagy|regulation of autophagy|Autophagy,GO|KEGG,3
+CALCOCO2,GO:0006914|path:hsa04137|br:hsa03029,autophagy|Mitophagy|Mitochondrial Biogenesis,GO|KEGG,3
+CAMKK2,path:hsa04140,Autophagy,KEGG,1
+CAMKMT,GO:0007005,mitochondrion organization,GO,1
+CAV2,GO:0007005,mitochondrion organization,GO,1
+CD84,GO:0006914,autophagy,GO,1
+CDC37,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+CDK5,GO:0007005,mitochondrion organization,GO,1
+CEBPA,GO:0007005,mitochondrion organization,GO,1
+CEP89,GO:0007005,mitochondrion organization,GO,1
+CFLAR,path:hsa04140,Autophagy,KEGG,1
+CHCHD10,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
+CHCHD2,GO:0007005,mitochondrion organization,GO,1
+CHCHD3,GO:0008053|br:hsa03029,mitochondrial fusion|Mitochondrial Biogenesis,GO|KEGG,2
+CHCHD4,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+CHCHD6,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+CHMP1A,GO:0006914,autophagy,GO,1
+CHMP1B,GO:0006914,autophagy,GO,1
+CHMP2A,GO:0006914,autophagy,GO,1
+CHMP2B,GO:0006914,autophagy,GO,1
+CHMP3,GO:0006914,autophagy,GO,1
+CHMP4A,GO:0006914,autophagy,GO,1
+CHMP4B,GO:0006914|GO:0010506,autophagy|regulation of autophagy,GO,2
+CHMP4C,GO:0006914,autophagy,GO,1
+CHMP5,GO:0006914,autophagy,GO,1
+CHMP6,GO:0006914,autophagy,GO,1
+CHMP7,GO:0006914,autophagy,GO,1
+CISD1,GO:0010506,regulation of autophagy,GO,1
+CISD2,GO:0010506|GO:0006914|GO:0000422,regulation of autophagy|autophagy|autophagy of mitochondrion,GO,3
+CITED2,path:hsa04137,Mitophagy,KEGG,1
+CLEC16A,GO:0006914|br:hsa03029,autophagy|Mitochondrial Biogenesis,GO|KEGG,2
+CLN3,GO:0010506,regulation of autophagy,GO,1
+CLTC,GO:0006914,autophagy,GO,1
+CLUH,GO:0007005,mitochondrion organization,GO,1
+CMC1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+CMC2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+CNTNAP1,GO:0007005,mitochondrion organization,GO,1
+COA1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+COA3,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+COA4,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+COA5,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+COA6,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+COA7,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+COA8,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+COASY,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+COX1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+COX10,GO:0000266|GO:0007005|br:hsa03029,mitochondrial fission|mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,3
+COX11,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+COX14,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+COX15,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+COX16,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+COX17,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+COX18,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+COX19,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+COX2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+COX20,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+COX3,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+CPT1A,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+CPT1B,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+CPT1C,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+CPTP,GO:0010507,negative regulation of autophagy,GO,1
+CREB1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+CREBBP,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+CRTC1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+CRYBA1,GO:0010506,regulation of autophagy,GO,1
+CSNK2A1,path:hsa04137,Mitophagy,KEGG,1
+CSNK2A2,path:hsa04137,Mitophagy,KEGG,1
+CSNK2A3,path:hsa04137,Mitophagy,KEGG,1
+CSNK2B,path:hsa04137,Mitophagy,KEGG,1
+CTSB,path:hsa04140,Autophagy,KEGG,1
+CTSD,path:hsa04140,Autophagy,KEGG,1
+CTSK,GO:0000422,autophagy of mitochondrion,GO,1
+CTSL,path:hsa04140,Autophagy,KEGG,1
+CXADR,GO:0007005,mitochondrion organization,GO,1
+CYTB,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+DAP,GO:0006914|GO:0010507,autophagy|negative regulation of autophagy,GO,2
+DAP3,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+DAPK1,GO:0010506|path:hsa04140,regulation of autophagy|Autophagy,GO|KEGG,2
+DAPK2,GO:0010506|path:hsa04140,regulation of autophagy|Autophagy,GO|KEGG,2
+DAPK3,GO:0010506|path:hsa04140,regulation of autophagy|Autophagy,GO|KEGG,2
+DAPL1,GO:0010507,negative regulation of autophagy,GO,1
+DARS2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+DCAF12,GO:0010506,regulation of autophagy,GO,1
+DDHD2,GO:0000266,mitochondrial fission,GO,1
+DDIT3,GO:0010506,regulation of autophagy,GO,1
+DDIT4,path:hsa04140,Autophagy,KEGG,1
+DEPP1,GO:0006914|GO:0010506,autophagy|regulation of autophagy,GO,2
+DEPTOR,path:hsa04140,Autophagy,KEGG,1
+DHTKD1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+DHX30,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+DIABLO,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+DNAJA2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+DNAJA3,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
+DNAJC19,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+DNLZ,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+DNM1L,GO:0000266|GO:0007005|br:hsa03029,mitochondrial fission|mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,3
+DRAM1,GO:0006914|GO:0010506,autophagy|regulation of autophagy,GO,2
+DRAM2,GO:0010506|GO:0006914,regulation of autophagy|autophagy,GO,2
+DRD2,GO:0006914,autophagy,GO,1
+DRD3,GO:0006914,autophagy,GO,1
+E2F1,path:hsa04137,Mitophagy,KEGG,1
+ECSIT,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+EDN1,GO:0007005,mitochondrion organization,GO,1
+EDNRA,GO:0007005,mitochondrion organization,GO,1
+EI24,GO:0006914,autophagy,GO,1
+EIF2AK3,path:hsa04137|path:hsa04140,Mitophagy|Autophagy,KEGG,2
+EIF2AK4,path:hsa04140,Autophagy,KEGG,1
+EIF2S1,path:hsa04140,Autophagy,KEGG,1
+EIF4G1,GO:0010507,negative regulation of autophagy,GO,1
+EIF4G2,GO:0010507,negative regulation of autophagy,GO,1
+ELAPOR1,GO:0006914,autophagy,GO,1
+ENDOG,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+EP300,GO:0010506|br:hsa03029,regulation of autophagy|Mitochondrial Biogenesis,GO|KEGG,2
+EPAS1,GO:0007005,mitochondrion organization,GO,1
+EPG5,GO:0006914,autophagy,GO,1
+EPM2A,GO:0006914|GO:0007005,autophagy|mitochondrion organization,GO,2
+ERAL1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+ERCC4,GO:0010506,regulation of autophagy,GO,1
+ERN1,path:hsa04140,Autophagy,KEGG,1
+ESRRA,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+ESRRB,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+ESRRG,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+ETHE1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+EVA1A,GO:0006914,autophagy,GO,1
+EXOG,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+FANCG,GO:0007005,mitochondrion organization,GO,1
+FASTKD2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+FBXL2,GO:0010506,regulation of autophagy,GO,1
+FBXL4,GO:0000422|br:hsa03029,autophagy of mitochondrion|Mitochondrial Biogenesis,GO|KEGG,2
+FBXO7,GO:0000422,autophagy of mitochondrion,GO,1
+FDX1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+FDX2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+FDXR,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+FIS1,GO:0000266|GO:0008053|GO:0000422|path:hsa04137|br:hsa03029,mitochondrial fission|mitochondrial fusion|autophagy of mitochondrion|Mitophagy|Mitochondrial Biogenesis,GO|KEGG,5
+FNBP1L,GO:0006914,autophagy,GO,1
+FOXK1,GO:0010507,negative regulation of autophagy,GO,1
+FOXK2,GO:0010507,negative regulation of autophagy,GO,1
+FOXO1,GO:0006914,autophagy,GO,1
+FOXO3,path:hsa04137,Mitophagy,KEGG,1
+FOXRED1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+FUNDC1,GO:0006914|GO:0000422|path:hsa04137|br:hsa03029,autophagy|autophagy of mitochondrion|Mitophagy|Mitochondrial Biogenesis,GO|KEGG,4
+FUNDC2,GO:0000422|br:hsa03029,autophagy of mitochondrion|Mitochondrial Biogenesis,GO|KEGG,2
+FXN,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
+GABARAP,GO:0006914|GO:0000422|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,5
+GABARAPL1,GO:0006914|GO:0000422|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,5
+GABARAPL2,GO:0006914|GO:0000422|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,5
+GABPB1,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
+GABPB2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+GARS1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+GATA4,GO:0010507,negative regulation of autophagy,GO,1
+GATB,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+GATC,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+GBA1,GO:0006914|GO:0007005,autophagy|mitochondrion organization,GO,2
+GDAP1,GO:0000266|GO:0008053|br:hsa03029,mitochondrial fission|mitochondrial fusion|Mitochondrial Biogenesis,GO|KEGG,3
+GDAP1L1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+GFER,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+GFM1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+GFM2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+GLRX5,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+GOLGA2,GO:0010507,negative regulation of autophagy,GO,1
+GPR137,GO:0006914|GO:0010506,autophagy|regulation of autophagy,GO,2
+GPR137B,GO:0006914|GO:0010506,autophagy|regulation of autophagy,GO,2
+GRAMD1A,GO:0006914,autophagy,GO,1
+GRPEL1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+GRPEL2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+GRSF1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+GUF1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+HAP1,GO:0006914,autophagy,GO,1
+HCFC1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+HCFC2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+HDAC10,GO:0006914,autophagy,GO,1
+HDAC6,GO:0006914|GO:0010506,autophagy|regulation of autophagy,GO,2
+HERC1,GO:0006914|GO:0010507,autophagy|negative regulation of autophagy,GO,2
+HGF,GO:0010507,negative regulation of autophagy,GO,1
+HIF1A,path:hsa04137|path:hsa04140,Mitophagy|Autophagy,KEGG,2
+HMGB1,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG,2
+HMGCL,GO:0007005,mitochondrion organization,GO,1
+HRAS,path:hsa04137|path:hsa04140,Mitophagy|Autophagy,KEGG,2
+HSCB,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+HSD17B10,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
+HSP90AA1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+HSP90AB1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+HSPA1A,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+HSPA1B,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+HSPA1L,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+HSPA6,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+HSPA8,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+HSPA9,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+HSPB1,GO:0010506,regulation of autophagy,GO,1
+HSPD1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+HSPE1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+HTR2B,GO:0010507,negative regulation of autophagy,GO,1
+HTRA2,GO:0007005,mitochondrion organization,GO,1
+HTT,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+IBA57,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+IFI16,GO:0006914|GO:0010506,autophagy|regulation of autophagy,GO,2
+IGBP1,path:hsa04140,Autophagy,KEGG,1
+IGF1R,path:hsa04140,Autophagy,KEGG,1
+IL10,GO:0010507,negative regulation of autophagy,GO,1
+IL10RA,GO:0010507,negative regulation of autophagy,GO,1
+IMMP1L,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+IMMP2L,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+IMMT,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+INS,path:hsa04140,Autophagy,KEGG,1
+IRF8,GO:0006914,autophagy,GO,1
+IRGM,GO:0006914,autophagy,GO,1
+IRS1,path:hsa04140,Autophagy,KEGG,1
+IRS2,path:hsa04140,Autophagy,KEGG,1
+IRS4,path:hsa04140,Autophagy,KEGG,1
+ISCA1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+ISCA2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+ISCU,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+ITGB4,GO:0006914,autophagy,GO,1
+ITPR1,GO:0010506|path:hsa04140,regulation of autophagy|Autophagy,GO|KEGG,2
+JUN,path:hsa04137,Mitophagy,KEGG,1
+KAT8,GO:0010506,regulation of autophagy,GO,1
+KDM4A,GO:0010507,negative regulation of autophagy,GO,1
+KEAP1,GO:0010506,regulation of autophagy,GO,1
+KIF25,GO:0010507,negative regulation of autophagy,GO,1
+KLHL22,GO:0010507,negative regulation of autophagy,GO,1
+KRAS,path:hsa04137|path:hsa04140,Mitophagy|Autophagy,KEGG,2
+KTN1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+LACTB2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+LAMP1,path:hsa04140,Autophagy,KEGG,1
+LAMP2,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG,2
+LAMP3,GO:0010506,regulation of autophagy,GO,1
+LARS1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+LARS2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+LEP,GO:0010507,negative regulation of autophagy,GO,1
+LEPR,GO:0010507,negative regulation of autophagy,GO,1
+LETM1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+LETMD1,GO:0007005,mitochondrion organization,GO,1
+LGALS8,GO:0006914,autophagy,GO,1
+LIG3,GO:0007005,mitochondrion organization,GO,1
+LONP1,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
+LRPPRC,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+LRRK2,GO:0006914|GO:0007005|GO:0010506,autophagy|mitochondrion organization|regulation of autophagy,GO,3
+LRSAM1,GO:0006914,autophagy,GO,1
+LYRM4,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+LYRM7,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MAGEA3,GO:0010507,negative regulation of autophagy,GO,1
+MAGEA6,GO:0010507,negative regulation of autophagy,GO,1
+MALSU1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MAN2A1,GO:0007005,mitochondrion organization,GO,1
+MAP1LC3A,GO:0006914|GO:0000422|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,5
+MAP1LC3B,GO:0006914|GO:0000422|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,5
+MAP1LC3B2,GO:0006914|GO:0000422|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,5
+MAP1LC3C,GO:0006914|GO:0000422|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,5
+MAP1S,GO:0006914,autophagy,GO,1
+MAP2K1,path:hsa04140,Autophagy,KEGG,1
+MAP2K2,path:hsa04140,Autophagy,KEGG,1
+MAP2K5,GO:0006914,autophagy,GO,1
+MAP3K7,path:hsa04140,Autophagy,KEGG,1
+MAPK1,path:hsa04140,Autophagy,KEGG,1
+MAPK10,path:hsa04137|path:hsa04140,Mitophagy|Autophagy,KEGG,2
+MAPK15,GO:0010506,regulation of autophagy,GO,1
+MAPK3,path:hsa04140,Autophagy,KEGG,1
+MAPK8,path:hsa04137|path:hsa04140,Mitophagy|Autophagy,KEGG,2
+MAPK9,path:hsa04137|path:hsa04140,Mitophagy|Autophagy,KEGG,2
+MAPT,GO:0010506,regulation of autophagy,GO,1
+MARCKS,GO:0007005,mitochondrion organization,GO,1
+MARK2,GO:0000422,autophagy of mitochondrion,GO,1
+MCL1,GO:0010507,negative regulation of autophagy,GO,1
+MCU,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MCUB,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MCUR1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MET,GO:0010507,negative regulation of autophagy,GO,1
+METTL15,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MFF,GO:0000266|GO:0008053|br:hsa03029,mitochondrial fission|mitochondrial fusion|Mitochondrial Biogenesis,GO|KEGG,3
+MFN1,GO:0008053|GO:0007005|path:hsa04137|br:hsa03029,mitochondrial fusion|mitochondrion organization|Mitophagy|Mitochondrial Biogenesis,GO|KEGG,4
+MFN2,GO:0008053|GO:0006914|GO:0007005|path:hsa04137|br:hsa03029,mitochondrial fusion|autophagy|mitochondrion organization|Mitophagy|Mitochondrial Biogenesis,GO|KEGG,5
+MFSD8,GO:0010506,regulation of autophagy,GO,1
+MGME1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MICOS10,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MICOS13,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MICU1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MICU2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MIEF1,GO:0007005|GO:0000266|br:hsa03029,mitochondrion organization|mitochondrial fission|Mitochondrial Biogenesis,GO|KEGG,3
+MIEF2,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
+MIGA1,GO:0008053,mitochondrial fusion,GO,1
+MIGA2,GO:0008053,mitochondrial fusion,GO,1
+MIPEP,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MITF,path:hsa04137,Mitophagy,KEGG,1
+MLST8,GO:0010507|path:hsa04140,negative regulation of autophagy|Autophagy,GO|KEGG,2
+MOAP1,GO:0006914,autophagy,GO,1
+MPC1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MPC1L,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MPC2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MRAS,path:hsa04137|path:hsa04140,Mitophagy|Autophagy,KEGG,2
+MRPL32,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MRPL37,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MRPS16,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MRPS22,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MRPS6,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MSS51,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MSTO1,GO:0007005,mitochondrion organization,GO,1
+MT1A,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MT1B,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MT1E,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MT1F,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MT1G,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MT1H,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MT1HL1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MT1M,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MT1X,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MT2A,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MT3,GO:0010507|br:hsa03029,negative regulation of autophagy|Mitochondrial Biogenesis,GO|KEGG,2
+MT4,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MTCH1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MTCH2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MTCL1,GO:0010506,regulation of autophagy,GO,1
+MTERF1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MTERF2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MTERF3,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MTERF4,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MTFP1,GO:0007005|GO:0000266|br:hsa03029,mitochondrion organization|mitochondrial fission|Mitochondrial Biogenesis,GO|KEGG,3
+MTFR1,GO:0000266|GO:0007005,mitochondrial fission|mitochondrion organization,GO,2
+MTFR1L,GO:0000266,mitochondrial fission,GO,1
+MTFR2,GO:0000266|GO:0007005,mitochondrial fission|mitochondrion organization,GO,2
+MTG1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MTIF2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MTIF3,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MTMR14,path:hsa04140,Autophagy,KEGG,1
+MTMR3,GO:0010506|path:hsa04140,regulation of autophagy|Autophagy,GO|KEGG,2
+MTMR4,GO:0010506|path:hsa04140,regulation of autophagy|Autophagy,GO|KEGG,2
+MTMR8,GO:0010506|GO:0010507,regulation of autophagy|negative regulation of autophagy,GO,2
+MTMR9,GO:0010507,negative regulation of autophagy,GO,1
+MTOR,GO:0010507|GO:0010506|path:hsa04140,negative regulation of autophagy|regulation of autophagy|Autophagy,GO|KEGG,3
+MTPAP,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MTRES1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MTRFR,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MTX1,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
+MTX2,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
+MTX3,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
+MUL1,GO:0000266,mitochondrial fission,GO,1
+MYG1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MYO19,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MYO5A,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MYO5B,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MYO5C,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+NAA20,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+NAA25,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+NBR1,path:hsa04137|br:hsa03029,Mitophagy|Mitochondrial Biogenesis,KEGG,2
+ND1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+ND2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+ND3,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+ND4,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+ND4L,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+ND5,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+ND6,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+NDUFAF1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+NDUFAF2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+NDUFAF3,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+NDUFAF4,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+NDUFAF5,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+NDUFAF6,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+NDUFAF7,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+NDUFAF8,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+NEDD4,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+NFE2L2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+NFS1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+NFU1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+NGRN,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+NHLRC1,GO:0006914,autophagy,GO,1
+NIPSNAP2,GO:0007005,mitochondrion organization,GO,1
+NLRP6,GO:0010506,regulation of autophagy,GO,1
+NOA1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+NOS3,GO:0007005,mitochondrion organization,GO,1
+NPC1,GO:0006914,autophagy,GO,1
+NRAS,path:hsa04137|path:hsa04140,Mitophagy|Autophagy,KEGG,2
+NRBF2,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG,2
+NRF1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+NRIP1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+NSUN3,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+NSUN4,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+NUBPL,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+NUPR1,GO:0010507|GO:0010506,negative regulation of autophagy|regulation of autophagy,GO,2
+OMA1,GO:0007005,mitochondrion organization,GO,1
+OPA1,GO:0007005|GO:0000266|GO:0008053|br:hsa03029,mitochondrion organization|mitochondrial fission|mitochondrial fusion|Mitochondrial Biogenesis,GO|KEGG,4
+OPA3,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+OPTN,GO:0006914|path:hsa04137,autophagy|Mitophagy,GO|KEGG,2
+OSBPL7,GO:0010506,regulation of autophagy,GO,1
+OXA1L,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+OXR1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+P2RX7,GO:0007005,mitochondrion organization,GO,1
+PAM16,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+PARK7,GO:0006914|GO:0007005,autophagy|mitochondrion organization,GO,2
+PARL,GO:0008053|br:hsa03029,mitochondrial fusion|Mitochondrial Biogenesis,GO|KEGG,2
+PARP1,GO:0007005,mitochondrion organization,GO,1
+PDE12,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+PDIK1L,GO:0006914,autophagy,GO,1
+PDPK1,path:hsa04140,Autophagy,KEGG,1
+PET100,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+PET117,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+PEX5,GO:0007005,mitochondrion organization,GO,1
+PGAM5,path:hsa04137,Mitophagy,KEGG,1
+PHB1,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
+PHB2,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
+PHF23,GO:0006914,autophagy,GO,1
+PIF1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+PIK3C3,GO:0006914|GO:0010506|path:hsa04140,autophagy|regulation of autophagy|Autophagy,GO|KEGG,3
+PIK3CA,path:hsa04140,Autophagy,KEGG,1
+PIK3CB,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG,2
+PIK3CD,path:hsa04140,Autophagy,KEGG,1
+PIK3R1,path:hsa04140,Autophagy,KEGG,1
+PIK3R2,GO:0010506|path:hsa04140,regulation of autophagy|Autophagy,GO|KEGG,2
+PIK3R3,path:hsa04140,Autophagy,KEGG,1
+PIK3R4,GO:0010506|path:hsa04140,regulation of autophagy|Autophagy,GO|KEGG,2
+PINK1,GO:0000422|GO:0006914|GO:0007005|path:hsa04137|br:hsa03029,autophagy of mitochondrion|autophagy|mitochondrion organization|Mitophagy|Mitochondrial Biogenesis,GO|KEGG,5
+PIP4K2A,GO:0010506,regulation of autophagy,GO,1
+PIP4K2B,GO:0010506,regulation of autophagy,GO,1
+PIP4K2C,GO:0010506,regulation of autophagy,GO,1
+PLA2G6,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+PLD6,GO:0008053,mitochondrial fusion,GO,1
+PLEC,GO:0007005,mitochondrion organization,GO,1
+PLEKHM1,GO:0006914,autophagy,GO,1
+PMPCA,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+PMPCB,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+POLDIP2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+POLG,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+POLG2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+POLRMT,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+POP1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+POP4,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+POP5,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+POP7,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+PPARGC1A,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
+PPARGC1B,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+PPP2CA,path:hsa04140,Autophagy,KEGG,1
+PPP2CB,path:hsa04140,Autophagy,KEGG,1
+PPRC1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+PRAP1,path:hsa04140,Autophagy,KEGG,1
+PRDX3,GO:0007005,mitochondrion organization,GO,1
+PRIMPOL,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+PRKAA1,GO:0006914|path:hsa04140|br:hsa03029,autophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,3
+PRKAA2,GO:0006914|path:hsa04140|br:hsa03029,autophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,3
+PRKACA,path:hsa04140,Autophagy,KEGG,1
+PRKACB,path:hsa04140,Autophagy,KEGG,1
+PRKACG,path:hsa04140,Autophagy,KEGG,1
+PRKCD,path:hsa04140,Autophagy,KEGG,1
+PRKCQ,path:hsa04140,Autophagy,KEGG,1
+PRKN,GO:0006914|GO:0000422|GO:0007005|GO:0010506|GO:0000266|path:hsa04137|br:hsa03029,autophagy|autophagy of mitochondrion|mitochondrion organization|regulation of autophagy|mitochondrial fission|Mitophagy|Mitochondrial Biogenesis,GO|KEGG,7
+PRORP,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+PSAP,GO:0010506,regulation of autophagy,GO,1
+PSEN1,GO:0006914,autophagy,GO,1
+PTCD1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+PTCD2,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
+PTCD3,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+PTEN,path:hsa04140,Autophagy,KEGG,1
+PTPN22,GO:0006914|GO:0010507,autophagy|negative regulation of autophagy,GO,2
+PUM2,GO:0007005,mitochondrion organization,GO,1
+PYCARD,GO:0010506,regulation of autophagy,GO,1
+PYROXD2,GO:0007005,mitochondrion organization,GO,1
+QRSL1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+RAB1A,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG,2
+RAB1B,GO:0006914,autophagy,GO,1
+RAB24,GO:0006914,autophagy,GO,1
+RAB29,GO:0007005,mitochondrion organization,GO,1
+RAB32,GO:0007005,mitochondrion organization,GO,1
+RAB33B,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG,2
+RAB38,GO:0007005,mitochondrion organization,GO,1
+RAB39A,GO:0006914,autophagy,GO,1
+RAB39B,GO:0006914|GO:0010506|path:hsa04140,autophagy|regulation of autophagy|Autophagy,GO|KEGG,3
+RAB3A,GO:0007005,mitochondrion organization,GO,1
+RAB7A,GO:0006914|path:hsa04137|path:hsa04140,autophagy|Mitophagy|Autophagy,GO|KEGG,3
+RAB7B,path:hsa04137|path:hsa04140,Mitophagy|Autophagy,KEGG,2
+RAB8A,GO:0006914|GO:0010506|path:hsa04140,autophagy|regulation of autophagy|Autophagy,GO|KEGG,3
+RAF1,path:hsa04140,Autophagy,KEGG,1
+RARS1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+RARS2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+RASIP1,GO:0010507,negative regulation of autophagy,GO,1
+RB1CC1,GO:0000422|GO:0006914|path:hsa04140|br:hsa03029,autophagy of mitochondrion|autophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,4
+RCC1L,GO:0008053|br:hsa03029,mitochondrial fusion|Mitochondrial Biogenesis,GO|KEGG,2
+RELA,path:hsa04137,Mitophagy,KEGG,1
+RETREG1,GO:0006914,autophagy,GO,1
+RETREG2,GO:0006914,autophagy,GO,1
+RETREG3,GO:0006914,autophagy,GO,1
+RGS19,GO:0006914,autophagy,GO,1
+RHEB,path:hsa04140,Autophagy,KEGG,1
+RHOT1,GO:0007005|path:hsa04137|br:hsa03029,mitochondrion organization|Mitophagy|Mitochondrial Biogenesis,GO|KEGG,3
+RHOT2,GO:0007005|path:hsa04137,mitochondrion organization|Mitophagy,GO|KEGG,2
+RIMOC1,GO:0006914,autophagy,GO,1
+RMC1,GO:0010506|GO:0006914,regulation of autophagy|autophagy,GO,2
+RMND1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+RNF166,GO:0006914,autophagy,GO,1
+RNF185,GO:0006914,autophagy,GO,1
+RNF41,GO:0006914|br:hsa03029,autophagy|Mitochondrial Biogenesis,GO|KEGG,2
+RNF5,GO:0010507,negative regulation of autophagy,GO,1
+ROCK1,GO:0010506,regulation of autophagy,GO,1
+RPP25,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+RPP25L,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+RPP30,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+RPP38,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+RPP40,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+RPS27A,path:hsa04137,Mitophagy,KEGG,1
+RPS6KB1,path:hsa04140,Autophagy,KEGG,1
+RPS6KB2,path:hsa04140,Autophagy,KEGG,1
+RPTOR,GO:0010506|GO:0010507|path:hsa04140,regulation of autophagy|negative regulation of autophagy|Autophagy,GO|KEGG,3
+RPUSD3,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+RPUSD4,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+RRAGA,GO:0010507|GO:0010506|path:hsa04140,negative regulation of autophagy|regulation of autophagy|Autophagy,GO|KEGG,3
+RRAGB,GO:0010506|path:hsa04140,regulation of autophagy|Autophagy,GO|KEGG,2
+RRAGC,GO:0010506|path:hsa04140,regulation of autophagy|Autophagy,GO|KEGG,2
+RRAGD,GO:0010506|path:hsa04140,regulation of autophagy|Autophagy,GO|KEGG,2
+RRAS,path:hsa04137|path:hsa04140,Mitophagy|Autophagy,KEGG,2
+RRAS2,path:hsa04137|path:hsa04140,Mitophagy|Autophagy,KEGG,2
+RTN4IP1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+RUBCN,GO:0006914|GO:0010507|path:hsa04140,autophagy|negative regulation of autophagy|Autophagy,GO|KEGG,3
+RUBCNL,GO:0006914,autophagy,GO,1
+RUFY4,GO:0006914,autophagy,GO,1
+S100A8,GO:0006914,autophagy,GO,1
+S100A9,GO:0006914,autophagy,GO,1
+SAMM50,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+SBF2,GO:0006914,autophagy,GO,1
+SCO1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+SCO2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+SDHAF1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+SDHAF2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+SEC16A,GO:0006914,autophagy,GO,1
+SEC16B,GO:0006914,autophagy,GO,1
+SELENON,GO:0007005,mitochondrion organization,GO,1
+SERAC1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+SESN2,GO:0007005,mitochondrion organization,GO,1
+SFXN1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+SFXN2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+SFXN3,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+SFXN4,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+SFXN5,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+SH3GLB1,GO:0006914|path:hsa04140|br:hsa03029,autophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,3
+SHARPIN,GO:0007005,mitochondrion organization,GO,1
+SIL1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+SIRT1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+SIRT2,GO:0006914|GO:0010507,autophagy|negative regulation of autophagy,GO,2
+SIRT4,GO:0007005,mitochondrion organization,GO,1
+SIRT5,GO:0007005,mitochondrion organization,GO,1
+SLC25A28,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+SLC25A31,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+SLC25A33,GO:0007005,mitochondrion organization,GO,1
+SLC25A36,GO:0007005,mitochondrion organization,GO,1
+SLC25A37,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+SLC25A4,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+SLC25A46,GO:0000266|GO:0000422|GO:0007005,mitochondrial fission|autophagy of mitochondrion|mitochondrion organization,GO,3
+SLC25A5,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+SLC25A6,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+SLC7A5,GO:0010507,negative regulation of autophagy,GO,1
+SMCR8,GO:0006914|GO:0010506|path:hsa04140,autophagy|regulation of autophagy|Autophagy,GO|KEGG,3
+SMDT1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+SMURF1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+SMURF2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+SNAP29,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG,2
+SNX25,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+SNX30,GO:0000422,autophagy of mitochondrion,GO,1
+SNX7,GO:0000422,autophagy of mitochondrion,GO,1
+SOD2,GO:0007005,mitochondrion organization,GO,1
+SOGA1,GO:0010506,regulation of autophagy,GO,1
+SOGA3,GO:0010506,regulation of autophagy,GO,1
+SP1,path:hsa04137|br:hsa03029,Mitophagy|Mitochondrial Biogenesis,KEGG,2
+SPATA33,GO:0006914,autophagy,GO,1
+SPG7,GO:0007005,mitochondrion organization,GO,1
+SQSTM1,GO:0006914|GO:0000422|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,5
+SRC,path:hsa04137,Mitophagy,KEGG,1
+SRPX,GO:0006914,autophagy,GO,1
+SSBP1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+STAT3,GO:0010507,negative regulation of autophagy,GO,1
+STBD1,GO:0006914,autophagy,GO,1
+STING1,GO:0006914,autophagy,GO,1
+STK11,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG,2
+STK35,GO:0006914,autophagy,GO,1
+STOML2,GO:0007005,mitochondrion organization,GO,1
+STX17,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG,2
+SUMO1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+SUMO2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+SUMO3,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+SUMO4,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+SUPT20H,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG,2
+SUPV3L1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+SURF1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+SYT11,GO:0006914,autophagy,GO,1
+TAB2,GO:0010507,negative regulation of autophagy,GO,1
+TAB3,GO:0010507,negative regulation of autophagy,GO,1
+TACO1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TAFAZZIN,GO:0007005,mitochondrion organization,GO,1
+TAMM41,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TANK,path:hsa04140,Autophagy,KEGG,1
+TAX1BP1,GO:0006914|path:hsa04137|br:hsa03029,autophagy|Mitophagy|Mitochondrial Biogenesis,GO|KEGG,3
+TBC1D14,GO:0006914|GO:0010507,autophagy|negative regulation of autophagy,GO,2
+TBC1D15,path:hsa04137,Mitophagy,KEGG,1
+TBC1D17,GO:0006914|path:hsa04137,autophagy|Mitophagy,GO|KEGG,2
+TBC1D25,GO:0006914,autophagy,GO,1
+TBC1D5,GO:0006914,autophagy,GO,1
+TBK1,path:hsa04137|path:hsa04140,Mitophagy|Autophagy,KEGG,2
+TCIRG1,GO:0006914,autophagy,GO,1
+TECPR1,GO:0006914|br:hsa03029,autophagy|Mitochondrial Biogenesis,GO|KEGG,2
+TECPR2,GO:0006914,autophagy,GO,1
+TEFM,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TERT,GO:0007005,mitochondrion organization,GO,1
+TEX264,GO:0006914,autophagy,GO,1
+TFAM,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TFB1M,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TFB2M,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TFE3,path:hsa04137,Mitophagy,KEGG,1
+TFEB,GO:0006914|path:hsa04137,autophagy|Mitophagy,GO|KEGG,2
+TGFBRAP1,GO:0006914,autophagy,GO,1
+THG1L,GO:0008053,mitochondrial fusion,GO,1
+TIGAR,GO:0006914,autophagy,GO,1
+TIMM10,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TIMM10B,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TIMM13,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TIMM17A,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TIMM17B,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TIMM21,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TIMM22,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TIMM23,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TIMM23B,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TIMM44,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TIMM50,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TIMM8A,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TIMM8B,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TIMM9,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TIMMDC1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TLK2,GO:0010507,negative regulation of autophagy,GO,1
+TM9SF1,GO:0006914,autophagy,GO,1
+TMBIM6,GO:0006914,autophagy,GO,1
+TMEM11,GO:0007005,mitochondrion organization,GO,1
+TMEM126A,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TMEM126B,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
+TMEM150B,GO:0006914,autophagy,GO,1
+TMEM208,GO:0006914,autophagy,GO,1
+TMEM39A,GO:0006914,autophagy,GO,1
+TMEM41B,GO:0006914,autophagy,GO,1
+TMEM59,GO:0006914,autophagy,GO,1
+TMEM70,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TMEM74,GO:0006914,autophagy,GO,1
+TOLLIP,GO:0006914,autophagy,GO,1
+TOMM20,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TOMM20L,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TOMM22,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TOMM34,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TOMM40,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TOMM40L,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TOMM5,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TOMM6,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TOMM7,path:hsa04137|br:hsa03029,Mitophagy|Mitochondrial Biogenesis,KEGG,2
+TOMM70,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TP53,GO:0006914|path:hsa04137,autophagy|Mitophagy,GO|KEGG,2
+TP53INP1,GO:0010506|GO:0006914,regulation of autophagy|autophagy,GO,2
+TP53INP2,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG,2
+TPCN2,GO:0010506,regulation of autophagy,GO,1
+TRAF6,path:hsa04140,Autophagy,KEGG,1
+TRAPPC4,GO:0006914,autophagy,GO,1
+TREM2,GO:0010507,negative regulation of autophagy,GO,1
+TRIAP1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TRIB3,GO:0010506,regulation of autophagy,GO,1
+TRIM17,GO:0006914,autophagy,GO,1
+TRIM5,GO:0006914,autophagy,GO,1
+TRMT10C,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TRUB2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TSC1,path:hsa04140,Autophagy,KEGG,1
+TSC2,path:hsa04140,Autophagy,KEGG,1
+TSFM,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TTC19,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TUFM,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TWNK,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+UBA52,path:hsa04137,Mitophagy,KEGG,1
+UBB,path:hsa04137,Mitophagy,KEGG,1
+UBC,path:hsa04137,Mitophagy,KEGG,1
+UBQLN1,GO:0006914,autophagy,GO,1
+UBQLN2,GO:0006914,autophagy,GO,1
+UBQLN4,GO:0006914,autophagy,GO,1
+UCP2,GO:0000266,mitochondrial fission,GO,1
+ULK1,GO:0006914|GO:0000422|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,5
+ULK2,GO:0006914|GO:0000422|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Autophagy|Mitochondrial Biogenesis,GO|KEGG,4
+ULK3,GO:0006914,autophagy,GO,1
+UMOD,GO:0006914,autophagy,GO,1
+UQCC1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+UQCC2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+UQCC3,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+USP10,GO:0006914|GO:0010506,autophagy|regulation of autophagy,GO,2
+USP13,GO:0006914|GO:0010506,autophagy|regulation of autophagy,GO,2
+USP15,path:hsa04137,Mitophagy,KEGG,1
+USP30,GO:0008053|GO:0000422|path:hsa04137,mitochondrial fusion|autophagy of mitochondrion|Mitophagy,GO|KEGG,3
+USP33,GO:0010506,regulation of autophagy,GO,1
+USP8,path:hsa04137,Mitophagy,KEGG,1
+UVRAG,GO:0006914|GO:0010506|path:hsa04140,autophagy|regulation of autophagy|Autophagy,GO|KEGG,3
+UXT,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+VAMP8,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG,2
+VAT1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+VCP,GO:0006914,autophagy,GO,1
+VDAC1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+VDAC2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+VDAC3,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+VHL,GO:0010507,negative regulation of autophagy,GO,1
+VMP1,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG,2
+VPS11,GO:0006914,autophagy,GO,1
+VPS13A,GO:0006914,autophagy,GO,1
+VPS13C,GO:0007005,mitochondrion organization,GO,1
+VPS13D,GO:0007005,mitochondrion organization,GO,1
+VPS16,GO:0006914,autophagy,GO,1
+VPS18,GO:0006914,autophagy,GO,1
+VPS33A,GO:0006914,autophagy,GO,1
+VPS39,GO:0006914,autophagy,GO,1
+VPS41,GO:0006914,autophagy,GO,1
+VPS4A,GO:0006914,autophagy,GO,1
+VPS4B,GO:0006914,autophagy,GO,1
+VPS51,GO:0006914,autophagy,GO,1
+VPS54,GO:0007005,mitochondrion organization,GO,1
+VTI1A,GO:0006914,autophagy,GO,1
+WAC,GO:0010506,regulation of autophagy,GO,1
+WASHC1,GO:0010507,negative regulation of autophagy,GO,1
+WDFY3,GO:0006914,autophagy,GO,1
+WDFY4,GO:0006914,autophagy,GO,1
+WDR24,GO:0006914|GO:0010506,autophagy|regulation of autophagy,GO,2
+WDR41,GO:0010506|GO:0006914|path:hsa04140,regulation of autophagy|autophagy|Autophagy,GO|KEGG,3
+WDR45,GO:0006914|GO:0000422,autophagy|autophagy of mitochondrion,GO,2
+WDR45B,GO:0006914|GO:0000422,autophagy|autophagy of mitochondrion,GO,2
+WDR47,GO:0006914,autophagy,GO,1
+WDR6,GO:0010507,negative regulation of autophagy,GO,1
+WDR81,GO:0007005,mitochondrion organization,GO,1
+WIPI1,GO:0006914|GO:0000422|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Autophagy|Mitochondrial Biogenesis,GO|KEGG,4
+WIPI2,GO:0006914|GO:0000422|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Autophagy|Mitochondrial Biogenesis,GO|KEGG,4
+XBP1,GO:0006914,autophagy,GO,1
+XIAP,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+YARS1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+YARS2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+YME1L1,GO:0007005,mitochondrion organization,GO,1
+YY1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+YY2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+ZFYVE1,path:hsa04140|br:hsa03029,Autophagy|Mitochondrial Biogenesis,KEGG,2
+ZKSCAN3,GO:0006914|GO:0010507,autophagy|negative regulation of autophagy,GO,2
+ZMPSTE24,GO:0010506,regulation of autophagy,GO,1

@@ -1742,7 +1742,7 @@ border-radius: 0px;
 
 <h1 class="title toc-ignore">Get Related Genes</h1>
 <h4 class="author">João Cavalcante</h4>
-<h4 class="date">27 June, 2023</h4>
+<h4 class="date">28 June, 2023</h4>
 
 </div>
 
@@ -1772,12 +1772,24 @@ get_go_genes &lt;- function(go_term) {
 }</code></pre>
 <div id="get-go-genes" class="section level2">
 <h2>Get GO genes</h2>
+<p>GO terms:</p>
+<ul>
+<li>autophagy - <a href="https://amigo.geneontology.org/amigo/term/GO:0006914">GO:0006914</a></li>
+<li>autophagy of mitocondrion - <a href="https://amigo.geneontology.org/amigo/term/GO:0000422">GO:0000422</a></li>
+<li>regulation of autophagy - <a href="https://amigo.geneontology.org/amigo/term/GO:0010506">GO:0010506</a></li>
+<li>negative regulation of autophagy - <a href="https://amigo.geneontology.org/amigo/term/GO:0010507">GO:0010507</a></li>
+<li>positive regulation of autophagy - <a href="https://amigo.geneontology.org/amigo/term/GO:0000422">GO:0000422</a></li>
+<li>mitochondrial organization - <a href="https://amigo.geneontology.org/amigo/term/GO:0007005">GO:0007005</a></li>
+<li>mitochondrial fusion - <a href="https://amigo.geneontology.org/amigo/term/GO:0008053">GO:0008053</a></li>
+<li>mitochondrial fission - <a href="https://amigo.geneontology.org/amigo/term/GO:0000266">GO:0000266</a></li>
+</ul>
 <pre class="r"><code>go_terms &lt;- c(
   autophagy = &quot;GO:0006914&quot;,
   autophagy_of_mitocondrion = &quot;GO:0000422&quot;,
   regulation_of_autophagy = &quot;GO:0010506&quot;,
   negative_regulation_of_autophagy = &quot;GO:0010507&quot;,
   positive_regulation_of_autophagy = &quot;GO:0000422&quot;,
+  mitochondrial_organization = &quot;GO:0007005&quot;,
   mitochondrial_fusion = &quot;GO:0008053&quot;,
   mitochondrial_fission = &quot;GO:0000266&quot;
 )
@@ -1794,6 +1806,12 @@ go_renamed &lt;- go_selected %&gt;%
 </div>
 <div id="get-kegg-genes" class="section level2">
 <h2>Get KEGG genes</h2>
+<p>KEGG Pathways / BRITE:</p>
+<ul>
+<li>Mitochondrial Biogenesis - <a href="https://www.kegg.jp/brite/hsa03029">br:hsa03029</a></li>
+<li>Autophagy - <a href="https://www.kegg.jp/pathway/hsa04140">path:hsa04140</a></li>
+<li>Mitophagy - <a href="https://www.kegg.jp/pathway/hsa04137">path:hsa04137</a></li>
+</ul>
 <p>We start by downloading gene to pathway mappings from the KEGG
 API.</p>
 <pre class="r"><code>download.file(
@@ -1868,7 +1886,8 @@ merged_collapsed &lt;- merged %&gt;%
   summarise(
     annotation_ids = paste0(unique(annotation_id), collapse=&quot;|&quot;),
     annotation_names = paste0(unique(annotation_name), collapse=&quot;|&quot;),
-    databases = paste0(unique(database), collapse=&quot;|&quot;)
+    databases = paste0(unique(database), collapse=&quot;|&quot;),
+    n_annotation = length(unique(annotation_id))
   )
 
 write_csv(merged, here::here(&quot;results/selected_genes.csv&quot;))
