@@ -22,14 +22,17 @@ WIPI2,GO:0006914,autophagy,GO
 WIPI2,GO:0000422,autophagy of mitochondrion,GO
 TRIM17,GO:0006914,autophagy,GO
 STING1,GO:0006914,autophagy,GO
+STING1,GO:0005741,mitochondrial outer membrane,GO
 ATG10,GO:0006914,autophagy,GO
 TM9SF1,GO:0006914,autophagy,GO
 CHMP4A,GO:0006914,autophagy,GO
 ATG4A,GO:0006914,autophagy,GO
 NRBF2,GO:0006914,autophagy,GO
 FUNDC1,GO:0006914,autophagy,GO
+FUNDC1,GO:0005741,mitochondrial outer membrane,GO
 FUNDC1,GO:0000422,autophagy of mitochondrion,GO
 MOAP1,GO:0006914,autophagy,GO
+MOAP1,GO:0005741,mitochondrial outer membrane,GO
 ATG12,GO:0006914,autophagy,GO
 ATG12,GO:0000422,autophagy of mitochondrion,GO
 RAB39A,GO:0006914,autophagy,GO
@@ -50,6 +53,7 @@ RB1CC1,GO:0000422,autophagy of mitochondrion,GO
 RB1CC1,GO:0006914,autophagy,GO
 CISD2,GO:0010506,regulation of autophagy,GO
 CISD2,GO:0006914,autophagy,GO
+CISD2,GO:0005741,mitochondrial outer membrane,GO
 CISD2,GO:0000422,autophagy of mitochondrion,GO
 FOXO1,GO:0006914,autophagy,GO
 HDAC10,GO:0006914,autophagy,GO
@@ -70,6 +74,7 @@ PIK3C3,GO:0010506,regulation of autophagy,GO
 UBQLN2,GO:0006914,autophagy,GO
 ATG2A,GO:0006914,autophagy,GO
 ATG2A,GO:0000422,autophagy of mitochondrion,GO
+VPS13A,GO:0005741,mitochondrial outer membrane,GO
 VPS13A,GO:0006914,autophagy,GO
 RUBCNL,GO:0006914,autophagy,GO
 VPS16,GO:0006914,autophagy,GO
@@ -120,10 +125,13 @@ CHMP7,GO:0006914,autophagy,GO
 DRAM1,GO:0006914,autophagy,GO
 DRAM1,GO:0010506,regulation of autophagy,GO
 RNF185,GO:0006914,autophagy,GO
+RNF185,GO:0005741,mitochondrial outer membrane,GO
 RGS19,GO:0006914,autophagy,GO
 RETREG2,GO:0006914,autophagy,GO
 PINK1,GO:0000422,autophagy of mitochondrion,GO
 PINK1,GO:0006914,autophagy,GO
+PINK1,GO:0005743,mitochondrial inner membrane,GO
+PINK1,GO:0005741,mitochondrial outer membrane,GO
 PINK1,GO:0007005,mitochondrion organization,GO
 LRSAM1,GO:0006914,autophagy,GO
 ATG9A,GO:0006914,autophagy,GO
@@ -158,7 +166,9 @@ RAB24,GO:0006914,autophagy,GO
 RIMOC1,GO:0006914,autophagy,GO
 GRAMD1A,GO:0006914,autophagy,GO
 TIGAR,GO:0006914,autophagy,GO
+TIGAR,GO:0005741,mitochondrial outer membrane,GO
 IRGM,GO:0006914,autophagy,GO
+MFN2,GO:0005741,mitochondrial outer membrane,GO
 MFN2,GO:0008053,mitochondrial fusion,GO
 MFN2,GO:0006914,autophagy,GO
 MFN2,GO:0007005,mitochondrion organization,GO
@@ -176,6 +186,7 @@ LAMP2,GO:0006914,autophagy,GO
 BCAS3,GO:0006914,autophagy,GO
 UMOD,GO:0006914,autophagy,GO
 PSEN1,GO:0006914,autophagy,GO
+PSEN1,GO:0005743,mitochondrial inner membrane,GO
 C9orf72,GO:0006914,autophagy,GO
 C9orf72,GO:0010506,regulation of autophagy,GO
 VTI1A,GO:0006914,autophagy,GO
@@ -183,6 +194,7 @@ LGALS8,GO:0006914,autophagy,GO
 WDR41,GO:0010506,regulation of autophagy,GO
 WDR41,GO:0006914,autophagy,GO
 PRKN,GO:0006914,autophagy,GO
+PRKN,GO:0005741,mitochondrial outer membrane,GO
 PRKN,GO:0000422,autophagy of mitochondrion,GO
 PRKN,GO:0007005,mitochondrion organization,GO
 PRKN,GO:0010506,regulation of autophagy,GO
@@ -196,6 +208,7 @@ CHMP6,GO:0006914,autophagy,GO
 SPATA33,GO:0006914,autophagy,GO
 AMBRA1,GO:0006914,autophagy,GO
 AMBRA1,GO:0000422,autophagy of mitochondrion,GO
+AMBRA1,GO:0005741,mitochondrial outer membrane,GO
 WDR45B,GO:0006914,autophagy,GO
 WDR45B,GO:0000422,autophagy of mitochondrion,GO
 DRAM2,GO:0010506,regulation of autophagy,GO
@@ -207,11 +220,14 @@ C19orf12,GO:0006914,autophagy,GO
 CHMP2A,GO:0006914,autophagy,GO
 ULK1,GO:0006914,autophagy,GO
 ULK1,GO:0000422,autophagy of mitochondrion,GO
+ULK1,GO:0005741,mitochondrial outer membrane,GO
 MAP1S,GO:0006914,autophagy,GO
 PHF23,GO:0006914,autophagy,GO
 GABARAP,GO:0006914,autophagy,GO
 GABARAP,GO:0000422,autophagy of mitochondrion,GO
 LRRK2,GO:0006914,autophagy,GO
+LRRK2,GO:0005743,mitochondrial inner membrane,GO
+LRRK2,GO:0005741,mitochondrial outer membrane,GO
 LRRK2,GO:0007005,mitochondrion organization,GO
 LRRK2,GO:0010506,regulation of autophagy,GO
 CHMP5,GO:0006914,autophagy,GO
@@ -276,16 +292,20 @@ S100A8,GO:0006914,autophagy,GO
 PARK7,GO:0006914,autophagy,GO
 PARK7,GO:0007005,mitochondrion organization,GO
 SH3GLB1,GO:0006914,autophagy,GO
+SH3GLB1,GO:0005741,mitochondrial outer membrane,GO
 FBXO7,GO:0000422,autophagy of mitochondrion,GO
 ATG2B,GO:0006914,autophagy,GO
 ATG2B,GO:0000422,autophagy of mitochondrion,GO
 WIPI2,GO:0006914,autophagy,GO
 WIPI2,GO:0000422,autophagy of mitochondrion,GO
 FUNDC1,GO:0006914,autophagy,GO
+FUNDC1,GO:0005741,mitochondrial outer membrane,GO
 FUNDC1,GO:0000422,autophagy of mitochondrion,GO
 ATG12,GO:0006914,autophagy,GO
 ATG12,GO:0000422,autophagy of mitochondrion,GO
+FUNDC2,GO:0005741,mitochondrial outer membrane,GO
 FUNDC2,GO:0000422,autophagy of mitochondrion,GO
+SLC25A46,GO:0005741,mitochondrial outer membrane,GO
 SLC25A46,GO:0000266,mitochondrial fission,GO
 SLC25A46,GO:0000422,autophagy of mitochondrion,GO
 SLC25A46,GO:0007005,mitochondrion organization,GO
@@ -293,6 +313,7 @@ RB1CC1,GO:0000422,autophagy of mitochondrion,GO
 RB1CC1,GO:0006914,autophagy,GO
 CISD2,GO:0010506,regulation of autophagy,GO
 CISD2,GO:0006914,autophagy,GO
+CISD2,GO:0005741,mitochondrial outer membrane,GO
 CISD2,GO:0000422,autophagy of mitochondrion,GO
 GABARAPL1,GO:0006914,autophagy,GO
 GABARAPL1,GO:0000422,autophagy of mitochondrion,GO
@@ -302,8 +323,10 @@ FBXL4,GO:0000422,autophagy of mitochondrion,GO
 SQSTM1,GO:0006914,autophagy,GO
 SQSTM1,GO:0000422,autophagy of mitochondrion,GO
 FIS1,GO:0000266,mitochondrial fission,GO
+FIS1,GO:0005741,mitochondrial outer membrane,GO
 FIS1,GO:0008053,mitochondrial fusion,GO
 FIS1,GO:0000422,autophagy of mitochondrion,GO
+FIS1,GO:0070584,mitochondrion morphogenesis,GO
 SNX7,GO:0000422,autophagy of mitochondrion,GO
 BECN1,GO:0006914,autophagy,GO
 BECN1,GO:0000422,autophagy of mitochondrion,GO
@@ -323,11 +346,15 @@ MAP1LC3A,GO:0006914,autophagy,GO
 MAP1LC3A,GO:0000422,autophagy of mitochondrion,GO
 GABARAPL2,GO:0006914,autophagy,GO
 GABARAPL2,GO:0000422,autophagy of mitochondrion,GO
+BNIP3,GO:0005741,mitochondrial outer membrane,GO
 BNIP3,GO:0000422,autophagy of mitochondrion,GO
+USP30,GO:0005741,mitochondrial outer membrane,GO
 USP30,GO:0008053,mitochondrial fusion,GO
 USP30,GO:0000422,autophagy of mitochondrion,GO
 PINK1,GO:0000422,autophagy of mitochondrion,GO
 PINK1,GO:0006914,autophagy,GO
+PINK1,GO:0005743,mitochondrial inner membrane,GO
+PINK1,GO:0005741,mitochondrial outer membrane,GO
 PINK1,GO:0007005,mitochondrion organization,GO
 ATG9A,GO:0006914,autophagy,GO
 ATG9A,GO:0000422,autophagy of mitochondrion,GO
@@ -335,6 +362,7 @@ MARK2,GO:0000422,autophagy of mitochondrion,GO
 WDR45,GO:0006914,autophagy,GO
 WDR45,GO:0000422,autophagy of mitochondrion,GO
 PRKN,GO:0006914,autophagy,GO
+PRKN,GO:0005741,mitochondrial outer membrane,GO
 PRKN,GO:0000422,autophagy of mitochondrion,GO
 PRKN,GO:0007005,mitochondrion organization,GO
 PRKN,GO:0010506,regulation of autophagy,GO
@@ -343,11 +371,13 @@ ATG9B,GO:0006914,autophagy,GO
 ATG9B,GO:0000422,autophagy of mitochondrion,GO
 AMBRA1,GO:0006914,autophagy,GO
 AMBRA1,GO:0000422,autophagy of mitochondrion,GO
+AMBRA1,GO:0005741,mitochondrial outer membrane,GO
 WDR45B,GO:0006914,autophagy,GO
 WDR45B,GO:0000422,autophagy of mitochondrion,GO
 CTSK,GO:0000422,autophagy of mitochondrion,GO
 ULK1,GO:0006914,autophagy,GO
 ULK1,GO:0000422,autophagy of mitochondrion,GO
+ULK1,GO:0005741,mitochondrial outer membrane,GO
 SNX30,GO:0000422,autophagy of mitochondrion,GO
 GABARAP,GO:0006914,autophagy,GO
 GABARAP,GO:0000422,autophagy of mitochondrion,GO
@@ -372,6 +402,7 @@ MTMR8,GO:0010507,negative regulation of autophagy,GO
 MTMR3,GO:0010506,regulation of autophagy,GO
 DEPP1,GO:0006914,autophagy,GO
 DEPP1,GO:0010506,regulation of autophagy,GO
+BCL2,GO:0005741,mitochondrial outer membrane,GO
 BCL2,GO:0010506,regulation of autophagy,GO
 BCL2,GO:0010507,negative regulation of autophagy,GO
 RAB39B,GO:0006914,autophagy,GO
@@ -383,6 +414,7 @@ CHMP4B,GO:0010506,regulation of autophagy,GO
 RRAGC,GO:0010506,regulation of autophagy,GO
 CISD2,GO:0010506,regulation of autophagy,GO
 CISD2,GO:0006914,autophagy,GO
+CISD2,GO:0005741,mitochondrial outer membrane,GO
 CISD2,GO:0000422,autophagy of mitochondrion,GO
 PIK3C3,GO:0006914,autophagy,GO
 PIK3C3,GO:0010506,regulation of autophagy,GO
@@ -398,6 +430,8 @@ BECN1,GO:0006914,autophagy,GO
 BECN1,GO:0000422,autophagy of mitochondrion,GO
 BECN1,GO:0010506,regulation of autophagy,GO
 BECN1,GO:0010507,negative regulation of autophagy,GO
+BOK,GO:0005743,mitochondrial inner membrane,GO
+BOK,GO:0005741,mitochondrial outer membrane,GO
 BOK,GO:0010506,regulation of autophagy,GO
 KAT8,GO:0010506,regulation of autophagy,GO
 PYCARD,GO:0010506,regulation of autophagy,GO
@@ -424,6 +458,7 @@ ZMPSTE24,GO:0010506,regulation of autophagy,GO
 ACER2,GO:0010506,regulation of autophagy,GO
 CLN3,GO:0010506,regulation of autophagy,GO
 CISD1,GO:0010506,regulation of autophagy,GO
+CISD1,GO:0005741,mitochondrial outer membrane,GO
 NUPR1,GO:0010507,negative regulation of autophagy,GO
 NUPR1,GO:0010506,regulation of autophagy,GO
 USP33,GO:0010506,regulation of autophagy,GO
@@ -433,6 +468,7 @@ ERCC4,GO:0010506,regulation of autophagy,GO
 WDR41,GO:0010506,regulation of autophagy,GO
 WDR41,GO:0006914,autophagy,GO
 PRKN,GO:0006914,autophagy,GO
+PRKN,GO:0005741,mitochondrial outer membrane,GO
 PRKN,GO:0000422,autophagy of mitochondrion,GO
 PRKN,GO:0007005,mitochondrion organization,GO
 PRKN,GO:0010506,regulation of autophagy,GO
@@ -449,6 +485,8 @@ ABL1,GO:0006914,autophagy,GO
 ABL1,GO:0010506,regulation of autophagy,GO
 MTMR4,GO:0010506,regulation of autophagy,GO
 LRRK2,GO:0006914,autophagy,GO
+LRRK2,GO:0005743,mitochondrial inner membrane,GO
+LRRK2,GO:0005741,mitochondrial outer membrane,GO
 LRRK2,GO:0007005,mitochondrion organization,GO
 LRRK2,GO:0010506,regulation of autophagy,GO
 ITPR1,GO:0010506,regulation of autophagy,GO
@@ -469,6 +507,7 @@ GPR137B,GO:0006914,autophagy,GO
 GPR137B,GO:0010506,regulation of autophagy,GO
 IFI16,GO:0006914,autophagy,GO
 IFI16,GO:0010506,regulation of autophagy,GO
+MTOR,GO:0005741,mitochondrial outer membrane,GO
 MTOR,GO:0010507,negative regulation of autophagy,GO
 MTOR,GO:0010506,regulation of autophagy,GO
 ABL2,GO:0010506,regulation of autophagy,GO
@@ -479,10 +518,15 @@ MTMR9,GO:0010507,negative regulation of autophagy,GO
 MTMR8,GO:0010506,regulation of autophagy,GO
 MTMR8,GO:0010507,negative regulation of autophagy,GO
 FOXK1,GO:0010507,negative regulation of autophagy,GO
+BCL2L1,GO:0005743,mitochondrial inner membrane,GO
+BCL2L1,GO:0005741,mitochondrial outer membrane,GO
 BCL2L1,GO:0010507,negative regulation of autophagy,GO
+BCL2L1,GO:0070584,mitochondrion morphogenesis,GO
+BCL2,GO:0005741,mitochondrial outer membrane,GO
 BCL2,GO:0010507,negative regulation of autophagy,GO
 BCL2,GO:0010506,regulation of autophagy,GO
 BMF,GO:0010507,negative regulation of autophagy,GO
+BMF,GO:0005741,mitochondrial outer membrane,GO
 HGF,GO:0010507,negative regulation of autophagy,GO
 KLHL22,GO:0010507,negative regulation of autophagy,GO
 HERC1,GO:0006914,autophagy,GO
@@ -499,6 +543,7 @@ TAB3,GO:0010507,negative regulation of autophagy,GO
 AKT1,GO:0010507,negative regulation of autophagy,GO
 FOXK2,GO:0010507,negative regulation of autophagy,GO
 MAGEA3,GO:0010507,negative regulation of autophagy,GO
+MT3,GO:0005741,mitochondrial outer membrane,GO
 MT3,GO:0010507,negative regulation of autophagy,GO
 GATA4,GO:0010507,negative regulation of autophagy,GO
 MAGEA6,GO:0010507,negative regulation of autophagy,GO
@@ -517,6 +562,7 @@ STAT3,GO:0010507,negative regulation of autophagy,GO
 WASHC1,GO:0010507,negative regulation of autophagy,GO
 KIF25,GO:0010507,negative regulation of autophagy,GO
 GOLGA2,GO:0010507,negative regulation of autophagy,GO
+MCL1,GO:0005741,mitochondrial outer membrane,GO
 MCL1,GO:0010507,negative regulation of autophagy,GO
 TLK2,GO:0010507,negative regulation of autophagy,GO
 DAP,GO:0006914,autophagy,GO
@@ -539,6 +585,7 @@ IL10,GO:0010507,negative regulation of autophagy,GO
 PTPN22,GO:0006914,autophagy,GO
 PTPN22,GO:0010507,negative regulation of autophagy,GO
 CPTP,GO:0010507,negative regulation of autophagy,GO
+MTOR,GO:0005741,mitochondrial outer membrane,GO
 MTOR,GO:0010507,negative regulation of autophagy,GO
 MTOR,GO:0010506,regulation of autophagy,GO
 FBXO7,GO:0000422,autophagy of mitochondrion,GO
@@ -547,10 +594,13 @@ ATG2B,GO:0000422,autophagy of mitochondrion,GO
 WIPI2,GO:0006914,autophagy,GO
 WIPI2,GO:0000422,autophagy of mitochondrion,GO
 FUNDC1,GO:0006914,autophagy,GO
+FUNDC1,GO:0005741,mitochondrial outer membrane,GO
 FUNDC1,GO:0000422,autophagy of mitochondrion,GO
 ATG12,GO:0006914,autophagy,GO
 ATG12,GO:0000422,autophagy of mitochondrion,GO
+FUNDC2,GO:0005741,mitochondrial outer membrane,GO
 FUNDC2,GO:0000422,autophagy of mitochondrion,GO
+SLC25A46,GO:0005741,mitochondrial outer membrane,GO
 SLC25A46,GO:0000266,mitochondrial fission,GO
 SLC25A46,GO:0000422,autophagy of mitochondrion,GO
 SLC25A46,GO:0007005,mitochondrion organization,GO
@@ -558,6 +608,7 @@ RB1CC1,GO:0000422,autophagy of mitochondrion,GO
 RB1CC1,GO:0006914,autophagy,GO
 CISD2,GO:0010506,regulation of autophagy,GO
 CISD2,GO:0006914,autophagy,GO
+CISD2,GO:0005741,mitochondrial outer membrane,GO
 CISD2,GO:0000422,autophagy of mitochondrion,GO
 GABARAPL1,GO:0006914,autophagy,GO
 GABARAPL1,GO:0000422,autophagy of mitochondrion,GO
@@ -567,8 +618,10 @@ FBXL4,GO:0000422,autophagy of mitochondrion,GO
 SQSTM1,GO:0006914,autophagy,GO
 SQSTM1,GO:0000422,autophagy of mitochondrion,GO
 FIS1,GO:0000266,mitochondrial fission,GO
+FIS1,GO:0005741,mitochondrial outer membrane,GO
 FIS1,GO:0008053,mitochondrial fusion,GO
 FIS1,GO:0000422,autophagy of mitochondrion,GO
+FIS1,GO:0070584,mitochondrion morphogenesis,GO
 SNX7,GO:0000422,autophagy of mitochondrion,GO
 BECN1,GO:0006914,autophagy,GO
 BECN1,GO:0000422,autophagy of mitochondrion,GO
@@ -588,11 +641,15 @@ MAP1LC3A,GO:0006914,autophagy,GO
 MAP1LC3A,GO:0000422,autophagy of mitochondrion,GO
 GABARAPL2,GO:0006914,autophagy,GO
 GABARAPL2,GO:0000422,autophagy of mitochondrion,GO
+BNIP3,GO:0005741,mitochondrial outer membrane,GO
 BNIP3,GO:0000422,autophagy of mitochondrion,GO
+USP30,GO:0005741,mitochondrial outer membrane,GO
 USP30,GO:0008053,mitochondrial fusion,GO
 USP30,GO:0000422,autophagy of mitochondrion,GO
 PINK1,GO:0000422,autophagy of mitochondrion,GO
 PINK1,GO:0006914,autophagy,GO
+PINK1,GO:0005743,mitochondrial inner membrane,GO
+PINK1,GO:0005741,mitochondrial outer membrane,GO
 PINK1,GO:0007005,mitochondrion organization,GO
 ATG9A,GO:0006914,autophagy,GO
 ATG9A,GO:0000422,autophagy of mitochondrion,GO
@@ -600,6 +657,7 @@ MARK2,GO:0000422,autophagy of mitochondrion,GO
 WDR45,GO:0006914,autophagy,GO
 WDR45,GO:0000422,autophagy of mitochondrion,GO
 PRKN,GO:0006914,autophagy,GO
+PRKN,GO:0005741,mitochondrial outer membrane,GO
 PRKN,GO:0000422,autophagy of mitochondrion,GO
 PRKN,GO:0007005,mitochondrion organization,GO
 PRKN,GO:0010506,regulation of autophagy,GO
@@ -608,11 +666,13 @@ ATG9B,GO:0006914,autophagy,GO
 ATG9B,GO:0000422,autophagy of mitochondrion,GO
 AMBRA1,GO:0006914,autophagy,GO
 AMBRA1,GO:0000422,autophagy of mitochondrion,GO
+AMBRA1,GO:0005741,mitochondrial outer membrane,GO
 WDR45B,GO:0006914,autophagy,GO
 WDR45B,GO:0000422,autophagy of mitochondrion,GO
 CTSK,GO:0000422,autophagy of mitochondrion,GO
 ULK1,GO:0006914,autophagy,GO
 ULK1,GO:0000422,autophagy of mitochondrion,GO
+ULK1,GO:0005741,mitochondrial outer membrane,GO
 SNX30,GO:0000422,autophagy of mitochondrion,GO
 GABARAP,GO:0006914,autophagy,GO
 GABARAP,GO:0000422,autophagy of mitochondrion,GO
@@ -626,31 +686,41 @@ CHCHD10,GO:0007005,mitochondrion organization,GO
 WDR81,GO:0007005,mitochondrion organization,GO
 DNAJA3,GO:0007005,mitochondrion organization,GO
 CXADR,GO:0007005,mitochondrion organization,GO
+MIEF2,GO:0005741,mitochondrial outer membrane,GO
 MIEF2,GO:0007005,mitochondrion organization,GO
 PPARGC1A,GO:0007005,mitochondrion organization,GO
 ATAD3B,GO:0007005,mitochondrion organization,GO
+ATAD3B,GO:0005743,mitochondrial inner membrane,GO
+MIEF1,GO:0005741,mitochondrial outer membrane,GO
 MIEF1,GO:0007005,mitochondrion organization,GO
 MIEF1,GO:0000266,mitochondrial fission,GO
 VPS13D,GO:0007005,mitochondrion organization,GO
 RAB38,GO:0007005,mitochondrion organization,GO
+ADCK1,GO:0005743,mitochondrial inner membrane,GO
 ADCK1,GO:0007005,mitochondrion organization,GO
 SESN2,GO:0007005,mitochondrion organization,GO
+NIPSNAP2,GO:0005741,mitochondrial outer membrane,GO
 NIPSNAP2,GO:0007005,mitochondrion organization,GO
 EPAS1,GO:0007005,mitochondrion organization,GO
 CAMKMT,GO:0007005,mitochondrion organization,GO
+SLC25A33,GO:0005743,mitochondrial inner membrane,GO
 SLC25A33,GO:0007005,mitochondrion organization,GO
+SLC25A46,GO:0005741,mitochondrial outer membrane,GO
 SLC25A46,GO:0000266,mitochondrial fission,GO
 SLC25A46,GO:0000422,autophagy of mitochondrion,GO
 SLC25A46,GO:0007005,mitochondrion organization,GO
 EDN1,GO:0007005,mitochondrion organization,GO
 MTFR1,GO:0000266,mitochondrial fission,GO
 MTFR1,GO:0007005,mitochondrion organization,GO
+OMA1,GO:0005743,mitochondrial inner membrane,GO
 OMA1,GO:0007005,mitochondrion organization,GO
 PRDX3,GO:0007005,mitochondrion organization,GO
+MTFP1,GO:0005743,mitochondrial inner membrane,GO
 MTFP1,GO:0007005,mitochondrion organization,GO
 MTFP1,GO:0000266,mitochondrial fission,GO
 CEP89,GO:0007005,mitochondrion organization,GO
 CAV2,GO:0007005,mitochondrion organization,GO
+AFG3L2,GO:0005743,mitochondrial inner membrane,GO
 AFG3L2,GO:0007005,mitochondrion organization,GO
 AFG3L2,GO:0008053,mitochondrial fusion,GO
 MTFR2,GO:0000266,mitochondrial fission,GO
@@ -661,8 +731,13 @@ EDNRA,GO:0007005,mitochondrion organization,GO
 SHARPIN,GO:0007005,mitochondrion organization,GO
 MARCKS,GO:0007005,mitochondrion organization,GO
 MTX3,GO:0007005,mitochondrion organization,GO
+MTX3,GO:0005741,mitochondrial outer membrane,GO
+MTX3,GO:0007007,inner mitochondrial membrane organization,GO
 NOS3,GO:0007005,mitochondrion organization,GO
+MTX2,GO:0005741,mitochondrial outer membrane,GO
+MTX2,GO:0007007,inner mitochondrial membrane organization,GO
 MTX2,GO:0007005,mitochondrion organization,GO
+MTX2,GO:0045040,protein insertion into mitochondrial outer membrane,GO
 CDK5,GO:0007005,mitochondrion organization,GO
 HSD17B10,GO:0007005,mitochondrion organization,GO
 FXN,GO:0007005,mitochondrion organization,GO
@@ -671,139 +746,1233 @@ AFG1L,GO:0007005,mitochondrion organization,GO
 AGTPBP1,GO:0007005,mitochondrion organization,GO
 EPM2A,GO:0006914,autophagy,GO
 EPM2A,GO:0007005,mitochondrion organization,GO
+STOML2,GO:0005743,mitochondrial inner membrane,GO
 STOML2,GO:0007005,mitochondrion organization,GO
 TMEM11,GO:0007005,mitochondrion organization,GO
+TMEM11,GO:0005743,mitochondrial inner membrane,GO
+TMEM11,GO:0007007,inner mitochondrial membrane organization,GO
 ATP7A,GO:0007005,mitochondrion organization,GO
 VPS54,GO:0007005,mitochondrion organization,GO
+ARMCX3,GO:0005741,mitochondrial outer membrane,GO
 ARMCX3,GO:0007005,mitochondrion organization,GO
+YME1L1,GO:0005743,mitochondrial inner membrane,GO
 YME1L1,GO:0007005,mitochondrion organization,GO
 RAB29,GO:0007005,mitochondrion organization,GO
 PINK1,GO:0000422,autophagy of mitochondrion,GO
 PINK1,GO:0006914,autophagy,GO
+PINK1,GO:0005743,mitochondrial inner membrane,GO
+PINK1,GO:0005741,mitochondrial outer membrane,GO
 PINK1,GO:0007005,mitochondrion organization,GO
 P2RX7,GO:0007005,mitochondrion organization,GO
 PLEC,GO:0007005,mitochondrion organization,GO
+PLEC,GO:0070584,mitochondrion morphogenesis,GO
+PLEC,GO:0005741,mitochondrial outer membrane,GO
+COX10,GO:0005743,mitochondrial inner membrane,GO
 COX10,GO:0000266,mitochondrial fission,GO
 COX10,GO:0007005,mitochondrion organization,GO
 GBA1,GO:0006914,autophagy,GO
 GBA1,GO:0007005,mitochondrion organization,GO
+SPG7,GO:0005743,mitochondrial inner membrane,GO
 SPG7,GO:0007005,mitochondrion organization,GO
 MAN2A1,GO:0007005,mitochondrion organization,GO
+TAFAZZIN,GO:0005743,mitochondrial inner membrane,GO
+TAFAZZIN,GO:0005741,mitochondrial outer membrane,GO
 TAFAZZIN,GO:0007005,mitochondrion organization,GO
+TAFAZZIN,GO:0007007,inner mitochondrial membrane organization,GO
+TMEM126B,GO:0005743,mitochondrial inner membrane,GO
 TMEM126B,GO:0007005,mitochondrion organization,GO
 SIRT5,GO:0007005,mitochondrion organization,GO
+MFN1,GO:0005741,mitochondrial outer membrane,GO
 MFN1,GO:0008053,mitochondrial fusion,GO
 MFN1,GO:0007005,mitochondrion organization,GO
 PEX5,GO:0007005,mitochondrion organization,GO
 GABPB1,GO:0007005,mitochondrion organization,GO
+MFN2,GO:0005741,mitochondrial outer membrane,GO
 MFN2,GO:0008053,mitochondrial fusion,GO
 MFN2,GO:0006914,autophagy,GO
 MFN2,GO:0007005,mitochondrion organization,GO
 PYROXD2,GO:0007005,mitochondrion organization,GO
+BCS1L,GO:0005743,mitochondrial inner membrane,GO
 BCS1L,GO:0007005,mitochondrion organization,GO
 CLUH,GO:0007005,mitochondrion organization,GO
 FANCG,GO:0007005,mitochondrion organization,GO
 PTCD2,GO:0007005,mitochondrion organization,GO
 OPA1,GO:0007005,mitochondrion organization,GO
+OPA1,GO:0005743,mitochondrial inner membrane,GO
+OPA1,GO:0005741,mitochondrial outer membrane,GO
 OPA1,GO:0000266,mitochondrial fission,GO
 OPA1,GO:0008053,mitochondrial fusion,GO
+OPA1,GO:0007007,inner mitochondrial membrane organization,GO
 CNTNAP1,GO:0007005,mitochondrion organization,GO
 ATAD3C,GO:0007005,mitochondrion organization,GO
 PRKN,GO:0006914,autophagy,GO
+PRKN,GO:0005741,mitochondrial outer membrane,GO
 PRKN,GO:0000422,autophagy of mitochondrion,GO
 PRKN,GO:0007005,mitochondrion organization,GO
 PRKN,GO:0010506,regulation of autophagy,GO
 PRKN,GO:0000266,mitochondrial fission,GO
 LONP1,GO:0007005,mitochondrion organization,GO
 RHOT1,GO:0007005,mitochondrion organization,GO
+RHOT1,GO:0005741,mitochondrial outer membrane,GO
+PHB2,GO:0005743,mitochondrial inner membrane,GO
+PHB2,GO:0005741,mitochondrial outer membrane,GO
 PHB2,GO:0007005,mitochondrion organization,GO
 PARP1,GO:0007005,mitochondrion organization,GO
 TERT,GO:0007005,mitochondrion organization,GO
+LETMD1,GO:0005743,mitochondrial inner membrane,GO
+LETMD1,GO:0005741,mitochondrial outer membrane,GO
 LETMD1,GO:0007005,mitochondrion organization,GO
 LRRK2,GO:0006914,autophagy,GO
+LRRK2,GO:0005743,mitochondrial inner membrane,GO
+LRRK2,GO:0005741,mitochondrial outer membrane,GO
 LRRK2,GO:0007005,mitochondrion organization,GO
 LRRK2,GO:0010506,regulation of autophagy,GO
+VPS13C,GO:0005741,mitochondrial outer membrane,GO
 VPS13C,GO:0007005,mitochondrion organization,GO
 RHOT2,GO:0007005,mitochondrion organization,GO
+RHOT2,GO:0005741,mitochondrial outer membrane,GO
 SOD2,GO:0007005,mitochondrion organization,GO
+MTX1,GO:0005741,mitochondrial outer membrane,GO
+MTX1,GO:0007007,inner mitochondrial membrane organization,GO
 MTX1,GO:0007005,mitochondrion organization,GO
+MTX1,GO:0045040,protein insertion into mitochondrial outer membrane,GO
 SELENON,GO:0007005,mitochondrion organization,GO
+PHB1,GO:0005743,mitochondrial inner membrane,GO
 PHB1,GO:0007005,mitochondrion organization,GO
 ATAD3A,GO:0007005,mitochondrion organization,GO
+ATAD3A,GO:0005743,mitochondrial inner membrane,GO
+RAB32,GO:0005741,mitochondrial outer membrane,GO
 RAB32,GO:0007005,mitochondrion organization,GO
 CEBPA,GO:0007005,mitochondrion organization,GO
+SLC25A36,GO:0005743,mitochondrial inner membrane,GO
 SLC25A36,GO:0007005,mitochondrion organization,GO
 HMGCL,GO:0007005,mitochondrion organization,GO
 HTRA2,GO:0007005,mitochondrion organization,GO
 DNM1L,GO:0000266,mitochondrial fission,GO
+DNM1L,GO:0005741,mitochondrial outer membrane,GO
+DNM1L,GO:0070584,mitochondrion morphogenesis,GO
 DNM1L,GO:0007005,mitochondrion organization,GO
 SIRT4,GO:0007005,mitochondrion organization,GO
+SIRT4,GO:0005743,mitochondrial inner membrane,GO
+MSTO1,GO:0005741,mitochondrial outer membrane,GO
 MSTO1,GO:0007005,mitochondrion organization,GO
 PUM2,GO:0007005,mitochondrion organization,GO
 PARK7,GO:0006914,autophagy,GO
 PARK7,GO:0007005,mitochondrion organization,GO
+THG1L,GO:0005741,mitochondrial outer membrane,GO
 THG1L,GO:0008053,mitochondrial fusion,GO
+AFG3L2,GO:0005743,mitochondrial inner membrane,GO
 AFG3L2,GO:0007005,mitochondrion organization,GO
 AFG3L2,GO:0008053,mitochondrial fusion,GO
+GDAP1,GO:0005741,mitochondrial outer membrane,GO
 GDAP1,GO:0000266,mitochondrial fission,GO
 GDAP1,GO:0008053,mitochondrial fusion,GO
 FIS1,GO:0000266,mitochondrial fission,GO
+FIS1,GO:0005741,mitochondrial outer membrane,GO
 FIS1,GO:0008053,mitochondrial fusion,GO
 FIS1,GO:0000422,autophagy of mitochondrion,GO
+FIS1,GO:0070584,mitochondrion morphogenesis,GO
+CHCHD3,GO:0005743,mitochondrial inner membrane,GO
 CHCHD3,GO:0008053,mitochondrial fusion,GO
+CHCHD3,GO:0007007,inner mitochondrial membrane organization,GO
+PLD6,GO:0005741,mitochondrial outer membrane,GO
 PLD6,GO:0008053,mitochondrial fusion,GO
+USP30,GO:0005741,mitochondrial outer membrane,GO
 USP30,GO:0008053,mitochondrial fusion,GO
 USP30,GO:0000422,autophagy of mitochondrion,GO
+PARL,GO:0005743,mitochondrial inner membrane,GO
 PARL,GO:0008053,mitochondrial fusion,GO
+MIGA2,GO:0005741,mitochondrial outer membrane,GO
 MIGA2,GO:0008053,mitochondrial fusion,GO
+MFN1,GO:0005741,mitochondrial outer membrane,GO
 MFN1,GO:0008053,mitochondrial fusion,GO
 MFN1,GO:0007005,mitochondrion organization,GO
+MFN2,GO:0005741,mitochondrial outer membrane,GO
 MFN2,GO:0008053,mitochondrial fusion,GO
 MFN2,GO:0006914,autophagy,GO
 MFN2,GO:0007005,mitochondrion organization,GO
+RCC1L,GO:0005743,mitochondrial inner membrane,GO
 RCC1L,GO:0008053,mitochondrial fusion,GO
 OPA1,GO:0007005,mitochondrion organization,GO
+OPA1,GO:0005743,mitochondrial inner membrane,GO
+OPA1,GO:0005741,mitochondrial outer membrane,GO
 OPA1,GO:0000266,mitochondrial fission,GO
 OPA1,GO:0008053,mitochondrial fusion,GO
+OPA1,GO:0007007,inner mitochondrial membrane organization,GO
+BAK1,GO:0005741,mitochondrial outer membrane,GO
 BAK1,GO:0008053,mitochondrial fusion,GO
+BAX,GO:0005741,mitochondrial outer membrane,GO
 BAX,GO:0008053,mitochondrial fusion,GO
+BAX,GO:0070584,mitochondrion morphogenesis,GO
 MIGA1,GO:0008053,mitochondrial fusion,GO
+MIGA1,GO:0005741,mitochondrial outer membrane,GO
+MFF,GO:0005741,mitochondrial outer membrane,GO
 MFF,GO:0000266,mitochondrial fission,GO
 MFF,GO:0008053,mitochondrial fusion,GO
+MFF,GO:0070584,mitochondrion morphogenesis,GO
+MIEF1,GO:0005741,mitochondrial outer membrane,GO
 MIEF1,GO:0007005,mitochondrion organization,GO
 MIEF1,GO:0000266,mitochondrial fission,GO
+SLC25A46,GO:0005741,mitochondrial outer membrane,GO
 SLC25A46,GO:0000266,mitochondrial fission,GO
 SLC25A46,GO:0000422,autophagy of mitochondrion,GO
 SLC25A46,GO:0007005,mitochondrion organization,GO
 MTFR1,GO:0000266,mitochondrial fission,GO
 MTFR1,GO:0007005,mitochondrion organization,GO
+MTFP1,GO:0005743,mitochondrial inner membrane,GO
 MTFP1,GO:0007005,mitochondrion organization,GO
 MTFP1,GO:0000266,mitochondrial fission,GO
+GDAP1,GO:0005741,mitochondrial outer membrane,GO
 GDAP1,GO:0000266,mitochondrial fission,GO
 GDAP1,GO:0008053,mitochondrial fusion,GO
 MTFR2,GO:0000266,mitochondrial fission,GO
 MTFR2,GO:0007005,mitochondrion organization,GO
 FIS1,GO:0000266,mitochondrial fission,GO
+FIS1,GO:0005741,mitochondrial outer membrane,GO
 FIS1,GO:0008053,mitochondrial fusion,GO
 FIS1,GO:0000422,autophagy of mitochondrion,GO
+FIS1,GO:0070584,mitochondrion morphogenesis,GO
+MUL1,GO:0005741,mitochondrial outer membrane,GO
 MUL1,GO:0000266,mitochondrial fission,GO
+UCP2,GO:0005743,mitochondrial inner membrane,GO
 UCP2,GO:0000266,mitochondrial fission,GO
+COX10,GO:0005743,mitochondrial inner membrane,GO
 COX10,GO:0000266,mitochondrial fission,GO
 COX10,GO:0007005,mitochondrion organization,GO
 DDHD2,GO:0000266,mitochondrial fission,GO
 MTFR1L,GO:0000266,mitochondrial fission,GO
 OPA1,GO:0007005,mitochondrion organization,GO
+OPA1,GO:0005743,mitochondrial inner membrane,GO
+OPA1,GO:0005741,mitochondrial outer membrane,GO
 OPA1,GO:0000266,mitochondrial fission,GO
 OPA1,GO:0008053,mitochondrial fusion,GO
+OPA1,GO:0007007,inner mitochondrial membrane organization,GO
 PRKN,GO:0006914,autophagy,GO
+PRKN,GO:0005741,mitochondrial outer membrane,GO
 PRKN,GO:0000422,autophagy of mitochondrion,GO
 PRKN,GO:0007005,mitochondrion organization,GO
 PRKN,GO:0010506,regulation of autophagy,GO
 PRKN,GO:0000266,mitochondrial fission,GO
 DNM1L,GO:0000266,mitochondrial fission,GO
+DNM1L,GO:0005741,mitochondrial outer membrane,GO
+DNM1L,GO:0070584,mitochondrion morphogenesis,GO
 DNM1L,GO:0007005,mitochondrion organization,GO
+MFF,GO:0005741,mitochondrial outer membrane,GO
 MFF,GO:0000266,mitochondrial fission,GO
 MFF,GO:0008053,mitochondrial fusion,GO
+MFF,GO:0070584,mitochondrion morphogenesis,GO
+NUBPL,GO:0070584,mitochondrion morphogenesis,GO
+TMEM135,GO:0070584,mitochondrion morphogenesis,GO
+SLIRP,GO:0070584,mitochondrion morphogenesis,GO
+PNPT1,GO:0070584,mitochondrion morphogenesis,GO
+BCL2L1,GO:0005743,mitochondrial inner membrane,GO
+BCL2L1,GO:0005741,mitochondrial outer membrane,GO
+BCL2L1,GO:0070584,mitochondrion morphogenesis,GO
+BCL2L1,GO:0010507,negative regulation of autophagy,GO
+FEZ1,GO:0070584,mitochondrion morphogenesis,GO
+PANK2,GO:0070584,mitochondrion morphogenesis,GO
+SSBP1,GO:0070584,mitochondrion morphogenesis,GO
+FIS1,GO:0000266,mitochondrial fission,GO
+FIS1,GO:0005741,mitochondrial outer membrane,GO
+FIS1,GO:0008053,mitochondrial fusion,GO
+FIS1,GO:0000422,autophagy of mitochondrion,GO
+FIS1,GO:0070584,mitochondrion morphogenesis,GO
+SUPV3L1,GO:0070584,mitochondrion morphogenesis,GO
+WASF1,GO:0070584,mitochondrion morphogenesis,GO
+WASF1,GO:0005741,mitochondrial outer membrane,GO
+MTM1,GO:0070584,mitochondrion morphogenesis,GO
+POLDIP2,GO:0070584,mitochondrion morphogenesis,GO
+PLEC,GO:0007005,mitochondrion organization,GO
+PLEC,GO:0070584,mitochondrion morphogenesis,GO
+PLEC,GO:0005741,mitochondrial outer membrane,GO
+CERT1,GO:0070584,mitochondrion morphogenesis,GO
+POLG2,GO:0070584,mitochondrion morphogenesis,GO
+BAX,GO:0005741,mitochondrial outer membrane,GO
+BAX,GO:0008053,mitochondrial fusion,GO
+BAX,GO:0070584,mitochondrion morphogenesis,GO
+MYH14,GO:0070584,mitochondrion morphogenesis,GO
+DNM1L,GO:0000266,mitochondrial fission,GO
+DNM1L,GO:0005741,mitochondrial outer membrane,GO
+DNM1L,GO:0070584,mitochondrion morphogenesis,GO
+DNM1L,GO:0007005,mitochondrion organization,GO
+PID1,GO:0070584,mitochondrion morphogenesis,GO
+MFF,GO:0005741,mitochondrial outer membrane,GO
+MFF,GO:0000266,mitochondrial fission,GO
+MFF,GO:0008053,mitochondrial fusion,GO
+MFF,GO:0070584,mitochondrion morphogenesis,GO
+MT-ND1,GO:0005743,mitochondrial inner membrane,GO
+MT-ND2,GO:0005743,mitochondrial inner membrane,GO
+MT-CO1,GO:0005743,mitochondrial inner membrane,GO
+MT-CO2,GO:0005743,mitochondrial inner membrane,GO
+MT-ATP8,GO:0005743,mitochondrial inner membrane,GO
+MT-ATP6,GO:0005743,mitochondrial inner membrane,GO
+MT-CO3,GO:0005743,mitochondrial inner membrane,GO
+MT-ND3,GO:0005743,mitochondrial inner membrane,GO
+MT-ND4L,GO:0005743,mitochondrial inner membrane,GO
+MT-ND4,GO:0005743,mitochondrial inner membrane,GO
+MT-ND5,GO:0005743,mitochondrial inner membrane,GO
+MT-ND6,GO:0005743,mitochondrial inner membrane,GO
+MT-CYB,GO:0005743,mitochondrial inner membrane,GO
+NDUFA6,GO:0005743,mitochondrial inner membrane,GO
+SMDT1,GO:0005743,mitochondrial inner membrane,GO
+TIMM22,GO:0005743,mitochondrial inner membrane,GO
+MRPS18B,GO:0005743,mitochondrial inner membrane,GO
+NDUFA3,GO:0005743,mitochondrial inner membrane,GO
+RDH13,GO:0005743,mitochondrial inner membrane,GO
+AGK,GO:0005743,mitochondrial inner membrane,GO
+AGK,GO:0005741,mitochondrial outer membrane,GO
+TAMM41,GO:0005743,mitochondrial inner membrane,GO
+NEU4,GO:0005743,mitochondrial inner membrane,GO
+NEU4,GO:0005741,mitochondrial outer membrane,GO
+MRPS36,GO:0005743,mitochondrial inner membrane,GO
+BDH1,GO:0005743,mitochondrial inner membrane,GO
+MRPL45,GO:0005743,mitochondrial inner membrane,GO
+PAM16,GO:0005743,mitochondrial inner membrane,GO
+NDUFV2,GO:0005743,mitochondrial inner membrane,GO
+MRPS6,GO:0005743,mitochondrial inner membrane,GO
+MRPL36,GO:0005743,mitochondrial inner membrane,GO
+SURF1,GO:0005743,mitochondrial inner membrane,GO
+SLC25A17,GO:0005743,mitochondrial inner membrane,GO
+SLC25A26,GO:0005743,mitochondrial inner membrane,GO
+SLC25A52,GO:0005743,mitochondrial inner membrane,GO
+NDUFS1,GO:0005743,mitochondrial inner membrane,GO
+SLC25A37,GO:0005743,mitochondrial inner membrane,GO
+SLC25A24,GO:0005743,mitochondrial inner membrane,GO
+MRPS12,GO:0005743,mitochondrial inner membrane,GO
+SLC25A6,GO:0005743,mitochondrial inner membrane,GO
+HCCS,GO:0005743,mitochondrial inner membrane,GO
+PLSCR3,GO:0005743,mitochondrial inner membrane,GO
+ATP5F1C,GO:0005743,mitochondrial inner membrane,GO
+ATP5PO,GO:0005743,mitochondrial inner membrane,GO
+MRPS30,GO:0005743,mitochondrial inner membrane,GO
+OTC,GO:0005743,mitochondrial inner membrane,GO
+MRPL39,GO:0005743,mitochondrial inner membrane,GO
+SLC25A16,GO:0005743,mitochondrial inner membrane,GO
+HADHA,GO:0005743,mitochondrial inner membrane,GO
+NDUFS3,GO:0005743,mitochondrial inner membrane,GO
+PTPMT1,GO:0005743,mitochondrial inner membrane,GO
+NDUFA4,GO:0005743,mitochondrial inner membrane,GO
+IMMP1L,GO:0005743,mitochondrial inner membrane,GO
+MRPS28,GO:0005743,mitochondrial inner membrane,GO
+CKMT2,GO:0005743,mitochondrial inner membrane,GO
+MRPL16,GO:0005743,mitochondrial inner membrane,GO
+NDUFV3,GO:0005743,mitochondrial inner membrane,GO
+ATAD3B,GO:0007005,mitochondrion organization,GO
+ATAD3B,GO:0005743,mitochondrial inner membrane,GO
+ATP5F1E,GO:0005743,mitochondrial inner membrane,GO
+OXA1L,GO:0005743,mitochondrial inner membrane,GO
+SLC25A18,GO:0005743,mitochondrial inner membrane,GO
+COX7C,GO:0005743,mitochondrial inner membrane,GO
+MRPL23,GO:0005743,mitochondrial inner membrane,GO
+MRPL54,GO:0005743,mitochondrial inner membrane,GO
+HADHB,GO:0005743,mitochondrial inner membrane,GO
+HADHB,GO:0005741,mitochondrial outer membrane,GO
+CYP11A1,GO:0005743,mitochondrial inner membrane,GO
+UQCRB,GO:0005743,mitochondrial inner membrane,GO
+NDUFS4,GO:0005743,mitochondrial inner membrane,GO
+COX7A2L,GO:0005743,mitochondrial inner membrane,GO
+SFXN5,GO:0005743,mitochondrial inner membrane,GO
+COX8C,GO:0005743,mitochondrial inner membrane,GO
+DNAJC15,GO:0005743,mitochondrial inner membrane,GO
+MRPS26,GO:0005743,mitochondrial inner membrane,GO
+SLC30A2,GO:0005743,mitochondrial inner membrane,GO
+ADCK1,GO:0005743,mitochondrial inner membrane,GO
+ADCK1,GO:0007005,mitochondrion organization,GO
+MRPL13,GO:0005743,mitochondrial inner membrane,GO
+COX4I2,GO:0005743,mitochondrial inner membrane,GO
+MRPL15,GO:0005743,mitochondrial inner membrane,GO
+BCL2L1,GO:0005743,mitochondrial inner membrane,GO
+BCL2L1,GO:0005741,mitochondrial outer membrane,GO
+BCL2L1,GO:0010507,negative regulation of autophagy,GO
+BCL2L1,GO:0070584,mitochondrion morphogenesis,GO
+CABS1,GO:0005743,mitochondrial inner membrane,GO
+COX7B2,GO:0005743,mitochondrial inner membrane,GO
+SLC25A33,GO:0005743,mitochondrial inner membrane,GO
+SLC25A33,GO:0007005,mitochondrion organization,GO
+MRPL19,GO:0005743,mitochondrial inner membrane,GO
+NDUFA13,GO:0005743,mitochondrial inner membrane,GO
+ATP5MJ,GO:0005743,mitochondrial inner membrane,GO
+CDS2,GO:0005743,mitochondrial inner membrane,GO
+ATP5PF,GO:0005743,mitochondrial inner membrane,GO
+SLC9B2,GO:0005743,mitochondrial inner membrane,GO
+MRPS9,GO:0005743,mitochondrial inner membrane,GO
+ROMO1,GO:0005743,mitochondrial inner membrane,GO
+PDE2A,GO:0005743,mitochondrial inner membrane,GO
+PDE2A,GO:0005741,mitochondrial outer membrane,GO
+NNT,GO:0005743,mitochondrial inner membrane,GO
+UQCRH,GO:0005743,mitochondrial inner membrane,GO
+MRPL1,GO:0005743,mitochondrial inner membrane,GO
+MRPS17,GO:0005743,mitochondrial inner membrane,GO
+CYCS,GO:0005743,mitochondrial inner membrane,GO
+SFXN2,GO:0005743,mitochondrial inner membrane,GO
+SFXN2,GO:0005741,mitochondrial outer membrane,GO
+MTG1,GO:0005743,mitochondrial inner membrane,GO
+SLC27A1,GO:0005743,mitochondrial inner membrane,GO
+CYP11B2,GO:0005743,mitochondrial inner membrane,GO
+AIFM1,GO:0005743,mitochondrial inner membrane,GO
+COX7B,GO:0005743,mitochondrial inner membrane,GO
+TIMM21,GO:0005743,mitochondrial inner membrane,GO
+CPT2,GO:0005743,mitochondrial inner membrane,GO
+SFXN4,GO:0005743,mitochondrial inner membrane,GO
+OMA1,GO:0005743,mitochondrial inner membrane,GO
+OMA1,GO:0007005,mitochondrion organization,GO
+FECH,GO:0005743,mitochondrial inner membrane,GO
+RPS3,GO:0005743,mitochondrial inner membrane,GO
+TIMM8A,GO:0005743,mitochondrial inner membrane,GO
+MCUB,GO:0005743,mitochondrial inner membrane,GO
+DUSP21,GO:0005743,mitochondrial inner membrane,GO
+COX7A1,GO:0005743,mitochondrial inner membrane,GO
+UQCC2,GO:0005743,mitochondrial inner membrane,GO
+TMEM177,GO:0005743,mitochondrial inner membrane,GO
+SLC25A53,GO:0005743,mitochondrial inner membrane,GO
+UQCR10,GO:0005743,mitochondrial inner membrane,GO
+NDUFAF5,GO:0005743,mitochondrial inner membrane,GO
+DELE1,GO:0005743,mitochondrial inner membrane,GO
+CYP11B1,GO:0005743,mitochondrial inner membrane,GO
+MTFP1,GO:0005743,mitochondrial inner membrane,GO
+MTFP1,GO:0007005,mitochondrion organization,GO
+MTFP1,GO:0000266,mitochondrial fission,GO
+MTG2,GO:0005743,mitochondrial inner membrane,GO
+TYMS,GO:0005743,mitochondrial inner membrane,GO
+SHMT2,GO:0005743,mitochondrial inner membrane,GO
+ALAS2,GO:0005743,mitochondrial inner membrane,GO
+UQCRFS1,GO:0005743,mitochondrial inner membrane,GO
+AFG3L2,GO:0005743,mitochondrial inner membrane,GO
+AFG3L2,GO:0007005,mitochondrion organization,GO
+AFG3L2,GO:0008053,mitochondrial fusion,GO
+SLC25A1,GO:0005743,mitochondrial inner membrane,GO
+IMMP2L,GO:0005743,mitochondrial inner membrane,GO
+TIMM9,GO:0005743,mitochondrial inner membrane,GO
+COX5A,GO:0005743,mitochondrial inner membrane,GO
+DMAC1,GO:0005743,mitochondrial inner membrane,GO
+GCAT,GO:0005743,mitochondrial inner membrane,GO
+MRPL22,GO:0005743,mitochondrial inner membrane,GO
+SLC25A22,GO:0005743,mitochondrial inner membrane,GO
+STMP1,GO:0005743,mitochondrial inner membrane,GO
+STMP1,GO:0005741,mitochondrial outer membrane,GO
+MRPL40,GO:0005743,mitochondrial inner membrane,GO
+PRODH,GO:0005743,mitochondrial inner membrane,GO
+COQ7,GO:0005743,mitochondrial inner membrane,GO
+SLC25A42,GO:0005743,mitochondrial inner membrane,GO
+TIMM8B,GO:0005743,mitochondrial inner membrane,GO
+AIFM3,GO:0005743,mitochondrial inner membrane,GO
+SDHD,GO:0005743,mitochondrial inner membrane,GO
+SCO2,GO:0005743,mitochondrial inner membrane,GO
+SFXN1,GO:0005743,mitochondrial inner membrane,GO
+ATP5MK,GO:0005743,mitochondrial inner membrane,GO
+CPOX,GO:0005743,mitochondrial inner membrane,GO
+TIMM50,GO:0005743,mitochondrial inner membrane,GO
+LETM2,GO:0005743,mitochondrial inner membrane,GO
+COQ9,GO:0005743,mitochondrial inner membrane,GO
+COX8A,GO:0005743,mitochondrial inner membrane,GO
+ABCB7,GO:0005743,mitochondrial inner membrane,GO
+ATP5F1A,GO:0005743,mitochondrial inner membrane,GO
+MRPL57,GO:0005743,mitochondrial inner membrane,GO
+MICU2,GO:0005743,mitochondrial inner membrane,GO
+SRC,GO:0005743,mitochondrial inner membrane,GO
+CYC1,GO:0005743,mitochondrial inner membrane,GO
+TIMMDC1,GO:0005743,mitochondrial inner membrane,GO
+CHCHD1,GO:0005743,mitochondrial inner membrane,GO
+FPGS,GO:0005743,mitochondrial inner membrane,GO
+SLC25A4,GO:0005743,mitochondrial inner membrane,GO
+HSD3B2,GO:0005743,mitochondrial inner membrane,GO
+TIMM23,GO:0005743,mitochondrial inner membrane,GO
+COQ4,GO:0005743,mitochondrial inner membrane,GO
+NDUFA1,GO:0005743,mitochondrial inner membrane,GO
+NDUFB1,GO:0005743,mitochondrial inner membrane,GO
+L2HGDH,GO:0005743,mitochondrial inner membrane,GO
+BOK,GO:0005743,mitochondrial inner membrane,GO
+BOK,GO:0005741,mitochondrial outer membrane,GO
+BOK,GO:0010506,regulation of autophagy,GO
+SLC25A12,GO:0005743,mitochondrial inner membrane,GO
+COX16,GO:0005743,mitochondrial inner membrane,GO
+SYNJ2BP-COX16,GO:0005743,mitochondrial inner membrane,GO
+ATP5MGL,GO:0005743,mitochondrial inner membrane,GO
+CHCHD3,GO:0005743,mitochondrial inner membrane,GO
+CHCHD3,GO:0008053,mitochondrial fusion,GO
+CHCHD3,GO:0007007,inner mitochondrial membrane organization,GO
+COA3,GO:0005743,mitochondrial inner membrane,GO
+NDUFAF4,GO:0005743,mitochondrial inner membrane,GO
+MRPL41,GO:0005743,mitochondrial inner membrane,GO
+LGALS3,GO:0005743,mitochondrial inner membrane,GO
+MRPL50,GO:0005743,mitochondrial inner membrane,GO
+RAB5IF,GO:0005743,mitochondrial inner membrane,GO
+TMEM242,GO:0005743,mitochondrial inner membrane,GO
+APOO,GO:0005743,mitochondrial inner membrane,GO
+APOO,GO:0007007,inner mitochondrial membrane organization,GO
+TIMM23B,GO:0005743,mitochondrial inner membrane,GO
+NDUFS6,GO:0005743,mitochondrial inner membrane,GO
+MPC2,GO:0005743,mitochondrial inner membrane,GO
+COX18,GO:0005743,mitochondrial inner membrane,GO
+PISD,GO:0005743,mitochondrial inner membrane,GO
+GADD45GIP1,GO:0005743,mitochondrial inner membrane,GO
+COX6B2,GO:0005743,mitochondrial inner membrane,GO
+MGARP,GO:0005743,mitochondrial inner membrane,GO
+MGARP,GO:0005741,mitochondrial outer membrane,GO
+NDUFC1,GO:0005743,mitochondrial inner membrane,GO
+LETM1,GO:0005743,mitochondrial inner membrane,GO
+MRPS11,GO:0005743,mitochondrial inner membrane,GO
+TRAP1,GO:0005743,mitochondrial inner membrane,GO
+SLC25A14,GO:0005743,mitochondrial inner membrane,GO
+NDUFB9,GO:0005743,mitochondrial inner membrane,GO
+NDUFB4,GO:0005743,mitochondrial inner membrane,GO
+SLC25A13,GO:0005743,mitochondrial inner membrane,GO
+NOA1,GO:0005743,mitochondrial inner membrane,GO
+NDUFA2,GO:0005743,mitochondrial inner membrane,GO
+CHCHD6,GO:0005743,mitochondrial inner membrane,GO
+CHCHD6,GO:0007007,inner mitochondrial membrane organization,GO
+PPIF,GO:0005743,mitochondrial inner membrane,GO
+MPC1L,GO:0005743,mitochondrial inner membrane,GO
+MRPL4,GO:0005743,mitochondrial inner membrane,GO
+ALDH18A1,GO:0005743,mitochondrial inner membrane,GO
+MRPL46,GO:0005743,mitochondrial inner membrane,GO
+COX11,GO:0005743,mitochondrial inner membrane,GO
+MRPL21,GO:0005743,mitochondrial inner membrane,GO
+MRPL52,GO:0005743,mitochondrial inner membrane,GO
+DUSP18,GO:0005743,mitochondrial inner membrane,GO
+CYP24A1,GO:0005743,mitochondrial inner membrane,GO
+COX6C,GO:0005743,mitochondrial inner membrane,GO
+NDUFB8,GO:0005743,mitochondrial inner membrane,GO
+ATP5MC1,GO:0005743,mitochondrial inner membrane,GO
+MPV17L2,GO:0005743,mitochondrial inner membrane,GO
+UQCRC2,GO:0005743,mitochondrial inner membrane,GO
+CKMT1B,GO:0005743,mitochondrial inner membrane,GO
+CKMT1A,GO:0005743,mitochondrial inner membrane,GO
+SPNS1,GO:0005743,mitochondrial inner membrane,GO
+NDUFB2,GO:0005743,mitochondrial inner membrane,GO
+SLC25A30,GO:0005743,mitochondrial inner membrane,GO
+MRPS33,GO:0005743,mitochondrial inner membrane,GO
+MRPS31,GO:0005743,mitochondrial inner membrane,GO
+SLC25A15,GO:0005743,mitochondrial inner membrane,GO
+MRPS14,GO:0005743,mitochondrial inner membrane,GO
+ATP5MF,GO:0005743,mitochondrial inner membrane,GO
+NDUFA7,GO:0005743,mitochondrial inner membrane,GO
+GPD2,GO:0005743,mitochondrial inner membrane,GO
+MRPS23,GO:0005743,mitochondrial inner membrane,GO
+SLC25A51,GO:0005743,mitochondrial inner membrane,GO
+SPHK2,GO:0005743,mitochondrial inner membrane,GO
+NDUFA8,GO:0005743,mitochondrial inner membrane,GO
+TMEM223,GO:0005743,mitochondrial inner membrane,GO
+APOOL,GO:0005743,mitochondrial inner membrane,GO
+APOOL,GO:0007007,inner mitochondrial membrane organization,GO
+MRPL48,GO:0005743,mitochondrial inner membrane,GO
+TMEM14C,GO:0005743,mitochondrial inner membrane,GO
+MRPL53,GO:0005743,mitochondrial inner membrane,GO
+PLA2G4A,GO:0005743,mitochondrial inner membrane,GO
+UCP3,GO:0005743,mitochondrial inner membrane,GO
+MRPL18,GO:0005743,mitochondrial inner membrane,GO
+COA8,GO:0005743,mitochondrial inner membrane,GO
+PTCD3,GO:0005743,mitochondrial inner membrane,GO
+MRPL2,GO:0005743,mitochondrial inner membrane,GO
+MRPL35,GO:0005743,mitochondrial inner membrane,GO
+DMAC2L,GO:0005743,mitochondrial inner membrane,GO
+DNAJC30,GO:0005743,mitochondrial inner membrane,GO
+GATM,GO:0005743,mitochondrial inner membrane,GO
+STOML2,GO:0005743,mitochondrial inner membrane,GO
+STOML2,GO:0007005,mitochondrion organization,GO
+SQOR,GO:0005743,mitochondrial inner membrane,GO
+MRPS10,GO:0005743,mitochondrial inner membrane,GO
+TMEM11,GO:0007005,mitochondrion organization,GO
+TMEM11,GO:0005743,mitochondrial inner membrane,GO
+TMEM11,GO:0007007,inner mitochondrial membrane organization,GO
+NDUFB11,GO:0005743,mitochondrial inner membrane,GO
+NDUFAF2,GO:0005743,mitochondrial inner membrane,GO
+FLVCR1,GO:0005743,mitochondrial inner membrane,GO
+UQCC1,GO:0005743,mitochondrial inner membrane,GO
+TIMM13,GO:0005743,mitochondrial inner membrane,GO
+MRPL11,GO:0005743,mitochondrial inner membrane,GO
+MPC1,GO:0005743,mitochondrial inner membrane,GO
+NDUFB7,GO:0005743,mitochondrial inner membrane,GO
+MRS2,GO:0005743,mitochondrial inner membrane,GO
+CYP2E1,GO:0005743,mitochondrial inner membrane,GO
+MRPL32,GO:0005743,mitochondrial inner membrane,GO
+MICU1,GO:0005743,mitochondrial inner membrane,GO
+TIMM44,GO:0005743,mitochondrial inner membrane,GO
+NDUFB6,GO:0005743,mitochondrial inner membrane,GO
+COX6A2,GO:0005743,mitochondrial inner membrane,GO
+CIBAR1,GO:0005743,mitochondrial inner membrane,GO
+CIBAR1,GO:0007007,inner mitochondrial membrane organization,GO
+TIMM10,GO:0005743,mitochondrial inner membrane,GO
+TIMM17A,GO:0005743,mitochondrial inner membrane,GO
+CRLS1,GO:0005743,mitochondrial inner membrane,GO
+YME1L1,GO:0005743,mitochondrial inner membrane,GO
+YME1L1,GO:0007005,mitochondrion organization,GO
+SLC25A20,GO:0005743,mitochondrial inner membrane,GO
+SLC25A35,GO:0005743,mitochondrial inner membrane,GO
+NDUFAF3,GO:0005743,mitochondrial inner membrane,GO
+MRPS34,GO:0005743,mitochondrial inner membrane,GO
+PINK1,GO:0000422,autophagy of mitochondrion,GO
+PINK1,GO:0006914,autophagy,GO
+PINK1,GO:0005743,mitochondrial inner membrane,GO
+PINK1,GO:0005741,mitochondrial outer membrane,GO
+PINK1,GO:0007005,mitochondrion organization,GO
+UCP2,GO:0005743,mitochondrial inner membrane,GO
+UCP2,GO:0000266,mitochondrial fission,GO
+SCO1,GO:0005743,mitochondrial inner membrane,GO
+NDUFAB1,GO:0005743,mitochondrial inner membrane,GO
+MRPL14,GO:0005743,mitochondrial inner membrane,GO
+ENDOG,GO:0005743,mitochondrial inner membrane,GO
+NDUFA5,GO:0005743,mitochondrial inner membrane,GO
+TMEM70,GO:0005743,mitochondrial inner membrane,GO
+COX10,GO:0005743,mitochondrial inner membrane,GO
+COX10,GO:0000266,mitochondrial fission,GO
+COX10,GO:0007005,mitochondrion organization,GO
+TIMM29,GO:0005743,mitochondrial inner membrane,GO
+MCU,GO:0005743,mitochondrial inner membrane,GO
+PARL,GO:0005743,mitochondrial inner membrane,GO
+PARL,GO:0008053,mitochondrial fusion,GO
+TIMM17B,GO:0005743,mitochondrial inner membrane,GO
+CRAT,GO:0005743,mitochondrial inner membrane,GO
+COQ2,GO:0005743,mitochondrial inner membrane,GO
+SLC25A43,GO:0005743,mitochondrial inner membrane,GO
+SLC25A5,GO:0005743,mitochondrial inner membrane,GO
+MRPS18C,GO:0005743,mitochondrial inner membrane,GO
+DAP3,GO:0005743,mitochondrial inner membrane,GO
+SPG7,GO:0005743,mitochondrial inner membrane,GO
+SPG7,GO:0007005,mitochondrion organization,GO
+UCP1,GO:0005743,mitochondrial inner membrane,GO
+MRPS16,GO:0005743,mitochondrial inner membrane,GO
+SLC25A25,GO:0005743,mitochondrial inner membrane,GO
+TAFAZZIN,GO:0005743,mitochondrial inner membrane,GO
+TAFAZZIN,GO:0005741,mitochondrial outer membrane,GO
+TAFAZZIN,GO:0007005,mitochondrion organization,GO
+TAFAZZIN,GO:0007007,inner mitochondrial membrane organization,GO
+LDHD,GO:0005743,mitochondrial inner membrane,GO
+GHITM,GO:0005743,mitochondrial inner membrane,GO
+GHITM,GO:0007007,inner mitochondrial membrane organization,GO
+MRPL12,GO:0005743,mitochondrial inner membrane,GO
+SLC25A10,GO:0005743,mitochondrial inner membrane,GO
+ETFDH,GO:0005743,mitochondrial inner membrane,GO
+ABCB8,GO:0005743,mitochondrial inner membrane,GO
+TMEM126B,GO:0005743,mitochondrial inner membrane,GO
+TMEM126B,GO:0007005,mitochondrion organization,GO
+TMEM126A,GO:0005743,mitochondrial inner membrane,GO
+CLPX,GO:0005743,mitochondrial inner membrane,GO
+NDUFC2-KCTD14,GO:0005743,mitochondrial inner membrane,GO
+NDUFC2,GO:0005743,mitochondrial inner membrane,GO
+CYP2U1,GO:0005743,mitochondrial inner membrane,GO
+MRPL17,GO:0005743,mitochondrial inner membrane,GO
+MRPS18A,GO:0005743,mitochondrial inner membrane,GO
+MRPL38,GO:0005743,mitochondrial inner membrane,GO
+MRPL43,GO:0005743,mitochondrial inner membrane,GO
+MICU3,GO:0005743,mitochondrial inner membrane,GO
+MRPL34,GO:0005743,mitochondrial inner membrane,GO
+NDUFAF1,GO:0005743,mitochondrial inner membrane,GO
+MRPL47,GO:0005743,mitochondrial inner membrane,GO
+GUF1,GO:0005743,mitochondrial inner membrane,GO
+COX6A1,GO:0005743,mitochondrial inner membrane,GO
+COQ5,GO:0005743,mitochondrial inner membrane,GO
+AMBP,GO:0005743,mitochondrial inner membrane,GO
+MRPL30,GO:0005743,mitochondrial inner membrane,GO
+COQ6,GO:0005743,mitochondrial inner membrane,GO
+UQCC3,GO:0005743,mitochondrial inner membrane,GO
+HSPD1,GO:0005743,mitochondrial inner membrane,GO
+CLU,GO:0005743,mitochondrial inner membrane,GO
+UQCRQ,GO:0005743,mitochondrial inner membrane,GO
+SLC25A40,GO:0005743,mitochondrial inner membrane,GO
+PPOX,GO:0005743,mitochondrial inner membrane,GO
+SDHA,GO:0005743,mitochondrial inner membrane,GO
+COQ3,GO:0005743,mitochondrial inner membrane,GO
+NDUFA10,GO:0005743,mitochondrial inner membrane,GO
+SLC25A27,GO:0005743,mitochondrial inner membrane,GO
+MRPL10,GO:0005743,mitochondrial inner membrane,GO
+SLC25A41,GO:0005743,mitochondrial inner membrane,GO
+SLC25A23,GO:0005743,mitochondrial inner membrane,GO
+PLA2G4B,GO:0005743,mitochondrial inner membrane,GO
+SLC25A2,GO:0005743,mitochondrial inner membrane,GO
+SFXN3,GO:0005743,mitochondrial inner membrane,GO
+RCC1L,GO:0005743,mitochondrial inner membrane,GO
+RCC1L,GO:0008053,mitochondrial fusion,GO
+NDUFAF6,GO:0005743,mitochondrial inner membrane,GO
+COX15,GO:0005743,mitochondrial inner membrane,GO
+SLC25A28,GO:0005743,mitochondrial inner membrane,GO
+MRPS7,GO:0005743,mitochondrial inner membrane,GO
+SLC25A19,GO:0005743,mitochondrial inner membrane,GO
+NDUFV1,GO:0005743,mitochondrial inner membrane,GO
+SLC25A21,GO:0005743,mitochondrial inner membrane,GO
+SMIM20,GO:0005743,mitochondrial inner membrane,GO
+TIMM10B,GO:0005743,mitochondrial inner membrane,GO
+SDHB,GO:0005743,mitochondrial inner membrane,GO
+ATP5ME,GO:0005743,mitochondrial inner membrane,GO
+ALAS1,GO:0005743,mitochondrial inner membrane,GO
+HSD3B1,GO:0005743,mitochondrial inner membrane,GO
+MRPS35,GO:0005743,mitochondrial inner membrane,GO
+TOMM40,GO:0005741,mitochondrial outer membrane,GO
+TOMM40,GO:0045040,protein insertion into mitochondrial outer membrane,GO
+TOMM40,GO:0005743,mitochondrial inner membrane,GO
+MTHFD2L,GO:0005743,mitochondrial inner membrane,GO
+BCS1L,GO:0005743,mitochondrial inner membrane,GO
+BCS1L,GO:0007005,mitochondrion organization,GO
+MRPS24,GO:0005743,mitochondrial inner membrane,GO
+ACAD11,GO:0005743,mitochondrial inner membrane,GO
+CYP27A1,GO:0005743,mitochondrial inner membrane,GO
+ATP5MC3,GO:0005741,mitochondrial outer membrane,GO
+ATP5MC3,GO:0005743,mitochondrial inner membrane,GO
+LDHB,GO:0005743,mitochondrial inner membrane,GO
+TMEM65,GO:0005743,mitochondrial inner membrane,GO
+HIGD2A,GO:0005743,mitochondrial inner membrane,GO
+PSEN1,GO:0005743,mitochondrial inner membrane,GO
+PSEN1,GO:0006914,autophagy,GO
+ATP5F1D,GO:0005743,mitochondrial inner membrane,GO
+SLC25A29,GO:0005743,mitochondrial inner membrane,GO
+SLC25A47,GO:0005743,mitochondrial inner membrane,GO
+MRPS2,GO:0005743,mitochondrial inner membrane,GO
+SLC41A3,GO:0005743,mitochondrial inner membrane,GO
+TMEM186,GO:0005743,mitochondrial inner membrane,GO
+OPA1,GO:0007005,mitochondrion organization,GO
+OPA1,GO:0005743,mitochondrial inner membrane,GO
+OPA1,GO:0005741,mitochondrial outer membrane,GO
+OPA1,GO:0000266,mitochondrial fission,GO
+OPA1,GO:0008053,mitochondrial fusion,GO
+OPA1,GO:0007007,inner mitochondrial membrane organization,GO
+MRPL28,GO:0005743,mitochondrial inner membrane,GO
+NME4,GO:0005743,mitochondrial inner membrane,GO
+MRPL20,GO:0005743,mitochondrial inner membrane,GO
+ABCB10,GO:0005743,mitochondrial inner membrane,GO
+CYP1A1,GO:0005743,mitochondrial inner membrane,GO
+SLC25A32,GO:0005743,mitochondrial inner membrane,GO
+ATP5F1B,GO:0005743,mitochondrial inner membrane,GO
+MICOS13,GO:0005743,mitochondrial inner membrane,GO
+MICOS13,GO:0007007,inner mitochondrial membrane organization,GO
+RSAD2,GO:0005743,mitochondrial inner membrane,GO
+RSAD2,GO:0005741,mitochondrial outer membrane,GO
+MRPS27,GO:0005743,mitochondrial inner membrane,GO
+MRPL51,GO:0005743,mitochondrial inner membrane,GO
+NDUFB5,GO:0005743,mitochondrial inner membrane,GO
+NDUFA11,GO:0005743,mitochondrial inner membrane,GO
+DHODH,GO:0005743,mitochondrial inner membrane,GO
+MRPL55,GO:0005743,mitochondrial inner membrane,GO
+SLC25A48,GO:0005743,mitochondrial inner membrane,GO
+ACAD9,GO:0005743,mitochondrial inner membrane,GO
+DHFR2,GO:0005743,mitochondrial inner membrane,GO
+HIGD1A,GO:0005743,mitochondrial inner membrane,GO
+PHB2,GO:0005743,mitochondrial inner membrane,GO
+PHB2,GO:0005741,mitochondrial outer membrane,GO
+PHB2,GO:0007005,mitochondrion organization,GO
+COA1,GO:0005743,mitochondrial inner membrane,GO
+NDUFS5,GO:0005743,mitochondrial inner membrane,GO
+SLC25A31,GO:0005743,mitochondrial inner membrane,GO
+SDHC,GO:0005743,mitochondrial inner membrane,GO
+CCDC51,GO:0005743,mitochondrial inner membrane,GO
+UQCRC1,GO:0005743,mitochondrial inner membrane,GO
+NDUFS2,GO:0005743,mitochondrial inner membrane,GO
+MRPL27,GO:0005743,mitochondrial inner membrane,GO
+NDUFS7,GO:0005743,mitochondrial inner membrane,GO
+SLC25A39,GO:0005743,mitochondrial inner membrane,GO
+MCUR1,GO:0005743,mitochondrial inner membrane,GO
+ERAL1,GO:0005743,mitochondrial inner membrane,GO
+DHRS13,GO:0005743,mitochondrial inner membrane,GO
+MTLN,GO:0005743,mitochondrial inner membrane,GO
+FDXR,GO:0005743,mitochondrial inner membrane,GO
+MRPL58,GO:0005743,mitochondrial inner membrane,GO
+ATP5PD,GO:0005743,mitochondrial inner membrane,GO
+NDUFB10,GO:0005743,mitochondrial inner membrane,GO
+MRPL42,GO:0005743,mitochondrial inner membrane,GO
+NDUFB3,GO:0005743,mitochondrial inner membrane,GO
+LETMD1,GO:0005743,mitochondrial inner membrane,GO
+LETMD1,GO:0005741,mitochondrial outer membrane,GO
+LETMD1,GO:0007005,mitochondrion organization,GO
+ECSIT,GO:0005743,mitochondrial inner membrane,GO
+FGR,GO:0005743,mitochondrial inner membrane,GO
+ACADVL,GO:0005743,mitochondrial inner membrane,GO
+IFI6,GO:0005743,mitochondrial inner membrane,GO
+CHDH,GO:0005743,mitochondrial inner membrane,GO
+MRPL37,GO:0005743,mitochondrial inner membrane,GO
+C12orf73,GO:0005743,mitochondrial inner membrane,GO
+LRRK2,GO:0006914,autophagy,GO
+LRRK2,GO:0005743,mitochondrial inner membrane,GO
+LRRK2,GO:0005741,mitochondrial outer membrane,GO
+LRRK2,GO:0007005,mitochondrion organization,GO
+LRRK2,GO:0010506,regulation of autophagy,GO
+PSEN2,GO:0005743,mitochondrial inner membrane,GO
+PMPCA,GO:0005743,mitochondrial inner membrane,GO
+ATP5MF-PTCD1,GO:0005743,mitochondrial inner membrane,GO
+SLC22A14,GO:0005743,mitochondrial inner membrane,GO
+COX6B1,GO:0005743,mitochondrial inner membrane,GO
+SLC8B1,GO:0005743,mitochondrial inner membrane,GO
+MRPL24,GO:0005743,mitochondrial inner membrane,GO
+COX7A2,GO:0005743,mitochondrial inner membrane,GO
+COQ10A,GO:0005743,mitochondrial inner membrane,GO
+FOXRED1,GO:0005743,mitochondrial inner membrane,GO
+UQCR11,GO:0005743,mitochondrial inner membrane,GO
+PRODH2,GO:0005743,mitochondrial inner membrane,GO
+PET100,GO:0005743,mitochondrial inner membrane,GO
+COX4I1,GO:0005743,mitochondrial inner membrane,GO
+CNP,GO:0005741,mitochondrial outer membrane,GO
+CNP,GO:0005743,mitochondrial inner membrane,GO
+MRPS22,GO:0005743,mitochondrial inner membrane,GO
+PMPCB,GO:0005743,mitochondrial inner membrane,GO
+NDUFA12,GO:0005743,mitochondrial inner membrane,GO
+MRPL3,GO:0005743,mitochondrial inner membrane,GO
+SLC25A3,GO:0005743,mitochondrial inner membrane,GO
+IMMT,GO:0005743,mitochondrial inner membrane,GO
+IMMT,GO:0007007,inner mitochondrial membrane organization,GO
+ATP5MG,GO:0005743,mitochondrial inner membrane,GO
+MRPL9,GO:0005743,mitochondrial inner membrane,GO
+THEM4,GO:0005743,mitochondrial inner membrane,GO
+AQP8,GO:0005743,mitochondrial inner membrane,GO
+ATP5MC2,GO:0005741,mitochondrial outer membrane,GO
+ATP5MC2,GO:0005743,mitochondrial inner membrane,GO
+SLC25A11,GO:0005743,mitochondrial inner membrane,GO
+MRPL49,GO:0005743,mitochondrial inner membrane,GO
+MYOC,GO:0005743,mitochondrial inner membrane,GO
+MYOC,GO:0005741,mitochondrial outer membrane,GO
+EFHD1,GO:0005743,mitochondrial inner membrane,GO
+TFCP2,GO:0005743,mitochondrial inner membrane,GO
+PHB1,GO:0005743,mitochondrial inner membrane,GO
+PHB1,GO:0007005,mitochondrion organization,GO
+ATAD3A,GO:0007005,mitochondrion organization,GO
+ATAD3A,GO:0005743,mitochondrial inner membrane,GO
+SLC25A45,GO:0005743,mitochondrial inner membrane,GO
+NDUFS8,GO:0005743,mitochondrial inner membrane,GO
+PGS1,GO:0005743,mitochondrial inner membrane,GO
+COQ10B,GO:0005743,mitochondrial inner membrane,GO
+MRPS15,GO:0005743,mitochondrial inner membrane,GO
+EXOG,GO:0005743,mitochondrial inner membrane,GO
+MPV17,GO:0005743,mitochondrial inner membrane,GO
+COX5B,GO:0005743,mitochondrial inner membrane,GO
+SLC25A38,GO:0005743,mitochondrial inner membrane,GO
+SLC25A36,GO:0005743,mitochondrial inner membrane,GO
+SLC25A36,GO:0007005,mitochondrion organization,GO
+DNAJC19,GO:0005743,mitochondrial inner membrane,GO
+MAIP1,GO:0005743,mitochondrial inner membrane,GO
+MAIP1,GO:0007007,inner mitochondrial membrane organization,GO
+MRPS25,GO:0005743,mitochondrial inner membrane,GO
+SIRT4,GO:0007005,mitochondrion organization,GO
+SIRT4,GO:0005743,mitochondrial inner membrane,GO
+MRPL33,GO:0005743,mitochondrial inner membrane,GO
+TTC19,GO:0005743,mitochondrial inner membrane,GO
+SMIM4,GO:0005743,mitochondrial inner membrane,GO
+ATP5PB,GO:0005743,mitochondrial inner membrane,GO
+MRPS5,GO:0005743,mitochondrial inner membrane,GO
+MRPL44,GO:0005743,mitochondrial inner membrane,GO
+SLC25A34,GO:0005743,mitochondrial inner membrane,GO
+UQCRHL,GO:0005743,mitochondrial inner membrane,GO
+COX20,GO:0005743,mitochondrial inner membrane,GO
+CPS1,GO:0005743,mitochondrial inner membrane,GO
+MRPS21,GO:0005743,mitochondrial inner membrane,GO
+AURKAIP1,GO:0005743,mitochondrial inner membrane,GO
+MICOS10,GO:0005743,mitochondrial inner membrane,GO
+MICOS10,GO:0007007,inner mitochondrial membrane organization,GO
+MICOS10-NBL1,GO:0005743,mitochondrial inner membrane,GO
+AGK,GO:0005743,mitochondrial inner membrane,GO
+AGK,GO:0005741,mitochondrial outer membrane,GO
+NEU4,GO:0005743,mitochondrial inner membrane,GO
+NEU4,GO:0005741,mitochondrial outer membrane,GO
+MYO19,GO:0005741,mitochondrial outer membrane,GO
+MLXIP,GO:0005741,mitochondrial outer membrane,GO
+ATAD1,GO:0005741,mitochondrial outer membrane,GO
+SAMM50,GO:0005741,mitochondrial outer membrane,GO
+SAMM50,GO:0007007,inner mitochondrial membrane organization,GO
+SAMM50,GO:0045040,protein insertion into mitochondrial outer membrane,GO
+BNIP3L,GO:0005741,mitochondrial outer membrane,GO
+AGPAT5,GO:0005741,mitochondrial outer membrane,GO
+MIEF2,GO:0005741,mitochondrial outer membrane,GO
+MIEF2,GO:0007005,mitochondrion organization,GO
+ARMC1,GO:0005741,mitochondrial outer membrane,GO
+TSPO,GO:0005741,mitochondrial outer membrane,GO
+MAOB,GO:0005741,mitochondrial outer membrane,GO
+MTCH2,GO:0005741,mitochondrial outer membrane,GO
+MTCH2,GO:0045040,protein insertion into mitochondrial outer membrane,GO
+PMAIP1,GO:0005741,mitochondrial outer membrane,GO
+STING1,GO:0006914,autophagy,GO
+STING1,GO:0005741,mitochondrial outer membrane,GO
+MIEF1,GO:0005741,mitochondrial outer membrane,GO
+MIEF1,GO:0007005,mitochondrion organization,GO
+MIEF1,GO:0000266,mitochondrial fission,GO
+HADHB,GO:0005743,mitochondrial inner membrane,GO
+HADHB,GO:0005741,mitochondrial outer membrane,GO
+FUNDC1,GO:0006914,autophagy,GO
+FUNDC1,GO:0005741,mitochondrial outer membrane,GO
+FUNDC1,GO:0000422,autophagy of mitochondrion,GO
+IFI27,GO:0005741,mitochondrial outer membrane,GO
+MOAP1,GO:0006914,autophagy,GO
+MOAP1,GO:0005741,mitochondrial outer membrane,GO
+BID,GO:0005741,mitochondrial outer membrane,GO
+RHOD,GO:0005741,mitochondrial outer membrane,GO
+MARCHF5,GO:0005741,mitochondrial outer membrane,GO
+MTERF3,GO:0005741,mitochondrial outer membrane,GO
+FUNDC2,GO:0005741,mitochondrial outer membrane,GO
+FUNDC2,GO:0000422,autophagy of mitochondrion,GO
+BCL2L1,GO:0005743,mitochondrial inner membrane,GO
+BCL2L1,GO:0005741,mitochondrial outer membrane,GO
+BCL2L1,GO:0010507,negative regulation of autophagy,GO
+BCL2L1,GO:0070584,mitochondrion morphogenesis,GO
+NIPSNAP2,GO:0005741,mitochondrial outer membrane,GO
+NIPSNAP2,GO:0007005,mitochondrion organization,GO
+BCL2,GO:0005741,mitochondrial outer membrane,GO
+BCL2,GO:0010507,negative regulation of autophagy,GO
+BCL2,GO:0010506,regulation of autophagy,GO
+RAB11FIP5,GO:0005741,mitochondrial outer membrane,GO
+GK2,GO:0005741,mitochondrial outer membrane,GO
+SLC25A46,GO:0005741,mitochondrial outer membrane,GO
+SLC25A46,GO:0000266,mitochondrial fission,GO
+SLC25A46,GO:0000422,autophagy of mitochondrion,GO
+SLC25A46,GO:0007005,mitochondrion organization,GO
+HK2,GO:0005741,mitochondrial outer membrane,GO
+PDE2A,GO:0005743,mitochondrial inner membrane,GO
+PDE2A,GO:0005741,mitochondrial outer membrane,GO
+CISD2,GO:0010506,regulation of autophagy,GO
+CISD2,GO:0006914,autophagy,GO
+CISD2,GO:0005741,mitochondrial outer membrane,GO
+CISD2,GO:0000422,autophagy of mitochondrion,GO
+SFXN2,GO:0005743,mitochondrial inner membrane,GO
+SFXN2,GO:0005741,mitochondrial outer membrane,GO
+HMOX1,GO:0005741,mitochondrial outer membrane,GO
+THG1L,GO:0005741,mitochondrial outer membrane,GO
+THG1L,GO:0008053,mitochondrial fusion,GO
+SPATA19,GO:0005741,mitochondrial outer membrane,GO
+CYB5A,GO:0005741,mitochondrial outer membrane,GO
+BMF,GO:0010507,negative regulation of autophagy,GO
+BMF,GO:0005741,mitochondrial outer membrane,GO
+MAVS,GO:0005741,mitochondrial outer membrane,GO
+MGST1,GO:0005741,mitochondrial outer membrane,GO
+FAM210B,GO:0005741,mitochondrial outer membrane,GO
+ZNFX1,GO:0005741,mitochondrial outer membrane,GO
+VPS13A,GO:0005741,mitochondrial outer membrane,GO
+VPS13A,GO:0006914,autophagy,GO
+TOMM22,GO:0005741,mitochondrial outer membrane,GO
+TOMM22,GO:0045040,protein insertion into mitochondrial outer membrane,GO
+SPART,GO:0005741,mitochondrial outer membrane,GO
+GDAP1,GO:0005741,mitochondrial outer membrane,GO
+GDAP1,GO:0000266,mitochondrial fission,GO
+GDAP1,GO:0008053,mitochondrial fusion,GO
+TOMM20L,GO:0005741,mitochondrial outer membrane,GO
+STMP1,GO:0005743,mitochondrial inner membrane,GO
+STMP1,GO:0005741,mitochondrial outer membrane,GO
+C11orf65,GO:0005741,mitochondrial outer membrane,GO
+BCL2L2,GO:0005741,mitochondrial outer membrane,GO
+CPT1B,GO:0005741,mitochondrial outer membrane,GO
+TOMM70,GO:0005741,mitochondrial outer membrane,GO
+TOMM70,GO:0045040,protein insertion into mitochondrial outer membrane,GO
+SPIRE1,GO:0005741,mitochondrial outer membrane,GO
+FIS1,GO:0000266,mitochondrial fission,GO
+FIS1,GO:0005741,mitochondrial outer membrane,GO
+FIS1,GO:0008053,mitochondrial fusion,GO
+FIS1,GO:0000422,autophagy of mitochondrion,GO
+FIS1,GO:0070584,mitochondrion morphogenesis,GO
+RMDN3,GO:0005741,mitochondrial outer membrane,GO
+AIFM2,GO:0005741,mitochondrial outer membrane,GO
+BOK,GO:0005743,mitochondrial inner membrane,GO
+BOK,GO:0005741,mitochondrial outer membrane,GO
+BOK,GO:0010506,regulation of autophagy,GO
+SYNJ2BP,GO:0005741,mitochondrial outer membrane,GO
+HINT2,GO:0005741,mitochondrial outer membrane,GO
+CYB5R3,GO:0005741,mitochondrial outer membrane,GO
+ACSL6,GO:0005741,mitochondrial outer membrane,GO
+MTX3,GO:0007005,mitochondrion organization,GO
+MTX3,GO:0005741,mitochondrial outer membrane,GO
+MTX3,GO:0007007,inner mitochondrial membrane organization,GO
+ACSL4,GO:0005741,mitochondrial outer membrane,GO
+FOXO3,GO:0005741,mitochondrial outer membrane,GO
+MGARP,GO:0005743,mitochondrial inner membrane,GO
+MGARP,GO:0005741,mitochondrial outer membrane,GO
+VDAC3,GO:0005741,mitochondrial outer membrane,GO
+RPS6KB1,GO:0005741,mitochondrial outer membrane,GO
+MTX2,GO:0005741,mitochondrial outer membrane,GO
+MTX2,GO:0007007,inner mitochondrial membrane organization,GO
+MTX2,GO:0007005,mitochondrion organization,GO
+MTX2,GO:0045040,protein insertion into mitochondrial outer membrane,GO
+SOX10,GO:0005741,mitochondrial outer membrane,GO
+CPT1A,GO:0005741,mitochondrial outer membrane,GO
+FATE1,GO:0005741,mitochondrial outer membrane,GO
+WASF1,GO:0070584,mitochondrion morphogenesis,GO
+WASF1,GO:0005741,mitochondrial outer membrane,GO
+ARG1,GO:0005741,mitochondrial outer membrane,GO
+AGPAT4,GO:0005741,mitochondrial outer membrane,GO
+TUFM,GO:0005741,mitochondrial outer membrane,GO
+MAOA,GO:0005741,mitochondrial outer membrane,GO
+RAC2,GO:0005741,mitochondrial outer membrane,GO
+TOMM20,GO:0005741,mitochondrial outer membrane,GO
+TOMM20,GO:0045040,protein insertion into mitochondrial outer membrane,GO
+TOMM5,GO:0005741,mitochondrial outer membrane,GO
+TOMM5,GO:0045040,protein insertion into mitochondrial outer membrane,GO
+GPAM,GO:0005741,mitochondrial outer membrane,GO
+BPHL,GO:0005741,mitochondrial outer membrane,GO
+MT3,GO:0005741,mitochondrial outer membrane,GO
+MT3,GO:0010507,negative regulation of autophagy,GO
+ACSL5,GO:0005741,mitochondrial outer membrane,GO
+SNN,GO:0005741,mitochondrial outer membrane,GO
+CPT1C,GO:0005741,mitochondrial outer membrane,GO
+PLD6,GO:0005741,mitochondrial outer membrane,GO
+PLD6,GO:0008053,mitochondrial fusion,GO
+RTN4IP1,GO:0005741,mitochondrial outer membrane,GO
+RNF185,GO:0006914,autophagy,GO
+RNF185,GO:0005741,mitochondrial outer membrane,GO
+BAD,GO:0005741,mitochondrial outer membrane,GO
+BNIP3,GO:0005741,mitochondrial outer membrane,GO
+BNIP3,GO:0000422,autophagy of mitochondrion,GO
+TOMM34,GO:0005741,mitochondrial outer membrane,GO
+ARMCX1,GO:0005741,mitochondrial outer membrane,GO
+ARMCX6,GO:0005741,mitochondrial outer membrane,GO
+ARMCX3,GO:0005741,mitochondrial outer membrane,GO
+ARMCX3,GO:0007005,mitochondrion organization,GO
+ARMCX2,GO:0005741,mitochondrial outer membrane,GO
+USP30,GO:0005741,mitochondrial outer membrane,GO
+USP30,GO:0008053,mitochondrial fusion,GO
+USP30,GO:0000422,autophagy of mitochondrion,GO
+GK,GO:0005741,mitochondrial outer membrane,GO
+DAO,GO:0005741,mitochondrial outer membrane,GO
+PPP2R2B,GO:0005741,mitochondrial outer membrane,GO
+MUL1,GO:0005741,mitochondrial outer membrane,GO
+MUL1,GO:0000266,mitochondrial fission,GO
+PINK1,GO:0000422,autophagy of mitochondrion,GO
+PINK1,GO:0006914,autophagy,GO
+PINK1,GO:0005743,mitochondrial inner membrane,GO
+PINK1,GO:0005741,mitochondrial outer membrane,GO
+PINK1,GO:0007005,mitochondrion organization,GO
+ABCB6,GO:0005741,mitochondrial outer membrane,GO
+PLEC,GO:0007005,mitochondrion organization,GO
+PLEC,GO:0070584,mitochondrion morphogenesis,GO
+PLEC,GO:0005741,mitochondrial outer membrane,GO
+PGRMC1,GO:0005741,mitochondrial outer membrane,GO
+LPIN1,GO:0005741,mitochondrial outer membrane,GO
+QTRT1,GO:0005741,mitochondrial outer membrane,GO
+TAFAZZIN,GO:0005743,mitochondrial inner membrane,GO
+TAFAZZIN,GO:0005741,mitochondrial outer membrane,GO
+TAFAZZIN,GO:0007005,mitochondrion organization,GO
+TAFAZZIN,GO:0007007,inner mitochondrial membrane organization,GO
+TOMM6,GO:0005741,mitochondrial outer membrane,GO
+TOMM6,GO:0045040,protein insertion into mitochondrial outer membrane,GO
+BCL2A1,GO:0005741,mitochondrial outer membrane,GO
+ASS1,GO:0005741,mitochondrial outer membrane,GO
+AKAP1,GO:0005741,mitochondrial outer membrane,GO
+MIGA2,GO:0005741,mitochondrial outer membrane,GO
+MIGA2,GO:0008053,mitochondrial fusion,GO
+PIGBOS1,GO:0005741,mitochondrial outer membrane,GO
+MFN1,GO:0005741,mitochondrial outer membrane,GO
+MFN1,GO:0008053,mitochondrial fusion,GO
+MFN1,GO:0007005,mitochondrion organization,GO
+SARM1,GO:0005741,mitochondrial outer membrane,GO
+SLC29A3,GO:0005741,mitochondrial outer membrane,GO
+TOMM40L,GO:0005741,mitochondrial outer membrane,GO
+EXD2,GO:0005741,mitochondrial outer membrane,GO
+TIGAR,GO:0006914,autophagy,GO
+TIGAR,GO:0005741,mitochondrial outer membrane,GO
+DMD,GO:0005741,mitochondrial outer membrane,GO
+BCL2L10,GO:0005741,mitochondrial outer membrane,GO
+MFN2,GO:0005741,mitochondrial outer membrane,GO
+MFN2,GO:0008053,mitochondrial fusion,GO
+MFN2,GO:0006914,autophagy,GO
+MFN2,GO:0007005,mitochondrion organization,GO
+CISD1,GO:0010506,regulation of autophagy,GO
+CISD1,GO:0005741,mitochondrial outer membrane,GO
+HK1,GO:0005741,mitochondrial outer membrane,GO
+CNR1,GO:0005741,mitochondrial outer membrane,GO
+COASY,GO:0005741,mitochondrial outer membrane,GO
+TOMM40,GO:0005741,mitochondrial outer membrane,GO
+TOMM40,GO:0045040,protein insertion into mitochondrial outer membrane,GO
+TOMM40,GO:0005743,mitochondrial inner membrane,GO
+ATP5MC3,GO:0005741,mitochondrial outer membrane,GO
+ATP5MC3,GO:0005743,mitochondrial inner membrane,GO
+UBA52,GO:0005741,mitochondrial outer membrane,GO
+BCL2L2-PABPN1,GO:0005741,mitochondrial outer membrane,GO
+DMPK,GO:0005741,mitochondrial outer membrane,GO
+SLC8A3,GO:0005741,mitochondrial outer membrane,GO
+TOMM7,GO:0005741,mitochondrial outer membrane,GO
+TOMM7,GO:0045040,protein insertion into mitochondrial outer membrane,GO
+SLC44A1,GO:0005741,mitochondrial outer membrane,GO
+SPATA18,GO:0005741,mitochondrial outer membrane,GO
+OPA1,GO:0007005,mitochondrion organization,GO
+OPA1,GO:0005743,mitochondrial inner membrane,GO
+OPA1,GO:0005741,mitochondrial outer membrane,GO
+OPA1,GO:0000266,mitochondrial fission,GO
+OPA1,GO:0008053,mitochondrial fusion,GO
+OPA1,GO:0007007,inner mitochondrial membrane organization,GO
+GK3P,GO:0005741,mitochondrial outer membrane,GO
+BCL2L11,GO:0005741,mitochondrial outer membrane,GO
+BAK1,GO:0005741,mitochondrial outer membrane,GO
+BAK1,GO:0008053,mitochondrial fusion,GO
+PRKN,GO:0006914,autophagy,GO
+PRKN,GO:0005741,mitochondrial outer membrane,GO
+PRKN,GO:0000422,autophagy of mitochondrion,GO
+PRKN,GO:0007005,mitochondrion organization,GO
+PRKN,GO:0010506,regulation of autophagy,GO
+PRKN,GO:0000266,mitochondrial fission,GO
+RSAD2,GO:0005743,mitochondrial inner membrane,GO
+RSAD2,GO:0005741,mitochondrial outer membrane,GO
+TRIM14,GO:0005741,mitochondrial outer membrane,GO
+MCL1,GO:0005741,mitochondrial outer membrane,GO
+MCL1,GO:0010507,negative regulation of autophagy,GO
+RHOT1,GO:0007005,mitochondrion organization,GO
+RHOT1,GO:0005741,mitochondrial outer membrane,GO
+ACSL3,GO:0005741,mitochondrial outer membrane,GO
+AMBRA1,GO:0006914,autophagy,GO
+AMBRA1,GO:0000422,autophagy of mitochondrion,GO
+AMBRA1,GO:0005741,mitochondrial outer membrane,GO
+VDAC2,GO:0005741,mitochondrial outer membrane,GO
+PHB2,GO:0005743,mitochondrial inner membrane,GO
+PHB2,GO:0005741,mitochondrial outer membrane,GO
+PHB2,GO:0007005,mitochondrion organization,GO
+VAMP1,GO:0005741,mitochondrial outer membrane,GO
+RPS27A,GO:0005741,mitochondrial outer membrane,GO
+BAX,GO:0005741,mitochondrial outer membrane,GO
+BAX,GO:0008053,mitochondrial fusion,GO
+BAX,GO:0070584,mitochondrion morphogenesis,GO
+PGR,GO:0005741,mitochondrial outer membrane,GO
+STARD7,GO:0005741,mitochondrial outer membrane,GO
+LETMD1,GO:0005743,mitochondrial inner membrane,GO
+LETMD1,GO:0005741,mitochondrial outer membrane,GO
+LETMD1,GO:0007005,mitochondrion organization,GO
+ULK1,GO:0006914,autophagy,GO
+ULK1,GO:0000422,autophagy of mitochondrion,GO
+ULK1,GO:0005741,mitochondrial outer membrane,GO
+MTCH1,GO:0005741,mitochondrial outer membrane,GO
+MTCH1,GO:0045040,protein insertion into mitochondrial outer membrane,GO
+VDAC1,GO:0005741,mitochondrial outer membrane,GO
+CYB5B,GO:0005741,mitochondrial outer membrane,GO
+LRRK2,GO:0006914,autophagy,GO
+LRRK2,GO:0005743,mitochondrial inner membrane,GO
+LRRK2,GO:0005741,mitochondrial outer membrane,GO
+LRRK2,GO:0007005,mitochondrion organization,GO
+LRRK2,GO:0010506,regulation of autophagy,GO
+ARMC12,GO:0005741,mitochondrial outer membrane,GO
+SEPTIN4,GO:0005741,mitochondrial outer membrane,GO
+PPP1CC,GO:0005741,mitochondrial outer membrane,GO
+ACSL1,GO:0005741,mitochondrial outer membrane,GO
+BRI3BP,GO:0005741,mitochondrial outer membrane,GO
+VPS13C,GO:0005741,mitochondrial outer membrane,GO
+VPS13C,GO:0007005,mitochondrion organization,GO
+SLC11A2,GO:0005741,mitochondrial outer membrane,GO
+UBB,GO:0005741,mitochondrial outer membrane,GO
+CNP,GO:0005741,mitochondrial outer membrane,GO
+CNP,GO:0005743,mitochondrial inner membrane,GO
+RHOT2,GO:0007005,mitochondrion organization,GO
+RHOT2,GO:0005741,mitochondrial outer membrane,GO
+BBC3,GO:0005741,mitochondrial outer membrane,GO
+MTX1,GO:0005741,mitochondrial outer membrane,GO
+MTX1,GO:0007007,inner mitochondrial membrane organization,GO
+MTX1,GO:0007005,mitochondrion organization,GO
+MTX1,GO:0045040,protein insertion into mitochondrial outer membrane,GO
+ATF2,GO:0005741,mitochondrial outer membrane,GO
+ATP5MC2,GO:0005741,mitochondrial outer membrane,GO
+ATP5MC2,GO:0005743,mitochondrial inner membrane,GO
+MYOC,GO:0005743,mitochondrial inner membrane,GO
+MYOC,GO:0005741,mitochondrial outer membrane,GO
+KMO,GO:0005741,mitochondrial outer membrane,GO
+PPP1R15A,GO:0005741,mitochondrial outer membrane,GO
+RAB32,GO:0005741,mitochondrial outer membrane,GO
+RAB32,GO:0007005,mitochondrion organization,GO
+KRAS,GO:0005741,mitochondrial outer membrane,GO
+UBC,GO:0005741,mitochondrial outer membrane,GO
+ACACB,GO:0005741,mitochondrial outer membrane,GO
+VAT1,GO:0005741,mitochondrial outer membrane,GO
+QTRT2,GO:0005741,mitochondrial outer membrane,GO
+NLRX1,GO:0005741,mitochondrial outer membrane,GO
+RAF1,GO:0005741,mitochondrial outer membrane,GO
+CASP8,GO:0005741,mitochondrial outer membrane,GO
+DNM1L,GO:0000266,mitochondrial fission,GO
+DNM1L,GO:0005741,mitochondrial outer membrane,GO
+DNM1L,GO:0070584,mitochondrion morphogenesis,GO
+DNM1L,GO:0007005,mitochondrion organization,GO
+CYP27B1,GO:0005741,mitochondrial outer membrane,GO
+EPHA4,GO:0005741,mitochondrial outer membrane,GO
+PGAM5,GO:0005741,mitochondrial outer membrane,GO
+DNAJC11,GO:0005741,mitochondrial outer membrane,GO
+DNAJC11,GO:0007007,inner mitochondrial membrane organization,GO
+MIGA1,GO:0008053,mitochondrial fusion,GO
+MIGA1,GO:0005741,mitochondrial outer membrane,GO
+MTARC2,GO:0005741,mitochondrial outer membrane,GO
+MTARC1,GO:0005741,mitochondrial outer membrane,GO
+TRAF3IP3,GO:0005741,mitochondrial outer membrane,GO
+GPAT2,GO:0005741,mitochondrial outer membrane,GO
+MSTO1,GO:0005741,mitochondrial outer membrane,GO
+MSTO1,GO:0007005,mitochondrion organization,GO
+HAX1,GO:0005741,mitochondrial outer membrane,GO
+MFF,GO:0005741,mitochondrial outer membrane,GO
+MFF,GO:0000266,mitochondrial fission,GO
+MFF,GO:0008053,mitochondrial fusion,GO
+MFF,GO:0070584,mitochondrion morphogenesis,GO
+PLA2G2A,GO:0005741,mitochondrial outer membrane,GO
+MTOR,GO:0005741,mitochondrial outer membrane,GO
+MTOR,GO:0010507,negative regulation of autophagy,GO
+MTOR,GO:0010506,regulation of autophagy,GO
+PI4KB,GO:0005741,mitochondrial outer membrane,GO
+SH3GLB1,GO:0006914,autophagy,GO
+SH3GLB1,GO:0005741,mitochondrial outer membrane,GO
+SAMM50,GO:0005741,mitochondrial outer membrane,GO
+SAMM50,GO:0007007,inner mitochondrial membrane organization,GO
+SAMM50,GO:0045040,protein insertion into mitochondrial outer membrane,GO
+MTCH2,GO:0005741,mitochondrial outer membrane,GO
+MTCH2,GO:0045040,protein insertion into mitochondrial outer membrane,GO
+TOMM22,GO:0005741,mitochondrial outer membrane,GO
+TOMM22,GO:0045040,protein insertion into mitochondrial outer membrane,GO
+TOMM70,GO:0005741,mitochondrial outer membrane,GO
+TOMM70,GO:0045040,protein insertion into mitochondrial outer membrane,GO
+MTX2,GO:0005741,mitochondrial outer membrane,GO
+MTX2,GO:0007007,inner mitochondrial membrane organization,GO
+MTX2,GO:0007005,mitochondrion organization,GO
+MTX2,GO:0045040,protein insertion into mitochondrial outer membrane,GO
+TOMM20,GO:0005741,mitochondrial outer membrane,GO
+TOMM20,GO:0045040,protein insertion into mitochondrial outer membrane,GO
+TOMM5,GO:0005741,mitochondrial outer membrane,GO
+TOMM5,GO:0045040,protein insertion into mitochondrial outer membrane,GO
+TOMM6,GO:0005741,mitochondrial outer membrane,GO
+TOMM6,GO:0045040,protein insertion into mitochondrial outer membrane,GO
+HSPA4,GO:0045040,protein insertion into mitochondrial outer membrane,GO
+HSP90AA1,GO:0045040,protein insertion into mitochondrial outer membrane,GO
+TOMM40,GO:0005741,mitochondrial outer membrane,GO
+TOMM40,GO:0045040,protein insertion into mitochondrial outer membrane,GO
+TOMM40,GO:0005743,mitochondrial inner membrane,GO
+TOMM7,GO:0005741,mitochondrial outer membrane,GO
+TOMM7,GO:0045040,protein insertion into mitochondrial outer membrane,GO
+MTCH1,GO:0005741,mitochondrial outer membrane,GO
+MTCH1,GO:0045040,protein insertion into mitochondrial outer membrane,GO
+MTX1,GO:0005741,mitochondrial outer membrane,GO
+MTX1,GO:0007007,inner mitochondrial membrane organization,GO
+MTX1,GO:0007005,mitochondrion organization,GO
+MTX1,GO:0045040,protein insertion into mitochondrial outer membrane,GO
+SAMM50,GO:0005741,mitochondrial outer membrane,GO
+SAMM50,GO:0007007,inner mitochondrial membrane organization,GO
+SAMM50,GO:0045040,protein insertion into mitochondrial outer membrane,GO
+CHCHD3,GO:0005743,mitochondrial inner membrane,GO
+CHCHD3,GO:0008053,mitochondrial fusion,GO
+CHCHD3,GO:0007007,inner mitochondrial membrane organization,GO
+MTX3,GO:0007005,mitochondrion organization,GO
+MTX3,GO:0005741,mitochondrial outer membrane,GO
+MTX3,GO:0007007,inner mitochondrial membrane organization,GO
+APOO,GO:0005743,mitochondrial inner membrane,GO
+APOO,GO:0007007,inner mitochondrial membrane organization,GO
+CHCHD6,GO:0005743,mitochondrial inner membrane,GO
+CHCHD6,GO:0007007,inner mitochondrial membrane organization,GO
+MTX2,GO:0005741,mitochondrial outer membrane,GO
+MTX2,GO:0007007,inner mitochondrial membrane organization,GO
+MTX2,GO:0007005,mitochondrion organization,GO
+MTX2,GO:0045040,protein insertion into mitochondrial outer membrane,GO
+APOOL,GO:0005743,mitochondrial inner membrane,GO
+APOOL,GO:0007007,inner mitochondrial membrane organization,GO
+HSPA9,GO:0007007,inner mitochondrial membrane organization,GO
+TMEM11,GO:0007005,mitochondrion organization,GO
+TMEM11,GO:0005743,mitochondrial inner membrane,GO
+TMEM11,GO:0007007,inner mitochondrial membrane organization,GO
+CIBAR1,GO:0005743,mitochondrial inner membrane,GO
+CIBAR1,GO:0007007,inner mitochondrial membrane organization,GO
+TAFAZZIN,GO:0005743,mitochondrial inner membrane,GO
+TAFAZZIN,GO:0005741,mitochondrial outer membrane,GO
+TAFAZZIN,GO:0007005,mitochondrion organization,GO
+TAFAZZIN,GO:0007007,inner mitochondrial membrane organization,GO
+GHITM,GO:0005743,mitochondrial inner membrane,GO
+GHITM,GO:0007007,inner mitochondrial membrane organization,GO
+OPA1,GO:0007005,mitochondrion organization,GO
+OPA1,GO:0005743,mitochondrial inner membrane,GO
+OPA1,GO:0005741,mitochondrial outer membrane,GO
+OPA1,GO:0000266,mitochondrial fission,GO
+OPA1,GO:0008053,mitochondrial fusion,GO
+OPA1,GO:0007007,inner mitochondrial membrane organization,GO
+MICOS13,GO:0005743,mitochondrial inner membrane,GO
+MICOS13,GO:0007007,inner mitochondrial membrane organization,GO
+IMMT,GO:0005743,mitochondrial inner membrane,GO
+IMMT,GO:0007007,inner mitochondrial membrane organization,GO
+MTX1,GO:0005741,mitochondrial outer membrane,GO
+MTX1,GO:0007007,inner mitochondrial membrane organization,GO
+MTX1,GO:0007005,mitochondrion organization,GO
+MTX1,GO:0045040,protein insertion into mitochondrial outer membrane,GO
+MAIP1,GO:0005743,mitochondrial inner membrane,GO
+MAIP1,GO:0007007,inner mitochondrial membrane organization,GO
+DNAJC11,GO:0005741,mitochondrial outer membrane,GO
+DNAJC11,GO:0007007,inner mitochondrial membrane organization,GO
+MICOS10,GO:0005743,mitochondrial inner membrane,GO
+MICOS10,GO:0007007,inner mitochondrial membrane organization,GO
 OPTN,path:hsa04137,Mitophagy,KEGG
 CALCOCO2,path:hsa04137,Mitophagy,KEGG
 CITED2,path:hsa04137,Mitophagy,KEGG

@@ -1,36 +1,66 @@
 gene_symbol,annotation_ids,annotation_names,databases,n_annotation
+ABCB10,GO:0005743,mitochondrial inner membrane,GO,1
+ABCB6,GO:0005741,mitochondrial outer membrane,GO,1
+ABCB7,GO:0005743,mitochondrial inner membrane,GO,1
+ABCB8,GO:0005743,mitochondrial inner membrane,GO,1
 ABL1,GO:0006914|GO:0010506,autophagy|regulation of autophagy,GO,2
 ABL2,GO:0010506,regulation of autophagy,GO,1
-ACAD9,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+ACACB,GO:0005741,mitochondrial outer membrane,GO,1
+ACAD11,GO:0005743,mitochondrial inner membrane,GO,1
+ACAD9,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+ACADVL,GO:0005743,mitochondrial inner membrane,GO,1
 ACBD5,GO:0006914,autophagy,GO,1
 ACER2,GO:0010506,regulation of autophagy,GO,1
+ACSL1,GO:0005741,mitochondrial outer membrane,GO,1
+ACSL3,GO:0005741,mitochondrial outer membrane,GO,1
+ACSL4,GO:0005741,mitochondrial outer membrane,GO,1
+ACSL5,GO:0005741,mitochondrial outer membrane,GO,1
+ACSL6,GO:0005741,mitochondrial outer membrane,GO,1
 ACTB,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 ACTG1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-ADCK1,GO:0007005,mitochondrion organization,GO,1
+ADCK1,GO:0005743|GO:0007005,mitochondrial inner membrane|mitochondrion organization,GO,2
 ADRA1A,GO:0010507,negative regulation of autophagy,GO,1
 AFG1L,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
-AFG3L2,GO:0007005|GO:0008053,mitochondrion organization|mitochondrial fusion,GO,2
+AFG3L2,GO:0005743|GO:0007005|GO:0008053,mitochondrial inner membrane|mitochondrion organization|mitochondrial fusion,GO,3
+AGK,GO:0005743|GO:0005741,mitochondrial inner membrane|mitochondrial outer membrane,GO,2
+AGPAT4,GO:0005741,mitochondrial outer membrane,GO,1
+AGPAT5,GO:0005741,mitochondrial outer membrane,GO,1
 AGTPBP1,GO:0007005,mitochondrion organization,GO,1
+AIFM1,GO:0005743,mitochondrial inner membrane,GO,1
+AIFM2,GO:0005741,mitochondrial outer membrane,GO,1
+AIFM3,GO:0005743,mitochondrial inner membrane,GO,1
 AIP,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 AIPL1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+AKAP1,GO:0005741,mitochondrial outer membrane,GO,1
 AKT1,GO:0010507|path:hsa04140,negative regulation of autophagy|Autophagy,GO|KEGG,2
 AKT1S1,path:hsa04140,Autophagy,KEGG,1
 AKT2,path:hsa04140,Autophagy,KEGG,1
 AKT3,path:hsa04140,Autophagy,KEGG,1
-AMBRA1,GO:0006914|GO:0000422|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,5
+ALAS1,GO:0005743,mitochondrial inner membrane,GO,1
+ALAS2,GO:0005743,mitochondrial inner membrane,GO,1
+ALDH18A1,GO:0005743,mitochondrial inner membrane,GO,1
+AMBP,GO:0005743,mitochondrial inner membrane,GO,1
+AMBRA1,GO:0006914|GO:0000422|GO:0005741|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|mitochondrial outer membrane|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,6
 ANXA7,GO:0006914,autophagy,GO,1
-APOO,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-APOOL,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+APOO,GO:0005743|GO:0007007|br:hsa03029,mitochondrial inner membrane|inner mitochondrial membrane organization|Mitochondrial Biogenesis,GO|KEGG,3
+APOOL,GO:0005743|GO:0007007|br:hsa03029,mitochondrial inner membrane|inner mitochondrial membrane organization|Mitochondrial Biogenesis,GO|KEGG,3
+AQP8,GO:0005743,mitochondrial inner membrane,GO,1
 ARFIP2,GO:0006914,autophagy,GO,1
-ARMCX1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-ARMCX2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-ARMCX3,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
-ARMCX6,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+ARG1,GO:0005741,mitochondrial outer membrane,GO,1
+ARMC1,GO:0005741,mitochondrial outer membrane,GO,1
+ARMC12,GO:0005741,mitochondrial outer membrane,GO,1
+ARMCX1,GO:0005741|br:hsa03029,mitochondrial outer membrane|Mitochondrial Biogenesis,GO|KEGG,2
+ARMCX2,GO:0005741|br:hsa03029,mitochondrial outer membrane|Mitochondrial Biogenesis,GO|KEGG,2
+ARMCX3,GO:0005741|GO:0007005|br:hsa03029,mitochondrial outer membrane|mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,3
+ARMCX6,GO:0005741|br:hsa03029,mitochondrial outer membrane|Mitochondrial Biogenesis,GO|KEGG,2
 ARSA,GO:0006914,autophagy,GO,1
 ARSB,GO:0006914,autophagy,GO,1
-ATAD3A,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
-ATAD3B,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
+ASS1,GO:0005741,mitochondrial outer membrane,GO,1
+ATAD1,GO:0005741,mitochondrial outer membrane,GO,1
+ATAD3A,GO:0007005|GO:0005743|br:hsa03029,mitochondrion organization|mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,3
+ATAD3B,GO:0007005|GO:0005743|br:hsa03029,mitochondrion organization|mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,3
 ATAD3C,GO:0007005,mitochondrion organization,GO,1
+ATF2,GO:0005741,mitochondrial outer membrane,GO,1
 ATF4,path:hsa04137,Mitophagy,KEGG,1
 ATG10,GO:0006914|path:hsa04140|br:hsa03029,autophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,3
 ATG101,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG,2
@@ -53,47 +83,83 @@ ATG9B,GO:0006914|GO:0000422|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|au
 ATM,GO:0010506,regulation of autophagy,GO,1
 ATP13A2,GO:0006914,autophagy,GO,1
 ATP23,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-ATP5MF-PTCD1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-ATP5MJ,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-ATP5MK,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+ATP5F1A,GO:0005743,mitochondrial inner membrane,GO,1
+ATP5F1B,GO:0005743,mitochondrial inner membrane,GO,1
+ATP5F1C,GO:0005743,mitochondrial inner membrane,GO,1
+ATP5F1D,GO:0005743,mitochondrial inner membrane,GO,1
+ATP5F1E,GO:0005743,mitochondrial inner membrane,GO,1
+ATP5MC1,GO:0005743,mitochondrial inner membrane,GO,1
+ATP5MC2,GO:0005741|GO:0005743,mitochondrial outer membrane|mitochondrial inner membrane,GO,2
+ATP5MC3,GO:0005741|GO:0005743,mitochondrial outer membrane|mitochondrial inner membrane,GO,2
+ATP5ME,GO:0005743,mitochondrial inner membrane,GO,1
+ATP5MF,GO:0005743,mitochondrial inner membrane,GO,1
+ATP5MF-PTCD1,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+ATP5MG,GO:0005743,mitochondrial inner membrane,GO,1
+ATP5MGL,GO:0005743,mitochondrial inner membrane,GO,1
+ATP5MJ,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+ATP5MK,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+ATP5PB,GO:0005743,mitochondrial inner membrane,GO,1
+ATP5PD,GO:0005743,mitochondrial inner membrane,GO,1
+ATP5PF,GO:0005743,mitochondrial inner membrane,GO,1
+ATP5PO,GO:0005743,mitochondrial inner membrane,GO,1
 ATP6,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 ATP7A,GO:0007005,mitochondrion organization,GO,1
 ATP8,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 ATPAF1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 ATPAF2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-BAD,path:hsa04140,Autophagy,KEGG,1
-BAK1,GO:0008053|br:hsa03029,mitochondrial fusion|Mitochondrial Biogenesis,GO|KEGG,2
-BAX,GO:0008053|br:hsa03029,mitochondrial fusion|Mitochondrial Biogenesis,GO|KEGG,2
+AURKAIP1,GO:0005743,mitochondrial inner membrane,GO,1
+BAD,GO:0005741|path:hsa04140,mitochondrial outer membrane|Autophagy,GO|KEGG,2
+BAK1,GO:0005741|GO:0008053|br:hsa03029,mitochondrial outer membrane|mitochondrial fusion|Mitochondrial Biogenesis,GO|KEGG,3
+BAX,GO:0005741|GO:0008053|GO:0070584|br:hsa03029,mitochondrial outer membrane|mitochondrial fusion|mitochondrion morphogenesis|Mitochondrial Biogenesis,GO|KEGG,4
+BBC3,GO:0005741,mitochondrial outer membrane,GO,1
 BCAS3,GO:0006914,autophagy,GO,1
-BCL2,GO:0010506|GO:0010507|path:hsa04140,regulation of autophagy|negative regulation of autophagy|Autophagy,GO|KEGG,3
-BCL2L1,GO:0010507|path:hsa04137|path:hsa04140,negative regulation of autophagy|Mitophagy|Autophagy,GO|KEGG,3
+BCL2,GO:0005741|GO:0010506|GO:0010507|path:hsa04140,mitochondrial outer membrane|regulation of autophagy|negative regulation of autophagy|Autophagy,GO|KEGG,4
+BCL2A1,GO:0005741,mitochondrial outer membrane,GO,1
+BCL2L1,GO:0005743|GO:0005741|GO:0010507|GO:0070584|path:hsa04137|path:hsa04140,mitochondrial inner membrane|mitochondrial outer membrane|negative regulation of autophagy|mitochondrion morphogenesis|Mitophagy|Autophagy,GO|KEGG,6
+BCL2L10,GO:0005741,mitochondrial outer membrane,GO,1
+BCL2L11,GO:0005741,mitochondrial outer membrane,GO,1
 BCL2L13,path:hsa04137,Mitophagy,KEGG,1
-BCS1L,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
+BCL2L2,GO:0005741,mitochondrial outer membrane,GO,1
+BCL2L2-PABPN1,GO:0005741,mitochondrial outer membrane,GO,1
+BCS1L,GO:0005743|GO:0007005|br:hsa03029,mitochondrial inner membrane|mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,3
+BDH1,GO:0005743,mitochondrial inner membrane,GO,1
 BECN1,GO:0006914|GO:0000422|GO:0010506|GO:0010507|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|regulation of autophagy|negative regulation of autophagy|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,7
 BECN2,GO:0006914|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,4
-BMF,GO:0010507,negative regulation of autophagy,GO,1
-BNIP3,GO:0000422|path:hsa04137|path:hsa04140,autophagy of mitochondrion|Mitophagy|Autophagy,GO|KEGG,3
-BNIP3L,path:hsa04137|br:hsa03029,Mitophagy|Mitochondrial Biogenesis,KEGG,2
-BOK,GO:0010506,regulation of autophagy,GO,1
+BID,GO:0005741,mitochondrial outer membrane,GO,1
+BMF,GO:0010507|GO:0005741,negative regulation of autophagy|mitochondrial outer membrane,GO,2
+BNIP3,GO:0005741|GO:0000422|path:hsa04137|path:hsa04140,mitochondrial outer membrane|autophagy of mitochondrion|Mitophagy|Autophagy,GO|KEGG,4
+BNIP3L,GO:0005741|path:hsa04137|br:hsa03029,mitochondrial outer membrane|Mitophagy|Mitochondrial Biogenesis,GO|KEGG,3
+BOK,GO:0005743|GO:0005741|GO:0010506,mitochondrial inner membrane|mitochondrial outer membrane|regulation of autophagy,GO,3
 BOLA1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 BOLA3,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+BPHL,GO:0005741,mitochondrial outer membrane,GO,1
+BRI3BP,GO:0005741,mitochondrial outer membrane,GO,1
+C11orf65,GO:0005741,mitochondrial outer membrane,GO,1
+C12orf73,GO:0005743,mitochondrial inner membrane,GO,1
 C19orf12,GO:0006914|br:hsa03029,autophagy|Mitochondrial Biogenesis,GO|KEGG,2
 C9orf72,GO:0006914|GO:0010506|path:hsa04140,autophagy|regulation of autophagy|Autophagy,GO|KEGG,3
+CABS1,GO:0005743,mitochondrial inner membrane,GO,1
 CALCOCO2,GO:0006914|path:hsa04137|br:hsa03029,autophagy|Mitophagy|Mitochondrial Biogenesis,GO|KEGG,3
 CAMKK2,path:hsa04140,Autophagy,KEGG,1
 CAMKMT,GO:0007005,mitochondrion organization,GO,1
+CASP8,GO:0005741,mitochondrial outer membrane,GO,1
 CAV2,GO:0007005,mitochondrion organization,GO,1
+CCDC51,GO:0005743,mitochondrial inner membrane,GO,1
 CD84,GO:0006914,autophagy,GO,1
 CDC37,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 CDK5,GO:0007005,mitochondrion organization,GO,1
+CDS2,GO:0005743,mitochondrial inner membrane,GO,1
 CEBPA,GO:0007005,mitochondrion organization,GO,1
 CEP89,GO:0007005,mitochondrion organization,GO,1
+CERT1,GO:0070584,mitochondrion morphogenesis,GO,1
 CFLAR,path:hsa04140,Autophagy,KEGG,1
+CHCHD1,GO:0005743,mitochondrial inner membrane,GO,1
 CHCHD10,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
 CHCHD2,GO:0007005,mitochondrion organization,GO,1
-CHCHD3,GO:0008053|br:hsa03029,mitochondrial fusion|Mitochondrial Biogenesis,GO|KEGG,2
+CHCHD3,GO:0005743|GO:0008053|GO:0007007|br:hsa03029,mitochondrial inner membrane|mitochondrial fusion|inner mitochondrial membrane organization|Mitochondrial Biogenesis,GO|KEGG,4
 CHCHD4,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-CHCHD6,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+CHCHD6,GO:0005743|GO:0007007|br:hsa03029,mitochondrial inner membrane|inner mitochondrial membrane organization|Mitochondrial Biogenesis,GO|KEGG,3
+CHDH,GO:0005743,mitochondrial inner membrane,GO,1
 CHMP1A,GO:0006914,autophagy,GO,1
 CHMP1B,GO:0006914,autophagy,GO,1
 CHMP2A,GO:0006914,autophagy,GO,1
@@ -105,42 +171,81 @@ CHMP4C,GO:0006914,autophagy,GO,1
 CHMP5,GO:0006914,autophagy,GO,1
 CHMP6,GO:0006914,autophagy,GO,1
 CHMP7,GO:0006914,autophagy,GO,1
-CISD1,GO:0010506,regulation of autophagy,GO,1
-CISD2,GO:0010506|GO:0006914|GO:0000422,regulation of autophagy|autophagy|autophagy of mitochondrion,GO,3
+CIBAR1,GO:0005743|GO:0007007,mitochondrial inner membrane|inner mitochondrial membrane organization,GO,2
+CISD1,GO:0010506|GO:0005741,regulation of autophagy|mitochondrial outer membrane,GO,2
+CISD2,GO:0010506|GO:0006914|GO:0005741|GO:0000422,regulation of autophagy|autophagy|mitochondrial outer membrane|autophagy of mitochondrion,GO,4
 CITED2,path:hsa04137,Mitophagy,KEGG,1
+CKMT1A,GO:0005743,mitochondrial inner membrane,GO,1
+CKMT1B,GO:0005743,mitochondrial inner membrane,GO,1
+CKMT2,GO:0005743,mitochondrial inner membrane,GO,1
 CLEC16A,GO:0006914|br:hsa03029,autophagy|Mitochondrial Biogenesis,GO|KEGG,2
 CLN3,GO:0010506,regulation of autophagy,GO,1
+CLPX,GO:0005743,mitochondrial inner membrane,GO,1
 CLTC,GO:0006914,autophagy,GO,1
+CLU,GO:0005743,mitochondrial inner membrane,GO,1
 CLUH,GO:0007005,mitochondrion organization,GO,1
 CMC1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 CMC2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+CNP,GO:0005741|GO:0005743,mitochondrial outer membrane|mitochondrial inner membrane,GO,2
+CNR1,GO:0005741,mitochondrial outer membrane,GO,1
 CNTNAP1,GO:0007005,mitochondrion organization,GO,1
-COA1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-COA3,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+COA1,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+COA3,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
 COA4,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 COA5,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 COA6,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 COA7,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-COA8,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-COASY,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+COA8,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+COASY,GO:0005741|br:hsa03029,mitochondrial outer membrane|Mitochondrial Biogenesis,GO|KEGG,2
+COQ10A,GO:0005743,mitochondrial inner membrane,GO,1
+COQ10B,GO:0005743,mitochondrial inner membrane,GO,1
+COQ2,GO:0005743,mitochondrial inner membrane,GO,1
+COQ3,GO:0005743,mitochondrial inner membrane,GO,1
+COQ4,GO:0005743,mitochondrial inner membrane,GO,1
+COQ5,GO:0005743,mitochondrial inner membrane,GO,1
+COQ6,GO:0005743,mitochondrial inner membrane,GO,1
+COQ7,GO:0005743,mitochondrial inner membrane,GO,1
+COQ9,GO:0005743,mitochondrial inner membrane,GO,1
 COX1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-COX10,GO:0000266|GO:0007005|br:hsa03029,mitochondrial fission|mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,3
-COX11,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+COX10,GO:0005743|GO:0000266|GO:0007005|br:hsa03029,mitochondrial inner membrane|mitochondrial fission|mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,4
+COX11,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
 COX14,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-COX15,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-COX16,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+COX15,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+COX16,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
 COX17,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-COX18,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+COX18,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
 COX19,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 COX2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-COX20,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+COX20,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
 COX3,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-CPT1A,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-CPT1B,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-CPT1C,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+COX4I1,GO:0005743,mitochondrial inner membrane,GO,1
+COX4I2,GO:0005743,mitochondrial inner membrane,GO,1
+COX5A,GO:0005743,mitochondrial inner membrane,GO,1
+COX5B,GO:0005743,mitochondrial inner membrane,GO,1
+COX6A1,GO:0005743,mitochondrial inner membrane,GO,1
+COX6A2,GO:0005743,mitochondrial inner membrane,GO,1
+COX6B1,GO:0005743,mitochondrial inner membrane,GO,1
+COX6B2,GO:0005743,mitochondrial inner membrane,GO,1
+COX6C,GO:0005743,mitochondrial inner membrane,GO,1
+COX7A1,GO:0005743,mitochondrial inner membrane,GO,1
+COX7A2,GO:0005743,mitochondrial inner membrane,GO,1
+COX7A2L,GO:0005743,mitochondrial inner membrane,GO,1
+COX7B,GO:0005743,mitochondrial inner membrane,GO,1
+COX7B2,GO:0005743,mitochondrial inner membrane,GO,1
+COX7C,GO:0005743,mitochondrial inner membrane,GO,1
+COX8A,GO:0005743,mitochondrial inner membrane,GO,1
+COX8C,GO:0005743,mitochondrial inner membrane,GO,1
+CPOX,GO:0005743,mitochondrial inner membrane,GO,1
+CPS1,GO:0005743,mitochondrial inner membrane,GO,1
+CPT1A,GO:0005741|br:hsa03029,mitochondrial outer membrane|Mitochondrial Biogenesis,GO|KEGG,2
+CPT1B,GO:0005741|br:hsa03029,mitochondrial outer membrane|Mitochondrial Biogenesis,GO|KEGG,2
+CPT1C,GO:0005741|br:hsa03029,mitochondrial outer membrane|Mitochondrial Biogenesis,GO|KEGG,2
+CPT2,GO:0005743,mitochondrial inner membrane,GO,1
 CPTP,GO:0010507,negative regulation of autophagy,GO,1
+CRAT,GO:0005743,mitochondrial inner membrane,GO,1
 CREB1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 CREBBP,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+CRLS1,GO:0005743,mitochondrial inner membrane,GO,1
 CRTC1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 CRYBA1,GO:0010506,regulation of autophagy,GO,1
 CSNK2A1,path:hsa04137,Mitophagy,KEGG,1
@@ -152,9 +257,24 @@ CTSD,path:hsa04140,Autophagy,KEGG,1
 CTSK,GO:0000422,autophagy of mitochondrion,GO,1
 CTSL,path:hsa04140,Autophagy,KEGG,1
 CXADR,GO:0007005,mitochondrion organization,GO,1
+CYB5A,GO:0005741,mitochondrial outer membrane,GO,1
+CYB5B,GO:0005741,mitochondrial outer membrane,GO,1
+CYB5R3,GO:0005741,mitochondrial outer membrane,GO,1
+CYC1,GO:0005743,mitochondrial inner membrane,GO,1
+CYCS,GO:0005743,mitochondrial inner membrane,GO,1
+CYP11A1,GO:0005743,mitochondrial inner membrane,GO,1
+CYP11B1,GO:0005743,mitochondrial inner membrane,GO,1
+CYP11B2,GO:0005743,mitochondrial inner membrane,GO,1
+CYP1A1,GO:0005743,mitochondrial inner membrane,GO,1
+CYP24A1,GO:0005743,mitochondrial inner membrane,GO,1
+CYP27A1,GO:0005743,mitochondrial inner membrane,GO,1
+CYP27B1,GO:0005741,mitochondrial outer membrane,GO,1
+CYP2E1,GO:0005743,mitochondrial inner membrane,GO,1
+CYP2U1,GO:0005743,mitochondrial inner membrane,GO,1
 CYTB,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+DAO,GO:0005741,mitochondrial outer membrane,GO,1
 DAP,GO:0006914|GO:0010507,autophagy|negative regulation of autophagy,GO,2
-DAP3,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+DAP3,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
 DAPK1,GO:0010506|path:hsa04140,regulation of autophagy|Autophagy,GO|KEGG,2
 DAPK2,GO:0010506|path:hsa04140,regulation of autophagy|Autophagy,GO|KEGG,2
 DAPK3,GO:0010506|path:hsa04140,regulation of autophagy|Autophagy,GO|KEGG,2
@@ -164,24 +284,38 @@ DCAF12,GO:0010506,regulation of autophagy,GO,1
 DDHD2,GO:0000266,mitochondrial fission,GO,1
 DDIT3,GO:0010506,regulation of autophagy,GO,1
 DDIT4,path:hsa04140,Autophagy,KEGG,1
+DELE1,GO:0005743,mitochondrial inner membrane,GO,1
 DEPP1,GO:0006914|GO:0010506,autophagy|regulation of autophagy,GO,2
 DEPTOR,path:hsa04140,Autophagy,KEGG,1
+DHFR2,GO:0005743,mitochondrial inner membrane,GO,1
+DHODH,GO:0005743,mitochondrial inner membrane,GO,1
+DHRS13,GO:0005743,mitochondrial inner membrane,GO,1
 DHTKD1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 DHX30,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 DIABLO,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+DMAC1,GO:0005743,mitochondrial inner membrane,GO,1
+DMAC2L,GO:0005743,mitochondrial inner membrane,GO,1
+DMD,GO:0005741,mitochondrial outer membrane,GO,1
+DMPK,GO:0005741,mitochondrial outer membrane,GO,1
 DNAJA2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 DNAJA3,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
-DNAJC19,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+DNAJC11,GO:0005741|GO:0007007,mitochondrial outer membrane|inner mitochondrial membrane organization,GO,2
+DNAJC15,GO:0005743,mitochondrial inner membrane,GO,1
+DNAJC19,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+DNAJC30,GO:0005743,mitochondrial inner membrane,GO,1
 DNLZ,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-DNM1L,GO:0000266|GO:0007005|br:hsa03029,mitochondrial fission|mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,3
+DNM1L,GO:0000266|GO:0005741|GO:0070584|GO:0007005|br:hsa03029,mitochondrial fission|mitochondrial outer membrane|mitochondrion morphogenesis|mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,5
 DRAM1,GO:0006914|GO:0010506,autophagy|regulation of autophagy,GO,2
 DRAM2,GO:0010506|GO:0006914,regulation of autophagy|autophagy,GO,2
 DRD2,GO:0006914,autophagy,GO,1
 DRD3,GO:0006914,autophagy,GO,1
+DUSP18,GO:0005743,mitochondrial inner membrane,GO,1
+DUSP21,GO:0005743,mitochondrial inner membrane,GO,1
 E2F1,path:hsa04137,Mitophagy,KEGG,1
-ECSIT,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+ECSIT,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
 EDN1,GO:0007005,mitochondrion organization,GO,1
 EDNRA,GO:0007005,mitochondrion organization,GO,1
+EFHD1,GO:0005743,mitochondrial inner membrane,GO,1
 EI24,GO:0006914,autophagy,GO,1
 EIF2AK3,path:hsa04137|path:hsa04140,Mitophagy|Autophagy,KEGG,2
 EIF2AK4,path:hsa04140,Autophagy,KEGG,1
@@ -189,63 +323,87 @@ EIF2S1,path:hsa04140,Autophagy,KEGG,1
 EIF4G1,GO:0010507,negative regulation of autophagy,GO,1
 EIF4G2,GO:0010507,negative regulation of autophagy,GO,1
 ELAPOR1,GO:0006914,autophagy,GO,1
-ENDOG,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+ENDOG,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
 EP300,GO:0010506|br:hsa03029,regulation of autophagy|Mitochondrial Biogenesis,GO|KEGG,2
 EPAS1,GO:0007005,mitochondrion organization,GO,1
 EPG5,GO:0006914,autophagy,GO,1
+EPHA4,GO:0005741,mitochondrial outer membrane,GO,1
 EPM2A,GO:0006914|GO:0007005,autophagy|mitochondrion organization,GO,2
-ERAL1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+ERAL1,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
 ERCC4,GO:0010506,regulation of autophagy,GO,1
 ERN1,path:hsa04140,Autophagy,KEGG,1
 ESRRA,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 ESRRB,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 ESRRG,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+ETFDH,GO:0005743,mitochondrial inner membrane,GO,1
 ETHE1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 EVA1A,GO:0006914,autophagy,GO,1
-EXOG,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+EXD2,GO:0005741,mitochondrial outer membrane,GO,1
+EXOG,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+FAM210B,GO:0005741,mitochondrial outer membrane,GO,1
 FANCG,GO:0007005,mitochondrion organization,GO,1
 FASTKD2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+FATE1,GO:0005741,mitochondrial outer membrane,GO,1
 FBXL2,GO:0010506,regulation of autophagy,GO,1
 FBXL4,GO:0000422|br:hsa03029,autophagy of mitochondrion|Mitochondrial Biogenesis,GO|KEGG,2
 FBXO7,GO:0000422,autophagy of mitochondrion,GO,1
 FDX1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 FDX2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-FDXR,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-FIS1,GO:0000266|GO:0008053|GO:0000422|path:hsa04137|br:hsa03029,mitochondrial fission|mitochondrial fusion|autophagy of mitochondrion|Mitophagy|Mitochondrial Biogenesis,GO|KEGG,5
+FDXR,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+FECH,GO:0005743,mitochondrial inner membrane,GO,1
+FEZ1,GO:0070584,mitochondrion morphogenesis,GO,1
+FGR,GO:0005743,mitochondrial inner membrane,GO,1
+FIS1,GO:0000266|GO:0005741|GO:0008053|GO:0000422|GO:0070584|path:hsa04137|br:hsa03029,mitochondrial fission|mitochondrial outer membrane|mitochondrial fusion|autophagy of mitochondrion|mitochondrion morphogenesis|Mitophagy|Mitochondrial Biogenesis,GO|KEGG,7
+FLVCR1,GO:0005743,mitochondrial inner membrane,GO,1
 FNBP1L,GO:0006914,autophagy,GO,1
 FOXK1,GO:0010507,negative regulation of autophagy,GO,1
 FOXK2,GO:0010507,negative regulation of autophagy,GO,1
 FOXO1,GO:0006914,autophagy,GO,1
-FOXO3,path:hsa04137,Mitophagy,KEGG,1
-FOXRED1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-FUNDC1,GO:0006914|GO:0000422|path:hsa04137|br:hsa03029,autophagy|autophagy of mitochondrion|Mitophagy|Mitochondrial Biogenesis,GO|KEGG,4
-FUNDC2,GO:0000422|br:hsa03029,autophagy of mitochondrion|Mitochondrial Biogenesis,GO|KEGG,2
+FOXO3,GO:0005741|path:hsa04137,mitochondrial outer membrane|Mitophagy,GO|KEGG,2
+FOXRED1,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+FPGS,GO:0005743,mitochondrial inner membrane,GO,1
+FUNDC1,GO:0006914|GO:0005741|GO:0000422|path:hsa04137|br:hsa03029,autophagy|mitochondrial outer membrane|autophagy of mitochondrion|Mitophagy|Mitochondrial Biogenesis,GO|KEGG,5
+FUNDC2,GO:0005741|GO:0000422|br:hsa03029,mitochondrial outer membrane|autophagy of mitochondrion|Mitochondrial Biogenesis,GO|KEGG,3
 FXN,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
 GABARAP,GO:0006914|GO:0000422|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,5
 GABARAPL1,GO:0006914|GO:0000422|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,5
 GABARAPL2,GO:0006914|GO:0000422|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,5
 GABPB1,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
 GABPB2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+GADD45GIP1,GO:0005743,mitochondrial inner membrane,GO,1
 GARS1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 GATA4,GO:0010507,negative regulation of autophagy,GO,1
 GATB,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 GATC,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+GATM,GO:0005743,mitochondrial inner membrane,GO,1
 GBA1,GO:0006914|GO:0007005,autophagy|mitochondrion organization,GO,2
-GDAP1,GO:0000266|GO:0008053|br:hsa03029,mitochondrial fission|mitochondrial fusion|Mitochondrial Biogenesis,GO|KEGG,3
+GCAT,GO:0005743,mitochondrial inner membrane,GO,1
+GDAP1,GO:0005741|GO:0000266|GO:0008053|br:hsa03029,mitochondrial outer membrane|mitochondrial fission|mitochondrial fusion|Mitochondrial Biogenesis,GO|KEGG,4
 GDAP1L1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 GFER,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 GFM1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 GFM2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+GHITM,GO:0005743|GO:0007007,mitochondrial inner membrane|inner mitochondrial membrane organization,GO,2
+GK,GO:0005741,mitochondrial outer membrane,GO,1
+GK2,GO:0005741,mitochondrial outer membrane,GO,1
+GK3P,GO:0005741,mitochondrial outer membrane,GO,1
 GLRX5,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 GOLGA2,GO:0010507,negative regulation of autophagy,GO,1
+GPAM,GO:0005741,mitochondrial outer membrane,GO,1
+GPAT2,GO:0005741,mitochondrial outer membrane,GO,1
+GPD2,GO:0005743,mitochondrial inner membrane,GO,1
 GPR137,GO:0006914|GO:0010506,autophagy|regulation of autophagy,GO,2
 GPR137B,GO:0006914|GO:0010506,autophagy|regulation of autophagy,GO,2
 GRAMD1A,GO:0006914,autophagy,GO,1
 GRPEL1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 GRPEL2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 GRSF1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-GUF1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+GUF1,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+HADHA,GO:0005743,mitochondrial inner membrane,GO,1
+HADHB,GO:0005743|GO:0005741,mitochondrial inner membrane|mitochondrial outer membrane,GO,2
 HAP1,GO:0006914,autophagy,GO,1
+HAX1,GO:0005741,mitochondrial outer membrane,GO,1
+HCCS,GO:0005743,mitochondrial inner membrane,GO,1
 HCFC1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 HCFC2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 HDAC10,GO:0006914,autophagy,GO,1
@@ -253,34 +411,45 @@ HDAC6,GO:0006914|GO:0010506,autophagy|regulation of autophagy,GO,2
 HERC1,GO:0006914|GO:0010507,autophagy|negative regulation of autophagy,GO,2
 HGF,GO:0010507,negative regulation of autophagy,GO,1
 HIF1A,path:hsa04137|path:hsa04140,Mitophagy|Autophagy,KEGG,2
+HIGD1A,GO:0005743,mitochondrial inner membrane,GO,1
+HIGD2A,GO:0005743,mitochondrial inner membrane,GO,1
+HINT2,GO:0005741,mitochondrial outer membrane,GO,1
+HK1,GO:0005741,mitochondrial outer membrane,GO,1
+HK2,GO:0005741,mitochondrial outer membrane,GO,1
 HMGB1,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG,2
 HMGCL,GO:0007005,mitochondrion organization,GO,1
+HMOX1,GO:0005741,mitochondrial outer membrane,GO,1
 HRAS,path:hsa04137|path:hsa04140,Mitophagy|Autophagy,KEGG,2
 HSCB,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 HSD17B10,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
-HSP90AA1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+HSD3B1,GO:0005743,mitochondrial inner membrane,GO,1
+HSD3B2,GO:0005743,mitochondrial inner membrane,GO,1
+HSP90AA1,GO:0045040|br:hsa03029,protein insertion into mitochondrial outer membrane|Mitochondrial Biogenesis,GO|KEGG,2
 HSP90AB1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 HSPA1A,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 HSPA1B,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 HSPA1L,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+HSPA4,GO:0045040,protein insertion into mitochondrial outer membrane,GO,1
 HSPA6,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 HSPA8,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-HSPA9,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+HSPA9,GO:0007007|br:hsa03029,inner mitochondrial membrane organization|Mitochondrial Biogenesis,GO|KEGG,2
 HSPB1,GO:0010506,regulation of autophagy,GO,1
-HSPD1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+HSPD1,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
 HSPE1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 HTR2B,GO:0010507,negative regulation of autophagy,GO,1
 HTRA2,GO:0007005,mitochondrion organization,GO,1
 HTT,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 IBA57,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 IFI16,GO:0006914|GO:0010506,autophagy|regulation of autophagy,GO,2
+IFI27,GO:0005741,mitochondrial outer membrane,GO,1
+IFI6,GO:0005743,mitochondrial inner membrane,GO,1
 IGBP1,path:hsa04140,Autophagy,KEGG,1
 IGF1R,path:hsa04140,Autophagy,KEGG,1
 IL10,GO:0010507,negative regulation of autophagy,GO,1
 IL10RA,GO:0010507,negative regulation of autophagy,GO,1
-IMMP1L,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-IMMP2L,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-IMMT,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+IMMP1L,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+IMMP2L,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+IMMT,GO:0005743|GO:0007007|br:hsa03029,mitochondrial inner membrane|inner mitochondrial membrane organization|Mitochondrial Biogenesis,GO|KEGG,3
 INS,path:hsa04140,Autophagy,KEGG,1
 IRF8,GO:0006914,autophagy,GO,1
 IRGM,GO:0006914,autophagy,GO,1
@@ -298,30 +467,40 @@ KDM4A,GO:0010507,negative regulation of autophagy,GO,1
 KEAP1,GO:0010506,regulation of autophagy,GO,1
 KIF25,GO:0010507,negative regulation of autophagy,GO,1
 KLHL22,GO:0010507,negative regulation of autophagy,GO,1
-KRAS,path:hsa04137|path:hsa04140,Mitophagy|Autophagy,KEGG,2
+KMO,GO:0005741,mitochondrial outer membrane,GO,1
+KRAS,GO:0005741|path:hsa04137|path:hsa04140,mitochondrial outer membrane|Mitophagy|Autophagy,GO|KEGG,3
 KTN1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+L2HGDH,GO:0005743,mitochondrial inner membrane,GO,1
 LACTB2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 LAMP1,path:hsa04140,Autophagy,KEGG,1
 LAMP2,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG,2
 LAMP3,GO:0010506,regulation of autophagy,GO,1
 LARS1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 LARS2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+LDHB,GO:0005743,mitochondrial inner membrane,GO,1
+LDHD,GO:0005743,mitochondrial inner membrane,GO,1
 LEP,GO:0010507,negative regulation of autophagy,GO,1
 LEPR,GO:0010507,negative regulation of autophagy,GO,1
-LETM1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-LETMD1,GO:0007005,mitochondrion organization,GO,1
+LETM1,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+LETM2,GO:0005743,mitochondrial inner membrane,GO,1
+LETMD1,GO:0005743|GO:0005741|GO:0007005,mitochondrial inner membrane|mitochondrial outer membrane|mitochondrion organization,GO,3
+LGALS3,GO:0005743,mitochondrial inner membrane,GO,1
 LGALS8,GO:0006914,autophagy,GO,1
 LIG3,GO:0007005,mitochondrion organization,GO,1
 LONP1,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
+LPIN1,GO:0005741,mitochondrial outer membrane,GO,1
 LRPPRC,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-LRRK2,GO:0006914|GO:0007005|GO:0010506,autophagy|mitochondrion organization|regulation of autophagy,GO,3
+LRRK2,GO:0006914|GO:0005743|GO:0005741|GO:0007005|GO:0010506,autophagy|mitochondrial inner membrane|mitochondrial outer membrane|mitochondrion organization|regulation of autophagy,GO,5
 LRSAM1,GO:0006914,autophagy,GO,1
 LYRM4,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 LYRM7,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 MAGEA3,GO:0010507,negative regulation of autophagy,GO,1
 MAGEA6,GO:0010507,negative regulation of autophagy,GO,1
+MAIP1,GO:0005743|GO:0007007,mitochondrial inner membrane|inner mitochondrial membrane organization,GO,2
 MALSU1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 MAN2A1,GO:0007005,mitochondrion organization,GO,1
+MAOA,GO:0005741,mitochondrial outer membrane,GO,1
+MAOB,GO:0005741,mitochondrial outer membrane,GO,1
 MAP1LC3A,GO:0006914|GO:0000422|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,5
 MAP1LC3B,GO:0006914|GO:0000422|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,5
 MAP1LC3B2,GO:0006914|GO:0000422|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,5
@@ -338,42 +517,138 @@ MAPK3,path:hsa04140,Autophagy,KEGG,1
 MAPK8,path:hsa04137|path:hsa04140,Mitophagy|Autophagy,KEGG,2
 MAPK9,path:hsa04137|path:hsa04140,Mitophagy|Autophagy,KEGG,2
 MAPT,GO:0010506,regulation of autophagy,GO,1
+MARCHF5,GO:0005741,mitochondrial outer membrane,GO,1
 MARCKS,GO:0007005,mitochondrion organization,GO,1
 MARK2,GO:0000422,autophagy of mitochondrion,GO,1
-MCL1,GO:0010507,negative regulation of autophagy,GO,1
-MCU,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-MCUB,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-MCUR1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MAVS,GO:0005741,mitochondrial outer membrane,GO,1
+MCL1,GO:0005741|GO:0010507,mitochondrial outer membrane|negative regulation of autophagy,GO,2
+MCU,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+MCUB,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+MCUR1,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
 MET,GO:0010507,negative regulation of autophagy,GO,1
 METTL15,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-MFF,GO:0000266|GO:0008053|br:hsa03029,mitochondrial fission|mitochondrial fusion|Mitochondrial Biogenesis,GO|KEGG,3
-MFN1,GO:0008053|GO:0007005|path:hsa04137|br:hsa03029,mitochondrial fusion|mitochondrion organization|Mitophagy|Mitochondrial Biogenesis,GO|KEGG,4
-MFN2,GO:0008053|GO:0006914|GO:0007005|path:hsa04137|br:hsa03029,mitochondrial fusion|autophagy|mitochondrion organization|Mitophagy|Mitochondrial Biogenesis,GO|KEGG,5
+MFF,GO:0005741|GO:0000266|GO:0008053|GO:0070584|br:hsa03029,mitochondrial outer membrane|mitochondrial fission|mitochondrial fusion|mitochondrion morphogenesis|Mitochondrial Biogenesis,GO|KEGG,5
+MFN1,GO:0005741|GO:0008053|GO:0007005|path:hsa04137|br:hsa03029,mitochondrial outer membrane|mitochondrial fusion|mitochondrion organization|Mitophagy|Mitochondrial Biogenesis,GO|KEGG,5
+MFN2,GO:0005741|GO:0008053|GO:0006914|GO:0007005|path:hsa04137|br:hsa03029,mitochondrial outer membrane|mitochondrial fusion|autophagy|mitochondrion organization|Mitophagy|Mitochondrial Biogenesis,GO|KEGG,6
 MFSD8,GO:0010506,regulation of autophagy,GO,1
+MGARP,GO:0005743|GO:0005741,mitochondrial inner membrane|mitochondrial outer membrane,GO,2
 MGME1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-MICOS10,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-MICOS13,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-MICU1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-MICU2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-MIEF1,GO:0007005|GO:0000266|br:hsa03029,mitochondrion organization|mitochondrial fission|Mitochondrial Biogenesis,GO|KEGG,3
-MIEF2,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
-MIGA1,GO:0008053,mitochondrial fusion,GO,1
-MIGA2,GO:0008053,mitochondrial fusion,GO,1
+MGST1,GO:0005741,mitochondrial outer membrane,GO,1
+MICOS10,GO:0005743|GO:0007007|br:hsa03029,mitochondrial inner membrane|inner mitochondrial membrane organization|Mitochondrial Biogenesis,GO|KEGG,3
+MICOS10-NBL1,GO:0005743,mitochondrial inner membrane,GO,1
+MICOS13,GO:0005743|GO:0007007|br:hsa03029,mitochondrial inner membrane|inner mitochondrial membrane organization|Mitochondrial Biogenesis,GO|KEGG,3
+MICU1,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+MICU2,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+MICU3,GO:0005743,mitochondrial inner membrane,GO,1
+MIEF1,GO:0005741|GO:0007005|GO:0000266|br:hsa03029,mitochondrial outer membrane|mitochondrion organization|mitochondrial fission|Mitochondrial Biogenesis,GO|KEGG,4
+MIEF2,GO:0005741|GO:0007005|br:hsa03029,mitochondrial outer membrane|mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,3
+MIGA1,GO:0008053|GO:0005741,mitochondrial fusion|mitochondrial outer membrane,GO,2
+MIGA2,GO:0005741|GO:0008053,mitochondrial outer membrane|mitochondrial fusion,GO,2
 MIPEP,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 MITF,path:hsa04137,Mitophagy,KEGG,1
 MLST8,GO:0010507|path:hsa04140,negative regulation of autophagy|Autophagy,GO|KEGG,2
-MOAP1,GO:0006914,autophagy,GO,1
-MPC1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-MPC1L,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-MPC2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MLXIP,GO:0005741,mitochondrial outer membrane,GO,1
+MOAP1,GO:0006914|GO:0005741,autophagy|mitochondrial outer membrane,GO,2
+MPC1,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+MPC1L,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+MPC2,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+MPV17,GO:0005743,mitochondrial inner membrane,GO,1
+MPV17L2,GO:0005743,mitochondrial inner membrane,GO,1
 MRAS,path:hsa04137|path:hsa04140,Mitophagy|Autophagy,KEGG,2
-MRPL32,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-MRPL37,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-MRPS16,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-MRPS22,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-MRPS6,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MRPL1,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL10,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL11,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL12,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL13,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL14,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL15,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL16,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL17,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL18,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL19,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL2,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL20,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL21,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL22,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL23,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL24,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL27,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL28,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL3,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL30,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL32,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+MRPL33,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL34,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL35,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL36,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL37,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+MRPL38,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL39,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL4,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL40,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL41,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL42,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL43,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL44,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL45,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL46,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL47,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL48,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL49,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL50,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL51,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL52,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL53,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL54,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL55,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL57,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL58,GO:0005743,mitochondrial inner membrane,GO,1
+MRPL9,GO:0005743,mitochondrial inner membrane,GO,1
+MRPS10,GO:0005743,mitochondrial inner membrane,GO,1
+MRPS11,GO:0005743,mitochondrial inner membrane,GO,1
+MRPS12,GO:0005743,mitochondrial inner membrane,GO,1
+MRPS14,GO:0005743,mitochondrial inner membrane,GO,1
+MRPS15,GO:0005743,mitochondrial inner membrane,GO,1
+MRPS16,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+MRPS17,GO:0005743,mitochondrial inner membrane,GO,1
+MRPS18A,GO:0005743,mitochondrial inner membrane,GO,1
+MRPS18B,GO:0005743,mitochondrial inner membrane,GO,1
+MRPS18C,GO:0005743,mitochondrial inner membrane,GO,1
+MRPS2,GO:0005743,mitochondrial inner membrane,GO,1
+MRPS21,GO:0005743,mitochondrial inner membrane,GO,1
+MRPS22,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+MRPS23,GO:0005743,mitochondrial inner membrane,GO,1
+MRPS24,GO:0005743,mitochondrial inner membrane,GO,1
+MRPS25,GO:0005743,mitochondrial inner membrane,GO,1
+MRPS26,GO:0005743,mitochondrial inner membrane,GO,1
+MRPS27,GO:0005743,mitochondrial inner membrane,GO,1
+MRPS28,GO:0005743,mitochondrial inner membrane,GO,1
+MRPS30,GO:0005743,mitochondrial inner membrane,GO,1
+MRPS31,GO:0005743,mitochondrial inner membrane,GO,1
+MRPS33,GO:0005743,mitochondrial inner membrane,GO,1
+MRPS34,GO:0005743,mitochondrial inner membrane,GO,1
+MRPS35,GO:0005743,mitochondrial inner membrane,GO,1
+MRPS36,GO:0005743,mitochondrial inner membrane,GO,1
+MRPS5,GO:0005743,mitochondrial inner membrane,GO,1
+MRPS6,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+MRPS7,GO:0005743,mitochondrial inner membrane,GO,1
+MRPS9,GO:0005743,mitochondrial inner membrane,GO,1
+MRS2,GO:0005743,mitochondrial inner membrane,GO,1
 MSS51,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-MSTO1,GO:0007005,mitochondrion organization,GO,1
+MSTO1,GO:0005741|GO:0007005,mitochondrial outer membrane|mitochondrion organization,GO,2
+MT-ATP6,GO:0005743,mitochondrial inner membrane,GO,1
+MT-ATP8,GO:0005743,mitochondrial inner membrane,GO,1
+MT-CO1,GO:0005743,mitochondrial inner membrane,GO,1
+MT-CO2,GO:0005743,mitochondrial inner membrane,GO,1
+MT-CO3,GO:0005743,mitochondrial inner membrane,GO,1
+MT-CYB,GO:0005743,mitochondrial inner membrane,GO,1
+MT-ND1,GO:0005743,mitochondrial inner membrane,GO,1
+MT-ND2,GO:0005743,mitochondrial inner membrane,GO,1
+MT-ND3,GO:0005743,mitochondrial inner membrane,GO,1
+MT-ND4,GO:0005743,mitochondrial inner membrane,GO,1
+MT-ND4L,GO:0005743,mitochondrial inner membrane,GO,1
+MT-ND5,GO:0005743,mitochondrial inner membrane,GO,1
+MT-ND6,GO:0005743,mitochondrial inner membrane,GO,1
 MT1A,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 MT1B,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 MT1E,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
@@ -384,40 +659,48 @@ MT1HL1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 MT1M,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 MT1X,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 MT2A,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-MT3,GO:0010507|br:hsa03029,negative regulation of autophagy|Mitochondrial Biogenesis,GO|KEGG,2
+MT3,GO:0005741|GO:0010507|br:hsa03029,mitochondrial outer membrane|negative regulation of autophagy|Mitochondrial Biogenesis,GO|KEGG,3
 MT4,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-MTCH1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-MTCH2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MTARC1,GO:0005741,mitochondrial outer membrane,GO,1
+MTARC2,GO:0005741,mitochondrial outer membrane,GO,1
+MTCH1,GO:0005741|GO:0045040|br:hsa03029,mitochondrial outer membrane|protein insertion into mitochondrial outer membrane|Mitochondrial Biogenesis,GO|KEGG,3
+MTCH2,GO:0005741|GO:0045040|br:hsa03029,mitochondrial outer membrane|protein insertion into mitochondrial outer membrane|Mitochondrial Biogenesis,GO|KEGG,3
 MTCL1,GO:0010506,regulation of autophagy,GO,1
 MTERF1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 MTERF2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-MTERF3,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MTERF3,GO:0005741|br:hsa03029,mitochondrial outer membrane|Mitochondrial Biogenesis,GO|KEGG,2
 MTERF4,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-MTFP1,GO:0007005|GO:0000266|br:hsa03029,mitochondrion organization|mitochondrial fission|Mitochondrial Biogenesis,GO|KEGG,3
+MTFP1,GO:0005743|GO:0007005|GO:0000266|br:hsa03029,mitochondrial inner membrane|mitochondrion organization|mitochondrial fission|Mitochondrial Biogenesis,GO|KEGG,4
 MTFR1,GO:0000266|GO:0007005,mitochondrial fission|mitochondrion organization,GO,2
 MTFR1L,GO:0000266,mitochondrial fission,GO,1
 MTFR2,GO:0000266|GO:0007005,mitochondrial fission|mitochondrion organization,GO,2
-MTG1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MTG1,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+MTG2,GO:0005743,mitochondrial inner membrane,GO,1
+MTHFD2L,GO:0005743,mitochondrial inner membrane,GO,1
 MTIF2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 MTIF3,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MTLN,GO:0005743,mitochondrial inner membrane,GO,1
+MTM1,GO:0070584,mitochondrion morphogenesis,GO,1
 MTMR14,path:hsa04140,Autophagy,KEGG,1
 MTMR3,GO:0010506|path:hsa04140,regulation of autophagy|Autophagy,GO|KEGG,2
 MTMR4,GO:0010506|path:hsa04140,regulation of autophagy|Autophagy,GO|KEGG,2
 MTMR8,GO:0010506|GO:0010507,regulation of autophagy|negative regulation of autophagy,GO,2
 MTMR9,GO:0010507,negative regulation of autophagy,GO,1
-MTOR,GO:0010507|GO:0010506|path:hsa04140,negative regulation of autophagy|regulation of autophagy|Autophagy,GO|KEGG,3
+MTOR,GO:0005741|GO:0010507|GO:0010506|path:hsa04140,mitochondrial outer membrane|negative regulation of autophagy|regulation of autophagy|Autophagy,GO|KEGG,4
 MTPAP,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 MTRES1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 MTRFR,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-MTX1,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
-MTX2,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
-MTX3,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
-MUL1,GO:0000266,mitochondrial fission,GO,1
+MTX1,GO:0005741|GO:0007007|GO:0007005|GO:0045040|br:hsa03029,mitochondrial outer membrane|inner mitochondrial membrane organization|mitochondrion organization|protein insertion into mitochondrial outer membrane|Mitochondrial Biogenesis,GO|KEGG,5
+MTX2,GO:0005741|GO:0007007|GO:0007005|GO:0045040|br:hsa03029,mitochondrial outer membrane|inner mitochondrial membrane organization|mitochondrion organization|protein insertion into mitochondrial outer membrane|Mitochondrial Biogenesis,GO|KEGG,5
+MTX3,GO:0007005|GO:0005741|GO:0007007|br:hsa03029,mitochondrion organization|mitochondrial outer membrane|inner mitochondrial membrane organization|Mitochondrial Biogenesis,GO|KEGG,4
+MUL1,GO:0005741|GO:0000266,mitochondrial outer membrane|mitochondrial fission,GO,2
 MYG1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-MYO19,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MYH14,GO:0070584,mitochondrion morphogenesis,GO,1
+MYO19,GO:0005741|br:hsa03029,mitochondrial outer membrane|Mitochondrial Biogenesis,GO|KEGG,2
 MYO5A,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 MYO5B,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 MYO5C,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+MYOC,GO:0005743|GO:0005741,mitochondrial inner membrane|mitochondrial outer membrane,GO,2
 NAA20,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 NAA25,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 NBR1,path:hsa04137|br:hsa03029,Mitophagy|Mitochondrial Biogenesis,KEGG,2
@@ -428,23 +711,65 @@ ND4,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 ND4L,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 ND5,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 ND6,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-NDUFAF1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-NDUFAF2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-NDUFAF3,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-NDUFAF4,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-NDUFAF5,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-NDUFAF6,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+NDUFA1,GO:0005743,mitochondrial inner membrane,GO,1
+NDUFA10,GO:0005743,mitochondrial inner membrane,GO,1
+NDUFA11,GO:0005743,mitochondrial inner membrane,GO,1
+NDUFA12,GO:0005743,mitochondrial inner membrane,GO,1
+NDUFA13,GO:0005743,mitochondrial inner membrane,GO,1
+NDUFA2,GO:0005743,mitochondrial inner membrane,GO,1
+NDUFA3,GO:0005743,mitochondrial inner membrane,GO,1
+NDUFA4,GO:0005743,mitochondrial inner membrane,GO,1
+NDUFA5,GO:0005743,mitochondrial inner membrane,GO,1
+NDUFA6,GO:0005743,mitochondrial inner membrane,GO,1
+NDUFA7,GO:0005743,mitochondrial inner membrane,GO,1
+NDUFA8,GO:0005743,mitochondrial inner membrane,GO,1
+NDUFAB1,GO:0005743,mitochondrial inner membrane,GO,1
+NDUFAF1,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+NDUFAF2,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+NDUFAF3,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+NDUFAF4,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+NDUFAF5,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+NDUFAF6,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
 NDUFAF7,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 NDUFAF8,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+NDUFB1,GO:0005743,mitochondrial inner membrane,GO,1
+NDUFB10,GO:0005743,mitochondrial inner membrane,GO,1
+NDUFB11,GO:0005743,mitochondrial inner membrane,GO,1
+NDUFB2,GO:0005743,mitochondrial inner membrane,GO,1
+NDUFB3,GO:0005743,mitochondrial inner membrane,GO,1
+NDUFB4,GO:0005743,mitochondrial inner membrane,GO,1
+NDUFB5,GO:0005743,mitochondrial inner membrane,GO,1
+NDUFB6,GO:0005743,mitochondrial inner membrane,GO,1
+NDUFB7,GO:0005743,mitochondrial inner membrane,GO,1
+NDUFB8,GO:0005743,mitochondrial inner membrane,GO,1
+NDUFB9,GO:0005743,mitochondrial inner membrane,GO,1
+NDUFC1,GO:0005743,mitochondrial inner membrane,GO,1
+NDUFC2,GO:0005743,mitochondrial inner membrane,GO,1
+NDUFC2-KCTD14,GO:0005743,mitochondrial inner membrane,GO,1
+NDUFS1,GO:0005743,mitochondrial inner membrane,GO,1
+NDUFS2,GO:0005743,mitochondrial inner membrane,GO,1
+NDUFS3,GO:0005743,mitochondrial inner membrane,GO,1
+NDUFS4,GO:0005743,mitochondrial inner membrane,GO,1
+NDUFS5,GO:0005743,mitochondrial inner membrane,GO,1
+NDUFS6,GO:0005743,mitochondrial inner membrane,GO,1
+NDUFS7,GO:0005743,mitochondrial inner membrane,GO,1
+NDUFS8,GO:0005743,mitochondrial inner membrane,GO,1
+NDUFV1,GO:0005743,mitochondrial inner membrane,GO,1
+NDUFV2,GO:0005743,mitochondrial inner membrane,GO,1
+NDUFV3,GO:0005743,mitochondrial inner membrane,GO,1
 NEDD4,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+NEU4,GO:0005743|GO:0005741,mitochondrial inner membrane|mitochondrial outer membrane,GO,2
 NFE2L2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 NFS1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 NFU1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 NGRN,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 NHLRC1,GO:0006914,autophagy,GO,1
-NIPSNAP2,GO:0007005,mitochondrion organization,GO,1
+NIPSNAP2,GO:0005741|GO:0007005,mitochondrial outer membrane|mitochondrion organization,GO,2
 NLRP6,GO:0010506,regulation of autophagy,GO,1
-NOA1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+NLRX1,GO:0005741,mitochondrial outer membrane,GO,1
+NME4,GO:0005743,mitochondrial inner membrane,GO,1
+NNT,GO:0005743,mitochondrial inner membrane,GO,1
+NOA1,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
 NOS3,GO:0007005,mitochondrion organization,GO,1
 NPC1,GO:0006914,autophagy,GO,1
 NRAS,path:hsa04137|path:hsa04140,Mitophagy|Autophagy,KEGG,2
@@ -453,31 +778,40 @@ NRF1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 NRIP1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 NSUN3,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 NSUN4,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-NUBPL,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+NUBPL,GO:0070584|br:hsa03029,mitochondrion morphogenesis|Mitochondrial Biogenesis,GO|KEGG,2
 NUPR1,GO:0010507|GO:0010506,negative regulation of autophagy|regulation of autophagy,GO,2
-OMA1,GO:0007005,mitochondrion organization,GO,1
-OPA1,GO:0007005|GO:0000266|GO:0008053|br:hsa03029,mitochondrion organization|mitochondrial fission|mitochondrial fusion|Mitochondrial Biogenesis,GO|KEGG,4
+OMA1,GO:0005743|GO:0007005,mitochondrial inner membrane|mitochondrion organization,GO,2
+OPA1,GO:0007005|GO:0005743|GO:0005741|GO:0000266|GO:0008053|GO:0007007|br:hsa03029,mitochondrion organization|mitochondrial inner membrane|mitochondrial outer membrane|mitochondrial fission|mitochondrial fusion|inner mitochondrial membrane organization|Mitochondrial Biogenesis,GO|KEGG,7
 OPA3,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 OPTN,GO:0006914|path:hsa04137,autophagy|Mitophagy,GO|KEGG,2
 OSBPL7,GO:0010506,regulation of autophagy,GO,1
-OXA1L,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+OTC,GO:0005743,mitochondrial inner membrane,GO,1
+OXA1L,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
 OXR1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 P2RX7,GO:0007005,mitochondrion organization,GO,1
-PAM16,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+PAM16,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+PANK2,GO:0070584,mitochondrion morphogenesis,GO,1
 PARK7,GO:0006914|GO:0007005,autophagy|mitochondrion organization,GO,2
-PARL,GO:0008053|br:hsa03029,mitochondrial fusion|Mitochondrial Biogenesis,GO|KEGG,2
+PARL,GO:0005743|GO:0008053|br:hsa03029,mitochondrial inner membrane|mitochondrial fusion|Mitochondrial Biogenesis,GO|KEGG,3
 PARP1,GO:0007005,mitochondrion organization,GO,1
 PDE12,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+PDE2A,GO:0005743|GO:0005741,mitochondrial inner membrane|mitochondrial outer membrane,GO,2
 PDIK1L,GO:0006914,autophagy,GO,1
 PDPK1,path:hsa04140,Autophagy,KEGG,1
-PET100,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+PET100,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
 PET117,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 PEX5,GO:0007005,mitochondrion organization,GO,1
-PGAM5,path:hsa04137,Mitophagy,KEGG,1
-PHB1,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
-PHB2,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
+PGAM5,GO:0005741|path:hsa04137,mitochondrial outer membrane|Mitophagy,GO|KEGG,2
+PGR,GO:0005741,mitochondrial outer membrane,GO,1
+PGRMC1,GO:0005741,mitochondrial outer membrane,GO,1
+PGS1,GO:0005743,mitochondrial inner membrane,GO,1
+PHB1,GO:0005743|GO:0007005|br:hsa03029,mitochondrial inner membrane|mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,3
+PHB2,GO:0005743|GO:0005741|GO:0007005|br:hsa03029,mitochondrial inner membrane|mitochondrial outer membrane|mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,4
 PHF23,GO:0006914,autophagy,GO,1
+PI4KB,GO:0005741,mitochondrial outer membrane,GO,1
+PID1,GO:0070584,mitochondrion morphogenesis,GO,1
 PIF1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+PIGBOS1,GO:0005741,mitochondrial outer membrane,GO,1
 PIK3C3,GO:0006914|GO:0010506|path:hsa04140,autophagy|regulation of autophagy|Autophagy,GO|KEGG,3
 PIK3CA,path:hsa04140,Autophagy,KEGG,1
 PIK3CB,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG,2
@@ -486,19 +820,26 @@ PIK3R1,path:hsa04140,Autophagy,KEGG,1
 PIK3R2,GO:0010506|path:hsa04140,regulation of autophagy|Autophagy,GO|KEGG,2
 PIK3R3,path:hsa04140,Autophagy,KEGG,1
 PIK3R4,GO:0010506|path:hsa04140,regulation of autophagy|Autophagy,GO|KEGG,2
-PINK1,GO:0000422|GO:0006914|GO:0007005|path:hsa04137|br:hsa03029,autophagy of mitochondrion|autophagy|mitochondrion organization|Mitophagy|Mitochondrial Biogenesis,GO|KEGG,5
+PINK1,GO:0000422|GO:0006914|GO:0005743|GO:0005741|GO:0007005|path:hsa04137|br:hsa03029,autophagy of mitochondrion|autophagy|mitochondrial inner membrane|mitochondrial outer membrane|mitochondrion organization|Mitophagy|Mitochondrial Biogenesis,GO|KEGG,7
 PIP4K2A,GO:0010506,regulation of autophagy,GO,1
 PIP4K2B,GO:0010506,regulation of autophagy,GO,1
 PIP4K2C,GO:0010506,regulation of autophagy,GO,1
+PISD,GO:0005743,mitochondrial inner membrane,GO,1
+PLA2G2A,GO:0005741,mitochondrial outer membrane,GO,1
+PLA2G4A,GO:0005743,mitochondrial inner membrane,GO,1
+PLA2G4B,GO:0005743,mitochondrial inner membrane,GO,1
 PLA2G6,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-PLD6,GO:0008053,mitochondrial fusion,GO,1
-PLEC,GO:0007005,mitochondrion organization,GO,1
+PLD6,GO:0005741|GO:0008053,mitochondrial outer membrane|mitochondrial fusion,GO,2
+PLEC,GO:0007005|GO:0070584|GO:0005741,mitochondrion organization|mitochondrion morphogenesis|mitochondrial outer membrane,GO,3
 PLEKHM1,GO:0006914,autophagy,GO,1
-PMPCA,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-PMPCB,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-POLDIP2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+PLSCR3,GO:0005743,mitochondrial inner membrane,GO,1
+PMAIP1,GO:0005741,mitochondrial outer membrane,GO,1
+PMPCA,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+PMPCB,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+PNPT1,GO:0070584,mitochondrion morphogenesis,GO,1
+POLDIP2,GO:0070584|br:hsa03029,mitochondrion morphogenesis|Mitochondrial Biogenesis,GO|KEGG,2
 POLG,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-POLG2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+POLG2,GO:0070584|br:hsa03029,mitochondrion morphogenesis|Mitochondrial Biogenesis,GO|KEGG,2
 POLRMT,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 POP1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 POP4,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
@@ -506,8 +847,13 @@ POP5,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 POP7,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 PPARGC1A,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
 PPARGC1B,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+PPIF,GO:0005743,mitochondrial inner membrane,GO,1
+PPOX,GO:0005743,mitochondrial inner membrane,GO,1
+PPP1CC,GO:0005741,mitochondrial outer membrane,GO,1
+PPP1R15A,GO:0005741,mitochondrial outer membrane,GO,1
 PPP2CA,path:hsa04140,Autophagy,KEGG,1
 PPP2CB,path:hsa04140,Autophagy,KEGG,1
+PPP2R2B,GO:0005741,mitochondrial outer membrane,GO,1
 PPRC1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 PRAP1,path:hsa04140,Autophagy,KEGG,1
 PRDX3,GO:0007005,mitochondrion organization,GO,1
@@ -519,61 +865,75 @@ PRKACB,path:hsa04140,Autophagy,KEGG,1
 PRKACG,path:hsa04140,Autophagy,KEGG,1
 PRKCD,path:hsa04140,Autophagy,KEGG,1
 PRKCQ,path:hsa04140,Autophagy,KEGG,1
-PRKN,GO:0006914|GO:0000422|GO:0007005|GO:0010506|GO:0000266|path:hsa04137|br:hsa03029,autophagy|autophagy of mitochondrion|mitochondrion organization|regulation of autophagy|mitochondrial fission|Mitophagy|Mitochondrial Biogenesis,GO|KEGG,7
+PRKN,GO:0006914|GO:0005741|GO:0000422|GO:0007005|GO:0010506|GO:0000266|path:hsa04137|br:hsa03029,autophagy|mitochondrial outer membrane|autophagy of mitochondrion|mitochondrion organization|regulation of autophagy|mitochondrial fission|Mitophagy|Mitochondrial Biogenesis,GO|KEGG,8
+PRODH,GO:0005743,mitochondrial inner membrane,GO,1
+PRODH2,GO:0005743,mitochondrial inner membrane,GO,1
 PRORP,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 PSAP,GO:0010506,regulation of autophagy,GO,1
-PSEN1,GO:0006914,autophagy,GO,1
+PSEN1,GO:0006914|GO:0005743,autophagy|mitochondrial inner membrane,GO,2
+PSEN2,GO:0005743,mitochondrial inner membrane,GO,1
 PTCD1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 PTCD2,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
-PTCD3,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+PTCD3,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
 PTEN,path:hsa04140,Autophagy,KEGG,1
+PTPMT1,GO:0005743,mitochondrial inner membrane,GO,1
 PTPN22,GO:0006914|GO:0010507,autophagy|negative regulation of autophagy,GO,2
 PUM2,GO:0007005,mitochondrion organization,GO,1
 PYCARD,GO:0010506,regulation of autophagy,GO,1
 PYROXD2,GO:0007005,mitochondrion organization,GO,1
 QRSL1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+QTRT1,GO:0005741,mitochondrial outer membrane,GO,1
+QTRT2,GO:0005741,mitochondrial outer membrane,GO,1
+RAB11FIP5,GO:0005741,mitochondrial outer membrane,GO,1
 RAB1A,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG,2
 RAB1B,GO:0006914,autophagy,GO,1
 RAB24,GO:0006914,autophagy,GO,1
 RAB29,GO:0007005,mitochondrion organization,GO,1
-RAB32,GO:0007005,mitochondrion organization,GO,1
+RAB32,GO:0005741|GO:0007005,mitochondrial outer membrane|mitochondrion organization,GO,2
 RAB33B,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG,2
 RAB38,GO:0007005,mitochondrion organization,GO,1
 RAB39A,GO:0006914,autophagy,GO,1
 RAB39B,GO:0006914|GO:0010506|path:hsa04140,autophagy|regulation of autophagy|Autophagy,GO|KEGG,3
 RAB3A,GO:0007005,mitochondrion organization,GO,1
+RAB5IF,GO:0005743,mitochondrial inner membrane,GO,1
 RAB7A,GO:0006914|path:hsa04137|path:hsa04140,autophagy|Mitophagy|Autophagy,GO|KEGG,3
 RAB7B,path:hsa04137|path:hsa04140,Mitophagy|Autophagy,KEGG,2
 RAB8A,GO:0006914|GO:0010506|path:hsa04140,autophagy|regulation of autophagy|Autophagy,GO|KEGG,3
-RAF1,path:hsa04140,Autophagy,KEGG,1
+RAC2,GO:0005741,mitochondrial outer membrane,GO,1
+RAF1,GO:0005741|path:hsa04140,mitochondrial outer membrane|Autophagy,GO|KEGG,2
 RARS1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 RARS2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 RASIP1,GO:0010507,negative regulation of autophagy,GO,1
 RB1CC1,GO:0000422|GO:0006914|path:hsa04140|br:hsa03029,autophagy of mitochondrion|autophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,4
-RCC1L,GO:0008053|br:hsa03029,mitochondrial fusion|Mitochondrial Biogenesis,GO|KEGG,2
+RCC1L,GO:0005743|GO:0008053|br:hsa03029,mitochondrial inner membrane|mitochondrial fusion|Mitochondrial Biogenesis,GO|KEGG,3
+RDH13,GO:0005743,mitochondrial inner membrane,GO,1
 RELA,path:hsa04137,Mitophagy,KEGG,1
 RETREG1,GO:0006914,autophagy,GO,1
 RETREG2,GO:0006914,autophagy,GO,1
 RETREG3,GO:0006914,autophagy,GO,1
 RGS19,GO:0006914,autophagy,GO,1
 RHEB,path:hsa04140,Autophagy,KEGG,1
-RHOT1,GO:0007005|path:hsa04137|br:hsa03029,mitochondrion organization|Mitophagy|Mitochondrial Biogenesis,GO|KEGG,3
-RHOT2,GO:0007005|path:hsa04137,mitochondrion organization|Mitophagy,GO|KEGG,2
+RHOD,GO:0005741,mitochondrial outer membrane,GO,1
+RHOT1,GO:0007005|GO:0005741|path:hsa04137|br:hsa03029,mitochondrion organization|mitochondrial outer membrane|Mitophagy|Mitochondrial Biogenesis,GO|KEGG,4
+RHOT2,GO:0007005|GO:0005741|path:hsa04137,mitochondrion organization|mitochondrial outer membrane|Mitophagy,GO|KEGG,3
 RIMOC1,GO:0006914,autophagy,GO,1
 RMC1,GO:0010506|GO:0006914,regulation of autophagy|autophagy,GO,2
+RMDN3,GO:0005741,mitochondrial outer membrane,GO,1
 RMND1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 RNF166,GO:0006914,autophagy,GO,1
-RNF185,GO:0006914,autophagy,GO,1
+RNF185,GO:0006914|GO:0005741,autophagy|mitochondrial outer membrane,GO,2
 RNF41,GO:0006914|br:hsa03029,autophagy|Mitochondrial Biogenesis,GO|KEGG,2
 RNF5,GO:0010507,negative regulation of autophagy,GO,1
 ROCK1,GO:0010506,regulation of autophagy,GO,1
+ROMO1,GO:0005743,mitochondrial inner membrane,GO,1
 RPP25,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 RPP25L,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 RPP30,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 RPP38,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 RPP40,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-RPS27A,path:hsa04137,Mitophagy,KEGG,1
-RPS6KB1,path:hsa04140,Autophagy,KEGG,1
+RPS27A,GO:0005741|path:hsa04137,mitochondrial outer membrane|Mitophagy,GO|KEGG,2
+RPS3,GO:0005743,mitochondrial inner membrane,GO,1
+RPS6KB1,GO:0005741|path:hsa04140,mitochondrial outer membrane|Autophagy,GO|KEGG,2
 RPS6KB2,path:hsa04140,Autophagy,KEGG,1
 RPTOR,GO:0010506|GO:0010507|path:hsa04140,regulation of autophagy|negative regulation of autophagy|Autophagy,GO|KEGG,3
 RPUSD3,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
@@ -584,83 +944,155 @@ RRAGC,GO:0010506|path:hsa04140,regulation of autophagy|Autophagy,GO|KEGG,2
 RRAGD,GO:0010506|path:hsa04140,regulation of autophagy|Autophagy,GO|KEGG,2
 RRAS,path:hsa04137|path:hsa04140,Mitophagy|Autophagy,KEGG,2
 RRAS2,path:hsa04137|path:hsa04140,Mitophagy|Autophagy,KEGG,2
-RTN4IP1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+RSAD2,GO:0005743|GO:0005741,mitochondrial inner membrane|mitochondrial outer membrane,GO,2
+RTN4IP1,GO:0005741|br:hsa03029,mitochondrial outer membrane|Mitochondrial Biogenesis,GO|KEGG,2
 RUBCN,GO:0006914|GO:0010507|path:hsa04140,autophagy|negative regulation of autophagy|Autophagy,GO|KEGG,3
 RUBCNL,GO:0006914,autophagy,GO,1
 RUFY4,GO:0006914,autophagy,GO,1
 S100A8,GO:0006914,autophagy,GO,1
 S100A9,GO:0006914,autophagy,GO,1
-SAMM50,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+SAMM50,GO:0005741|GO:0007007|GO:0045040|br:hsa03029,mitochondrial outer membrane|inner mitochondrial membrane organization|protein insertion into mitochondrial outer membrane|Mitochondrial Biogenesis,GO|KEGG,4
+SARM1,GO:0005741,mitochondrial outer membrane,GO,1
 SBF2,GO:0006914,autophagy,GO,1
-SCO1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-SCO2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+SCO1,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+SCO2,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+SDHA,GO:0005743,mitochondrial inner membrane,GO,1
 SDHAF1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 SDHAF2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+SDHB,GO:0005743,mitochondrial inner membrane,GO,1
+SDHC,GO:0005743,mitochondrial inner membrane,GO,1
+SDHD,GO:0005743,mitochondrial inner membrane,GO,1
 SEC16A,GO:0006914,autophagy,GO,1
 SEC16B,GO:0006914,autophagy,GO,1
 SELENON,GO:0007005,mitochondrion organization,GO,1
+SEPTIN4,GO:0005741,mitochondrial outer membrane,GO,1
 SERAC1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 SESN2,GO:0007005,mitochondrion organization,GO,1
-SFXN1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-SFXN2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-SFXN3,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-SFXN4,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-SFXN5,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-SH3GLB1,GO:0006914|path:hsa04140|br:hsa03029,autophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,3
+SFXN1,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+SFXN2,GO:0005743|GO:0005741|br:hsa03029,mitochondrial inner membrane|mitochondrial outer membrane|Mitochondrial Biogenesis,GO|KEGG,3
+SFXN3,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+SFXN4,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+SFXN5,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+SH3GLB1,GO:0006914|GO:0005741|path:hsa04140|br:hsa03029,autophagy|mitochondrial outer membrane|Autophagy|Mitochondrial Biogenesis,GO|KEGG,4
 SHARPIN,GO:0007005,mitochondrion organization,GO,1
+SHMT2,GO:0005743,mitochondrial inner membrane,GO,1
 SIL1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 SIRT1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 SIRT2,GO:0006914|GO:0010507,autophagy|negative regulation of autophagy,GO,2
-SIRT4,GO:0007005,mitochondrion organization,GO,1
+SIRT4,GO:0007005|GO:0005743,mitochondrion organization|mitochondrial inner membrane,GO,2
 SIRT5,GO:0007005,mitochondrion organization,GO,1
-SLC25A28,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-SLC25A31,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-SLC25A33,GO:0007005,mitochondrion organization,GO,1
-SLC25A36,GO:0007005,mitochondrion organization,GO,1
-SLC25A37,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-SLC25A4,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-SLC25A46,GO:0000266|GO:0000422|GO:0007005,mitochondrial fission|autophagy of mitochondrion|mitochondrion organization,GO,3
-SLC25A5,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-SLC25A6,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+SLC11A2,GO:0005741,mitochondrial outer membrane,GO,1
+SLC22A14,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A1,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A10,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A11,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A12,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A13,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A14,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A15,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A16,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A17,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A18,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A19,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A2,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A20,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A21,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A22,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A23,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A24,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A25,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A26,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A27,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A28,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+SLC25A29,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A3,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A30,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A31,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+SLC25A32,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A33,GO:0005743|GO:0007005,mitochondrial inner membrane|mitochondrion organization,GO,2
+SLC25A34,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A35,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A36,GO:0005743|GO:0007005,mitochondrial inner membrane|mitochondrion organization,GO,2
+SLC25A37,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+SLC25A38,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A39,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A4,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+SLC25A40,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A41,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A42,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A43,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A45,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A46,GO:0005741|GO:0000266|GO:0000422|GO:0007005,mitochondrial outer membrane|mitochondrial fission|autophagy of mitochondrion|mitochondrion organization,GO,4
+SLC25A47,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A48,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A5,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+SLC25A51,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A52,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A53,GO:0005743,mitochondrial inner membrane,GO,1
+SLC25A6,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+SLC27A1,GO:0005743,mitochondrial inner membrane,GO,1
+SLC29A3,GO:0005741,mitochondrial outer membrane,GO,1
+SLC30A2,GO:0005743,mitochondrial inner membrane,GO,1
+SLC41A3,GO:0005743,mitochondrial inner membrane,GO,1
+SLC44A1,GO:0005741,mitochondrial outer membrane,GO,1
 SLC7A5,GO:0010507,negative regulation of autophagy,GO,1
+SLC8A3,GO:0005741,mitochondrial outer membrane,GO,1
+SLC8B1,GO:0005743,mitochondrial inner membrane,GO,1
+SLC9B2,GO:0005743,mitochondrial inner membrane,GO,1
+SLIRP,GO:0070584,mitochondrion morphogenesis,GO,1
 SMCR8,GO:0006914|GO:0010506|path:hsa04140,autophagy|regulation of autophagy|Autophagy,GO|KEGG,3
-SMDT1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+SMDT1,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+SMIM20,GO:0005743,mitochondrial inner membrane,GO,1
+SMIM4,GO:0005743,mitochondrial inner membrane,GO,1
 SMURF1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 SMURF2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 SNAP29,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG,2
+SNN,GO:0005741,mitochondrial outer membrane,GO,1
 SNX25,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 SNX30,GO:0000422,autophagy of mitochondrion,GO,1
 SNX7,GO:0000422,autophagy of mitochondrion,GO,1
 SOD2,GO:0007005,mitochondrion organization,GO,1
 SOGA1,GO:0010506,regulation of autophagy,GO,1
 SOGA3,GO:0010506,regulation of autophagy,GO,1
+SOX10,GO:0005741,mitochondrial outer membrane,GO,1
 SP1,path:hsa04137|br:hsa03029,Mitophagy|Mitochondrial Biogenesis,KEGG,2
+SPART,GO:0005741,mitochondrial outer membrane,GO,1
+SPATA18,GO:0005741,mitochondrial outer membrane,GO,1
+SPATA19,GO:0005741,mitochondrial outer membrane,GO,1
 SPATA33,GO:0006914,autophagy,GO,1
-SPG7,GO:0007005,mitochondrion organization,GO,1
+SPG7,GO:0005743|GO:0007005,mitochondrial inner membrane|mitochondrion organization,GO,2
+SPHK2,GO:0005743,mitochondrial inner membrane,GO,1
+SPIRE1,GO:0005741,mitochondrial outer membrane,GO,1
+SPNS1,GO:0005743,mitochondrial inner membrane,GO,1
+SQOR,GO:0005743,mitochondrial inner membrane,GO,1
 SQSTM1,GO:0006914|GO:0000422|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,5
-SRC,path:hsa04137,Mitophagy,KEGG,1
+SRC,GO:0005743|path:hsa04137,mitochondrial inner membrane|Mitophagy,GO|KEGG,2
 SRPX,GO:0006914,autophagy,GO,1
-SSBP1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+SSBP1,GO:0070584|br:hsa03029,mitochondrion morphogenesis|Mitochondrial Biogenesis,GO|KEGG,2
+STARD7,GO:0005741,mitochondrial outer membrane,GO,1
 STAT3,GO:0010507,negative regulation of autophagy,GO,1
 STBD1,GO:0006914,autophagy,GO,1
-STING1,GO:0006914,autophagy,GO,1
+STING1,GO:0006914|GO:0005741,autophagy|mitochondrial outer membrane,GO,2
 STK11,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG,2
 STK35,GO:0006914,autophagy,GO,1
-STOML2,GO:0007005,mitochondrion organization,GO,1
+STMP1,GO:0005743|GO:0005741,mitochondrial inner membrane|mitochondrial outer membrane,GO,2
+STOML2,GO:0005743|GO:0007005,mitochondrial inner membrane|mitochondrion organization,GO,2
 STX17,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG,2
 SUMO1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 SUMO2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 SUMO3,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 SUMO4,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 SUPT20H,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG,2
-SUPV3L1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-SURF1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+SUPV3L1,GO:0070584|br:hsa03029,mitochondrion morphogenesis|Mitochondrial Biogenesis,GO|KEGG,2
+SURF1,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+SYNJ2BP,GO:0005741,mitochondrial outer membrane,GO,1
+SYNJ2BP-COX16,GO:0005743,mitochondrial inner membrane,GO,1
 SYT11,GO:0006914,autophagy,GO,1
 TAB2,GO:0010507,negative regulation of autophagy,GO,1
 TAB3,GO:0010507,negative regulation of autophagy,GO,1
 TACO1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-TAFAZZIN,GO:0007005,mitochondrion organization,GO,1
-TAMM41,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TAFAZZIN,GO:0005743|GO:0005741|GO:0007005|GO:0007007,mitochondrial inner membrane|mitochondrial outer membrane|mitochondrion organization|inner mitochondrial membrane organization,GO,4
+TAMM41,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
 TANK,path:hsa04140,Autophagy,KEGG,1
 TAX1BP1,GO:0006914|path:hsa04137|br:hsa03029,autophagy|Mitophagy|Mitochondrial Biogenesis,GO|KEGG,3
 TBC1D14,GO:0006914|GO:0010507,autophagy|negative regulation of autophagy,GO,2
@@ -678,59 +1110,72 @@ TEX264,GO:0006914,autophagy,GO,1
 TFAM,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 TFB1M,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 TFB2M,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TFCP2,GO:0005743,mitochondrial inner membrane,GO,1
 TFE3,path:hsa04137,Mitophagy,KEGG,1
 TFEB,GO:0006914|path:hsa04137,autophagy|Mitophagy,GO|KEGG,2
 TGFBRAP1,GO:0006914,autophagy,GO,1
-THG1L,GO:0008053,mitochondrial fusion,GO,1
-TIGAR,GO:0006914,autophagy,GO,1
-TIMM10,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-TIMM10B,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-TIMM13,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-TIMM17A,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-TIMM17B,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-TIMM21,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-TIMM22,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-TIMM23,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-TIMM23B,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-TIMM44,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-TIMM50,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-TIMM8A,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-TIMM8B,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-TIMM9,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-TIMMDC1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+THEM4,GO:0005743,mitochondrial inner membrane,GO,1
+THG1L,GO:0005741|GO:0008053,mitochondrial outer membrane|mitochondrial fusion,GO,2
+TIGAR,GO:0006914|GO:0005741,autophagy|mitochondrial outer membrane,GO,2
+TIMM10,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+TIMM10B,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+TIMM13,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+TIMM17A,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+TIMM17B,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+TIMM21,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+TIMM22,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+TIMM23,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+TIMM23B,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+TIMM29,GO:0005743,mitochondrial inner membrane,GO,1
+TIMM44,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+TIMM50,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+TIMM8A,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+TIMM8B,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+TIMM9,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+TIMMDC1,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
 TLK2,GO:0010507,negative regulation of autophagy,GO,1
 TM9SF1,GO:0006914,autophagy,GO,1
 TMBIM6,GO:0006914,autophagy,GO,1
-TMEM11,GO:0007005,mitochondrion organization,GO,1
-TMEM126A,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-TMEM126B,GO:0007005|br:hsa03029,mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,2
+TMEM11,GO:0007005|GO:0005743|GO:0007007,mitochondrion organization|mitochondrial inner membrane|inner mitochondrial membrane organization,GO,3
+TMEM126A,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+TMEM126B,GO:0005743|GO:0007005|br:hsa03029,mitochondrial inner membrane|mitochondrion organization|Mitochondrial Biogenesis,GO|KEGG,3
+TMEM135,GO:0070584,mitochondrion morphogenesis,GO,1
+TMEM14C,GO:0005743,mitochondrial inner membrane,GO,1
 TMEM150B,GO:0006914,autophagy,GO,1
+TMEM177,GO:0005743,mitochondrial inner membrane,GO,1
+TMEM186,GO:0005743,mitochondrial inner membrane,GO,1
 TMEM208,GO:0006914,autophagy,GO,1
+TMEM223,GO:0005743,mitochondrial inner membrane,GO,1
+TMEM242,GO:0005743,mitochondrial inner membrane,GO,1
 TMEM39A,GO:0006914,autophagy,GO,1
 TMEM41B,GO:0006914,autophagy,GO,1
 TMEM59,GO:0006914,autophagy,GO,1
-TMEM70,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TMEM65,GO:0005743,mitochondrial inner membrane,GO,1
+TMEM70,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
 TMEM74,GO:0006914,autophagy,GO,1
 TOLLIP,GO:0006914,autophagy,GO,1
-TOMM20,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-TOMM20L,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-TOMM22,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-TOMM34,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-TOMM40,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-TOMM40L,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-TOMM5,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-TOMM6,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-TOMM7,path:hsa04137|br:hsa03029,Mitophagy|Mitochondrial Biogenesis,KEGG,2
-TOMM70,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TOMM20,GO:0005741|GO:0045040|br:hsa03029,mitochondrial outer membrane|protein insertion into mitochondrial outer membrane|Mitochondrial Biogenesis,GO|KEGG,3
+TOMM20L,GO:0005741|br:hsa03029,mitochondrial outer membrane|Mitochondrial Biogenesis,GO|KEGG,2
+TOMM22,GO:0005741|GO:0045040|br:hsa03029,mitochondrial outer membrane|protein insertion into mitochondrial outer membrane|Mitochondrial Biogenesis,GO|KEGG,3
+TOMM34,GO:0005741|br:hsa03029,mitochondrial outer membrane|Mitochondrial Biogenesis,GO|KEGG,2
+TOMM40,GO:0005741|GO:0045040|GO:0005743|br:hsa03029,mitochondrial outer membrane|protein insertion into mitochondrial outer membrane|mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,4
+TOMM40L,GO:0005741|br:hsa03029,mitochondrial outer membrane|Mitochondrial Biogenesis,GO|KEGG,2
+TOMM5,GO:0005741|GO:0045040|br:hsa03029,mitochondrial outer membrane|protein insertion into mitochondrial outer membrane|Mitochondrial Biogenesis,GO|KEGG,3
+TOMM6,GO:0005741|GO:0045040|br:hsa03029,mitochondrial outer membrane|protein insertion into mitochondrial outer membrane|Mitochondrial Biogenesis,GO|KEGG,3
+TOMM7,GO:0005741|GO:0045040|path:hsa04137|br:hsa03029,mitochondrial outer membrane|protein insertion into mitochondrial outer membrane|Mitophagy|Mitochondrial Biogenesis,GO|KEGG,4
+TOMM70,GO:0005741|GO:0045040|br:hsa03029,mitochondrial outer membrane|protein insertion into mitochondrial outer membrane|Mitochondrial Biogenesis,GO|KEGG,3
 TP53,GO:0006914|path:hsa04137,autophagy|Mitophagy,GO|KEGG,2
 TP53INP1,GO:0010506|GO:0006914,regulation of autophagy|autophagy,GO,2
 TP53INP2,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG,2
 TPCN2,GO:0010506,regulation of autophagy,GO,1
+TRAF3IP3,GO:0005741,mitochondrial outer membrane,GO,1
 TRAF6,path:hsa04140,Autophagy,KEGG,1
+TRAP1,GO:0005743,mitochondrial inner membrane,GO,1
 TRAPPC4,GO:0006914,autophagy,GO,1
 TREM2,GO:0010507,negative regulation of autophagy,GO,1
 TRIAP1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 TRIB3,GO:0010506,regulation of autophagy,GO,1
+TRIM14,GO:0005741,mitochondrial outer membrane,GO,1
 TRIM17,GO:0006914,autophagy,GO,1
 TRIM5,GO:0006914,autophagy,GO,1
 TRMT10C,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
@@ -738,42 +1183,56 @@ TRUB2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 TSC1,path:hsa04140,Autophagy,KEGG,1
 TSC2,path:hsa04140,Autophagy,KEGG,1
 TSFM,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-TTC19,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-TUFM,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+TSPO,GO:0005741,mitochondrial outer membrane,GO,1
+TTC19,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+TUFM,GO:0005741|br:hsa03029,mitochondrial outer membrane|Mitochondrial Biogenesis,GO|KEGG,2
 TWNK,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-UBA52,path:hsa04137,Mitophagy,KEGG,1
-UBB,path:hsa04137,Mitophagy,KEGG,1
-UBC,path:hsa04137,Mitophagy,KEGG,1
+TYMS,GO:0005743,mitochondrial inner membrane,GO,1
+UBA52,GO:0005741|path:hsa04137,mitochondrial outer membrane|Mitophagy,GO|KEGG,2
+UBB,GO:0005741|path:hsa04137,mitochondrial outer membrane|Mitophagy,GO|KEGG,2
+UBC,GO:0005741|path:hsa04137,mitochondrial outer membrane|Mitophagy,GO|KEGG,2
 UBQLN1,GO:0006914,autophagy,GO,1
 UBQLN2,GO:0006914,autophagy,GO,1
 UBQLN4,GO:0006914,autophagy,GO,1
-UCP2,GO:0000266,mitochondrial fission,GO,1
-ULK1,GO:0006914|GO:0000422|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,5
+UCP1,GO:0005743,mitochondrial inner membrane,GO,1
+UCP2,GO:0005743|GO:0000266,mitochondrial inner membrane|mitochondrial fission,GO,2
+UCP3,GO:0005743,mitochondrial inner membrane,GO,1
+ULK1,GO:0006914|GO:0000422|GO:0005741|path:hsa04137|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|mitochondrial outer membrane|Mitophagy|Autophagy|Mitochondrial Biogenesis,GO|KEGG,6
 ULK2,GO:0006914|GO:0000422|path:hsa04140|br:hsa03029,autophagy|autophagy of mitochondrion|Autophagy|Mitochondrial Biogenesis,GO|KEGG,4
 ULK3,GO:0006914,autophagy,GO,1
 UMOD,GO:0006914,autophagy,GO,1
-UQCC1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-UQCC2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-UQCC3,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+UQCC1,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+UQCC2,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+UQCC3,GO:0005743|br:hsa03029,mitochondrial inner membrane|Mitochondrial Biogenesis,GO|KEGG,2
+UQCR10,GO:0005743,mitochondrial inner membrane,GO,1
+UQCR11,GO:0005743,mitochondrial inner membrane,GO,1
+UQCRB,GO:0005743,mitochondrial inner membrane,GO,1
+UQCRC1,GO:0005743,mitochondrial inner membrane,GO,1
+UQCRC2,GO:0005743,mitochondrial inner membrane,GO,1
+UQCRFS1,GO:0005743,mitochondrial inner membrane,GO,1
+UQCRH,GO:0005743,mitochondrial inner membrane,GO,1
+UQCRHL,GO:0005743,mitochondrial inner membrane,GO,1
+UQCRQ,GO:0005743,mitochondrial inner membrane,GO,1
 USP10,GO:0006914|GO:0010506,autophagy|regulation of autophagy,GO,2
 USP13,GO:0006914|GO:0010506,autophagy|regulation of autophagy,GO,2
 USP15,path:hsa04137,Mitophagy,KEGG,1
-USP30,GO:0008053|GO:0000422|path:hsa04137,mitochondrial fusion|autophagy of mitochondrion|Mitophagy,GO|KEGG,3
+USP30,GO:0005741|GO:0008053|GO:0000422|path:hsa04137,mitochondrial outer membrane|mitochondrial fusion|autophagy of mitochondrion|Mitophagy,GO|KEGG,4
 USP33,GO:0010506,regulation of autophagy,GO,1
 USP8,path:hsa04137,Mitophagy,KEGG,1
 UVRAG,GO:0006914|GO:0010506|path:hsa04140,autophagy|regulation of autophagy|Autophagy,GO|KEGG,3
 UXT,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+VAMP1,GO:0005741,mitochondrial outer membrane,GO,1
 VAMP8,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG,2
-VAT1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+VAT1,GO:0005741|br:hsa03029,mitochondrial outer membrane|Mitochondrial Biogenesis,GO|KEGG,2
 VCP,GO:0006914,autophagy,GO,1
-VDAC1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-VDAC2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-VDAC3,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
+VDAC1,GO:0005741|br:hsa03029,mitochondrial outer membrane|Mitochondrial Biogenesis,GO|KEGG,2
+VDAC2,GO:0005741|br:hsa03029,mitochondrial outer membrane|Mitochondrial Biogenesis,GO|KEGG,2
+VDAC3,GO:0005741|br:hsa03029,mitochondrial outer membrane|Mitochondrial Biogenesis,GO|KEGG,2
 VHL,GO:0010507,negative regulation of autophagy,GO,1
 VMP1,GO:0006914|path:hsa04140,autophagy|Autophagy,GO|KEGG,2
 VPS11,GO:0006914,autophagy,GO,1
-VPS13A,GO:0006914,autophagy,GO,1
-VPS13C,GO:0007005,mitochondrion organization,GO,1
+VPS13A,GO:0005741|GO:0006914,mitochondrial outer membrane|autophagy,GO,2
+VPS13C,GO:0005741|GO:0007005,mitochondrial outer membrane|mitochondrion organization,GO,2
 VPS13D,GO:0007005,mitochondrion organization,GO,1
 VPS16,GO:0006914,autophagy,GO,1
 VPS18,GO:0006914,autophagy,GO,1
@@ -786,6 +1245,7 @@ VPS51,GO:0006914,autophagy,GO,1
 VPS54,GO:0007005,mitochondrion organization,GO,1
 VTI1A,GO:0006914,autophagy,GO,1
 WAC,GO:0010506,regulation of autophagy,GO,1
+WASF1,GO:0070584|GO:0005741,mitochondrion morphogenesis|mitochondrial outer membrane,GO,2
 WASHC1,GO:0010507,negative regulation of autophagy,GO,1
 WDFY3,GO:0006914,autophagy,GO,1
 WDFY4,GO:0006914,autophagy,GO,1
@@ -802,9 +1262,10 @@ XBP1,GO:0006914,autophagy,GO,1
 XIAP,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 YARS1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 YARS2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
-YME1L1,GO:0007005,mitochondrion organization,GO,1
+YME1L1,GO:0005743|GO:0007005,mitochondrial inner membrane|mitochondrion organization,GO,2
 YY1,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 YY2,br:hsa03029,Mitochondrial Biogenesis,KEGG,1
 ZFYVE1,path:hsa04140|br:hsa03029,Autophagy|Mitochondrial Biogenesis,KEGG,2
 ZKSCAN3,GO:0006914|GO:0010507,autophagy|negative regulation of autophagy,GO,2
 ZMPSTE24,GO:0010506,regulation of autophagy,GO,1
+ZNFX1,GO:0005741,mitochondrial outer membrane,GO,1

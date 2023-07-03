@@ -1742,7 +1742,7 @@ border-radius: 0px;
 
 <h1 class="title toc-ignore">Get Related Genes</h1>
 <h4 class="author">João Cavalcante</h4>
-<h4 class="date">28 June, 2023</h4>
+<h4 class="date">03 July, 2023</h4>
 
 </div>
 
@@ -1779,9 +1779,21 @@ get_go_genes &lt;- function(go_term) {
 <li>regulation of autophagy - <a href="https://amigo.geneontology.org/amigo/term/GO:0010506">GO:0010506</a></li>
 <li>negative regulation of autophagy - <a href="https://amigo.geneontology.org/amigo/term/GO:0010507">GO:0010507</a></li>
 <li>positive regulation of autophagy - <a href="https://amigo.geneontology.org/amigo/term/GO:0000422">GO:0000422</a></li>
-<li>mitochondrial organization - <a href="https://amigo.geneontology.org/amigo/term/GO:0007005">GO:0007005</a></li>
+<li>mitochondrion organization - <a href="https://amigo.geneontology.org/amigo/term/GO:0007005">GO:0007005</a></li>
 <li>mitochondrial fusion - <a href="https://amigo.geneontology.org/amigo/term/GO:0008053">GO:0008053</a></li>
 <li>mitochondrial fission - <a href="https://amigo.geneontology.org/amigo/term/GO:0000266">GO:0000266</a></li>
+<li>mitochondrion morphogenesis - <a href="https://amigo.geneontology.org/amigo/term/GO:0070584">GO:0070584</a></li>
+<li>mitochondrial inner membrane - <a href="https://amigo.geneontology.org/amigo/term/GO:0005743">GO:0005743</a></li>
+<li>mitochondrial outer membrane - <a href="https://amigo.geneontology.org/amigo/term/GO:0005741">GO:0005741</a></li>
+<li>outer mitochondrial membrane organization - <a href="https://amigo.geneontology.org/amigo/term/GO:0007008">GO:0007008</a>
+<ul>
+<li>Since human genes were only available for child term “protein
+insertion into mitochondrial outer membrane” (<a href="https://amigo.geneontology.org/amigo/term/GO:0045040">GO:0045040</a>),
+we selected from that term instead.</li>
+</ul></li>
+<li>inner mitochondrial membrane organization - <a href="https://amigo.geneontology.org/amigo/term/GO:0007007">GO:0007007</a></li>
+<li>mitochondrial outer membrane fusion - <a href="https://amigo.geneontology.org/amigo/term/GO:1990626">GO:1990626</a></li>
+<li>mitochondrial inner membrane fusion - <a href="https://amigo.geneontology.org/amigo/term/GO:1990627">GO:1990627</a></li>
 </ul>
 <pre class="r"><code>go_terms &lt;- c(
   autophagy = &quot;GO:0006914&quot;,
@@ -1789,14 +1801,23 @@ get_go_genes &lt;- function(go_term) {
   regulation_of_autophagy = &quot;GO:0010506&quot;,
   negative_regulation_of_autophagy = &quot;GO:0010507&quot;,
   positive_regulation_of_autophagy = &quot;GO:0000422&quot;,
-  mitochondrial_organization = &quot;GO:0007005&quot;,
+  mitochondrion_organization = &quot;GO:0007005&quot;,
   mitochondrial_fusion = &quot;GO:0008053&quot;,
-  mitochondrial_fission = &quot;GO:0000266&quot;
+  mitochondrial_fission = &quot;GO:0000266&quot;,
+  mitochondrion_morphogenesis = &quot;GO:0070584&quot;,
+  mitochondrial_inner_membrane = &quot;GO:0005743&quot;,
+  mitochondrial_outer_membrane = &quot;GO:0005741&quot;,
+  protein_insertion_into_mitochondrial_outer_membrane = &quot;GO:0045040&quot;,
+  inner_mitochondrial_membrane_organization = &quot;GO:0007007&quot;,
+  mitochondrial_outer_membrane_fusion = &quot;GO:1990626&quot;,
+  mitochondrial_inner_membrane_fusion = &quot;GO:1990627&quot;
+  
 )
 
-go_selected &lt;- map_dfr(go_terms, get_go_genes)
+go_selected &lt;- discard(map(go_terms, get_go_genes), ~nrow(.) == 0)
 
 go_renamed &lt;- go_selected %&gt;%
+  bind_rows() %&gt;% 
   filter(go_id %in% go_terms) %&gt;%
   filter(external_gene_name != &quot;&quot;) %&gt;%
   mutate(database = &quot;GO&quot;) %&gt;%

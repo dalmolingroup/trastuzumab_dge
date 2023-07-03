@@ -18,8 +18,7 @@ output:
 knitr::opts_chunk$set(
   echo = TRUE,
   message = FALSE,
-  warning = FALSE,
-  eval = FALSE
+  warning = FALSE
 )
 ```
 
@@ -59,9 +58,17 @@ GO terms:
   * regulation of autophagy - [GO:0010506](https://amigo.geneontology.org/amigo/term/GO:0010506)
   * negative regulation of autophagy - [GO:0010507](https://amigo.geneontology.org/amigo/term/GO:0010507)
   * positive regulation of autophagy - [GO:0000422](https://amigo.geneontology.org/amigo/term/GO:0000422)
-  * mitochondrial organization - [GO:0007005](https://amigo.geneontology.org/amigo/term/GO:0007005)
+  * mitochondrion organization - [GO:0007005](https://amigo.geneontology.org/amigo/term/GO:0007005)
   * mitochondrial fusion - [GO:0008053](https://amigo.geneontology.org/amigo/term/GO:0008053)
   * mitochondrial fission - [GO:0000266](https://amigo.geneontology.org/amigo/term/GO:0000266)
+  * mitochondrion morphogenesis - [GO:0070584](https://amigo.geneontology.org/amigo/term/GO:0070584)
+  * mitochondrial inner membrane - [GO:0005743](https://amigo.geneontology.org/amigo/term/GO:0005743)
+  * mitochondrial outer membrane - [GO:0005741](https://amigo.geneontology.org/amigo/term/GO:0005741)
+  * outer mitochondrial membrane organization - [GO:0007008](https://amigo.geneontology.org/amigo/term/GO:0007008)
+    - Since human genes were only available for child term "protein insertion into mitochondrial outer membrane" ([GO:0045040](https://amigo.geneontology.org/amigo/term/GO:0045040)), we selected from that term instead.
+  * inner mitochondrial membrane organization - [GO:0007007](https://amigo.geneontology.org/amigo/term/GO:0007007)
+  * mitochondrial outer membrane fusion - [GO:1990626](https://amigo.geneontology.org/amigo/term/GO:1990626)
+  * mitochondrial inner membrane fusion - [GO:1990627](https://amigo.geneontology.org/amigo/term/GO:1990627)
 
 ```{r get-go}
 go_terms <- c(
@@ -70,14 +77,22 @@ go_terms <- c(
   regulation_of_autophagy = "GO:0010506",
   negative_regulation_of_autophagy = "GO:0010507",
   positive_regulation_of_autophagy = "GO:0000422",
-  mitochondrial_organization = "GO:0007005",
+  mitochondrion_organization = "GO:0007005",
   mitochondrial_fusion = "GO:0008053",
-  mitochondrial_fission = "GO:0000266"
+  mitochondrial_fission = "GO:0000266",
+  mitochondrion_morphogenesis = "GO:0070584",
+  mitochondrial_inner_membrane = "GO:0005743",
+  mitochondrial_outer_membrane = "GO:0005741",
+  protein_insertion_into_mitochondrial_outer_membrane = "GO:0045040",
+  inner_mitochondrial_membrane_organization = "GO:0007007",
+  mitochondrial_outer_membrane_fusion = "GO:1990626",
+  mitochondrial_inner_membrane_fusion = "GO:1990627"
 )
 
-go_selected <- map_dfr(go_terms, get_go_genes)
+go_selected <- discard(map(go_terms, get_go_genes), ~nrow(.) == 0)
 
 go_renamed <- go_selected %>%
+  bind_rows() %>%
   filter(go_id %in% go_terms) %>%
   filter(external_gene_name != "") %>%
   mutate(database = "GO") %>%
@@ -96,7 +111,7 @@ KEGG Pathways / BRITE:
 
 We start by downloading gene to pathway mappings from the KEGG API.
 
-```{r download}
+```{r download, cache=TRUE}
 download.file(
   "https://ftp.ncbi.nlm.nih.gov/gene/DATA/GENE_INFO/Mammalia/Homo_sapiens.gene_info.gz",
   here::here("data/Homo_sapiens.gene_info.gz")
