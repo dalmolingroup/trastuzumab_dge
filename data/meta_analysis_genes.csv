@@ -1,0 +1,1244 @@
+gene_symbol,n,MD,LI,LS,tau,tau²,I²,pvalor,Grouped process
+MICOS10-NBL1,2,-1.157,-7.330,5.016,3.990,15.924,80.2,0.713,Mitochondrial organization
+HGF,3,-1.048,-1.223,-0.873,0.000,0.000,0.0,0.000,Autophagy
+PLA2G2A,3,-0.794,-1.115,-0.474,0.000,0.000,0.0,0.000,Mitochondrial organization
+PTPN22,3,-0.727,-2.209,0.755,1.223,1.497,94.4,0.336,Autophagy
+CNR1,3,-0.602,-0.825,-0.379,0.000,0.000,0.0,0.000,Mitochondrial organization
+CYP11A1,3,-0.494,-0.720,-0.269,0.000,0.000,0.0,0.000,Mitochondrial organization
+BOK,3,-0.448,-1.046,0.150,0.508,0.258,93.0,0.142,Mitochondrial organization | Autophagy
+EFHD1,3,-0.442,-1.412,0.528,0.842,0.709,96.6,0.372,Mitochondrial organization
+CYP2E1,3,-0.437,-0.816,-0.058,0.210,0.044,34.2,0.024,Mitochondrial organization
+BBC3,3,-0.413,-0.709,-0.116,0.000,0.000,0.0,0.006,Mitochondrial organization
+AMBP,3,-0.388,-1.298,0.521,0.486,0.236,18.5,0.403,Mitochondrial organization
+BPHL,3,-0.383,-0.719,-0.046,0.257,0.066,75.7,0.026,Mitochondrial organization
+ATP23,3,-0.360,-0.564,-0.155,0.049,0.002,6.9,0.001,Mitochondrial biogenesis
+EVA1A,3,-0.350,-0.605,-0.095,0.000,0.000,0.0,0.007,Autophagy
+MAPT,3,-0.340,-0.880,0.201,0.363,0.131,57.4,0.218,Autophagy
+ATAD3C,3,-0.335,-0.615,-0.054,0.087,0.008,7.8,0.019,Mitochondrial organization
+SLC25A29,3,-0.328,-0.500,-0.156,0.000,0.000,0.0,0.000,Mitochondrial organization
+SOGA1,3,-0.327,-0.740,0.087,0.344,0.118,89.2,0.122,Autophagy
+SUMO4,3,-0.326,-0.561,-0.090,0.072,0.005,4.8,0.007,Mitochondrial biogenesis
+MCUB,3,-0.320,-0.559,-0.081,0.000,0.000,0.0,0.009,Mitochondrial biogenesis | Mitochondrial organization
+SRC,3,-0.316,-0.722,0.089,0.329,0.108,84.5,0.126,Mitochondrial organization | Mitophagy
+NME4,3,-0.316,-0.479,-0.154,0.000,0.000,0.0,0.000,Mitochondrial organization
+MTLN,3,-0.315,-0.597,-0.033,0.000,0.000,0.0,0.029,Mitochondrial organization
+SCO2,2,-0.312,-0.600,-0.023,0.000,0.000,0.0,0.034,Mitochondrial biogenesis | Mitochondrial organization
+CYB5A,3,-0.307,-1.324,0.711,0.883,0.780,97.1,0.554,Mitochondrial organization
+DUSP21,2,-0.303,-0.663,0.058,0.000,0.000,0.0,0.100,Mitochondrial organization
+PLSCR3,3,-0.288,-0.644,0.068,0.243,0.059,60.7,0.113,Mitochondrial organization
+CFLAR,3,-0.271,-0.444,-0.099,0.000,0.000,0.0,0.002,Autophagy
+SNX7,3,-0.271,-0.493,-0.050,0.121,0.015,37.9,0.016,Mitophagy
+ATF4,3,-0.265,-0.874,0.345,0.516,0.266,92.7,0.394,Mitophagy
+TPCN2,3,-0.263,-0.412,-0.114,0.031,0.001,5.2,0.001,Autophagy
+NDUFC1,3,-0.262,-0.979,0.455,0.617,0.380,95.0,0.474,Mitochondrial organization
+HMGB1,3,-0.260,-0.589,0.069,0.265,0.070,84.7,0.121,Autophagy
+NDUFS5,3,-0.259,-0.516,-0.002,0.162,0.026,54.6,0.048,Mitochondrial organization
+COX7A1,3,-0.258,-0.501,-0.015,0.000,0.000,0.0,0.037,Mitochondrial organization
+SFXN2,3,-0.257,-0.602,0.088,0.245,0.060,64.8,0.144,Mitochondrial biogenesis | Mitochondrial organization
+GRAMD1A,3,-0.252,-0.521,0.016,0.180,0.033,60.0,0.065,Autophagy
+TYMS,3,-0.252,-0.797,0.293,0.455,0.207,90.4,0.364,Mitochondrial organization
+IRS1,3,-0.250,-0.630,0.130,0.313,0.098,88.9,0.198,Autophagy
+NDUFS8,3,-0.248,-0.819,0.323,0.486,0.236,93.1,0.395,Mitochondrial organization
+ETHE1,3,-0.245,-0.690,0.199,0.337,0.114,76.1,0.279,Mitochondrial biogenesis
+TRIM14,3,-0.244,-0.526,0.038,0.139,0.019,25.3,0.090,Mitochondrial organization
+NLRP6,2,-0.243,-0.475,-0.011,0.000,0.000,0.0,0.040,Autophagy
+PRODH,3,-0.238,-0.740,0.265,0.371,0.138,70.8,0.354,Mitochondrial organization
+FOXK1,3,-0.234,-0.434,-0.034,0.143,0.020,65.8,0.022,Autophagy
+DAPK2,3,-0.233,-0.528,0.061,0.000,0.000,0.0,0.121,Autophagy
+CPT1C,3,-0.233,-0.451,-0.014,0.000,0.000,0.0,0.037,Mitochondrial biogenesis | Mitochondrial organization
+TRIM17,3,-0.227,-0.662,0.209,0.317,0.101,68.9,0.308,Autophagy
+SMURF1,3,-0.226,-0.778,0.325,0.356,0.127,50.8,0.421,Mitochondrial biogenesis
+ARMCX2,3,-0.226,-0.744,0.292,0.432,0.186,89.7,0.392,Mitochondrial biogenesis | Mitochondrial organization
+MTG2,3,-0.218,-0.604,0.168,0.313,0.098,84.6,0.268,Mitochondrial organization
+CNTNAP1,3,-0.215,-0.368,-0.062,0.036,0.001,6.1,0.006,Mitochondrial organization
+PPRC1,3,-0.215,-0.540,0.110,0.236,0.056,70.2,0.194,Mitochondrial biogenesis
+ATAD3B,3,-0.213,-0.403,-0.023,0.000,0.000,0.0,0.028,Mitochondrial biogenesis | Mitochondrial organization
+MTARC1,3,-0.213,-0.823,0.398,0.480,0.231,83.3,0.495,Mitochondrial organization
+SOGA3,2,-0.210,-0.975,0.556,0.252,0.063,19.3,0.592,Autophagy
+MRPL45,3,-0.209,-0.374,-0.044,0.000,0.000,0.0,0.013,Mitochondrial organization
+IRGM,3,-0.208,-0.702,0.285,0.260,0.068,25.5,0.407,Autophagy
+ATAD3A,3,-0.208,-0.410,-0.007,0.000,0.000,0.0,0.042,Mitochondrial biogenesis | Mitochondrial organization
+AKT1,3,-0.208,-0.351,-0.065,0.000,0.000,0.0,0.004,Autophagy
+WDR81,3,-0.207,-0.514,0.100,0.207,0.043,59.5,0.186,Mitochondrial organization
+ADRA1A,2,-0.207,-1.096,0.683,0.309,0.096,16.3,0.649,Autophagy
+TOMM40L,3,-0.205,-0.363,-0.048,0.066,0.004,21.3,0.011,Mitochondrial biogenesis | Mitochondrial organization
+MT1F,3,-0.203,-0.859,0.453,0.376,0.141,38.6,0.544,Mitochondrial biogenesis
+SELENON,3,-0.202,-0.543,0.140,0.268,0.072,79.4,0.247,Mitochondrial organization
+ACADVL,3,-0.202,-0.477,0.074,0.207,0.043,74.3,0.151,Mitochondrial organization
+FOXO1,3,-0.200,-0.555,0.156,0.255,0.065,70.2,0.271,Autophagy
+ACTG1,3,-0.199,-0.636,0.238,0.367,0.135,91.1,0.371,Mitochondrial biogenesis
+FNBP1L,3,-0.199,-0.695,0.296,0.420,0.176,92.3,0.431,Autophagy
+MRPL23,2,-0.198,-0.473,0.077,0.056,0.003,7.5,0.159,Mitochondrial organization
+EXOG,3,-0.196,-0.665,0.272,0.385,0.148,89.0,0.411,Mitochondrial biogenesis | Mitochondrial organization
+BCL2A1,3,-0.194,-0.417,0.028,0.000,0.000,0.0,0.087,Mitochondrial organization
+NRIP1,3,-0.194,-0.662,0.273,0.392,0.153,90.2,0.415,Mitochondrial biogenesis
+PLEC,3,-0.193,-0.601,0.215,0.336,0.113,88.9,0.354,Mitochondrial organization
+IRS4,3,-0.193,-0.578,0.192,0.191,0.036,21.1,0.326,Autophagy
+ATP5MGL,3,-0.192,-0.675,0.292,0.298,0.089,47.1,0.438,Mitochondrial organization
+BAK1,3,-0.191,-0.342,-0.039,0.000,0.000,0.0,0.014,Mitochondrial biogenesis | Mitochondrial organization
+HSPA8,3,-0.189,-0.493,0.115,0.218,0.048,67.6,0.223,Mitochondrial biogenesis
+PRKACG,3,-0.189,-1.397,1.020,0.677,0.459,26.8,0.760,Autophagy
+POP1,3,-0.189,-0.668,0.290,0.394,0.155,87.3,0.440,Mitochondrial biogenesis
+MT1G,3,-0.188,-0.741,0.365,0.000,0.000,0.0,0.506,Mitochondrial biogenesis
+COQ2,3,-0.186,-0.336,-0.037,0.000,0.000,0.0,0.015,Mitochondrial organization
+PRKCQ,3,-0.185,-0.830,0.459,0.415,0.172,54.1,0.573,Autophagy
+BRI3BP,3,-0.182,-0.355,-0.010,0.000,0.000,0.0,0.038,Mitochondrial organization
+P2RX7,3,-0.181,-0.856,0.494,0.502,0.252,73.5,0.600,Mitochondrial organization
+ACSL4,3,-0.180,-0.676,0.315,0.417,0.174,91.9,0.475,Mitochondrial organization
+DHRS13,3,-0.178,-0.589,0.232,0.321,0.103,79.0,0.394,Mitochondrial organization
+ATG10,3,-0.171,-0.756,0.414,0.500,0.250,93.7,0.566,Mitochondrial biogenesis | Autophagy
+WIPI1,3,-0.171,-0.530,0.189,0.284,0.081,81.8,0.352,Mitochondrial biogenesis | Mitophagy | Autophagy
+AIPL1,3,-0.169,-0.470,0.132,0.000,0.000,0.0,0.271,Mitochondrial biogenesis
+WDR24,3,-0.169,-0.371,0.033,0.098,0.010,30.0,0.100,Autophagy
+UBQLN4,3,-0.168,-0.349,0.013,0.097,0.009,35.2,0.068,Autophagy
+CYP27A1,3,-0.168,-0.491,0.154,0.167,0.028,25.0,0.306,Mitochondrial organization
+BCL2L2-PABPN1,2,-0.167,-0.705,0.372,0.272,0.074,43.2,0.544,Mitochondrial organization
+CHCHD10,3,-0.165,-0.443,0.113,0.182,0.033,55.7,0.244,Mitochondrial biogenesis | Mitochondrial organization
+FOXRED1,3,-0.164,-0.316,-0.013,0.000,0.000,0.0,0.034,Mitochondrial biogenesis | Mitochondrial organization
+PPP2R2B,3,-0.161,-0.330,0.007,0.000,0.000,0.0,0.060,Mitochondrial organization
+ACTB,3,-0.161,-0.313,-0.009,0.000,0.000,0.0,0.038,Mitochondrial biogenesis
+SLC25A22,3,-0.160,-0.338,0.018,0.000,0.000,0.0,0.079,Mitochondrial organization
+MRPL33,3,-0.158,-0.382,0.065,0.136,0.018,47.1,0.165,Mitochondrial organization
+GK3P,2,-0.158,-1.012,0.695,0.000,0.000,0.0,0.716,Mitochondrial organization
+SLC25A10,3,-0.158,-0.377,0.061,0.128,0.016,43.4,0.157,Mitochondrial organization
+MRPL43,3,-0.157,-0.597,0.283,0.344,0.118,80.0,0.484,Mitochondrial organization
+CKMT1A,3,-0.157,-0.532,0.219,0.000,0.000,0.0,0.413,Mitochondrial organization
+SQOR,3,-0.156,-0.354,0.041,0.000,0.000,0.0,0.120,Mitochondrial organization
+TBC1D25,3,-0.156,-0.311,-0.002,0.000,0.000,0.0,0.048,Autophagy
+CTSK,3,-0.154,-0.851,0.542,0.553,0.306,82.9,0.664,Mitophagy
+MRPL17,3,-0.153,-0.529,0.222,0.280,0.079,74.9,0.423,Mitochondrial organization
+FANCG,3,-0.153,-0.378,0.072,0.107,0.011,25.9,0.183,Mitochondrial organization
+MRPL11,3,-0.151,-0.397,0.096,0.148,0.022,45.7,0.231,Mitochondrial organization
+TMEM177,3,-0.149,-0.469,0.172,0.231,0.053,66.8,0.363,Mitochondrial organization
+PPIF,3,-0.148,-0.560,0.263,0.344,0.118,89.6,0.480,Mitochondrial organization
+CPTP,3,-0.148,-0.516,0.220,0.291,0.085,80.7,0.431,Autophagy
+RDH13,3,-0.148,-0.331,0.035,0.089,0.008,29.7,0.113,Mitochondrial organization
+DAPL1,3,-0.148,-0.546,0.250,0.000,0.000,0.0,0.467,Autophagy
+SPHK2,3,-0.147,-0.424,0.131,0.180,0.032,54.0,0.300,Mitochondrial organization
+COX6B2,3,-0.145,-0.389,0.099,0.000,0.000,0.0,0.245,Mitochondrial organization
+FDXR,3,-0.143,-0.309,0.024,0.000,0.000,0.0,0.094,Mitochondrial biogenesis | Mitochondrial organization
+MITF,2,-0.142,-0.435,0.150,0.163,0.027,59.6,0.340,Mitophagy
+IBA57,3,-0.141,-0.413,0.131,0.190,0.036,63.5,0.309,Mitochondrial biogenesis
+CAV2,3,-0.140,-0.565,0.285,0.355,0.126,89.8,0.519,Mitochondrial organization
+SAMM50,3,-0.138,-0.430,0.153,0.221,0.049,75.8,0.353,Mitochondrial biogenesis | Mitochondrial organization
+CTSL,3,-0.137,-0.273,-0.001,0.000,0.000,0.0,0.048,Autophagy
+SFXN5,2,-0.137,-0.351,0.077,0.000,0.000,0.0,0.209,Mitochondrial biogenesis | Mitochondrial organization
+POP7,3,-0.135,-0.592,0.323,0.375,0.140,86.5,0.564,Mitochondrial biogenesis
+GATA4,3,-0.135,-0.287,0.018,0.000,0.000,0.0,0.083,Autophagy
+STING1,3,-0.134,-0.390,0.122,0.177,0.031,65.3,0.304,Mitochondrial organization | Autophagy
+ALDH18A1,3,-0.134,-0.541,0.274,0.317,0.100,81.9,0.520,Mitochondrial organization
+SLC22A14,3,-0.133,-0.349,0.084,0.000,0.000,0.0,0.229,Mitochondrial organization
+MAP1S,3,-0.133,-0.428,0.163,0.228,0.052,76.9,0.380,Autophagy
+C19orf12,3,-0.132,-0.272,0.007,0.000,0.000,0.0,0.063,Mitochondrial biogenesis | Autophagy
+MGST1,2,-0.132,-0.350,0.086,0.000,0.000,0.0,0.236,Mitochondrial organization
+SLC25A1,3,-0.131,-0.397,0.135,0.166,0.028,52.5,0.334,Mitochondrial organization
+SLC25A25,3,-0.130,-0.382,0.122,0.161,0.026,53.0,0.311,Mitochondrial organization
+SLC11A2,3,-0.129,-0.317,0.058,0.114,0.013,47.4,0.175,Mitochondrial organization
+SLC25A45,3,-0.129,-0.429,0.171,0.208,0.043,62.5,0.398,Mitochondrial organization
+SLC25A43,3,-0.128,-0.326,0.069,0.074,0.006,12.7,0.202,Mitochondrial organization
+PRKACA,3,-0.128,-0.382,0.126,0.181,0.033,65.5,0.324,Autophagy
+CRLS1,3,-0.126,-0.253,0.001,0.000,0.000,0.0,0.051,Mitochondrial organization
+SIRT2,3,-0.126,-0.271,0.020,0.000,0.000,0.0,0.090,Autophagy
+PLEKHM1,3,-0.125,-0.390,0.139,0.155,0.024,44.0,0.354,Autophagy
+USP10,3,-0.125,-0.380,0.131,0.202,0.041,79.9,0.339,Autophagy
+TFE3,3,-0.124,-0.400,0.153,0.214,0.046,77.1,0.381,Mitophagy
+MRPL53,3,-0.123,-0.480,0.234,0.261,0.068,69.7,0.501,Mitochondrial organization
+COA7,3,-0.122,-0.349,0.105,0.157,0.025,61.7,0.293,Mitochondrial biogenesis
+DNAJC30,3,-0.122,-0.275,0.032,0.000,0.000,0.0,0.120,Mitochondrial organization
+MPC1L,2,-0.121,-0.519,0.277,0.000,0.000,0.0,0.551,Mitochondrial biogenesis | Mitochondrial organization
+DNLZ,3,-0.118,-0.595,0.358,0.273,0.075,41.7,0.626,Mitochondrial biogenesis
+HSPB1,3,-0.118,-0.487,0.251,0.298,0.089,84.3,0.530,Autophagy
+NDUFB1,3,-0.117,-0.591,0.357,0.400,0.160,91.6,0.628,Mitochondrial organization
+MRPS17,3,-0.117,-0.262,0.027,0.000,0.000,0.0,0.112,Mitochondrial organization
+HSCB,3,-0.117,-0.281,0.047,0.000,0.000,0.0,0.163,Mitochondrial biogenesis
+CMC2,3,-0.117,-0.344,0.111,0.136,0.019,46.0,0.316,Mitochondrial biogenesis
+PIK3R2,3,-0.114,-0.251,0.022,0.000,0.000,0.0,0.101,Autophagy
+COX7A2,3,-0.114,-0.552,0.324,0.356,0.127,85.9,0.609,Mitochondrial organization
+AKT1S1,3,-0.114,-0.266,0.039,0.000,0.000,0.0,0.144,Autophagy
+HTRA2,3,-0.114,-0.358,0.131,0.172,0.029,63.3,0.363,Mitochondrial organization
+HTR2B,3,-0.112,-1.143,0.919,0.810,0.656,83.7,0.831,Autophagy
+IL10,3,-0.111,-0.321,0.099,0.000,0.000,0.0,0.299,Autophagy
+MRPS34,3,-0.111,-0.372,0.150,0.174,0.030,57.8,0.406,Mitochondrial organization
+TMEM150B,3,-0.110,-0.430,0.209,0.000,0.000,0.0,0.498,Autophagy
+NDUFB4,3,-0.110,-0.558,0.337,0.370,0.137,88.2,0.630,Mitochondrial organization
+SLC29A3,3,-0.110,-0.361,0.142,0.000,0.000,0.0,0.393,Mitochondrial organization
+KRAS,3,-0.109,-0.341,0.123,0.176,0.031,74.0,0.359,Mitochondrial organization | Mitophagy | Autophagy
+MYO19,3,-0.109,-0.378,0.161,0.195,0.038,66.9,0.430,Mitochondrial biogenesis | Mitochondrial organization
+MIGA2,3,-0.108,-0.340,0.123,0.144,0.021,49.9,0.359,Mitochondrial organization
+ATP5MF-PTCD1,2,-0.106,-0.466,0.253,0.171,0.029,43.2,0.562,Mitochondrial biogenesis | Mitochondrial organization
+S100A9,3,-0.106,-0.442,0.231,0.000,0.000,0.0,0.539,Autophagy
+ITGB4,3,-0.105,-0.278,0.069,0.000,0.000,0.0,0.238,Autophagy
+HIF1A,3,-0.103,-0.349,0.142,0.184,0.034,76.2,0.408,Mitophagy | Autophagy
+EPHA4,3,-0.103,-0.261,0.055,0.000,0.000,0.0,0.202,Mitochondrial organization
+HDAC6,3,-0.103,-0.229,0.024,0.000,0.000,0.0,0.111,Autophagy
+RPTOR,3,-0.102,-0.326,0.121,0.161,0.026,66.7,0.369,Autophagy
+E2F1,3,-0.102,-0.565,0.361,0.363,0.132,80.8,0.666,Mitophagy
+UQCRC1,3,-0.102,-0.277,0.074,0.100,0.010,39.0,0.258,Mitochondrial organization
+HK1,3,-0.100,-0.237,0.037,0.000,0.000,0.0,0.152,Mitochondrial organization
+TANK,2,-0.100,-0.265,0.065,0.000,0.000,0.0,0.236,Autophagy
+COA3,3,-0.100,-0.367,0.168,0.191,0.036,65.2,0.464,Mitochondrial biogenesis | Mitochondrial organization
+ATG4D,3,-0.100,-0.486,0.287,0.294,0.087,74.6,0.613,Mitochondrial biogenesis | Autophagy
+QTRT1,3,-0.099,-0.281,0.084,0.000,0.000,0.0,0.289,Mitochondrial organization
+ECSIT,3,-0.098,-0.424,0.228,0.255,0.065,78.8,0.555,Mitochondrial biogenesis | Mitochondrial organization
+CLUH,3,-0.098,-0.367,0.171,0.201,0.041,72.5,0.476,Mitochondrial organization
+SOX10,3,-0.098,-0.432,0.236,0.000,0.000,0.0,0.567,Mitochondrial organization
+GDAP1L1,3,-0.097,-0.458,0.264,0.000,0.000,0.0,0.598,Mitochondrial biogenesis
+LARS2,3,-0.097,-0.339,0.145,0.171,0.029,63.9,0.432,Mitochondrial biogenesis
+METTL15,3,-0.097,-0.266,0.072,0.000,0.000,0.0,0.262,Mitochondrial biogenesis
+SLC25A23,3,-0.097,-0.289,0.096,0.092,0.008,28.8,0.325,Mitochondrial organization
+MRPL1,3,-0.096,-0.366,0.173,0.192,0.037,65.5,0.483,Mitochondrial organization
+TFEB,3,-0.094,-0.262,0.073,0.000,0.000,0.0,0.269,Mitophagy | Autophagy
+NDUFAF8,3,-0.094,-0.542,0.354,0.367,0.135,86.4,0.681,Mitochondrial biogenesis
+BDH1,3,-0.093,-0.441,0.255,0.237,0.056,59.6,0.599,Mitochondrial organization
+SLC25A31,3,-0.093,-0.332,0.147,0.000,0.000,0.0,0.447,Mitochondrial biogenesis | Mitochondrial organization
+HCFC1,3,-0.093,-0.515,0.329,0.349,0.122,88.5,0.667,Mitochondrial biogenesis
+HIGD2A,3,-0.093,-0.355,0.170,0.191,0.037,68.4,0.490,Mitochondrial organization
+MAVS,3,-0.092,-0.388,0.204,0.217,0.047,68.9,0.541,Mitochondrial organization
+MYOC,2,-0.091,-0.294,0.112,0.000,0.000,0.0,0.380,Mitochondrial organization
+MTERF4,3,-0.091,-0.227,0.046,0.000,0.000,0.0,0.193,Mitochondrial biogenesis
+GADD45GIP1,3,-0.091,-0.451,0.270,0.279,0.078,76.6,0.623,Mitochondrial organization
+MARCKS,3,-0.090,-0.277,0.096,0.090,0.008,27.4,0.341,Mitochondrial organization
+NDUFAF6,3,-0.090,-0.247,0.068,0.000,0.000,0.0,0.265,Mitochondrial biogenesis | Mitochondrial organization
+AIFM2,3,-0.089,-0.595,0.416,0.416,0.173,87.4,0.729,Mitochondrial organization
+MLST8,3,-0.089,-0.447,0.268,0.286,0.082,82.1,0.625,Autophagy
+YY1,3,-0.088,-0.216,0.039,0.054,0.003,23.1,0.172,Mitochondrial biogenesis
+SLC25A16,3,-0.088,-0.608,0.432,0.437,0.191,90.9,0.740,Mitochondrial organization
+DAPK3,3,-0.087,-0.327,0.153,0.152,0.023,52.1,0.477,Autophagy
+CHCHD6,3,-0.087,-0.284,0.110,0.000,0.000,0.0,0.388,Mitochondrial biogenesis | Mitochondrial organization
+PLA2G6,3,-0.086,-0.259,0.086,0.000,0.000,0.0,0.326,Mitochondrial biogenesis
+SEC16B,3,-0.086,-0.270,0.098,0.000,0.000,0.0,0.357,Autophagy
+DEPTOR,3,-0.086,-0.527,0.355,0.253,0.064,33.9,0.703,Autophagy
+TMEM65,3,-0.086,-0.527,0.356,0.364,0.133,88.2,0.704,Mitochondrial organization
+EIF4G1,3,-0.085,-0.439,0.268,0.285,0.081,85.7,0.635,Autophagy
+CHDH,3,-0.085,-0.331,0.161,0.000,0.000,0.0,0.498,Mitochondrial organization
+MICOS10,2,-0.085,-0.433,0.263,0.221,0.049,77.1,0.633,Mitochondrial biogenesis | Mitochondrial organization
+OPA3,3,-0.085,-0.387,0.218,0.225,0.051,74.1,0.583,Mitochondrial biogenesis
+MRPL22,3,-0.084,-0.297,0.129,0.143,0.020,57.8,0.441,Mitochondrial organization
+NDUFB2,2,-0.083,-0.553,0.387,0.314,0.098,85.7,0.729,Mitochondrial organization
+MRPL24,3,-0.083,-0.384,0.218,0.221,0.049,69.5,0.589,Mitochondrial organization
+NDUFA7,3,-0.082,-0.547,0.382,0.376,0.141,85.4,0.728,Mitochondrial organization
+TIMM13,3,-0.081,-0.371,0.208,0.195,0.038,58.2,0.582,Mitochondrial biogenesis | Mitochondrial organization
+MICOS13,3,-0.081,-0.488,0.327,0.329,0.108,83.7,0.698,Mitochondrial biogenesis | Mitochondrial organization
+SLC25A51,3,-0.080,-0.385,0.224,0.233,0.054,75.5,0.605,Mitochondrial organization
+SH3GLB1,3,-0.080,-0.268,0.108,0.131,0.017,62.7,0.402,Mitochondrial biogenesis | Mitochondrial organization | Autophagy
+MRPL9,3,-0.080,-0.425,0.265,0.274,0.075,81.5,0.650,Mitochondrial organization
+COQ4,3,-0.080,-0.249,0.089,0.077,0.006,26.1,0.355,Mitochondrial organization
+EIF2AK4,3,-0.079,-0.212,0.054,0.000,0.000,0.0,0.243,Autophagy
+FDX2,3,-0.079,-0.588,0.431,0.417,0.174,87.0,0.763,Mitochondrial biogenesis
+CNP,3,-0.077,-0.273,0.118,0.072,0.005,16.7,0.437,Mitochondrial organization
+PANK2,3,-0.077,-0.300,0.146,0.142,0.020,52.2,0.498,Mitochondrial organization
+ZKSCAN3,3,-0.077,-0.317,0.163,0.153,0.023,51.9,0.531,Autophagy
+PGS1,3,-0.077,-0.208,0.055,0.000,0.000,0.0,0.252,Mitochondrial organization
+SPATA33,3,-0.076,-0.338,0.185,0.122,0.015,27.5,0.567,Autophagy
+FDX1,3,-0.076,-0.196,0.044,0.000,0.000,0.0,0.212,Mitochondrial biogenesis
+PIF1,3,-0.076,-0.492,0.341,0.263,0.069,49.8,0.722,Mitochondrial biogenesis
+ATM,3,-0.075,-0.276,0.126,0.136,0.019,59.1,0.463,Autophagy
+ESRRA,3,-0.075,-0.409,0.260,0.264,0.070,80.1,0.661,Mitochondrial biogenesis
+SPNS1,3,-0.073,-0.250,0.104,0.092,0.008,34.4,0.419,Mitochondrial organization
+SLC25A34,3,-0.073,-0.242,0.096,0.000,0.000,0.0,0.399,Mitochondrial organization
+MPV17,3,-0.073,-0.235,0.090,0.000,0.000,0.0,0.380,Mitochondrial organization
+MAPK15,3,-0.072,-0.252,0.108,0.000,0.000,0.0,0.433,Autophagy
+POLRMT,3,-0.072,-0.243,0.099,0.000,0.000,0.0,0.412,Mitochondrial biogenesis
+RAB39A,3,-0.071,-0.262,0.121,0.000,0.000,0.0,0.469,Autophagy
+MTG1,3,-0.069,-0.312,0.173,0.169,0.028,62.2,0.575,Mitochondrial biogenesis | Mitochondrial organization
+WDFY4,3,-0.069,-0.924,0.785,0.474,0.224,21.7,0.874,Autophagy
+UQCC3,3,-0.068,-0.397,0.260,0.231,0.054,63.6,0.683,Mitochondrial biogenesis | Mitochondrial organization
+SLC25A53,3,-0.068,-0.548,0.413,0.386,0.149,83.0,0.782,Mitochondrial organization
+MRPL28,3,-0.068,-0.276,0.140,0.125,0.016,45.9,0.524,Mitochondrial organization
+VMP1,3,-0.068,-0.421,0.286,0.282,0.079,82.0,0.708,Autophagy
+DAP,3,-0.067,-0.195,0.062,0.000,0.000,0.0,0.308,Autophagy
+RUBCN,3,-0.067,-0.351,0.218,0.214,0.046,73.3,0.646,Autophagy
+NRAS,3,-0.065,-0.238,0.107,0.106,0.011,48.5,0.457,Mitophagy | Autophagy
+PGAM5,3,-0.065,-0.463,0.332,0.325,0.106,87.4,0.747,Mitochondrial organization | Mitophagy
+CDK5,3,-0.065,-0.210,0.079,0.000,0.000,0.0,0.374,Mitochondrial organization
+MRPL12,3,-0.065,-0.483,0.353,0.344,0.118,87.1,0.760,Mitochondrial organization
+SLC25A39,3,-0.065,-0.280,0.150,0.144,0.021,58.0,0.552,Mitochondrial organization
+SDHAF1,3,-0.065,-0.369,0.239,0.200,0.040,55.1,0.676,Mitochondrial biogenesis
+SPATA19,3,-0.065,-0.753,0.623,0.479,0.230,68.4,0.854,Mitochondrial organization
+ULK3,3,-0.064,-0.252,0.124,0.103,0.011,37.9,0.505,Autophagy
+ABL1,3,-0.063,-0.208,0.082,0.083,0.007,41.7,0.397,Autophagy
+SLC25A15,3,-0.062,-0.197,0.072,0.000,0.000,0.0,0.365,Mitochondrial organization
+MT-ND2,3,-0.062,-0.291,0.167,0.104,0.011,21.1,0.595,Mitochondrial organization
+ATP5F1D,3,-0.062,-0.410,0.286,0.279,0.078,83.3,0.727,Mitochondrial organization
+UCP1,3,-0.062,-0.277,0.153,0.000,0.000,0.0,0.572,Mitochondrial organization
+APOO,3,-0.062,-0.374,0.250,0.238,0.057,74.9,0.697,Mitochondrial biogenesis | Mitochondrial organization
+RRAS2,3,-0.062,-0.249,0.125,0.119,0.014,52.3,0.517,Mitophagy | Autophagy
+MAP1LC3C,3,-0.062,-0.418,0.295,0.000,0.000,0.0,0.735,Mitochondrial biogenesis | Mitophagy | Autophagy
+NDUFA13,3,-0.061,-0.556,0.433,0.416,0.173,90.7,0.808,Mitochondrial organization
+AIP,3,-0.061,-0.448,0.325,0.309,0.096,84.0,0.756,Mitochondrial biogenesis
+PIK3R4,3,-0.061,-0.355,0.233,0.221,0.049,73.3,0.684,Autophagy
+ATP5ME,3,-0.061,-0.532,0.411,0.391,0.153,88.6,0.800,Mitochondrial organization
+RHOD,3,-0.060,-0.322,0.202,0.180,0.033,61.0,0.654,Mitochondrial organization
+MAP1LC3A,3,-0.060,-0.243,0.123,0.000,0.000,0.0,0.521,Mitochondrial biogenesis | Mitophagy | Autophagy
+PID1,3,-0.060,-0.781,0.662,0.537,0.289,72.0,0.871,Mitochondrial organization
+MYG1,3,-0.059,-0.334,0.217,0.190,0.036,61.3,0.676,Mitochondrial biogenesis
+SLC25A6,3,-0.057,-0.628,0.514,0.456,0.208,84.4,0.844,Mitochondrial biogenesis | Mitochondrial organization
+SARM1,3,-0.057,-0.294,0.180,0.146,0.021,48.9,0.638,Mitochondrial organization
+TEX264,3,-0.057,-0.387,0.274,0.242,0.059,71.4,0.736,Autophagy
+RAB39B,3,-0.057,-0.551,0.438,0.319,0.102,56.3,0.823,Autophagy
+GABPB2,3,-0.055,-0.475,0.365,0.340,0.115,84.0,0.797,Mitochondrial biogenesis
+ARMCX1,3,-0.055,-0.182,0.073,0.000,0.000,0.0,0.401,Mitochondrial biogenesis | Mitochondrial organization
+PIK3CA,3,-0.054,-0.404,0.296,0.286,0.082,85.7,0.761,Autophagy
+EIF4G2,3,-0.054,-0.460,0.352,0.341,0.116,91.3,0.794,Autophagy
+RAB5IF,2,-0.054,-0.630,0.522,0.392,0.153,88.7,0.855,Mitochondrial organization
+MALSU1,3,-0.054,-0.344,0.236,0.229,0.053,79.9,0.716,Mitochondrial biogenesis
+CPT1B,2,-0.054,-0.275,0.168,0.000,0.000,0.0,0.636,Mitochondrial biogenesis | Mitochondrial organization
+CRTC1,3,-0.053,-0.222,0.116,0.000,0.000,0.0,0.537,Mitochondrial biogenesis
+UCP3,3,-0.053,-0.244,0.138,0.000,0.000,0.0,0.586,Mitochondrial organization
+MYH14,3,-0.052,-0.351,0.247,0.214,0.046,70.4,0.733,Mitochondrial organization
+COX7B2,3,-0.052,-1.891,1.787,1.246,1.553,58.0,0.956,Mitochondrial organization
+TOMM34,3,-0.052,-0.379,0.276,0.237,0.056,67.7,0.758,Mitochondrial biogenesis | Mitochondrial organization
+MRPL13,3,-0.051,-0.200,0.097,0.000,0.000,0.0,0.497,Mitochondrial organization
+SSBP1,3,-0.051,-0.187,0.086,0.018,0.000,2.0,0.466,Mitochondrial biogenesis | Mitochondrial organization
+PAM16,2,-0.050,-1.022,0.921,0.659,0.434,88.3,0.919,Mitochondrial biogenesis | Mitochondrial organization
+PISD,3,-0.050,-0.321,0.222,0.190,0.036,62.9,0.720,Mitochondrial organization
+TCIRG1,3,-0.050,-0.266,0.167,0.000,0.000,0.0,0.653,Autophagy
+PGRMC1,3,-0.049,-0.311,0.212,0.182,0.033,63.8,0.711,Mitochondrial organization
+AKT2,2,-0.049,-0.184,0.085,0.000,0.000,0.0,0.473,Autophagy
+CHMP2A,3,-0.049,-0.194,0.096,0.000,0.000,0.0,0.508,Autophagy
+PHF23,3,-0.049,-0.191,0.094,0.000,0.000,0.0,0.505,Autophagy
+ATG16L2,3,-0.048,-0.198,0.102,0.000,0.000,0.0,0.532,Mitochondrial biogenesis | Autophagy
+CRYBA1,3,-0.047,-0.389,0.294,0.000,0.000,0.0,0.786,Autophagy
+RAC2,3,-0.047,-1.339,1.244,0.840,0.705,56.8,0.943,Mitochondrial organization
+MRPL3,3,-0.047,-0.166,0.072,0.000,0.000,0.0,0.435,Mitochondrial organization
+PPP1CC,3,-0.047,-0.180,0.086,0.047,0.002,14.6,0.491,Mitochondrial organization
+ARSA,3,-0.047,-0.233,0.140,0.000,0.000,0.0,0.625,Autophagy
+MRPS16,3,-0.047,-0.221,0.128,0.111,0.012,52.5,0.601,Mitochondrial biogenesis | Mitochondrial organization
+NDUFAF1,3,-0.046,-0.242,0.149,0.097,0.009,30.6,0.641,Mitochondrial biogenesis | Mitochondrial organization
+ATP5MC1,3,-0.046,-0.511,0.418,0.386,0.149,89.5,0.845,Mitochondrial organization
+EP300,3,-0.046,-0.313,0.222,0.163,0.027,46.5,0.738,Mitochondrial biogenesis | Autophagy
+MFN1,3,-0.045,-0.181,0.090,0.000,0.000,0.0,0.514,Mitochondrial biogenesis | Mitochondrial organization | Mitophagy
+FUNDC1,3,-0.044,-0.340,0.253,0.219,0.048,70.1,0.773,Mitochondrial biogenesis | Mitochondrial organization | Mitophagy | Autophagy
+MAPK3,3,-0.043,-0.238,0.151,0.103,0.011,34.9,0.664,Autophagy
+IGF1R,3,-0.042,-0.217,0.133,0.087,0.008,30.9,0.636,Autophagy
+NDUFV2,3,-0.042,-0.437,0.353,0.332,0.110,90.7,0.835,Mitochondrial organization
+PRKAA1,3,-0.042,-0.161,0.077,0.000,0.000,0.0,0.489,Mitochondrial biogenesis | Autophagy
+COX10,3,-0.041,-0.234,0.152,0.132,0.017,59.7,0.678,Mitochondrial biogenesis | Mitochondrial organization
+QTRT2,3,-0.040,-0.449,0.369,0.327,0.107,82.7,0.848,Mitochondrial organization
+TOMM6,3,-0.040,-0.277,0.197,0.161,0.026,59.3,0.741,Mitochondrial biogenesis | Mitochondrial organization
+SLC25A17,3,-0.039,-0.258,0.180,0.136,0.019,49.8,0.725,Mitochondrial organization
+OXA1L,3,-0.039,-0.587,0.509,0.470,0.221,94.9,0.889,Mitochondrial biogenesis | Mitochondrial organization
+MRPS15,3,-0.038,-0.327,0.250,0.222,0.049,76.3,0.794,Mitochondrial organization
+PYROXD2,3,-0.038,-0.271,0.194,0.134,0.018,41.6,0.746,Mitochondrial organization
+SUMO3,3,-0.038,-0.316,0.240,0.214,0.046,76.2,0.790,Mitochondrial biogenesis
+ATP5MF,3,-0.038,-0.452,0.376,0.340,0.116,86.7,0.858,Mitochondrial organization
+CHMP1A,3,-0.037,-0.234,0.160,0.109,0.012,39.3,0.711,Autophagy
+MAP2K2,3,-0.037,-0.280,0.206,0.143,0.021,44.7,0.765,Autophagy
+DMAC2L,3,-0.037,-0.242,0.168,0.121,0.015,45.0,0.725,Mitochondrial organization
+LIG3,3,-0.037,-0.413,0.340,0.299,0.090,81.4,0.849,Mitochondrial organization
+SPG7,3,-0.036,-0.235,0.163,0.117,0.014,43.7,0.725,Mitochondrial organization
+BCL2,3,-0.036,-0.754,0.683,0.578,0.334,84.6,0.923,Mitochondrial organization | Autophagy
+TSPO,3,-0.036,-0.208,0.137,0.000,0.000,0.0,0.686,Mitochondrial organization
+NOS3,3,-0.035,-0.248,0.177,0.000,0.000,0.0,0.743,Mitochondrial organization
+TECPR2,3,-0.035,-0.222,0.151,0.084,0.007,25.6,0.709,Autophagy
+CAMKK2,3,-0.035,-0.171,0.101,0.000,0.000,0.0,0.616,Autophagy
+LETM1,3,-0.034,-0.177,0.109,0.060,0.004,22.3,0.644,Mitochondrial biogenesis | Mitochondrial organization
+RASIP1,3,-0.034,-0.273,0.206,0.000,0.000,0.0,0.783,Autophagy
+TBC1D17,3,-0.034,-0.188,0.121,0.000,0.000,0.0,0.670,Mitophagy | Autophagy
+MIPEP,3,-0.033,-0.252,0.186,0.155,0.024,64.3,0.766,Mitochondrial biogenesis
+SDHC,3,-0.033,-0.252,0.186,0.149,0.022,59.1,0.768,Mitochondrial organization
+CD84,3,-0.033,-0.268,0.203,0.000,0.000,0.0,0.785,Autophagy
+CHMP6,3,-0.033,-0.245,0.179,0.106,0.011,31.7,0.762,Autophagy
+MRPL51,3,-0.032,-0.199,0.134,0.079,0.006,27.7,0.703,Mitochondrial organization
+COX16,2,-0.032,-0.409,0.345,0.206,0.042,56.5,0.868,Mitochondrial biogenesis | Mitochondrial organization
+UQCRHL,3,-0.032,-0.231,0.167,0.000,0.000,0.0,0.753,Mitochondrial organization
+ATP13A2,3,-0.032,-0.167,0.104,0.000,0.000,0.0,0.646,Autophagy
+SMURF2,3,-0.032,-0.427,0.364,0.322,0.103,84.9,0.875,Mitochondrial biogenesis
+LYRM4,3,-0.031,-0.198,0.135,0.045,0.002,8.8,0.712,Mitochondrial biogenesis
+MT-ND6,3,-0.031,-0.307,0.244,0.201,0.040,73.3,0.823,Mitochondrial organization
+RMDN3,3,-0.031,-0.252,0.190,0.104,0.011,28.1,0.785,Mitochondrial organization
+MRPS21,3,-0.031,-0.239,0.178,0.099,0.010,28.2,0.774,Mitochondrial organization
+MRPS18A,3,-0.029,-0.308,0.250,0.198,0.039,65.1,0.840,Mitochondrial organization
+PIK3R1,3,-0.029,-0.823,0.766,0.686,0.471,96.6,0.944,Autophagy
+RPUSD3,3,-0.028,-0.203,0.147,0.093,0.009,36.1,0.754,Mitochondrial biogenesis
+MRPL54,3,-0.028,-0.538,0.482,0.415,0.172,86.0,0.914,Mitochondrial organization
+CPS1,3,-0.028,-0.310,0.255,0.189,0.036,59.3,0.847,Mitochondrial organization
+ATG2A,3,-0.026,-0.175,0.122,0.000,0.000,0.0,0.727,Mitochondrial biogenesis | Mitophagy | Autophagy
+NEDD4,3,-0.026,-0.305,0.252,0.201,0.040,68.1,0.853,Mitochondrial biogenesis
+TRIM5,3,-0.026,-0.353,0.301,0.252,0.064,78.8,0.876,Autophagy
+NDUFS2,3,-0.026,-0.247,0.195,0.154,0.024,64.2,0.818,Mitochondrial organization
+BID,3,-0.026,-0.191,0.139,0.000,0.000,0.0,0.758,Mitochondrial organization
+BCL2L13,3,-0.026,-0.161,0.109,0.000,0.000,0.0,0.708,Mitophagy
+TIMM29,3,-0.025,-0.234,0.183,0.107,0.011,32.9,0.812,Mitochondrial organization
+BCAS3,3,-0.025,-0.384,0.334,0.296,0.088,87.2,0.891,Autophagy
+SLC25A48,3,-0.024,-0.501,0.453,0.374,0.140,79.1,0.921,Mitochondrial organization
+SRPX,3,-0.024,-0.323,0.275,0.219,0.048,74.2,0.875,Autophagy
+ATP5MC2,3,-0.024,-0.453,0.405,0.350,0.122,85.9,0.913,Mitochondrial organization
+SLC25A21,3,-0.024,-0.286,0.239,0.121,0.015,25.6,0.861,Mitochondrial organization
+MPC1,3,-0.023,-0.390,0.343,0.295,0.087,83.2,0.900,Mitochondrial biogenesis | Mitochondrial organization
+VCP,3,-0.023,-0.128,0.082,0.000,0.000,0.0,0.666,Autophagy
+PMPCB,3,-0.023,-0.339,0.293,0.246,0.061,79.6,0.886,Mitochondrial biogenesis | Mitochondrial organization
+SHARPIN,3,-0.023,-0.315,0.270,0.224,0.050,75.0,0.880,Mitochondrial organization
+MRPL19,3,-0.022,-0.196,0.151,0.086,0.007,30.6,0.800,Mitochondrial organization
+MRPS26,3,-0.022,-0.303,0.259,0.193,0.037,60.9,0.876,Mitochondrial organization
+AMBRA1,3,-0.022,-0.187,0.143,0.070,0.005,22.5,0.793,Mitochondrial biogenesis | Mitochondrial organization | Mitophagy | Autophagy
+MRPL34,3,-0.021,-0.571,0.530,0.463,0.214,91.5,0.941,Mitochondrial organization
+RHOT2,3,-0.021,-0.371,0.329,0.278,0.077,81.3,0.908,Mitochondrial organization | Mitophagy
+RAB1B,3,-0.020,-0.304,0.264,0.218,0.047,75.1,0.889,Autophagy
+UXT,3,-0.020,-0.374,0.334,0.277,0.077,79.8,0.913,Mitochondrial biogenesis
+ATG13,3,-0.020,-0.162,0.123,0.006,0.000,0.3,0.788,Mitochondrial biogenesis | Autophagy
+SLC25A35,3,-0.019,-0.221,0.182,0.000,0.000,0.0,0.849,Mitochondrial organization
+ATG101,3,-0.019,-0.406,0.367,0.305,0.093,80.2,0.922,Autophagy
+NRF1,3,-0.019,-0.173,0.135,0.000,0.000,0.0,0.806,Mitochondrial biogenesis
+STMP1,2,-0.019,-0.176,0.138,0.000,0.000,0.0,0.813,Mitochondrial organization
+MRPS5,3,-0.018,-0.267,0.230,0.190,0.036,75.5,0.886,Mitochondrial organization
+PRORP,3,-0.018,-0.283,0.247,0.200,0.040,73.3,0.895,Mitochondrial biogenesis
+THG1L,3,-0.018,-0.306,0.270,0.207,0.043,67.0,0.904,Mitochondrial organization
+ARMCX6,3,-0.018,-0.202,0.167,0.000,0.000,0.0,0.852,Mitochondrial biogenesis | Mitochondrial organization
+ADCK1,3,-0.017,-0.281,0.247,0.182,0.033,60.9,0.899,Mitochondrial organization
+VAT1,3,-0.017,-0.229,0.196,0.113,0.013,35.8,0.877,Mitochondrial biogenesis | Mitochondrial organization
+POP4,3,-0.017,-0.176,0.143,0.029,0.001,3.7,0.838,Mitochondrial biogenesis
+SLC44A1,3,-0.016,-0.732,0.699,0.619,0.383,96.2,0.964,Mitochondrial organization
+ACAD9,3,-0.015,-0.150,0.119,0.000,0.000,0.0,0.823,Mitochondrial biogenesis | Mitochondrial organization
+TIMM17A,3,-0.015,-0.321,0.292,0.240,0.058,79.7,0.925,Mitochondrial biogenesis | Mitochondrial organization
+ATG7,3,-0.014,-0.187,0.159,0.089,0.008,32.9,0.871,Mitochondrial biogenesis | Mitophagy | Autophagy
+CHMP3,2,-0.014,-0.339,0.311,0.202,0.041,73.8,0.931,Autophagy
+TIMM50,3,-0.014,-0.275,0.246,0.194,0.038,71.0,0.914,Mitochondrial biogenesis | Mitochondrial organization
+ATP5F1C,3,-0.014,-0.556,0.528,0.465,0.216,94.9,0.960,Mitochondrial organization
+COA8,3,-0.014,-0.190,0.163,0.060,0.004,14.5,0.878,Mitochondrial biogenesis | Mitochondrial organization
+VPS54,3,-0.013,-0.141,0.114,0.000,0.000,0.0,0.837,Mitochondrial organization
+DAPK1,3,-0.013,-0.164,0.138,0.000,0.000,0.0,0.864,Autophagy
+PARK7,3,-0.013,-0.233,0.208,0.163,0.027,70.3,0.910,Mitochondrial organization | Autophagy
+CASP8,2,-0.012,-0.355,0.331,0.000,0.000,0.0,0.946,Mitochondrial organization
+BCL2L2,2,-0.012,-0.276,0.253,0.153,0.023,61.7,0.931,Mitochondrial organization
+HTT,3,-0.011,-0.149,0.128,0.000,0.000,0.0,0.879,Mitochondrial biogenesis
+WASHC1,3,-0.011,-0.160,0.139,0.013,0.000,0.8,0.890,Autophagy
+GOLGA2,3,-0.010,-0.140,0.119,0.028,0.001,6.0,0.876,Autophagy
+RPP25L,3,-0.009,-0.313,0.295,0.226,0.051,71.3,0.951,Mitochondrial biogenesis
+DHTKD1,3,-0.009,-0.258,0.240,0.182,0.033,69.0,0.943,Mitochondrial biogenesis
+BAD,3,-0.009,-0.212,0.194,0.097,0.009,29.0,0.930,Mitochondrial organization | Autophagy
+HDAC10,3,-0.009,-0.218,0.200,0.000,0.000,0.0,0.934,Autophagy
+SLC25A12,3,-0.009,-0.323,0.305,0.253,0.064,83.4,0.957,Mitochondrial organization
+CHMP4A,3,-0.009,-0.243,0.226,0.126,0.016,36.8,0.943,Autophagy
+MRPL46,3,-0.008,-0.194,0.178,0.073,0.005,19.6,0.931,Mitochondrial organization
+FLVCR1,3,-0.008,-0.281,0.265,0.194,0.038,65.2,0.953,Mitochondrial organization
+MPV17L2,3,-0.008,-0.347,0.331,0.263,0.069,78.6,0.964,Mitochondrial organization
+DRAM2,3,-0.008,-0.323,0.308,0.237,0.056,75.6,0.963,Autophagy
+MRPL4,3,-0.007,-0.259,0.245,0.180,0.032,65.4,0.954,Mitochondrial organization
+GABPB1,3,-0.007,-0.164,0.150,0.000,0.000,0.0,0.930,Mitochondrial biogenesis | Mitochondrial organization
+TRUB2,3,-0.007,-0.233,0.220,0.164,0.027,67.2,0.955,Mitochondrial biogenesis
+FUNDC2,2,-0.007,-0.287,0.274,0.129,0.017,35.9,0.963,Mitochondrial biogenesis | Mitochondrial organization | Mitophagy
+COX20,3,-0.007,-0.143,0.129,0.000,0.000,0.0,0.925,Mitochondrial biogenesis | Mitochondrial organization
+MRPL16,3,-0.006,-0.214,0.201,0.143,0.020,60.6,0.951,Mitochondrial organization
+CHMP7,3,-0.006,-0.130,0.117,0.000,0.000,0.0,0.919,Autophagy
+RAB1A,3,-0.006,-0.227,0.214,0.165,0.027,72.7,0.955,Autophagy
+MRPS18B,3,-0.005,-0.306,0.295,0.231,0.054,76.6,0.973,Mitochondrial organization
+MOAP1,3,-0.005,-0.139,0.129,0.000,0.000,0.0,0.946,Mitochondrial organization | Autophagy
+GPR137,3,-0.005,-0.170,0.160,0.074,0.006,25.6,0.957,Autophagy
+UQCRQ,3,-0.004,-0.518,0.510,0.434,0.188,91.7,0.989,Mitochondrial organization
+SP1,3,-0.003,-0.318,0.312,0.250,0.063,81.2,0.985,Mitochondrial biogenesis | Mitophagy
+MAP1LC3B2,3,-0.003,-0.577,0.571,0.399,0.159,62.0,0.992,Mitochondrial biogenesis | Mitophagy | Autophagy
+SLIRP,3,-0.003,-0.473,0.468,0.383,0.147,85.2,0.991,Mitochondrial organization
+NLRX1,3,-0.002,-0.145,0.141,0.000,0.000,0.0,0.978,Mitochondrial organization
+KTN1,3,-0.002,-0.129,0.126,0.076,0.006,44.8,0.979,Mitochondrial biogenesis
+RGS19,3,-0.001,-0.231,0.229,0.000,0.000,0.0,0.993,Autophagy
+CREBBP,3,-0.001,-0.494,0.492,0.410,0.168,88.8,0.997,Mitochondrial biogenesis
+TIMM10,3,-0.001,-0.306,0.304,0.206,0.042,58.6,0.996,Mitochondrial biogenesis | Mitochondrial organization
+TAB2,3,-0.001,-0.164,0.163,0.072,0.005,23.9,0.994,Autophagy
+MTCH1,3,-0.001,-0.199,0.198,0.140,0.020,64.2,0.996,Mitochondrial biogenesis | Mitochondrial organization
+GPAT2,3,0.000,-0.321,0.321,0.042,0.002,1.1,0.998,Mitochondrial organization
+RETREG3,3,0.000,-0.150,0.149,0.035,0.001,6.9,0.997,Autophagy
+USP13,3,0.000,-0.233,0.233,0.145,0.021,49.5,0.999,Autophagy
+TIMM23B,3,0.000,-0.279,0.279,0.205,0.042,69.8,1.000,Mitochondrial biogenesis | Mitochondrial organization
+TAMM41,2,0.000,-0.209,0.209,0.000,0.000,0.0,1.000,Mitochondrial biogenesis | Mitochondrial organization
+MRPL14,3,0.000,-0.189,0.189,0.088,0.008,26.1,0.999,Mitochondrial organization
+TOMM5,3,0.000,-0.442,0.442,0.363,0.132,86.9,0.999,Mitochondrial biogenesis | Mitochondrial organization
+MRPL27,3,0.000,-0.380,0.381,0.307,0.095,83.7,0.999,Mitochondrial organization
+CRAT,3,0.001,-0.142,0.143,0.052,0.003,16.0,0.991,Mitochondrial organization
+TSC2,3,0.001,-0.134,0.137,0.000,0.000,0.0,0.986,Autophagy
+PPOX,3,0.002,-0.268,0.273,0.159,0.025,44.7,0.988,Mitochondrial organization
+SLC25A19,3,0.002,-0.405,0.410,0.315,0.099,76.9,0.991,Mitochondrial organization
+NAA20,3,0.003,-0.246,0.251,0.179,0.032,66.5,0.984,Mitochondrial biogenesis
+UBA52,3,0.003,-0.248,0.253,0.178,0.032,66.1,0.983,Mitochondrial organization | Mitophagy
+ATP7A,3,0.003,-0.325,0.330,0.261,0.068,81.4,0.987,Mitochondrial organization
+CEBPA,3,0.003,-0.427,0.433,0.291,0.085,58.7,0.990,Mitochondrial organization
+CHMP4B,3,0.003,-0.143,0.150,0.064,0.004,23.9,0.968,Autophagy
+WDFY3,3,0.003,-0.154,0.160,0.000,0.000,0.0,0.967,Autophagy
+UQCR10,3,0.003,-0.434,0.440,0.361,0.130,87.5,0.988,Mitochondrial organization
+LRSAM1,3,0.004,-0.225,0.232,0.147,0.022,52.9,0.975,Autophagy
+PHB2,3,0.004,-0.351,0.359,0.273,0.075,76.2,0.980,Mitochondrial biogenesis | Mitochondrial organization
+ATP5F1A,3,0.005,-0.504,0.513,0.370,0.137,77.5,0.986,Mitochondrial organization
+NDUFS4,3,0.005,-0.464,0.474,0.388,0.151,87.8,0.984,Mitochondrial organization
+RUBCNL,3,0.005,-0.244,0.255,0.000,0.000,0.0,0.967,Autophagy
+ATG14,3,0.005,-0.281,0.291,0.222,0.049,77.5,0.971,Mitochondrial biogenesis | Autophagy
+NDUFS6,3,0.005,-0.289,0.299,0.231,0.054,79.8,0.972,Mitochondrial organization
+CYB5B,3,0.005,-0.208,0.219,0.149,0.022,63.2,0.961,Mitochondrial organization
+WDR6,3,0.006,-0.136,0.147,0.082,0.007,43.1,0.938,Autophagy
+IL10RA,3,0.006,-1.305,1.317,0.873,0.762,52.7,0.993,Autophagy
+MLXIP,3,0.006,-0.223,0.236,0.143,0.020,49.2,0.958,Mitochondrial organization
+EDN1,3,0.006,-0.416,0.429,0.218,0.048,19.7,0.977,Mitochondrial organization
+AKT3,3,0.007,-0.336,0.349,0.280,0.078,85.8,0.969,Autophagy
+MRPL20,3,0.007,-0.282,0.296,0.220,0.048,74.1,0.962,Mitochondrial organization
+SURF1,3,0.007,-0.182,0.197,0.084,0.007,22.9,0.941,Mitochondrial biogenesis | Mitochondrial organization
+COQ10B,3,0.007,-0.108,0.122,0.000,0.000,0.0,0.903,Mitochondrial organization
+THEM4,3,0.008,-0.145,0.161,0.000,0.000,0.0,0.920,Mitochondrial organization
+TRAP1,3,0.008,-0.208,0.224,0.153,0.023,65.0,0.943,Mitochondrial organization
+LETM2,3,0.009,-0.319,0.337,0.208,0.043,51.2,0.957,Mitochondrial organization
+LETMD1,3,0.009,-0.124,0.143,0.000,0.000,0.0,0.893,Mitochondrial organization
+RPP30,3,0.010,-0.377,0.397,0.309,0.096,83.2,0.960,Mitochondrial biogenesis
+TMEM223,3,0.010,-0.399,0.419,0.320,0.102,80.5,0.962,Mitochondrial organization
+RARS1,3,0.010,-0.099,0.120,0.000,0.000,0.0,0.852,Mitochondrial biogenesis
+IFI27,3,0.012,-0.315,0.338,0.000,0.000,0.0,0.944,Mitochondrial organization
+BOLA1,3,0.012,-0.348,0.372,0.255,0.065,66.5,0.949,Mitochondrial biogenesis
+C12orf73,3,0.012,-0.139,0.162,0.000,0.000,0.0,0.879,Mitochondrial organization
+CLEC16A,3,0.012,-0.217,0.240,0.159,0.025,62.1,0.919,Mitochondrial biogenesis | Autophagy
+AURKAIP1,3,0.012,-0.333,0.357,0.277,0.076,82.4,0.945,Mitochondrial organization
+UBQLN2,3,0.012,-0.112,0.136,0.000,0.000,0.0,0.846,Autophagy
+MRPL30,3,0.012,-0.118,0.143,0.000,0.000,0.0,0.852,Mitochondrial organization
+SUMO2,3,0.013,-0.374,0.400,0.320,0.102,87.7,0.948,Mitochondrial biogenesis
+PARL,3,0.013,-0.206,0.233,0.161,0.026,68.9,0.904,Mitochondrial biogenesis | Mitochondrial organization
+CYC1,3,0.014,-0.404,0.431,0.349,0.122,90.2,0.949,Mitochondrial organization
+PDE2A,3,0.014,-0.261,0.289,0.000,0.000,0.0,0.921,Mitochondrial organization
+MFF,3,0.014,-0.100,0.128,0.000,0.000,0.0,0.808,Mitochondrial biogenesis | Mitochondrial organization
+PET117,2,0.014,-0.481,0.509,0.256,0.065,46.4,0.955,Mitochondrial biogenesis
+COQ7,3,0.015,-0.206,0.235,0.116,0.014,34.3,0.897,Mitochondrial organization
+ZFYVE1,3,0.015,-0.111,0.141,0.000,0.000,0.0,0.819,Mitochondrial biogenesis | Autophagy
+PPP2CB,3,0.015,-0.158,0.188,0.121,0.015,62.3,0.865,Autophagy
+MRPL42,3,0.016,-0.114,0.145,0.000,0.000,0.0,0.814,Mitochondrial organization
+SLC25A24,3,0.016,-0.120,0.152,0.000,0.000,0.0,0.820,Mitochondrial organization
+TP53INP2,3,0.016,-0.103,0.135,0.030,0.001,7.5,0.793,Autophagy
+EIF2AK3,3,0.016,-0.275,0.307,0.211,0.045,68.3,0.912,Mitophagy | Autophagy
+SLC25A37,3,0.016,-0.177,0.210,0.115,0.013,45.1,0.868,Mitochondrial biogenesis | Mitochondrial organization
+FECH,3,0.017,-0.216,0.250,0.162,0.026,62.9,0.889,Mitochondrial organization
+LDHD,3,0.017,-0.438,0.472,0.345,0.119,75.5,0.941,Mitochondrial organization
+RUFY4,3,0.018,-0.192,0.229,0.000,0.000,0.0,0.864,Autophagy
+ENDOG,3,0.018,-0.489,0.526,0.405,0.164,84.5,0.943,Mitochondrial biogenesis | Mitochondrial organization
+SLC25A41,3,0.019,-0.286,0.323,0.136,0.019,15.6,0.905,Mitochondrial organization
+UQCRC2,3,0.019,-0.232,0.270,0.192,0.037,78.2,0.885,Mitochondrial organization
+CEP89,3,0.019,-0.224,0.261,0.168,0.028,61.8,0.880,Mitochondrial organization
+COA1,3,0.019,-0.284,0.322,0.240,0.058,80.6,0.903,Mitochondrial biogenesis | Mitochondrial organization
+ULK2,3,0.019,-0.213,0.252,0.119,0.014,33.1,0.871,Mitochondrial biogenesis | Mitophagy | Autophagy
+COA4,3,0.019,-0.282,0.321,0.229,0.052,74.4,0.899,Mitochondrial biogenesis
+NDUFB10,3,0.021,-0.376,0.417,0.324,0.105,86.6,0.919,Mitochondrial organization
+MTERF2,3,0.021,-0.128,0.170,0.000,0.000,0.0,0.785,Mitochondrial biogenesis
+ULK1,3,0.022,-0.122,0.167,0.000,0.000,0.0,0.762,Mitochondrial biogenesis | Mitochondrial organization | Mitophagy | Autophagy
+MRPL21,3,0.022,-0.342,0.387,0.293,0.086,83.9,0.904,Mitochondrial organization
+JUN,3,0.022,-0.135,0.180,0.000,0.000,0.0,0.780,Mitophagy
+MRPS10,3,0.023,-0.083,0.129,0.000,0.000,0.0,0.676,Mitochondrial organization
+CYP27B1,3,0.023,-0.246,0.291,0.000,0.000,0.0,0.869,Mitochondrial organization
+MRPL38,3,0.023,-0.360,0.406,0.313,0.098,85.4,0.906,Mitochondrial organization
+DNAJC15,3,0.023,-0.119,0.165,0.000,0.000,0.0,0.750,Mitochondrial organization
+MRPL32,3,0.024,-0.242,0.289,0.200,0.040,72.8,0.862,Mitochondrial biogenesis | Mitochondrial organization
+MRPL49,3,0.024,-0.113,0.160,0.000,0.000,0.0,0.734,Mitochondrial organization
+SEPTIN4,3,0.024,-0.751,0.799,0.630,0.396,88.0,0.952,Mitochondrial organization
+COX4I2,3,0.024,-0.182,0.231,0.000,0.000,0.0,0.816,Mitochondrial organization
+MRPL55,3,0.024,-0.303,0.352,0.244,0.059,72.0,0.884,Mitochondrial organization
+ATP5MK,3,0.025,-0.377,0.426,0.330,0.109,86.5,0.904,Mitochondrial biogenesis | Mitochondrial organization
+SLC27A1,3,0.025,-0.130,0.179,0.000,0.000,0.0,0.754,Mitochondrial organization
+MTOR,3,0.025,-0.092,0.141,0.000,0.000,0.0,0.676,Mitochondrial organization | Autophagy
+SLC8B1,3,0.025,-0.322,0.372,0.227,0.052,54.9,0.888,Mitochondrial organization
+SUMO1,3,0.025,-0.253,0.304,0.177,0.031,54.1,0.858,Mitochondrial biogenesis
+PARP1,3,0.026,-0.310,0.361,0.265,0.070,81.5,0.881,Mitochondrial organization
+RPS3,3,0.026,-0.370,0.422,0.288,0.083,68.8,0.899,Mitochondrial organization
+VPS13C,3,0.026,-0.179,0.231,0.138,0.019,58.8,0.804,Mitochondrial organization
+MT-ATP8,3,0.026,-0.262,0.315,0.205,0.042,65.6,0.859,Mitochondrial organization
+MRPS12,3,0.027,-0.433,0.488,0.368,0.136,82.2,0.908,Mitochondrial organization
+SUPT20H,3,0.028,-0.091,0.146,0.000,0.000,0.0,0.647,Autophagy
+HERC1,3,0.028,-0.113,0.169,0.053,0.003,17.7,0.697,Autophagy
+CSNK2B,3,0.028,-0.183,0.239,0.000,0.000,0.0,0.794,Mitophagy
+TBC1D15,3,0.028,-0.099,0.155,0.000,0.000,0.0,0.666,Mitophagy
+SLC25A11,3,0.028,-0.489,0.545,0.434,0.188,90.9,0.915,Mitochondrial organization
+MRPS22,3,0.028,-0.182,0.238,0.138,0.019,55.7,0.792,Mitochondrial biogenesis | Mitochondrial organization
+NDUFAF2,3,0.029,-0.405,0.463,0.358,0.128,87.6,0.895,Mitochondrial biogenesis | Mitochondrial organization
+MTMR4,3,0.029,-0.118,0.177,0.000,0.000,0.0,0.696,Autophagy
+PIK3R3,3,0.030,-0.672,0.731,0.595,0.354,94.3,0.934,Autophagy
+TACO1,3,0.030,-0.344,0.404,0.301,0.091,83.7,0.877,Mitochondrial biogenesis
+RSAD2,3,0.030,-0.250,0.311,0.000,0.000,0.0,0.833,Mitochondrial organization
+ABL2,3,0.030,-0.255,0.316,0.205,0.042,68.3,0.834,Autophagy
+BOLA3,3,0.031,-0.545,0.606,0.475,0.226,87.7,0.917,Mitochondrial biogenesis
+MRPS7,3,0.031,-0.287,0.349,0.255,0.065,82.5,0.848,Mitochondrial organization
+HSPE1,2,0.031,-0.642,0.704,0.468,0.219,92.9,0.928,Mitochondrial biogenesis
+RELA,3,0.031,-0.101,0.164,0.000,0.000,0.0,0.642,Mitophagy
+DARS2,3,0.032,-0.107,0.171,0.000,0.000,0.0,0.655,Mitochondrial biogenesis
+FBXL2,3,0.032,-0.212,0.275,0.143,0.020,44.1,0.798,Autophagy
+AGPAT4,3,0.032,-0.389,0.453,0.343,0.118,85.7,0.882,Mitochondrial organization
+DMPK,3,0.032,-0.158,0.222,0.117,0.014,48.6,0.741,Mitochondrial organization
+NDUFV3,3,0.032,-0.137,0.201,0.107,0.011,51.5,0.709,Mitochondrial organization
+MFN2,3,0.032,-0.227,0.292,0.207,0.043,81.6,0.807,Mitochondrial biogenesis | Mitochondrial organization | Mitophagy | Autophagy
+RRAGA,3,0.033,-0.118,0.183,0.077,0.006,33.0,0.672,Autophagy
+TSFM,3,0.033,-0.181,0.246,0.145,0.021,59.0,0.765,Mitochondrial biogenesis
+GATB,3,0.033,-0.191,0.257,0.148,0.022,56.5,0.773,Mitochondrial biogenesis
+FIS1,3,0.033,-0.286,0.352,0.254,0.064,81.1,0.839,Mitochondrial biogenesis | Mitochondrial organization | Mitophagy
+PMAIP1,3,0.034,-0.852,0.920,0.716,0.513,86.4,0.940,Mitochondrial organization
+PINK1,3,0.034,-0.090,0.159,0.000,0.000,0.0,0.590,Mitochondrial biogenesis | Mitochondrial organization | Mitophagy | Autophagy
+AGTPBP1,3,0.034,-0.113,0.182,0.000,0.000,0.0,0.649,Mitochondrial organization
+LGALS3,3,0.034,-0.116,0.184,0.000,0.000,0.0,0.654,Mitochondrial organization
+TERT,3,0.034,-0.150,0.219,0.000,0.000,0.0,0.715,Mitochondrial organization
+NDUFA12,3,0.035,-0.423,0.492,0.390,0.152,92.9,0.882,Mitochondrial organization
+TMEM11,3,0.035,-0.237,0.306,0.199,0.040,69.3,0.803,Mitochondrial organization
+LYRM7,3,0.035,-0.434,0.505,0.396,0.157,91.4,0.883,Mitochondrial biogenesis
+TOMM70,3,0.036,-0.103,0.174,0.068,0.005,30.5,0.616,Mitochondrial biogenesis | Mitochondrial organization
+RCC1L,3,0.036,-0.128,0.200,0.073,0.005,25.6,0.668,Mitochondrial biogenesis | Mitochondrial organization
+MTCL1,3,0.036,-0.454,0.527,0.404,0.163,86.7,0.885,Autophagy
+PET100,3,0.037,-0.297,0.370,0.237,0.056,64.7,0.830,Mitochondrial biogenesis | Mitochondrial organization
+COQ9,3,0.037,-0.308,0.383,0.277,0.077,83.1,0.832,Mitochondrial organization
+VPS4A,3,0.038,-0.318,0.393,0.288,0.083,83.9,0.836,Autophagy
+SNX30,3,0.038,-0.141,0.216,0.074,0.005,20.8,0.679,Mitophagy
+FBXL4,3,0.038,-0.099,0.174,0.042,0.002,11.4,0.587,Mitochondrial biogenesis | Mitophagy
+TMBIM6,3,0.038,-0.146,0.223,0.105,0.011,40.6,0.683,Autophagy
+LEP,3,0.038,-0.189,0.266,0.000,0.000,0.0,0.740,Autophagy
+NDUFB11,3,0.039,-0.516,0.594,0.472,0.223,92.7,0.891,Mitochondrial organization
+MRPL36,3,0.039,-0.295,0.374,0.257,0.066,75.8,0.818,Mitochondrial organization
+LPIN1,3,0.039,-0.141,0.220,0.000,0.000,0.0,0.669,Mitochondrial organization
+MARK2,3,0.040,-0.096,0.175,0.000,0.000,0.0,0.564,Mitophagy
+SLC25A32,3,0.040,-0.242,0.322,0.210,0.044,71.7,0.780,Mitochondrial organization
+PRAP1,3,0.040,-0.145,0.226,0.000,0.000,0.0,0.671,Autophagy
+NIPSNAP2,3,0.041,-0.176,0.257,0.155,0.024,66.3,0.713,Mitochondrial organization
+MGME1,3,0.041,-0.114,0.196,0.000,0.000,0.0,0.607,Mitochondrial biogenesis
+LRRK2,3,0.041,-0.440,0.521,0.379,0.143,79.8,0.868,Mitochondrial organization | Autophagy
+SNAP29,3,0.041,-0.092,0.173,0.000,0.000,0.0,0.547,Autophagy
+TP53,3,0.041,-0.358,0.440,0.332,0.110,88.5,0.841,Mitophagy | Autophagy
+MRPS27,3,0.041,-0.121,0.203,0.000,0.000,0.0,0.621,Mitochondrial organization
+VPS51,3,0.041,-0.167,0.249,0.089,0.008,23.2,0.698,Autophagy
+ROMO1,3,0.041,-0.279,0.361,0.237,0.056,71.1,0.801,Mitochondrial organization
+RNF5,3,0.041,-0.421,0.504,0.390,0.152,91.6,0.861,Autophagy
+ELAPOR1,3,0.042,-0.415,0.498,0.312,0.097,60.3,0.857,Autophagy
+RHEB,3,0.042,-0.182,0.267,0.167,0.028,70.9,0.713,Autophagy
+ZMPSTE24,3,0.042,-0.314,0.398,0.292,0.085,86.9,0.816,Autophagy
+ARSB,3,0.043,-0.074,0.159,0.000,0.000,0.0,0.474,Autophagy
+GATC,3,0.043,-0.090,0.177,0.000,0.000,0.0,0.524,Mitochondrial biogenesis
+MTRFR,3,0.043,-0.146,0.233,0.135,0.018,65.1,0.654,Mitochondrial biogenesis
+TOMM40,3,0.043,-0.419,0.506,0.387,0.150,89.6,0.854,Mitochondrial biogenesis | Mitochondrial organization
+MTERF1,3,0.044,-0.198,0.285,0.163,0.027,58.4,0.724,Mitochondrial biogenesis
+MAPK9,3,0.044,-0.181,0.269,0.157,0.025,62.3,0.704,Mitophagy | Autophagy
+MPC2,3,0.044,-0.436,0.524,0.404,0.163,90.9,0.858,Mitochondrial biogenesis | Mitochondrial organization
+COX7A2L,3,0.044,-0.346,0.433,0.319,0.102,86.2,0.825,Mitochondrial organization
+MCU,3,0.044,-0.177,0.266,0.136,0.018,48.9,0.694,Mitochondrial biogenesis | Mitochondrial organization
+CPOX,3,0.045,-0.121,0.211,0.000,0.000,0.0,0.599,Mitochondrial organization
+MRPS2,2,0.045,-0.502,0.591,0.367,0.134,86.3,0.873,Mitochondrial organization
+UCP2,3,0.045,-0.429,0.520,0.377,0.142,84.5,0.852,Mitochondrial organization
+SHMT2,3,0.045,-1.127,1.217,1.018,1.037,98.1,0.940,Mitochondrial organization
+TIMM17B,3,0.046,-0.311,0.402,0.282,0.079,82.0,0.802,Mitochondrial biogenesis | Mitochondrial organization
+FXN,3,0.046,-0.140,0.232,0.084,0.007,25.9,0.630,Mitochondrial biogenesis | Mitochondrial organization
+MRPS31,3,0.046,-0.113,0.204,0.071,0.005,25.5,0.570,Mitochondrial organization
+OPTN,3,0.046,-0.185,0.277,0.165,0.027,66.2,0.694,Mitophagy | Autophagy
+PTPMT1,3,0.047,-0.318,0.411,0.288,0.083,79.9,0.802,Mitochondrial organization
+WIPI2,2,0.047,-0.093,0.187,0.000,0.000,0.0,0.510,Mitochondrial biogenesis | Mitophagy | Autophagy
+MAPK8,3,0.047,-0.398,0.492,0.347,0.121,78.1,0.835,Mitophagy | Autophagy
+DHX30,3,0.047,-0.235,0.330,0.213,0.045,73.6,0.743,Mitochondrial biogenesis
+PHB1,3,0.047,-0.217,0.312,0.204,0.042,77.0,0.725,Mitochondrial biogenesis | Mitochondrial organization
+SDHD,3,0.047,-0.244,0.339,0.225,0.051,77.5,0.749,Mitochondrial organization
+TGFBRAP1,3,0.048,-0.248,0.344,0.224,0.050,75.2,0.750,Autophagy
+PTEN,3,0.048,-0.094,0.190,0.000,0.000,0.0,0.508,Autophagy
+TMEM126B,3,0.048,-0.161,0.257,0.151,0.023,66.6,0.652,Mitochondrial biogenesis | Mitochondrial organization
+FPGS,3,0.048,-0.160,0.257,0.106,0.011,32.5,0.650,Mitochondrial organization
+NDUFAF7,3,0.048,-0.083,0.180,0.000,0.000,0.0,0.470,Mitochondrial biogenesis
+MT-ND1,3,0.049,-0.213,0.311,0.152,0.023,41.4,0.713,Mitochondrial organization
+SLC25A3,3,0.049,-0.412,0.510,0.375,0.140,86.2,0.834,Mitochondrial organization
+TIMM8A,3,0.049,-0.167,0.266,0.120,0.014,39.2,0.655,Mitochondrial biogenesis | Mitochondrial organization
+FOXK2,3,0.049,-0.089,0.188,0.000,0.000,0.0,0.483,Autophagy
+NDUFAF3,3,0.050,-0.564,0.663,0.526,0.277,94.2,0.874,Mitochondrial biogenesis | Mitochondrial organization
+NOA1,3,0.050,-0.434,0.534,0.403,0.162,89.5,0.839,Mitochondrial biogenesis | Mitochondrial organization
+MT-ND3,3,0.050,-0.463,0.564,0.433,0.188,91.6,0.848,Mitochondrial organization
+SFXN4,3,0.051,-0.511,0.612,0.480,0.230,93.6,0.860,Mitochondrial biogenesis | Mitochondrial organization
+KIF25,3,0.051,-0.207,0.310,0.000,0.000,0.0,0.698,Autophagy
+KEAP1,3,0.051,-0.172,0.275,0.130,0.017,43.6,0.652,Autophagy
+RAB29,3,0.052,-0.236,0.339,0.176,0.031,50.0,0.725,Mitochondrial organization
+RAF1,3,0.052,-0.124,0.228,0.123,0.015,62.3,0.564,Mitochondrial organization | Autophagy
+KLHL22,3,0.052,-0.215,0.319,0.208,0.043,78.4,0.702,Autophagy
+COX6C,3,0.052,-0.364,0.469,0.340,0.115,86.0,0.805,Mitochondrial organization
+TOLLIP,3,0.053,-0.173,0.278,0.154,0.024,59.7,0.647,Autophagy
+SLC25A5,3,0.053,-0.383,0.489,0.357,0.127,88.8,0.812,Mitochondrial biogenesis | Mitochondrial organization
+TIMM23,3,0.053,-0.195,0.301,0.181,0.033,68.2,0.675,Mitochondrial biogenesis | Mitochondrial organization
+SIRT4,3,0.053,-0.171,0.277,0.000,0.000,0.0,0.641,Mitochondrial organization
+TBK1,3,0.053,-0.267,0.374,0.253,0.064,80.0,0.744,Mitophagy | Autophagy
+NDUFA2,3,0.054,-0.420,0.528,0.393,0.155,88.4,0.824,Mitochondrial organization
+S100A8,3,0.054,-0.198,0.306,0.000,0.000,0.0,0.675,Autophagy
+POLDIP2,3,0.054,-0.112,0.220,0.097,0.009,43.8,0.523,Mitochondrial biogenesis | Mitochondrial organization
+RPS6KB2,3,0.054,-0.122,0.230,0.071,0.005,20.7,0.547,Autophagy
+TBC1D14,3,0.054,-0.076,0.184,0.000,0.000,0.0,0.414,Autophagy
+OMA1,3,0.055,-0.087,0.196,0.000,0.000,0.0,0.448,Mitochondrial organization
+YY2,3,0.055,-0.277,0.387,0.186,0.035,32.6,0.745,Mitochondrial biogenesis
+GABARAP,3,0.055,-0.327,0.437,0.318,0.101,88.8,0.777,Mitochondrial biogenesis | Mitophagy | Autophagy
+POP5,3,0.055,-0.261,0.372,0.231,0.053,68.8,0.733,Mitochondrial biogenesis
+STK11,3,0.055,-0.202,0.313,0.179,0.032,62.2,0.673,Autophagy
+ARFIP2,3,0.055,-0.173,0.284,0.152,0.023,57.0,0.634,Autophagy
+PSEN2,3,0.056,-0.100,0.212,0.051,0.003,13.0,0.482,Mitochondrial organization
+MT-ATP6,3,0.056,-0.361,0.474,0.334,0.112,83.2,0.792,Mitochondrial organization
+DNM1L,3,0.056,-0.075,0.188,0.000,0.000,0.0,0.403,Mitochondrial biogenesis | Mitochondrial organization
+NDUFA1,3,0.056,-0.335,0.447,0.312,0.097,83.1,0.778,Mitochondrial organization
+MRPL57,3,0.056,-0.227,0.340,0.220,0.048,77.7,0.697,Mitochondrial organization
+AFG3L2,3,0.056,-0.105,0.218,0.102,0.010,51.0,0.494,Mitochondrial organization
+RMC1,3,0.056,-0.132,0.245,0.111,0.012,43.9,0.558,Autophagy
+TECPR1,3,0.057,-0.105,0.219,0.000,0.000,0.0,0.490,Mitochondrial biogenesis | Autophagy
+MRPS24,2,0.057,-0.579,0.694,0.440,0.194,91.8,0.860,Mitochondrial organization
+TOMM22,3,0.058,-0.202,0.317,0.203,0.041,78.5,0.664,Mitochondrial biogenesis | Mitochondrial organization
+MRPL48,3,0.058,-0.251,0.366,0.226,0.051,69.3,0.714,Mitochondrial organization
+GCAT,3,0.058,-0.444,0.560,0.417,0.174,89.1,0.820,Mitochondrial organization
+SNN,3,0.058,-0.169,0.286,0.157,0.025,62.0,0.615,Mitochondrial organization
+TRIAP1,3,0.059,-0.339,0.456,0.310,0.096,79.6,0.772,Mitochondrial biogenesis
+MRPS28,3,0.059,-0.164,0.282,0.147,0.022,56.1,0.603,Mitochondrial organization
+MIEF2,3,0.059,-0.083,0.202,0.000,0.000,0.0,0.416,Mitochondrial biogenesis | Mitochondrial organization
+COASY,3,0.060,-0.252,0.372,0.239,0.057,76.0,0.707,Mitochondrial biogenesis | Mitochondrial organization
+NFU1,3,0.060,-0.257,0.377,0.249,0.062,79.2,0.712,Mitochondrial biogenesis
+TMEM74,3,0.060,-0.196,0.315,0.112,0.012,23.1,0.646,Autophagy
+MRPS33,3,0.060,-0.154,0.274,0.145,0.021,59.4,0.582,Mitochondrial organization
+RPS27A,3,0.060,-0.288,0.408,0.260,0.067,71.8,0.736,Mitochondrial organization | Mitophagy
+USP30,3,0.060,-0.094,0.215,0.000,0.000,0.0,0.444,Mitochondrial organization | Mitophagy
+SMIM4,3,0.061,-0.242,0.364,0.207,0.043,60.3,0.695,Mitochondrial organization
+ISCA2,3,0.061,-0.324,0.446,0.313,0.098,85.4,0.757,Mitochondrial biogenesis
+PIP4K2B,3,0.061,-0.070,0.193,0.057,0.003,23.6,0.362,Autophagy
+GRSF1,3,0.061,-0.140,0.263,0.140,0.020,64.5,0.552,Mitochondrial biogenesis
+USP33,3,0.062,-0.075,0.198,0.000,0.000,0.0,0.376,Autophagy
+SIL1,2,0.062,-0.124,0.248,0.000,0.000,0.0,0.515,Mitochondrial biogenesis
+NDUFB9,3,0.062,-0.283,0.407,0.282,0.079,86.0,0.725,Mitochondrial organization
+USP15,3,0.062,-0.374,0.498,0.364,0.132,89.5,0.780,Mitophagy
+COX6A2,3,0.062,-0.562,0.686,0.477,0.227,83.8,0.845,Mitochondrial organization
+NNT,3,0.062,-0.158,0.283,0.157,0.025,67.8,0.580,Mitochondrial organization
+UQCC2,3,0.062,-0.393,0.518,0.379,0.143,88.6,0.788,Mitochondrial biogenesis | Mitochondrial organization
+COX7C,3,0.063,-0.386,0.511,0.357,0.127,81.5,0.784,Mitochondrial organization
+MSTO1,2,0.063,-0.135,0.260,0.000,0.000,0.0,0.534,Mitochondrial organization
+HSD17B10,3,0.063,-0.249,0.375,0.240,0.057,75.5,0.693,Mitochondrial biogenesis | Mitochondrial organization
+MTFR1L,3,0.063,-0.227,0.352,0.223,0.050,77.4,0.670,Mitochondrial organization
+MRPS11,3,0.063,-0.194,0.320,0.177,0.031,61.3,0.630,Mitochondrial organization
+PPARGC1B,3,0.064,-0.085,0.212,0.044,0.002,10.9,0.402,Mitochondrial biogenesis
+TMEM59,3,0.064,-0.054,0.182,0.000,0.000,0.0,0.286,Autophagy
+MRPL41,3,0.064,-0.454,0.583,0.428,0.183,87.8,0.808,Mitochondrial organization
+PRKN,3,0.065,-0.309,0.438,0.286,0.082,76.7,0.735,Mitochondrial biogenesis | Mitochondrial organization | Mitophagy | Autophagy
+ATP5PB,3,0.065,-0.221,0.350,0.222,0.049,78.8,0.657,Mitochondrial organization
+ATF2,3,0.065,-0.097,0.227,0.078,0.006,29.3,0.431,Mitochondrial organization
+ACER2,3,0.065,-0.143,0.273,0.000,0.000,0.0,0.540,Autophagy
+MCUR1,3,0.065,-0.217,0.348,0.213,0.045,72.7,0.650,Mitochondrial biogenesis | Mitochondrial organization
+VPS16,2,0.066,-0.094,0.225,0.000,0.000,0.0,0.419,Autophagy
+YARS2,3,0.067,-0.126,0.259,0.098,0.010,33.3,0.497,Mitochondrial biogenesis
+PDPK1,3,0.068,-0.297,0.432,0.267,0.071,69.0,0.716,Autophagy
+GLRX5,3,0.069,-0.300,0.438,0.298,0.089,83.5,0.715,Mitochondrial biogenesis
+RRAS,3,0.069,-0.124,0.261,0.000,0.000,0.0,0.484,Mitophagy | Autophagy
+COQ10A,3,0.069,-0.322,0.460,0.309,0.095,83.1,0.730,Mitochondrial organization
+ABCB7,3,0.069,-0.400,0.539,0.393,0.154,90.1,0.773,Mitochondrial organization
+MTX2,3,0.069,-0.243,0.381,0.247,0.061,80.5,0.663,Mitochondrial biogenesis | Mitochondrial organization
+TMEM208,3,0.069,-0.260,0.399,0.252,0.064,75.7,0.680,Autophagy
+COX5A,3,0.070,-0.382,0.522,0.379,0.143,90.0,0.761,Mitochondrial organization
+ARG1,3,0.070,-0.154,0.294,0.000,0.000,0.0,0.538,Mitochondrial organization
+TAFAZZIN,3,0.070,-0.448,0.589,0.440,0.193,92.4,0.790,Mitochondrial organization
+TFB2M,3,0.071,-0.224,0.366,0.221,0.049,72.3,0.638,Mitochondrial biogenesis
+PTCD1,3,0.071,-0.558,0.701,0.518,0.268,86.8,0.825,Mitochondrial biogenesis
+STOML2,3,0.071,-0.211,0.354,0.216,0.047,74.8,0.621,Mitochondrial organization
+ACACB,3,0.072,-0.051,0.194,0.000,0.000,0.0,0.252,Mitochondrial organization
+MRPL39,3,0.072,-0.180,0.323,0.178,0.032,64.6,0.577,Mitochondrial organization
+UQCR11,3,0.072,-0.417,0.562,0.416,0.173,92.6,0.772,Mitochondrial organization
+NDUFA10,3,0.072,-0.136,0.281,0.146,0.021,64.2,0.496,Mitochondrial organization
+VPS18,3,0.072,-0.221,0.366,0.220,0.049,73.6,0.628,Autophagy
+DNAJC19,3,0.073,-0.339,0.484,0.342,0.117,88.5,0.730,Mitochondrial biogenesis | Mitochondrial organization
+TFB1M,3,0.073,-0.078,0.223,0.000,0.000,0.0,0.345,Mitochondrial biogenesis
+TFCP2,3,0.073,-0.060,0.206,0.000,0.000,0.0,0.284,Mitochondrial organization
+CLN3,3,0.073,-0.291,0.437,0.291,0.085,81.9,0.694,Autophagy
+TMEM135,3,0.073,-0.380,0.526,0.367,0.135,85.3,0.751,Mitochondrial organization
+ISCA1,3,0.073,-0.144,0.291,0.158,0.025,67.5,0.509,Mitochondrial biogenesis
+NDUFB6,3,0.073,-0.307,0.453,0.310,0.096,85.3,0.705,Mitochondrial organization
+NDUFB3,3,0.073,-0.463,0.610,0.456,0.208,93.1,0.789,Mitochondrial organization
+SLC25A42,3,0.074,-0.074,0.222,0.000,0.000,0.0,0.328,Mitochondrial organization
+MTFR2,3,0.074,-0.780,0.928,0.662,0.439,80.1,0.865,Mitochondrial organization
+TTC19,3,0.074,-0.042,0.191,0.000,0.000,0.0,0.211,Mitochondrial biogenesis | Mitochondrial organization
+MGARP,3,0.075,-1.292,1.441,1.096,1.200,84.5,0.915,Mitochondrial organization
+YME1L1,3,0.075,-0.050,0.199,0.048,0.002,19.0,0.239,Mitochondrial organization
+SLC25A13,3,0.075,-0.065,0.215,0.000,0.000,0.0,0.294,Mitochondrial organization
+ATP5MC3,3,0.075,-0.491,0.641,0.484,0.234,94.0,0.795,Mitochondrial organization
+MRPS18C,3,0.075,-0.372,0.522,0.372,0.138,88.8,0.742,Mitochondrial organization
+TOMM20,3,0.075,-0.216,0.366,0.220,0.048,76.3,0.614,Mitochondrial biogenesis | Mitochondrial organization
+NDUFA3,3,0.075,-0.121,0.271,0.045,0.002,4.9,0.454,Mitochondrial organization
+WASF1,3,0.075,-0.090,0.240,0.000,0.000,0.0,0.373,Mitochondrial organization
+HAX1,3,0.075,-0.262,0.412,0.271,0.073,82.9,0.662,Mitochondrial organization
+ATP5PO,3,0.076,-0.353,0.504,0.355,0.126,88.8,0.730,Mitochondrial organization
+CHCHD1,3,0.076,-0.225,0.376,0.217,0.047,66.8,0.622,Mitochondrial organization
+POLG,3,0.076,-0.212,0.364,0.195,0.038,59.2,0.606,Mitochondrial biogenesis
+MTMR3,3,0.076,-0.091,0.243,0.000,0.000,0.0,0.372,Autophagy
+TOMM7,2,0.077,-0.561,0.714,0.426,0.181,85.4,0.814,Mitochondrial biogenesis | Mitochondrial organization | Mitophagy
+HCFC2,3,0.077,-0.070,0.225,0.036,0.001,6.5,0.303,Mitochondrial biogenesis
+NDUFA8,3,0.078,-0.338,0.493,0.347,0.121,89.9,0.714,Mitochondrial organization
+GPR137B,3,0.078,-0.076,0.232,0.000,0.000,0.0,0.322,Autophagy
+RETREG2,3,0.078,-0.174,0.330,0.168,0.028,56.5,0.545,Autophagy
+CLTC,3,0.078,-0.034,0.190,0.000,0.000,0.0,0.171,Autophagy
+VPS39,3,0.078,-0.032,0.188,0.000,0.000,0.0,0.163,Autophagy
+ATG4B,3,0.078,-0.099,0.255,0.096,0.009,36.8,0.386,Mitochondrial biogenesis | Autophagy
+MAP3K7,3,0.078,-0.044,0.200,0.000,0.000,0.0,0.208,Autophagy
+IRS2,3,0.079,-0.321,0.478,0.323,0.104,84.2,0.700,Autophagy
+MYO5C,3,0.079,-0.089,0.246,0.000,0.000,0.0,0.358,Mitochondrial biogenesis
+SLC25A27,3,0.079,-0.288,0.446,0.254,0.065,61.8,0.673,Mitochondrial organization
+MRPL2,3,0.079,-0.285,0.443,0.292,0.085,82.5,0.670,Mitochondrial organization
+SLC25A28,3,0.080,-0.398,0.557,0.391,0.152,86.2,0.743,Mitochondrial biogenesis | Mitochondrial organization
+TM9SF1,3,0.080,-0.115,0.275,0.000,0.000,0.0,0.421,Autophagy
+EDNRA,3,0.081,-0.884,1.045,0.842,0.709,97.8,0.870,Mitochondrial organization
+CISD1,3,0.081,-0.301,0.464,0.314,0.099,87.4,0.676,Mitochondrial organization | Autophagy
+PI4KB,3,0.082,-0.084,0.247,0.090,0.008,37.6,0.333,Mitochondrial organization
+DELE1,3,0.082,-0.186,0.350,0.209,0.044,78.3,0.549,Mitochondrial organization
+AGK,3,0.082,-0.051,0.216,0.000,0.000,0.0,0.228,Mitochondrial organization
+CITED2,3,0.082,-0.262,0.426,0.275,0.076,82.0,0.640,Mitophagy
+TLK2,3,0.082,-0.029,0.193,0.000,0.000,0.0,0.146,Autophagy
+COQ6,3,0.083,-0.241,0.406,0.259,0.067,82.0,0.617,Mitochondrial organization
+DUSP18,3,0.083,-0.105,0.270,0.000,0.000,0.0,0.387,Mitochondrial organization
+SEC16A,3,0.083,-0.245,0.412,0.260,0.068,81.6,0.619,Autophagy
+TP53INP1,3,0.083,-0.115,0.282,0.109,0.012,38.2,0.411,Autophagy
+STX17,3,0.084,-0.065,0.233,0.000,0.000,0.0,0.269,Autophagy
+VHL,3,0.084,-0.189,0.358,0.191,0.036,62.5,0.547,Autophagy
+ETFDH,3,0.084,-0.267,0.436,0.288,0.083,87.6,0.638,Mitochondrial organization
+TMEM39A,3,0.085,-0.146,0.315,0.139,0.019,47.0,0.472,Autophagy
+UQCRFS1,3,0.085,-0.377,0.547,0.382,0.146,88.1,0.718,Mitochondrial organization
+CDC37,3,0.086,-0.166,0.338,0.186,0.035,70.0,0.504,Mitochondrial biogenesis
+MICU1,3,0.086,-0.169,0.341,0.201,0.040,79.8,0.508,Mitochondrial biogenesis | Mitochondrial organization
+GK2,2,0.086,-0.168,0.340,0.000,0.000,0.0,0.506,Mitochondrial organization
+RAB33B,3,0.087,-0.288,0.461,0.310,0.096,88.2,0.651,Autophagy
+RARS2,3,0.087,-0.066,0.239,0.090,0.008,44.8,0.265,Mitochondrial biogenesis
+PRODH2,2,0.087,-0.135,0.309,0.000,0.000,0.0,0.443,Mitochondrial organization
+LARS1,3,0.087,-0.353,0.527,0.374,0.140,92.8,0.698,Mitochondrial biogenesis
+RAB38,3,0.087,-0.613,0.787,0.481,0.232,59.5,0.807,Mitochondrial organization
+PIK3CB,3,0.087,-0.042,0.216,0.000,0.000,0.0,0.184,Autophagy
+CYB5R3,3,0.088,-0.049,0.224,0.000,0.000,0.0,0.208,Mitochondrial organization
+DNAJC11,3,0.088,-0.076,0.252,0.105,0.011,52.3,0.293,Mitochondrial organization
+FAM210B,3,0.089,-0.062,0.240,0.000,0.000,0.0,0.250,Mitochondrial organization
+VPS4B,3,0.089,-0.170,0.348,0.199,0.040,76.1,0.501,Autophagy
+MRPL52,3,0.089,-0.294,0.472,0.307,0.094,82.2,0.649,Mitochondrial organization
+STARD7,3,0.089,-0.100,0.279,0.137,0.019,67.7,0.355,Mitochondrial organization
+TIMMDC1,3,0.090,-0.235,0.414,0.268,0.072,87.5,0.589,Mitochondrial biogenesis | Mitochondrial organization
+RAB7B,3,0.090,-0.350,0.530,0.261,0.068,40.1,0.689,Mitophagy | Autophagy
+PYCARD,3,0.090,-0.846,1.026,0.644,0.414,62.6,0.850,Autophagy
+ABCB10,3,0.090,-0.109,0.289,0.116,0.014,43.3,0.374,Mitochondrial organization
+SIRT5,3,0.091,-0.102,0.283,0.117,0.014,47.8,0.355,Mitochondrial organization
+DDHD2,3,0.091,-0.116,0.299,0.119,0.014,41.7,0.388,Mitochondrial organization
+NAA25,3,0.092,-0.288,0.472,0.301,0.090,81.2,0.635,Mitochondrial biogenesis
+LGALS8,3,0.092,-0.195,0.379,0.221,0.049,76.3,0.530,Autophagy
+MTFP1,3,0.093,-0.629,0.814,0.572,0.327,89.3,0.802,Mitochondrial biogenesis | Mitochondrial organization
+GARS1,3,0.093,-0.829,1.014,0.807,0.651,98.3,0.844,Mitochondrial biogenesis
+NDUFB8,3,0.093,-0.327,0.512,0.346,0.120,87.8,0.665,Mitochondrial organization
+ATP5MJ,3,0.093,-0.341,0.527,0.362,0.131,89.6,0.673,Mitochondrial biogenesis | Mitochondrial organization
+TIMM44,3,0.093,-0.365,0.552,0.376,0.141,87.2,0.690,Mitochondrial biogenesis | Mitochondrial organization
+RAB24,3,0.095,-0.317,0.506,0.316,0.100,77.7,0.652,Autophagy
+PDIK1L,3,0.095,-0.102,0.291,0.000,0.000,0.0,0.345,Autophagy
+SLC25A14,3,0.095,-0.072,0.261,0.000,0.000,0.0,0.266,Mitochondrial organization
+SERAC1,3,0.095,-0.177,0.367,0.209,0.044,76.0,0.494,Mitochondrial biogenesis
+HSP90AB1,3,0.096,-0.105,0.297,0.151,0.023,73.9,0.351,Mitochondrial biogenesis
+GABARAPL1,3,0.096,-0.075,0.266,0.000,0.000,0.0,0.271,Mitochondrial biogenesis | Mitophagy | Autophagy
+SLC25A18,3,0.096,-0.172,0.363,0.000,0.000,0.0,0.482,Mitochondrial organization
+OSBPL7,3,0.096,-0.478,0.670,0.467,0.218,86.0,0.743,Autophagy
+DMAC1,3,0.098,-0.245,0.441,0.271,0.073,81.4,0.576,Mitochondrial organization
+MTPAP,3,0.098,-0.148,0.344,0.176,0.031,65.9,0.435,Mitochondrial biogenesis
+BECN1,3,0.098,-0.138,0.334,0.178,0.032,73.0,0.416,Mitochondrial biogenesis | Mitophagy | Autophagy
+DAP3,3,0.099,-0.155,0.354,0.198,0.039,77.9,0.444,Mitochondrial biogenesis | Mitochondrial organization
+NDUFS3,3,0.099,-0.317,0.516,0.343,0.117,86.9,0.640,Mitochondrial organization
+ROCK1,3,0.100,-0.121,0.320,0.159,0.025,67.1,0.375,Autophagy
+NDUFB7,3,0.100,-0.334,0.534,0.357,0.128,87.2,0.652,Mitochondrial organization
+FOXO3,2,0.100,-0.262,0.462,0.231,0.053,77.8,0.588,Mitochondrial organization | Mitophagy
+VPS13A,3,0.100,-0.129,0.330,0.165,0.027,66.2,0.391,Mitochondrial organization | Autophagy
+CDS2,3,0.101,-0.131,0.332,0.174,0.030,72.5,0.394,Mitochondrial organization
+IMMP2L,3,0.101,-0.099,0.301,0.000,0.000,0.0,0.323,Mitochondrial biogenesis | Mitochondrial organization
+TIMM8B,3,0.101,-0.262,0.464,0.298,0.089,86.5,0.586,Mitochondrial biogenesis | Mitochondrial organization
+CPT2,3,0.101,-0.252,0.455,0.282,0.079,82.9,0.575,Mitochondrial organization
+COX6B1,3,0.101,-0.391,0.594,0.409,0.168,89.4,0.687,Mitochondrial organization
+PEX5,3,0.101,-0.142,0.345,0.170,0.029,63.1,0.414,Mitochondrial organization
+UBB,3,0.102,-0.198,0.402,0.234,0.055,78.2,0.507,Mitochondrial organization | Mitophagy
+EXD2,3,0.102,-0.177,0.380,0.214,0.046,76.8,0.474,Mitochondrial organization
+MT1X,3,0.102,-0.908,1.111,0.845,0.714,91.3,0.843,Mitochondrial biogenesis
+UQCRH,3,0.102,-0.506,0.710,0.521,0.272,94.0,0.743,Mitochondrial organization
+RAB11FIP5,3,0.102,-0.049,0.254,0.000,0.000,0.0,0.186,Mitochondrial organization
+PUM2,3,0.102,-0.023,0.228,0.000,0.000,0.0,0.110,Mitochondrial organization
+ABCB8,3,0.103,-0.057,0.263,0.029,0.001,3.7,0.209,Mitochondrial organization
+MTM1,3,0.103,-0.131,0.336,0.136,0.018,42.7,0.389,Mitochondrial organization
+VDAC1,3,0.103,-0.331,0.536,0.361,0.131,90.3,0.642,Mitochondrial biogenesis | Mitochondrial organization
+WDR45,3,0.103,-0.079,0.285,0.000,0.000,0.0,0.267,Mitophagy | Autophagy
+UVRAG,3,0.103,-0.125,0.331,0.145,0.021,52.1,0.375,Autophagy
+BAX,3,0.103,-0.146,0.353,0.000,0.000,0.0,0.417,Mitochondrial biogenesis | Mitochondrial organization
+COX6A1,3,0.103,-0.450,0.656,0.457,0.208,87.6,0.714,Mitochondrial organization
+DDIT4,3,0.103,-0.530,0.737,0.510,0.260,90.3,0.749,Autophagy
+ATG3,3,0.104,-0.234,0.442,0.270,0.073,83.3,0.548,Mitochondrial biogenesis | Mitophagy | Autophagy
+ATP5MG,3,0.104,-0.476,0.684,0.488,0.239,91.0,0.724,Mitochondrial organization
+PRDX3,3,0.104,-0.192,0.401,0.242,0.058,85.5,0.490,Mitochondrial organization
+ATP5PD,3,0.104,-0.301,0.510,0.340,0.116,90.2,0.614,Mitochondrial organization
+MTCH2,3,0.105,-0.230,0.440,0.274,0.075,87.0,0.539,Mitochondrial biogenesis | Mitochondrial organization
+NDUFS7,3,0.105,-0.435,0.645,0.459,0.210,92.6,0.703,Mitochondrial organization
+HSP90AA1,3,0.105,-0.010,0.221,0.000,0.000,0.0,0.074,Mitochondrial biogenesis
+MRPS25,3,0.105,-0.190,0.401,0.235,0.055,81.5,0.485,Mitochondrial organization
+MRPL15,3,0.106,-0.256,0.467,0.297,0.088,86.5,0.567,Mitochondrial organization
+MICU2,3,0.106,-0.012,0.224,0.000,0.000,0.0,0.079,Mitochondrial biogenesis | Mitochondrial organization
+MCL1,3,0.106,-0.089,0.302,0.126,0.016,53.3,0.287,Mitochondrial organization | Autophagy
+NDUFV1,3,0.107,-0.418,0.631,0.441,0.194,91.2,0.690,Mitochondrial organization
+CTSB,3,0.108,-0.248,0.463,0.286,0.082,84.9,0.553,Autophagy
+MSS51,3,0.109,-0.355,0.572,0.381,0.145,87.2,0.646,Mitochondrial biogenesis
+ATPAF2,3,0.109,-0.123,0.340,0.159,0.025,60.9,0.356,Mitochondrial biogenesis
+RNF166,3,0.109,-0.179,0.397,0.192,0.037,57.1,0.459,Autophagy
+MIEF1,3,0.110,-0.077,0.297,0.114,0.013,47.7,0.250,Mitochondrial biogenesis | Mitochondrial organization
+STK35,3,0.110,-0.111,0.331,0.150,0.023,59.4,0.330,Autophagy
+CHMP1B,3,0.110,-0.033,0.252,0.050,0.002,14.8,0.131,Autophagy
+FGR,2,0.110,-0.083,0.303,0.000,0.000,0.0,0.263,Mitochondrial organization
+COQ5,3,0.110,-0.242,0.462,0.284,0.080,83.9,0.541,Mitochondrial organization
+MRPL10,3,0.110,-0.231,0.451,0.266,0.071,78.1,0.527,Mitochondrial organization
+COX7B,3,0.111,-0.391,0.612,0.420,0.176,90.4,0.665,Mitochondrial organization
+VDAC2,3,0.111,-0.282,0.504,0.327,0.107,90.0,0.581,Mitochondrial biogenesis | Mitochondrial organization
+DRAM1,3,0.111,-0.411,0.633,0.406,0.165,79.4,0.678,Autophagy
+RMND1,3,0.111,-0.182,0.404,0.232,0.054,80.3,0.458,Mitochondrial biogenesis
+MRPS36,3,0.112,-0.424,0.648,0.450,0.203,90.4,0.682,Mitochondrial organization
+ATG2B,3,0.112,-0.034,0.258,0.000,0.000,0.0,0.131,Mitochondrial biogenesis | Mitophagy | Autophagy
+SLC9B2,3,0.113,-0.338,0.565,0.373,0.139,89.0,0.623,Mitochondrial organization
+PIK3C3,3,0.113,-0.088,0.315,0.142,0.020,63.7,0.270,Autophagy
+NDUFB5,3,0.114,-0.233,0.460,0.275,0.075,81.5,0.520,Mitochondrial organization
+EIF2S1,3,0.114,-0.024,0.252,0.051,0.003,16.5,0.106,Autophagy
+PSEN1,3,0.114,-0.109,0.337,0.163,0.027,68.6,0.316,Mitochondrial organization | Autophagy
+IGBP1,3,0.114,-0.289,0.518,0.311,0.096,78.1,0.578,Autophagy
+NDUFAF5,3,0.114,-0.264,0.493,0.309,0.095,86.2,0.554,Mitochondrial biogenesis | Mitochondrial organization
+TIMM21,3,0.115,-0.271,0.500,0.315,0.099,86.7,0.560,Mitochondrial biogenesis | Mitochondrial organization
+CKMT1B,3,0.115,-0.535,0.764,0.455,0.207,63.2,0.729,Mitochondrial organization
+MTX1,3,0.115,-0.165,0.395,0.177,0.031,51.2,0.421,Mitochondrial biogenesis | Mitochondrial organization
+HADHA,3,0.115,-0.169,0.400,0.234,0.055,87.2,0.427,Mitochondrial organization
+TOMM20L,3,0.116,-0.185,0.416,0.000,0.000,0.0,0.450,Mitochondrial biogenesis | Mitochondrial organization
+DNAJA2,3,0.116,-0.017,0.248,0.059,0.003,24.8,0.087,Mitochondrial biogenesis
+MTX3,3,0.116,-0.102,0.335,0.150,0.023,60.8,0.298,Mitochondrial biogenesis | Mitochondrial organization
+COX15,3,0.117,-0.076,0.309,0.123,0.015,52.7,0.234,Mitochondrial biogenesis | Mitochondrial organization
+VTI1A,3,0.117,-0.198,0.432,0.240,0.058,74.3,0.467,Autophagy
+KDM4A,3,0.117,-0.019,0.253,0.000,0.000,0.0,0.093,Autophagy
+CIBAR1,3,0.117,-0.040,0.274,0.017,0.000,1.3,0.145,Mitochondrial organization
+STAT3,3,0.117,-0.020,0.254,0.000,0.000,0.0,0.093,Autophagy
+CHCHD4,3,0.117,-0.229,0.463,0.274,0.075,81.2,0.506,Mitochondrial biogenesis
+KAT8,3,0.118,-0.133,0.370,0.193,0.037,75.8,0.356,Autophagy
+TBC1D5,3,0.118,-0.009,0.246,0.000,0.000,0.0,0.068,Autophagy
+TMEM186,3,0.119,-0.256,0.495,0.297,0.088,80.5,0.533,Mitochondrial organization
+MRPL47,3,0.120,-0.416,0.656,0.456,0.208,92.7,0.661,Mitochondrial organization
+HMGCL,3,0.120,-0.151,0.391,0.200,0.040,69.8,0.386,Mitochondrial organization
+ATG4C,3,0.120,-0.317,0.558,0.353,0.124,84.9,0.590,Mitochondrial biogenesis | Autophagy
+RPP25,3,0.120,-0.688,0.929,0.659,0.434,88.7,0.771,Mitochondrial biogenesis
+SLC25A33,3,0.121,-0.283,0.525,0.312,0.098,76.7,0.558,Mitochondrial organization
+COQ3,3,0.121,-0.485,0.727,0.507,0.257,90.1,0.695,Mitochondrial organization
+DCAF12,3,0.121,-0.002,0.244,0.000,0.000,0.0,0.053,Autophagy
+COA5,3,0.124,-0.014,0.262,0.000,0.000,0.0,0.079,Mitochondrial biogenesis
+VPS33A,3,0.124,0.007,0.241,0.000,0.000,0.0,0.037,Autophagy
+COX18,3,0.124,-0.170,0.419,0.228,0.052,76.8,0.409,Mitochondrial biogenesis | Mitochondrial organization
+ERCC4,3,0.125,-0.143,0.393,0.197,0.039,69.6,0.362,Autophagy
+SMIM20,3,0.125,-0.138,0.388,0.179,0.032,60.4,0.351,Mitochondrial organization
+SLC41A3,3,0.125,-0.244,0.495,0.292,0.085,80.6,0.506,Mitochondrial organization
+MFSD8,3,0.126,-0.015,0.267,0.000,0.000,0.0,0.080,Autophagy
+TRMT10C,3,0.126,-0.141,0.393,0.204,0.041,74.6,0.355,Mitochondrial biogenesis
+HSPD1,3,0.126,-0.144,0.396,0.212,0.045,82.0,0.360,Mitochondrial biogenesis | Mitochondrial organization
+SLC25A20,3,0.126,-0.020,0.273,0.000,0.000,0.0,0.092,Mitochondrial organization
+ERAL1,3,0.127,-0.113,0.366,0.173,0.030,67.0,0.300,Mitochondrial biogenesis | Mitochondrial organization
+MRPL18,3,0.127,-0.330,0.583,0.381,0.145,89.8,0.586,Mitochondrial organization
+MT-ND5,3,0.127,-0.255,0.509,0.307,0.094,86.5,0.515,Mitochondrial organization
+MT-CYB,3,0.127,-0.329,0.583,0.377,0.142,87.8,0.585,Mitochondrial organization
+CALCOCO2,3,0.127,-0.045,0.300,0.088,0.008,33.1,0.149,Mitochondrial biogenesis | Mitophagy | Autophagy
+DHODH,3,0.128,-0.068,0.323,0.106,0.011,36.6,0.202,Mitochondrial organization
+MAP2K5,3,0.128,-0.011,0.266,0.000,0.000,0.0,0.070,Autophagy
+MYO5B,3,0.128,-0.266,0.522,0.209,0.044,32.9,0.524,Mitochondrial biogenesis
+MT-CO2,3,0.130,-0.506,0.765,0.543,0.295,93.9,0.689,Mitochondrial organization
+MT-ND4,3,0.130,-0.321,0.581,0.373,0.139,89.7,0.572,Mitochondrial organization
+RAB32,3,0.130,-0.767,1.028,0.769,0.592,94.9,0.776,Mitochondrial organization
+SLC25A38,3,0.130,-0.171,0.432,0.236,0.056,78.7,0.397,Mitochondrial organization
+MRAS,3,0.131,-0.105,0.367,0.162,0.026,60.6,0.275,Mitophagy | Autophagy
+COX4I1,3,0.132,-0.366,0.629,0.421,0.177,92.5,0.603,Mitochondrial organization
+MTERF3,3,0.132,-0.271,0.535,0.331,0.110,86.7,0.521,Mitochondrial biogenesis | Mitochondrial organization
+COX17,2,0.132,-0.615,0.878,0.516,0.266,91.6,0.729,Mitochondrial biogenesis
+PPP2CA,3,0.132,0.022,0.243,0.029,0.001,8.6,0.019,Autophagy
+AFG1L,3,0.132,-0.049,0.313,0.000,0.000,0.0,0.152,Mitochondrial biogenesis | Mitochondrial organization
+MT-ND4L,3,0.132,-0.246,0.511,0.313,0.098,88.5,0.493,Mitochondrial organization
+COX8A,3,0.133,-0.375,0.640,0.424,0.180,89.8,0.609,Mitochondrial organization
+L2HGDH,3,0.133,-0.168,0.433,0.240,0.057,81.7,0.386,Mitochondrial organization
+VDAC3,3,0.133,-0.367,0.633,0.431,0.186,95.2,0.603,Mitochondrial biogenesis | Mitochondrial organization
+SYNJ2BP,2,0.134,-0.009,0.276,0.000,0.000,0.0,0.067,Mitochondrial organization
+ATP5F1E,3,0.134,-0.384,0.652,0.441,0.195,93.0,0.612,Mitochondrial organization
+MAPK10,2,0.135,-0.111,0.380,0.095,0.009,27.4,0.283,Mitophagy | Autophagy
+LAMP1,3,0.135,-0.218,0.488,0.288,0.083,85.8,0.454,Autophagy
+MTHFD2L,3,0.135,-0.119,0.389,0.181,0.033,66.9,0.298,Mitochondrial organization
+XIAP,3,0.135,-0.172,0.442,0.237,0.056,77.4,0.388,Mitochondrial biogenesis
+DMD,3,0.135,-0.127,0.397,0.198,0.039,75.5,0.311,Mitochondrial organization
+MARCHF5,3,0.136,-0.083,0.355,0.149,0.022,59.8,0.224,Mitochondrial organization
+C11orf65,3,0.136,-0.134,0.406,0.108,0.012,12.1,0.324,Mitochondrial organization
+CYCS,3,0.137,-0.218,0.491,0.290,0.084,87.5,0.450,Mitochondrial organization
+RPP38,3,0.137,-0.040,0.313,0.068,0.005,17.8,0.128,Mitochondrial biogenesis
+MAIP1,3,0.137,-0.085,0.359,0.135,0.018,47.3,0.226,Mitochondrial organization
+HAP1,3,0.137,-0.177,0.451,0.159,0.025,23.9,0.393,Autophagy
+GFM1,3,0.138,-0.126,0.402,0.196,0.038,71.1,0.307,Mitochondrial biogenesis
+PMPCA,3,0.138,-0.058,0.333,0.132,0.017,58.3,0.167,Mitochondrial biogenesis | Mitochondrial organization
+PRKCD,3,0.138,-0.451,0.727,0.460,0.212,79.8,0.646,Autophagy
+SDHB,3,0.138,-0.384,0.660,0.450,0.202,95.0,0.604,Mitochondrial organization
+BMF,3,0.139,-0.333,0.612,0.388,0.151,87.6,0.564,Mitochondrial organization | Autophagy
+MT2A,3,0.140,-1.051,1.332,1.004,1.007,92.7,0.818,Mitochondrial biogenesis
+HIGD1A,3,0.141,-0.034,0.315,0.109,0.012,49.7,0.115,Mitochondrial organization
+MRS2,3,0.141,-0.048,0.329,0.129,0.017,60.7,0.143,Mitochondrial organization
+TUFM,3,0.141,-0.317,0.598,0.386,0.149,91.0,0.547,Mitochondrial biogenesis | Mitochondrial organization
+TAB3,3,0.141,-0.093,0.375,0.166,0.028,64.7,0.238,Autophagy
+DIABLO,3,0.141,-0.219,0.501,0.294,0.087,85.8,0.443,Mitochondrial biogenesis
+GFER,3,0.142,-0.130,0.413,0.178,0.032,55.4,0.307,Mitochondrial biogenesis
+FEZ1,3,0.142,-0.203,0.487,0.218,0.047,58.5,0.420,Mitochondrial organization
+TMEM126A,3,0.142,-0.215,0.499,0.289,0.083,84.4,0.435,Mitochondrial biogenesis | Mitochondrial organization
+SBF2,3,0.143,-0.053,0.338,0.131,0.017,57.7,0.153,Autophagy
+RPP40,3,0.143,-0.086,0.372,0.000,0.000,0.0,0.220,Mitochondrial biogenesis
+ATP5PF,3,0.143,-0.316,0.602,0.386,0.149,91.0,0.541,Mitochondrial organization
+LDHB,3,0.144,-0.335,0.624,0.406,0.165,92.8,0.556,Mitochondrial organization
+MRPL35,3,0.144,0.009,0.280,0.000,0.000,0.0,0.037,Mitochondrial organization
+CYP11B1,2,0.145,-0.126,0.416,0.000,0.000,0.0,0.295,Mitochondrial organization
+SLC25A52,3,0.145,-0.271,0.562,0.000,0.000,0.0,0.494,Mitochondrial organization
+ZNFX1,3,0.145,-0.276,0.567,0.354,0.126,90.6,0.499,Mitochondrial organization
+SFXN3,3,0.146,-0.109,0.400,0.136,0.018,36.2,0.263,Mitochondrial biogenesis | Mitochondrial organization
+IFI6,3,0.146,-0.127,0.419,0.189,0.036,61.5,0.294,Mitochondrial organization
+BNIP3,3,0.146,-0.291,0.583,0.313,0.098,84.3,0.512,Mitochondrial organization | Mitophagy | Autophagy
+CHMP5,3,0.148,-0.115,0.411,0.199,0.039,73.3,0.270,Autophagy
+NDUFAF4,3,0.148,-0.298,0.594,0.366,0.134,86.3,0.515,Mitochondrial biogenesis | Mitochondrial organization
+HADHB,3,0.149,-0.258,0.555,0.342,0.117,92.0,0.474,Mitochondrial organization
+MTIF3,3,0.149,-0.057,0.356,0.138,0.019,57.9,0.157,Mitochondrial biogenesis
+SESN2,3,0.149,-0.455,0.754,0.488,0.238,86.3,0.628,Mitochondrial organization
+MT-CO3,3,0.150,-0.357,0.656,0.418,0.175,89.0,0.563,Mitochondrial organization
+ALAS1,3,0.150,-0.248,0.548,0.332,0.110,89.4,0.459,Mitochondrial organization
+ATG16L1,3,0.151,-0.007,0.308,0.000,0.000,0.0,0.060,Mitochondrial biogenesis | Autophagy
+MRPS35,3,0.151,-0.134,0.437,0.231,0.053,84.2,0.300,Mitochondrial organization
+TRAF6,3,0.152,0.007,0.297,0.000,0.000,0.0,0.040,Autophagy
+NFS1,3,0.152,-0.128,0.432,0.188,0.035,58.0,0.286,Mitochondrial biogenesis
+NSUN3,3,0.152,0.008,0.297,0.000,0.000,0.0,0.039,Mitochondrial biogenesis
+GABARAPL2,3,0.153,-0.137,0.442,0.233,0.054,83.2,0.301,Mitochondrial biogenesis | Mitophagy | Autophagy
+TEFM,3,0.154,-0.175,0.483,0.246,0.060,72.0,0.359,Mitochondrial biogenesis
+MTMR9,3,0.154,-0.049,0.357,0.111,0.012,38.0,0.137,Autophagy
+MRPL37,3,0.154,-0.144,0.452,0.240,0.058,83.1,0.312,Mitochondrial biogenesis | Mitochondrial organization
+BCS1L,3,0.155,-0.155,0.464,0.238,0.057,76.1,0.327,Mitochondrial biogenesis | Mitochondrial organization
+CAMKMT,2,0.155,-0.155,0.464,0.000,0.000,0.0,0.327,Mitochondrial organization
+CCDC51,3,0.155,-0.109,0.418,0.186,0.035,64.3,0.249,Mitochondrial organization
+ATG9A,3,0.156,0.050,0.261,0.000,0.000,0.0,0.004,Mitochondrial biogenesis | Mitophagy | Autophagy
+RNF41,3,0.156,-0.504,0.816,0.571,0.326,96.1,0.643,Mitochondrial biogenesis | Autophagy
+CSNK2A2,3,0.156,0.001,0.311,0.081,0.007,34.6,0.048,Mitophagy
+HRAS,3,0.157,-0.022,0.336,0.000,0.000,0.0,0.086,Mitophagy | Autophagy
+ATPAF1,3,0.158,-0.028,0.344,0.120,0.014,53.4,0.095,Mitochondrial biogenesis
+IFI16,3,0.159,-0.069,0.387,0.128,0.016,39.6,0.173,Autophagy
+BNIP3L,3,0.159,-0.132,0.450,0.198,0.039,63.1,0.285,Mitochondrial biogenesis | Mitochondrial organization | Mitophagy
+TMEM14C,3,0.159,-0.271,0.589,0.356,0.127,88.0,0.469,Mitochondrial organization
+SLC25A46,3,0.159,0.041,0.276,0.000,0.000,0.0,0.008,Mitochondrial organization | Mitophagy
+EI24,3,0.159,-0.046,0.364,0.146,0.021,65.4,0.128,Autophagy
+BCL2L10,3,0.159,-0.765,1.083,0.468,0.219,11.5,0.736,Mitochondrial organization
+MTIF2,3,0.159,-0.173,0.492,0.267,0.071,83.8,0.348,Mitochondrial biogenesis
+SLC25A26,3,0.160,-0.169,0.488,0.257,0.066,79.1,0.342,Mitochondrial organization
+HINT2,3,0.160,-0.359,0.679,0.429,0.184,88.6,0.546,Mitochondrial organization
+DRD3,3,0.160,-0.045,0.365,0.000,0.000,0.0,0.126,Autophagy
+NDUFA11,3,0.161,-0.328,0.650,0.413,0.171,91.4,0.520,Mitochondrial organization
+CPT1A,3,0.161,-0.318,0.639,0.386,0.149,88.9,0.510,Mitochondrial biogenesis | Mitochondrial organization
+LAMP2,3,0.161,0.029,0.293,0.000,0.000,0.0,0.017,Autophagy
+ATG4A,3,0.161,-0.055,0.377,0.148,0.022,60.2,0.145,Mitochondrial biogenesis | Autophagy
+UBQLN1,3,0.161,0.052,0.271,0.000,0.000,0.0,0.004,Autophagy
+NFE2L2,3,0.161,-0.031,0.353,0.143,0.021,71.6,0.100,Mitochondrial biogenesis
+COA6,3,0.162,-0.216,0.539,0.294,0.087,78.4,0.402,Mitochondrial biogenesis
+COX14,3,0.162,-0.334,0.659,0.412,0.170,88.2,0.522,Mitochondrial biogenesis
+TRIB3,3,0.162,-1.155,1.479,1.131,1.280,95.8,0.809,Autophagy
+RAB8A,3,0.162,0.006,0.319,0.000,0.000,0.0,0.042,Autophagy
+SLC30A2,3,0.163,-0.055,0.380,0.065,0.004,9.0,0.143,Mitochondrial organization
+EPG5,3,0.163,0.022,0.303,0.000,0.000,0.0,0.023,Autophagy
+ACBD5,3,0.163,0.029,0.296,0.000,0.000,0.0,0.017,Autophagy
+CISD2,3,0.163,-0.139,0.465,0.231,0.053,75.0,0.291,Mitochondrial organization | Mitophagy | Autophagy
+COX5B,3,0.163,-0.362,0.688,0.440,0.193,90.5,0.542,Mitochondrial organization
+DHFR2,3,0.163,-0.225,0.552,0.292,0.086,73.4,0.410,Mitochondrial organization
+MT1H,3,0.164,-0.274,0.601,0.000,0.000,0.0,0.463,Mitochondrial biogenesis
+ATG12,3,0.164,-0.033,0.360,0.137,0.019,62.7,0.103,Mitochondrial biogenesis | Mitophagy | Autophagy
+MRPL58,3,0.164,-0.180,0.508,0.272,0.074,80.7,0.350,Mitochondrial organization
+MRPS6,2,0.164,-0.506,0.835,0.458,0.210,89.8,0.631,Mitochondrial biogenesis | Mitochondrial organization
+OPA1,3,0.165,-0.062,0.391,0.149,0.022,55.9,0.154,Mitochondrial biogenesis | Mitochondrial organization
+ACSL5,3,0.165,-0.243,0.572,0.155,0.024,11.1,0.428,Mitochondrial organization
+NGRN,3,0.165,-0.337,0.668,0.430,0.185,93.7,0.519,Mitochondrial biogenesis
+KMO,3,0.166,-0.214,0.546,0.000,0.000,0.0,0.393,Mitochondrial organization
+CLPX,3,0.167,0.047,0.287,0.000,0.000,0.0,0.006,Mitochondrial organization
+SDHA,2,0.167,-0.466,0.800,0.442,0.196,93.6,0.605,Mitochondrial organization
+FBXO7,3,0.167,0.026,0.308,0.078,0.006,39.3,0.020,Mitophagy
+EPM2A,3,0.167,-0.310,0.645,0.398,0.158,89.3,0.491,Mitochondrial organization | Autophagy
+SYT11,3,0.168,-0.095,0.430,0.149,0.022,41.2,0.212,Autophagy
+ITPR1,3,0.169,-0.660,0.998,0.715,0.511,95.7,0.690,Autophagy
+IMMT,3,0.169,-0.138,0.476,0.254,0.064,88.1,0.280,Mitochondrial biogenesis | Mitochondrial organization
+MAN2A1,3,0.170,-0.150,0.490,0.208,0.043,54.3,0.299,Mitochondrial organization
+HSPA1A,2,0.170,-0.008,0.348,0.000,0.000,0.0,0.061,Mitochondrial biogenesis
+ATAD1,3,0.170,-0.105,0.445,0.215,0.046,80.4,0.226,Mitochondrial organization
+PIGBOS1,3,0.170,-0.293,0.633,0.368,0.135,81.9,0.471,Mitochondrial organization
+COX11,3,0.171,-0.051,0.393,0.160,0.026,66.5,0.130,Mitochondrial biogenesis | Mitochondrial organization
+RETREG1,3,0.172,0.030,0.314,0.000,0.000,0.0,0.018,Autophagy
+QRSL1,3,0.172,-0.365,0.710,0.462,0.214,94.8,0.530,Mitochondrial biogenesis
+NHLRC1,3,0.173,-0.104,0.450,0.000,0.000,0.0,0.221,Autophagy
+PRKAA2,3,0.173,0.019,0.327,0.000,0.000,0.0,0.028,Mitochondrial biogenesis | Autophagy
+POLG2,3,0.173,-0.223,0.569,0.318,0.101,82.8,0.391,Mitochondrial biogenesis | Mitochondrial organization
+CXADR,3,0.174,-0.073,0.421,0.143,0.021,42.0,0.167,Mitochondrial organization
+CSNK2A1,3,0.174,0.021,0.328,0.076,0.006,30.9,0.025,Mitophagy
+TMEM41B,3,0.175,0.062,0.289,0.000,0.000,0.0,0.003,Autophagy
+RPS6KB1,3,0.176,0.028,0.323,0.038,0.001,8.1,0.020,Mitochondrial organization | Autophagy
+MUL1,3,0.176,-0.247,0.598,0.357,0.127,91.3,0.415,Mitochondrial organization
+RTN4IP1,3,0.176,-0.172,0.524,0.249,0.062,65.7,0.321,Mitochondrial biogenesis | Mitochondrial organization
+MTMR14,3,0.177,-0.120,0.474,0.231,0.053,78.2,0.243,Autophagy
+MRPS14,3,0.177,-0.135,0.490,0.245,0.060,79.1,0.266,Mitochondrial organization
+NDUFA4,3,0.177,-0.359,0.714,0.457,0.209,93.1,0.517,Mitochondrial organization
+MICU3,3,0.179,-0.004,0.361,0.000,0.000,0.0,0.055,Mitochondrial organization
+ATP5F1B,3,0.179,-0.410,0.768,0.501,0.251,93.5,0.552,Mitochondrial organization
+NUBPL,3,0.180,0.020,0.339,0.000,0.000,0.0,0.027,Mitochondrial biogenesis | Mitochondrial organization
+FASTKD2,3,0.180,-0.109,0.468,0.230,0.053,82.3,0.222,Mitochondrial biogenesis
+CSNK2A3,3,0.180,-0.097,0.457,0.000,0.000,0.0,0.202,Mitophagy
+GFM2,3,0.182,0.010,0.354,0.119,0.014,61.2,0.038,Mitochondrial biogenesis
+PRKACB,3,0.183,-0.024,0.389,0.138,0.019,57.4,0.083,Autophagy
+SPIRE1,3,0.183,-0.140,0.506,0.255,0.065,80.2,0.266,Mitochondrial organization
+XBP1,3,0.183,-0.396,0.763,0.479,0.230,91.2,0.535,Autophagy
+UQCC1,2,0.184,-0.436,0.805,0.428,0.183,91.0,0.561,Mitochondrial biogenesis | Mitochondrial organization
+MAGEA6,2,0.186,-0.167,0.538,0.000,0.000,0.0,0.302,Autophagy
+RPUSD4,3,0.186,-0.128,0.500,0.235,0.055,72.8,0.245,Mitochondrial biogenesis
+BCL2L1,3,0.186,-0.301,0.673,0.410,0.168,91.4,0.453,Mitochondrial organization | Mitophagy | Autophagy
+GPAM,3,0.187,0.045,0.330,0.000,0.000,0.0,0.010,Mitochondrial organization
+GK,3,0.188,-0.264,0.640,0.321,0.103,65.3,0.416,Mitochondrial organization
+SPART,3,0.188,-0.210,0.587,0.326,0.106,85.8,0.354,Mitochondrial organization
+ARMCX3,3,0.189,0.067,0.311,0.000,0.000,0.0,0.002,Mitochondrial biogenesis | Mitochondrial organization
+TIMM10B,3,0.189,-0.260,0.638,0.374,0.140,89.2,0.408,Mitochondrial biogenesis | Mitochondrial organization
+SLC25A36,3,0.190,0.033,0.347,0.000,0.000,0.0,0.018,Mitochondrial organization
+SCO1,3,0.190,-0.095,0.475,0.224,0.050,79.7,0.191,Mitochondrial biogenesis | Mitochondrial organization
+TFAM,3,0.190,-0.065,0.446,0.174,0.030,62.0,0.144,Mitochondrial biogenesis
+LRPPRC,3,0.191,-0.087,0.469,0.226,0.051,85.3,0.178,Mitochondrial biogenesis
+NDUFC2,2,0.192,-0.423,0.806,0.430,0.185,94.0,0.541,Mitochondrial organization
+MRPL40,3,0.192,-0.148,0.531,0.268,0.072,79.9,0.269,Mitochondrial organization
+TMEM242,3,0.192,-0.291,0.674,0.407,0.166,92.3,0.436,Mitochondrial organization
+PDE12,3,0.192,-0.014,0.398,0.000,0.000,0.0,0.067,Mitochondrial biogenesis
+SDHAF2,3,0.193,-0.109,0.494,0.232,0.054,75.8,0.211,Mitochondrial biogenesis
+MET,3,0.193,-0.153,0.539,0.225,0.051,57.4,0.273,Autophagy
+TMEM70,2,0.194,-0.440,0.828,0.433,0.187,89.4,0.549,Mitochondrial biogenesis | Mitochondrial organization
+MYO5A,3,0.195,-0.038,0.428,0.148,0.022,51.9,0.101,Mitochondrial biogenesis
+TAX1BP1,3,0.198,-0.007,0.403,0.153,0.024,71.9,0.059,Mitochondrial biogenesis | Mitophagy | Autophagy
+STBD1,2,0.198,0.020,0.376,0.000,0.000,0.0,0.030,Autophagy
+MRPL44,3,0.198,-0.188,0.584,0.322,0.103,89.1,0.314,Mitochondrial organization
+SLC25A40,3,0.199,-0.216,0.613,0.334,0.112,84.3,0.347,Mitochondrial organization
+SIRT1,3,0.199,0.002,0.396,0.130,0.017,55.7,0.048,Mitochondrial biogenesis
+GRPEL1,3,0.199,-0.245,0.643,0.364,0.132,87.0,0.380,Mitochondrial biogenesis
+CHCHD3,3,0.199,-0.309,0.707,0.434,0.188,93.7,0.442,Mitochondrial biogenesis | Mitochondrial organization
+PRIMPOL,3,0.200,0.048,0.351,0.000,0.000,0.0,0.010,Mitochondrial biogenesis
+SMCR8,3,0.201,-0.138,0.539,0.263,0.069,77.4,0.246,Autophagy
+YARS1,3,0.201,-0.880,1.282,0.948,0.898,98.6,0.716,Mitochondrial biogenesis
+APOOL,3,0.201,-0.009,0.412,0.146,0.021,63.0,0.061,Mitochondrial biogenesis | Mitochondrial organization
+AGPAT5,3,0.202,0.045,0.360,0.000,0.000,0.0,0.012,Mitochondrial organization
+NPC1,3,0.203,-0.440,0.845,0.553,0.306,94.8,0.537,Autophagy
+COX19,3,0.204,-0.024,0.432,0.130,0.017,41.5,0.080,Mitochondrial biogenesis
+MAP2K1,3,0.205,0.063,0.347,0.000,0.000,0.0,0.005,Autophagy
+WAC,3,0.205,0.087,0.322,0.000,0.000,0.0,0.001,Autophagy
+CHMP2B,3,0.205,-0.026,0.436,0.171,0.029,70.1,0.082,Autophagy
+MTARC2,3,0.206,-0.179,0.591,0.312,0.097,84.1,0.295,Mitochondrial organization
+TRAPPC4,3,0.206,-0.179,0.591,0.302,0.091,78.9,0.294,Autophagy
+AKAP1,3,0.207,-0.290,0.705,0.412,0.170,88.4,0.413,Mitochondrial organization
+SLC25A2,3,0.208,-0.070,0.487,0.000,0.000,0.0,0.143,Mitochondrial organization
+PNPT1,3,0.209,-0.190,0.607,0.335,0.112,90.2,0.305,Mitochondrial organization
+NDUFAB1,3,0.209,-0.269,0.688,0.403,0.163,91.3,0.392,Mitochondrial organization
+AIFM1,3,0.210,0.002,0.418,0.143,0.020,61.6,0.048,Mitochondrial organization
+TSC1,3,0.213,-0.020,0.446,0.145,0.021,50.4,0.074,Autophagy
+NEU4,3,0.213,-0.212,0.638,0.000,0.000,0.0,0.325,Mitochondrial organization
+MIGA1,3,0.213,0.084,0.342,0.000,0.000,0.0,0.001,Mitochondrial organization
+HMOX1,3,0.213,-0.389,0.815,0.432,0.186,66.5,0.488,Mitochondrial organization
+RHOT1,3,0.215,-0.058,0.487,0.217,0.047,82.1,0.123,Mitochondrial biogenesis | Mitochondrial organization | Mitophagy
+BCL2L11,2,0.215,-0.090,0.520,0.156,0.024,49.3,0.168,Mitochondrial organization
+MAOB,3,0.216,-0.093,0.524,0.000,0.000,0.0,0.170,Mitochondrial organization
+MRPS23,3,0.216,-0.206,0.637,0.356,0.127,91.5,0.315,Mitochondrial organization
+SFXN1,2,0.216,-0.286,0.718,0.339,0.115,87.5,0.399,Mitochondrial biogenesis | Mitochondrial organization
+NSUN4,3,0.216,-0.082,0.515,0.233,0.054,78.2,0.156,Mitochondrial biogenesis
+ESRRB,3,0.218,-0.133,0.569,0.231,0.053,61.0,0.224,Mitochondrial biogenesis
+MRPS9,3,0.218,-0.167,0.602,0.318,0.101,88.3,0.267,Mitochondrial organization
+ISCU,3,0.218,-0.194,0.630,0.339,0.115,88.0,0.300,Mitochondrial biogenesis
+TIMM9,3,0.219,-0.178,0.616,0.321,0.103,85.1,0.280,Mitochondrial biogenesis | Mitochondrial organization
+MRPS30,3,0.219,-0.165,0.603,0.322,0.103,90.1,0.264,Mitochondrial organization
+WDR41,3,0.220,0.056,0.384,0.087,0.008,35.7,0.009,Autophagy
+PTCD2,3,0.221,0.055,0.386,0.068,0.005,21.6,0.009,Mitochondrial biogenesis | Mitochondrial organization
+MTFR1,2,0.222,0.026,0.417,0.000,0.000,0.0,0.026,Mitochondrial organization
+HCCS,3,0.222,-0.170,0.615,0.329,0.108,90.1,0.267,Mitochondrial organization
+WDR45B,3,0.223,-0.095,0.540,0.255,0.065,84.2,0.170,Mitophagy | Autophagy
+RB1CC1,3,0.225,0.096,0.354,0.000,0.000,0.0,0.001,Mitochondrial biogenesis | Mitophagy | Autophagy
+DRD2,3,0.225,-0.755,1.205,0.683,0.467,66.2,0.652,Autophagy
+SMDT1,3,0.226,-0.334,0.787,0.465,0.216,88.4,0.429,Mitochondrial biogenesis | Mitochondrial organization
+NBR1,3,0.228,0.100,0.355,0.046,0.002,16.5,0.000,Mitochondrial biogenesis | Mitophagy
+CREB1,3,0.228,0.083,0.373,0.000,0.000,0.0,0.002,Mitochondrial biogenesis
+ACAD11,2,0.229,0.020,0.438,0.000,0.000,0.0,0.032,Mitochondrial organization
+ACSL3,3,0.229,0.075,0.383,0.086,0.007,40.4,0.004,Mitochondrial organization
+ATG5,3,0.231,0.103,0.359,0.000,0.000,0.0,0.000,Mitochondrial biogenesis | Mitophagy | Autophagy
+MAPK1,3,0.232,0.024,0.440,0.144,0.021,61.5,0.029,Autophagy
+MAOA,3,0.232,0.052,0.413,0.000,0.000,0.0,0.012,Mitochondrial organization
+MTRES1,3,0.234,-0.070,0.538,0.237,0.056,78.2,0.131,Mitochondrial biogenesis
+TIMM22,3,0.234,0.011,0.457,0.000,0.000,0.0,0.039,Mitochondrial biogenesis | Mitochondrial organization
+RAB7A,3,0.234,-0.036,0.505,0.221,0.049,85.9,0.090,Mitophagy | Autophagy
+SNX25,3,0.235,0.100,0.370,0.000,0.000,0.0,0.001,Mitochondrial biogenesis
+VAMP1,3,0.235,-0.433,0.903,0.563,0.317,92.4,0.490,Mitochondrial organization
+GUF1,3,0.236,-0.114,0.585,0.287,0.083,86.8,0.187,Mitochondrial biogenesis | Mitochondrial organization
+NRBF2,3,0.236,-0.181,0.652,0.344,0.119,87.9,0.268,Autophagy
+CYP2U1,3,0.236,-0.191,0.663,0.341,0.116,84.2,0.279,Mitochondrial organization
+ARMC1,3,0.237,0.021,0.453,0.163,0.027,73.6,0.032,Mitochondrial organization
+ABCB6,3,0.237,-0.216,0.690,0.338,0.114,74.1,0.305,Mitochondrial organization
+C9orf72,3,0.237,0.010,0.464,0.133,0.018,43.3,0.040,Autophagy
+EPAS1,3,0.238,-0.266,0.741,0.359,0.129,81.4,0.355,Mitochondrial organization
+OXR1,3,0.238,0.116,0.360,0.000,0.000,0.0,0.000,Mitochondrial biogenesis
+VPS11,3,0.239,-0.229,0.706,0.392,0.153,90.0,0.318,Autophagy
+UBC,3,0.245,0.001,0.489,0.175,0.031,70.2,0.049,Mitochondrial organization | Mitophagy
+MT1E,3,0.247,-0.407,0.901,0.528,0.279,85.4,0.460,Mitochondrial biogenesis
+WDR47,3,0.247,0.083,0.411,0.075,0.006,25.8,0.003,Autophagy
+RRAGB,3,0.248,0.100,0.395,0.000,0.000,0.0,0.001,Autophagy
+HSPA1L,3,0.249,-0.422,0.920,0.330,0.109,6.2,0.467,Mitochondrial biogenesis
+PIK3CD,3,0.249,-0.401,0.899,0.530,0.281,86.6,0.452,Autophagy
+DNAJA3,3,0.250,-0.370,0.869,0.532,0.283,94.6,0.429,Mitochondrial biogenesis | Mitochondrial organization
+GDAP1,3,0.251,-0.426,0.928,0.577,0.333,93.1,0.467,Mitochondrial biogenesis | Mitochondrial organization
+HK2,3,0.252,-0.145,0.650,0.268,0.072,70.5,0.213,Mitochondrial organization
+CMC1,3,0.254,-0.180,0.687,0.348,0.121,83.4,0.252,Mitochondrial biogenesis
+UQCRB,2,0.254,-0.875,1.384,0.799,0.639,96.2,0.659,Mitochondrial organization
+GATM,3,0.257,-0.301,0.814,0.457,0.208,87.1,0.367,Mitochondrial organization
+PIP4K2C,3,0.266,-0.022,0.553,0.213,0.046,73.1,0.070,Autophagy
+SQSTM1,3,0.267,-0.090,0.624,0.275,0.075,79.7,0.143,Mitochondrial biogenesis | Mitophagy | Autophagy
+PLA2G4A,3,0.267,0.092,0.443,0.000,0.000,0.0,0.003,Mitochondrial organization
+TRAF3IP3,3,0.268,-0.329,0.865,0.435,0.190,73.1,0.378,Mitochondrial organization
+RIMOC1,3,0.271,-0.129,0.670,0.332,0.110,88.7,0.184,Autophagy
+GPD2,3,0.272,0.121,0.424,0.033,0.001,5.6,0.000,Mitochondrial organization
+NDUFS1,3,0.276,0.003,0.549,0.200,0.040,71.0,0.047,Mitochondrial organization
+ANXA7,3,0.278,-0.033,0.590,0.259,0.067,88.6,0.080,Autophagy
+NUPR1,3,0.280,-0.850,1.410,0.948,0.898,91.3,0.627,Autophagy
+ASS1,3,0.285,-0.265,0.835,0.429,0.184,87.4,0.310,Mitochondrial organization
+MRPL50,3,0.287,-0.094,0.669,0.317,0.101,88.6,0.140,Mitochondrial organization
+MT-CO1,3,0.291,-0.560,1.142,0.740,0.548,97.0,0.503,Mitochondrial organization
+PLA2G4B,2,0.291,-0.473,1.056,0.476,0.226,74.3,0.455,Mitochondrial organization
+USP8,3,0.294,0.149,0.439,0.000,0.000,0.0,0.000,Mitophagy
+HSPA6,3,0.295,-0.156,0.745,0.172,0.030,7.9,0.200,Mitochondrial biogenesis
+VPS41,3,0.295,0.026,0.564,0.184,0.034,59.9,0.032,Autophagy
+CHMP4C,3,0.298,0.019,0.578,0.172,0.029,48.1,0.037,Autophagy
+TWNK,3,0.299,0.094,0.505,0.102,0.010,30.2,0.004,Mitochondrial biogenesis
+SUPV3L1,3,0.300,-0.224,0.823,0.443,0.196,91.9,0.262,Mitochondrial biogenesis | Mitochondrial organization
+CYP1A1,3,0.305,-0.380,0.989,0.504,0.254,71.1,0.383,Mitochondrial organization
+ARMC12,3,0.305,0.093,0.517,0.000,0.000,0.0,0.005,Mitochondrial organization
+SOD2,2,0.308,-0.319,0.934,0.439,0.193,94.2,0.336,Mitochondrial organization
+AQP8,3,0.308,-0.577,1.193,0.469,0.220,25.9,0.495,Mitochondrial organization
+DEPP1,3,0.310,-0.064,0.685,0.272,0.074,68.0,0.105,Autophagy
+NDUFA5,3,0.315,-0.107,0.737,0.353,0.125,90.2,0.143,Mitochondrial organization
+ERN1,3,0.318,-0.712,1.348,0.896,0.803,97.0,0.545,Autophagy
+PTCD3,3,0.319,0.171,0.466,0.000,0.000,0.0,0.000,Mitochondrial biogenesis | Mitochondrial organization
+RAB3A,3,0.324,-0.321,0.970,0.515,0.266,89.8,0.324,Mitochondrial organization
+CTSD,3,0.325,-0.276,0.927,0.511,0.261,92.7,0.289,Autophagy
+CHCHD2,3,0.330,-0.023,0.684,0.226,0.051,61.4,0.067,Mitochondrial organization
+NDUFC2-KCTD14,2,0.331,-0.557,1.219,0.459,0.211,48.1,0.464,Mitochondrial organization
+TIGAR,3,0.333,-0.200,0.866,0.422,0.178,83.9,0.221,Mitochondrial organization | Autophagy
+RNF185,3,0.337,-0.131,0.806,0.402,0.162,94.3,0.158,Mitochondrial organization | Autophagy
+ESRRG,2,0.340,-0.162,0.842,0.326,0.106,80.6,0.185,Mitochondrial biogenesis
+SLC8A3,3,0.343,-0.729,1.415,0.699,0.489,50.9,0.531,Mitochondrial organization
+PGR,3,0.343,-0.158,0.843,0.310,0.096,51.0,0.179,Mitochondrial organization
+CERT1,3,0.346,-0.021,0.713,0.293,0.086,82.1,0.065,Mitochondrial organization
+IMMP1L,3,0.347,-0.189,0.884,0.432,0.187,85.5,0.204,Mitochondrial biogenesis | Mitochondrial organization
+RRAGC,3,0.349,-0.273,0.970,0.535,0.286,95.4,0.272,Autophagy
+GRPEL2,3,0.354,-0.456,1.165,0.702,0.492,96.1,0.391,Mitochondrial biogenesis
+TREM2,3,0.356,-1.425,2.137,1.063,1.130,33.7,0.695,Autophagy
+MAP1LC3B,3,0.361,-0.181,0.904,0.468,0.219,95.2,0.192,Mitochondrial biogenesis | Mitophagy | Autophagy
+VAMP8,3,0.363,-0.404,1.129,0.552,0.305,67.8,0.354,Autophagy
+LONP1,3,0.364,-0.345,1.073,0.613,0.376,96.2,0.315,Mitochondrial biogenesis | Mitochondrial organization
+PSAP,3,0.371,0.084,0.658,0.230,0.053,82.4,0.011,Autophagy
+CKMT2,3,0.379,-0.083,0.842,0.373,0.139,85.9,0.108,Mitochondrial organization
+VPS13D,3,0.385,0.177,0.594,0.045,0.002,5.0,0.000,Mitochondrial organization
+PIP4K2A,3,0.388,0.083,0.692,0.217,0.047,65.3,0.013,Autophagy
+SPATA18,3,0.406,-0.010,0.822,0.269,0.073,65.1,0.056,Mitochondrial organization
+PPP1R15A,3,0.407,-0.266,1.080,0.575,0.330,94.5,0.236,Mitochondrial organization
+ACSL1,3,0.409,-0.023,0.840,0.360,0.130,91.1,0.063,Mitochondrial organization
+GHITM,3,0.409,-0.170,0.988,0.498,0.248,95.1,0.166,Mitochondrial organization
+MT1HL1,2,0.413,-1.669,2.495,0.000,0.000,0.0,0.698,Mitochondrial biogenesis
+SYNJ2BP-COX16,3,0.414,-0.610,1.438,0.865,0.748,92.5,0.428,Mitochondrial organization
+AIFM3,3,0.414,-0.431,1.259,0.502,0.252,42.9,0.337,Mitochondrial organization
+ACSL6,2,0.422,-0.932,1.775,0.877,0.770,79.2,0.542,Mitochondrial organization
+LACTB2,3,0.425,0.021,0.829,0.330,0.109,85.7,0.039,Mitochondrial biogenesis
+SLC25A30,3,0.427,-0.192,1.046,0.527,0.277,93.9,0.177,Mitochondrial organization
+ATG9B,3,0.439,-0.410,1.288,0.589,0.347,61.9,0.311,Mitochondrial biogenesis | Mitophagy | Autophagy
+PLD6,3,0.451,0.275,0.628,0.000,0.000,0.0,0.000,Mitochondrial organization
+CLU,3,0.493,0.329,0.656,0.000,0.000,0.0,0.000,Mitochondrial organization
+HSD3B2,3,0.497,0.013,0.982,0.000,0.000,0.0,0.044,Mitochondrial organization
+SLC25A4,3,0.506,-0.452,1.463,0.834,0.695,97.3,0.301,Mitochondrial biogenesis | Mitochondrial organization
+MTMR8,3,0.525,-0.073,1.123,0.431,0.186,67.6,0.085,Autophagy
+RRAGD,3,0.527,-0.211,1.265,0.633,0.400,95.6,0.161,Autophagy
+MT3,3,0.537,-0.657,1.731,0.966,0.934,87.6,0.378,Mitochondrial biogenesis | Mitochondrial organization | Autophagy
+SLC7A5,3,0.538,-1.547,2.623,1.834,3.363,99.2,0.613,Autophagy
+PPARGC1A,3,0.539,-0.139,1.217,0.559,0.313,87.3,0.119,Mitochondrial biogenesis | Mitochondrial organization
+ALAS2,3,0.569,-0.713,1.851,0.971,0.944,74.9,0.385,Mitochondrial organization
+DAO,2,0.569,-2.333,3.471,1.718,2.950,52.1,0.701,Mitochondrial organization
+NDUFA6,3,0.612,-0.575,1.798,0.970,0.941,93.8,0.312,Mitochondrial organization
+HSPA9,3,0.632,-0.023,1.288,0.553,0.306,94.8,0.058,Mitochondrial biogenesis | Mitochondrial organization
+DDIT3,3,0.674,-0.764,2.113,1.260,1.589,98.4,0.358,Autophagy
+LEPR,2,0.713,0.396,1.030,0.000,0.000,0.0,0.000,Autophagy
+CYP24A1,2,0.749,-1.606,3.104,1.419,2.013,57.0,0.533,Mitochondrial organization
+FATE1,2,0.754,-1.419,2.926,1.285,1.652,52.9,0.496,Mitochondrial organization
+IRF8,3,1.008,-0.721,2.737,1.482,2.196,94.6,0.253,Autophagy
+HSD3B1,2,1.047,-0.583,2.677,0.000,0.000,0.0,0.208,Mitochondrial organization
+SLC25A47,3,1.202,-1.864,4.268,2.235,4.996,74.9,0.442,Mitochondrial organization
+LAMP3,3,1.386,-1.306,4.078,2.345,5.500,97.8,0.313,Autophagy
+COX8C,2,2.094,-3.047,7.235,3.457,11.948,85.0,0.425,Mitochondrial organization
