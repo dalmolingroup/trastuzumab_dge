@@ -10,6 +10,7 @@ The results of the different DGEs were then used for a meta-analysis.
 - [GSE107385](./reports/GSE107385.html) - [Source](./analysis/GSE107385.Rmd)
 - [Select Genes](./reports/select_genes.html) - [Source](./analysis/select_genes.Rmd)
 - [Assemble Network](./reports/assemble_network.html) - [Source](./analysis/assemble_network.Rmd)
+- [Overrepresentation analysis](./reports/hypergeo.html) - [Source](./analysis/hypergeo.Rmd)
 
 ## Repository Structure
 
@@ -33,6 +34,9 @@ The results of the different DGEs were then used for a meta-analysis.
     - Script to generate UpSet plot with intersections between grouped processes.
   - assemble_network.Rmd
     - Assemble PPI network between metanalysis genes.
+  - hypergeo.Rmd
+    - Overrepresentation test for metanalysis genes and their intersections against
+    the grouped processes.
 - `data`
   - `Plataformas.csv`
     - Original metadata for the three studies

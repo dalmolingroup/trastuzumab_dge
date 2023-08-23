@@ -1,0 +1,9 @@
+process	up_down	k	m	n	pvalor
+Autophagy	down	9	362	106	7.519504888968038e-9
+Autophagy	up	28	362	106	2.744516958037389e-39
+Mitochondrial biogenesis	down	11	399	106	5.0111071341595666e-11
+Mitochondrial biogenesis	up	19	399	106	1.0034330851971357e-22
+Mitochondrial organization	down	24	734	106	1.0919379470248984e-24
+Mitochondrial organization	up	28	734	106	1.229030928547811e-30
+Mitophagy	down	1	92	106	0.13595770171877472
+Mitophagy	up	10	92	106	4.214992044457276e-16

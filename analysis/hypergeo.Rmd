@@ -1,0 +1,203 @@
+---
+title: "Hypergeometric Tests"
+author: "João Vitor F. Cavalcante"
+date: "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d %B, %Y')`"
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding, output_dir = "../reports/") })
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_collapsed: false
+    theme:
+      bslib: true
+      bootswatch: minty
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  message = FALSE,
+  warning = FALSE,
+  eval = FALSE
+)
+```
+
+## Overrepresentation of metanalysis genes in processes
+
+To verify that the metanalysis genes are significantly overrepresented in the grouped processes, we performed a hypergeometric tests, considering the number of significant genes in each set.
+
+```{r load}
+library(vroom)
+library(dplyr)
+library(tidyr)
+library(purrr)
+library(here)
+library(gmp)
+library(rtracklayer)
+library(GenomicFeatures)
+```
+
+
+### Get universe from GTF
+
+Extract number of *Homo sapiens* genes from GRCh37 GTF.
+
+```{r}
+gtf <- "./data/Homo_sapiens.GRCh38.97.chr_patch_hapl_scaff.gtf.gz"
+
+gtf_data <- import(gtf)
+
+N_total <- length(unique(gtf_data$gene_id))
+```
+
+### Extract metrics from dataset
+
+```{r}
+meta <- vroom("data/meta_analysis_genes.csv") %>%
+  mutate(up_down = ifelse(MD > 0, "up", "down")) %>%
+  janitor::clean_names() %>%
+  filter(pvalor < 0.05) %>%
+  dplyr::select(gene_symbol, grouped_process, up_down) %>%
+  separate_rows(grouped_process, sep = " \\| ")
+
+meta_by_process <- meta %>%
+  group_by(grouped_process) %>%
+  summarise(total_k = n()) %>%
+  ungroup()
+
+meta_by_exp <- meta %>%
+  group_by(grouped_process, up_down) %>%
+  summarise(total_k = n()) %>%
+  ungroup()
+
+n_total <- length(unique(meta$gene_symbol))
+n_up <- length(unique(meta$gene_symbol[meta$up_down == "up"]))
+n_down <- length(unique(meta$gene_symbol[meta$up_down == "down"]))
+
+select_genes <- vroom("data/selected_genes_grouped.csv", skip = 1) %>%
+  janitor::clean_names() %>%
+  filter(!is.na(grouped_process)) %>%
+  group_by(grouped_process) %>%
+  distinct(gene_symbol) %>%
+  summarise(total_m = n()) %>%
+  ungroup()
+
+merged_process <- meta_by_process %>%
+  left_join(select_genes, by = "grouped_process")
+
+merged_group <- meta_by_exp %>%
+  left_join(select_genes, by = "grouped_process") %>%
+  mutate(contrast = paste0(grouped_process, "_", up_down))
+```
+
+Here I extract the genelist for autophagy, only for manual checking/quality control reasons.
+
+```{r}
+autophagy_unique <- vroom("data/selected_genes_grouped.csv", skip = 1) %>%
+  janitor::clean_names() %>%
+  filter(!is.na(grouped_process)) %>%
+  group_by(grouped_process) %>%
+  distinct(gene_symbol) %>%
+  ungroup() %>%
+  filter(grouped_process == "Autophagy")
+
+autophagy_unique %>%
+  vroom_write("results/autophagy_unicos.tsv")
+```
+
+### Calculate pvalues
+
+```{r}
+# N -> Número de genes total = Universo
+# M -> Número de genes de uma via
+# n -> Número de genes da sua lista de interesse
+# k -> Número de genes na interseção entre os genes da via e os genes da sua lista
+
+enrich_pvalue <- function(N, A, B, k) {
+    m <- A
+    n <- B
+    i <- k:min(m,n)
+
+    as.numeric( sum(chooseZ(m,i)*chooseZ(N-m,n-i))/chooseZ(N,n) )
+}
+
+calculate_phyper <-
+  function(merged_df,
+           n_lista,
+           N_total,
+           termo,
+           filter_col = grouped_process) {
+
+    col <- enquo(filter_col)
+
+    filtered <- merged_df %>%
+      filter(!!col == termo)
+
+    k <- filtered$total_k
+    M <- filtered$total_m
+
+    data.frame(contrast = termo,
+               k = k,
+               m = M,
+               n = n_lista,
+               pvalor = enrich_pvalue(N_total, M, n_lista, k))
+  }
+
+by_exp <- map_dfr(
+  unique(merged_group$contrast),
+  ~calculate_phyper(
+    merged_group,
+    termo = .x,
+    n_lista = n_total,
+    N_total = N_total,
+    filter_col = contrast
+  )
+)
+
+by_exp_up <- map_dfr(
+  unique(merged_group$grouped_process),
+  ~calculate_phyper(
+    merged_group %>% filter(up_down == "up"),
+    termo = .x,
+    n_lista = n_up,
+    N_total = N_total
+  )
+) %>%
+  mutate(up_down = "up")
+
+by_exp_down <- map_dfr(
+  unique(merged_group$grouped_process),
+  ~calculate_phyper(
+    merged_group %>% filter(up_down == "down"),
+    termo = .x,
+    n_lista = n_down,
+    N_total = N_total
+  )
+) %>%
+  mutate(up_down = "down")
+
+by_exp_merged <- bind_rows(by_exp_up, by_exp_down)
+
+by_group <- map_dfr(
+  unique(merged_process$grouped_process),
+  ~calculate_phyper(
+    merged_process,
+    termo = .x,
+    n_lista = n_total,
+    N_total = N_total,
+    filter_col = grouped_process
+  )
+)
+
+by_exp_formatted <- by_exp %>%
+  separate(contrast, into = c("process", "up_down"), sep = "_")
+
+by_exp_formatted %>%
+  vroom_write(here("results/hypergeometric_tests.tsv"))
+
+by_group %>%
+  vroom_write(here("results/hypergeometric_tests_by_group.tsv"))
+```
+
+
