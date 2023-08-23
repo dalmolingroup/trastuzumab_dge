@@ -41,7 +41,7 @@ library(GenomicFeatures)
 
 ### Get universe from GTF
 
-Extract number of *Homo sapiens* genes from GRCh37 GTF.
+Extract number of *Homo sapiens* genes from GRCh38 GTF.
 
 ```{r}
 gtf <- "./data/Homo_sapiens.GRCh38.97.chr_patch_hapl_scaff.gtf.gz"
