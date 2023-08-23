@@ -1,0 +1,184 @@
+---
+title: "Assemble Network"
+author: "João Vitor F. Cavalcante"
+date: "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d %B, %Y')`"
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding, output_dir = "../reports/") })
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_collapsed: false
+    theme:
+      bslib: true
+      bootswatch: minty
+---
+
+```{r knitr, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  message = FALSE,
+  warning = FALSE
+)
+```
+
+## PPI Network assembly from Metanalysis genes
+
+We took all genes resulting from the metanalysis and assembled a PPI network for them by querying
+STRINGdb v12.0.
+
+Evidence channels used to gather the interactions were experimental, co-expression and databases. Said interactions were also filtered for a confidence level of 0.5.
+
+### Load libraries and data
+
+```{r setup}
+# remotes::install_github("daniloimparato/easylayout", ref = "dadamorais")
+library(easylayout)
+library(tidygraph)
+library(igraph)
+library(ggraph)
+library(dplyr)
+library(tidyr)
+library(vroom)
+library(here)
+source(here("R/stringdb.R"))
+
+meta <- vroom(here("data/meta_analysis_genes.csv")) %>%
+  select(gene_symbol, MD, pvalor, `Grouped process`)
+```
+
+### Assemble Network
+
+```{r assemble, eval=FALSE}
+string_ids <- get_string_ids(meta$gene_symbol)
+
+meta_merged <- meta %>%
+  left_join(string_ids %>% select(queryItem, stringId),
+            by = c("gene_symbol" = "queryItem")) %>%
+  mutate(stringId = stringr::str_remove(stringId, "9606.")) %>%
+  separate_rows(`Grouped process`, sep = " \\| ")
+
+encoded_source <- meta_merged %>%
+  mutate(n = 1) %>%
+  pivot_wider(
+    id_cols     = stringId,
+    names_from  = `Grouped process`,
+    values_from = n,
+    values_fn   = list(n = length),
+    values_fill = list(n = 0),
+    names_prefix = "From "
+  ) %>%
+  mutate(source_count = starts_with("From ") %>% across %>% rowSums)
+
+network <- get_string_network(string_ids$stringId)
+
+network_separated <-  network %>%
+  separate(stringId_A,
+           into = c("ncbi_taxon_id", "stringId_A"),
+           sep = "\\.") %>%
+  separate(stringId_B,
+           into = c("ncbi_taxon_id", "stringId_B"),
+           sep = "\\.")
+
+nodelist <-
+  data.frame(node = unique(c(network_separated$stringId_A, network_separated$stringId_B))) %>%
+  left_join(meta_merged, by = c("node" = "stringId")) %>%
+  left_join(encoded_source, by = c("node" = "stringId")) %>%
+  distinct(node, gene_symbol, .keep_all = TRUE)
+
+network_filtered <- network %>%
+  combinescores(.,
+                evidences = c("ascore", "escore", "dscore"),
+                confLevel = 0.5) %>%
+  separate(stringId_A,
+           into = c("ncbi_taxon_id", "stringId_A"),
+           sep = "\\.") %>%
+  separate(stringId_B,
+           into = c("ncbi_taxon_id", "stringId_B"),
+           sep = "\\.") %>%
+  dplyr::select(stringId_A, stringId_B)
+```
+
+### Compute Network Layout
+
+```{r layout, eval=FALSE}
+graph <-
+  graph_from_data_frame(network_filtered, directed = FALSE, vertices = nodelist)
+
+layout <- easylayout::vivagraph(graph)
+layout <- easylayout::vivagraph(graph, layout = layout, pin_nodes = TRUE, lcc_margin_left = 10)
+V(graph)$x <- layout[, 1]
+V(graph)$y <- layout[, 2]
+
+save(graph, nodelist, file = here("results/full_network.rda"))
+```
+
+### Network Plots
+
+#### By significance
+
+```{r}
+load(here("results/full_network.rda"))
+
+graph_colored <- graph %>%
+  as_tbl_graph() %>%
+  activate(nodes) %>%
+  mutate(signif_md = ifelse(pvalor < 0.05, MD, NA))
+
+ggraph(graph_colored,
+       "manual",
+       x = V(graph)$x,
+       y = V(graph)$y) +
+  geom_edge_link0(edge_width = 0.2, color = "#90909020") +
+  geom_node_point(aes(color = signif_md)) +
+  scale_colour_gradientn(colours = RColorBrewer::brewer.pal(9, "OrRd")) +
+  coord_fixed() +
+  theme_void() +
+  theme(
+    legend.key.size = unit(0.5, 'cm'),
+    legend.key.height = unit(0.5, 'cm'),
+    legend.key.width = unit(0.5, 'cm'),
+    legend.title = element_text(size=6),
+    legend.text = element_text(size=6),
+    plot.title = element_text(size = 4, face = "bold")
+  ) +
+  labs(
+    color = "Expression"
+  )
+
+ggsave(here("results/full_network.pdf"), width = 8, height = 8)
+ggsave(here("results/full_network.png"), width = 8, height = 8, bg = "white")
+```
+
+#### By grouped process
+
+```{r}
+ggraph(graph, "manual", x = V(graph)$x, y = V(graph)$y) +
+  geom_edge_link0(color = "#90909020") +
+  scatterpie::geom_scatterpie(
+    cols = colnames(nodelist)[startsWith(colnames(nodelist), "From ")],
+    data = igraph::as_data_frame(graph, "vertices"),
+    colour = NA,
+    pie_scale = 0.2
+  ) +
+  coord_fixed() +
+  theme_void() +
+  theme(
+    legend.key.size = unit(0.5, 'cm'),
+    legend.key.height = unit(0.5, 'cm'),
+    legend.key.width = unit(0.5, 'cm'),
+    legend.title = element_text(size=6),
+    legend.text = element_text(size=6),
+    legend.position = "bottom",
+    plot.title = element_text(size = 4, face = "bold")
+  ) +
+  labs(
+    fill = "Source:"
+  )
+
+ggsave(here("results/network_processes.pdf"), width = 8, height = 8)
+ggsave(here("results/network_processes.png"), width = 8, height = 8, bg = "white")
+```
+
+
+
