@@ -41,3 +41,4 @@ vignettes/*.pdf
 # dataset
 todo.md
 functional_enrichment_files/
+data/Homo_sapiens.GRCh38.97.chr_patch_hapl_scaff.gtf.gz
