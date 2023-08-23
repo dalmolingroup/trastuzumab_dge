@@ -123,9 +123,20 @@ load(here("results/full_network.rda"))
 graph_colored <- graph %>%
   as_tbl_graph() %>%
   activate(nodes) %>%
-  mutate(signif_md = ifelse(pvalor < 0.05, MD, NA))
+  mutate(signif_md = ifelse(pvalor < 0.05, MD, NA),
+         signif_label = ifelse(pvalor < 0.05, gene_symbol, NA))
 
-ggraph(graph_colored,
+# Write edge-less nodes
+graph %>%
+  as_tbl_graph() %>%
+  activate(nodes) %>%
+  mutate(degree = centrality_degree()) %>%
+  filter(degree == 0) %N>%
+  as_tibble() %>%
+  select(name, gene_symbol, MD, pvalor) %>%
+  vroom_write(here("results/nodes_without_neighbors.tsv"))
+
+p1 <- ggraph(graph_colored,
        "manual",
        x = V(graph)$x,
        y = V(graph)$y) +
@@ -145,9 +156,38 @@ ggraph(graph_colored,
   labs(
     color = "Expression"
   )
+p1
 
-ggsave(here("results/full_network.pdf"), width = 8, height = 8)
-ggsave(here("results/full_network.png"), width = 8, height = 8, bg = "white")
+p2 <- p1 +
+  geom_node_label(aes(label = signif_label), repel = TRUE, label.size = 0.1)
+
+ggsave(
+  plot = p1,
+  here("results/full_network.pdf"),
+  width = 8,
+  height = 8
+)
+ggsave(
+  plot = p1,
+  here("results/full_network.png"),
+  width = 8,
+  height = 8,
+  bg = "white"
+)
+
+ggsave(
+  plot = p2,
+  here("results/full_network_labels.pdf"),
+  width = 8,
+  height = 8
+)
+ggsave(
+  plot = p2,
+  here("results/full_network_labels.png"),
+  width = 8,
+  height = 8,
+  bg = "white"
+)
 ```
 
 #### By grouped process
