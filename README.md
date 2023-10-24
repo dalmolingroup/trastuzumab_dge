@@ -32,6 +32,10 @@ The results of the different DGEs were then used for a meta-analysis.
     - Select genes associated to mitophagy, autophagy and mitochondrial biogenesis
   - make_upset.R
     - Script to generate UpSet plot with intersections between grouped processes.
+  - meta-analysis.R
+    - Script to conduct the Meta-analysis to compare the treated (TRZ) and the control group.
+    - Mean differences in the magnitude of gene expression changes (Log2 fold-change [Log2FC]) were estimated using random-effects models.
+    - The analysis was conducted using the Metagen package.
   - assemble_network.Rmd
     - Assemble PPI network between metanalysis genes.
   - hypergeo.Rmd
