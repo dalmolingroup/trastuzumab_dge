@@ -4,6 +4,18 @@ This repository contains a differential gene expression (DGE) analysis for three
 of cardiomyocite expression after Trastuzumab treatment.
 The results of the different DGEs were then used for a meta-analysis.
 
+The results from these analyses have now been published in OMICS and is available through the following DOI: <https://doi.org/10.1089/omi.2024.0004>
+
+If you're reusing code or results from these analyses, please cite the paper as below:
+
+>
+> What Powers Trastuzumab's Cardiotoxicity? Decoding Mitochondrial-Related Gene Expression Through Integrative Review and Meta-Analysis in Cardiomyocytes
+>
+> Karoline dos Santos Rodrigues, Daniel Sturza Lucas Caetano, João Vitor Cavalcante, Rodrigo Dalmolin, Patrícia K. Ziegelmann, and Michael Andrades
+>
+> OMICS: A Journal of Integrative Biology 2024 28:3, 103-110 
+>
+
 ## Analysis Notebooks
 
 - [RNA-Seq](./reports/RNASeq.html) - [Source](./analysis/RNASeq.Rmd)
